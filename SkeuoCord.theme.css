@@ -398,15 +398,15 @@
 	color: rgba(255, 255, 255, 0.52);
 }
 
-.darkTheme-3uETC4 .input-1Rv96N {
+.theme-dark .input-1Rv96N {
 	color: white;
 }
 
-.darkTheme-3uETC4.container-2XeR5Z {
+.theme-dark .container-2XeR5Z {
 	background-color: transparent;
 }
 
-.darkTheme-3uETC4.container-2Xer5Z.da-container.medium-2-DE5M {
+.theme-dark .container-2Xer5Z.da-container.medium-2-DE5M {
 	background-color: transparent;
 }
 
@@ -2468,10 +2468,6 @@ background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAmCAIA
 	border-left: 1px solid rgba(230,230,230,0.6);
 }
 
-.diversityEmojiItemImage-2gPNoS.da-diversityEmojiItemImage{
-	margin-top: 5px;
-}
-
 .theme-light .searchBar--fTZYa.da-searchBar.container-cMG81i.da-container.medium-1LLV3p {
 	border: 1px solid rgba(60, 60, 60, 0.60);
 	background: linear-gradient(0deg, transparent 35%, rgba(186,183,178) 100%);
@@ -2504,7 +2500,6 @@ background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAmCAIA
 }
 
 .theme-dark .inner-3ErfOT {
-	margin-top: 10px;
 	border: 1px solid rgba(114, 114, 114, 0.60);
 	background: linear-gradient(0deg, transparent 35%, rgba(23,25,27) 100%);
 	background-color: rgba(55,58,64);
@@ -2513,7 +2508,6 @@ background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAmCAIA
 }
 
 .theme-light .inner-3ErfOT {
-	margin-top: 10px;
 	border: 1px solid rgba(60, 60, 60, 0.60);
 	background: linear-gradient(0deg, transparent 35%, rgba(186,183,178) 100%);
 	background-color: rgba(207,206,205);
@@ -2586,6 +2580,10 @@ background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAmCAIA
 	border-radius: 5px;
 }
 
+   .emojiPickerInExpressionPicker-3IzIcv .header-8ilj5e {
+     padding-top: 10px;
+   }
+
 .searchBar-5di9mG {
 	background: transparent;
 }
@@ -2622,6 +2620,19 @@ background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAmCAIA
   border-style: solid;
   background: none;
 }
+
+.darkTheme-3uETC4 .input-1Rv96N {
+	color: white;
+}
+
+.darkTheme-3uETC4.container-2XeR5Z {
+	background-color: transparent;
+}
+
+.darkTheme-3uETC4.container-2Xer5Z.da-container.medium-2-DE5M {
+	background-color: transparent;
+}
+
 /* ---- */
 
 .botTagRegular-2HEhHi,
@@ -5052,4 +5063,13 @@ background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAmCAIA
 	.theme-light .contents-18-Yxp.da-contents {
 		text-shadow: 0 0 5px rgba(64,64,64);
 	}
+	
+  /* User list hover */
+   .layout-2DM8Md:hover {
+     background-color: var(--background-message-hover);
+     background: linear-gradient(0deg, transparent 20%, rgba(80,80,80) 100%);
+     background-color: rgba(120,120,120,0.8);
+     border-radius: 5px;
+     box-shadow: 0 0 2px 2px rgba(0,0,0,0.2), inset 0 0 0 1px rgba(230,230,230,0.4);
+   }	
   /* ---- */
