@@ -1,7 +1,7 @@
 # SkeuoCord
 ### A skeuomorphic theme for BetterDiscord
 
-SkeuoCord gives both the Dark and Light modes a skeuomorphic look. Both modes have mostly been finalized as of build 5219.
+SkeuoCord gives both the Dark and Light modes a skeuomorphic look. The general interface for both modes have mostly been finalized.
 
 You can contact me on Discord(JustRedWeegee#3625) about requests you have/bugs you find.
 
