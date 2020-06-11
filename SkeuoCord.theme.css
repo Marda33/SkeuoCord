@@ -538,7 +538,7 @@
 .clickable-1JJAn8[href*="/activity"]:hover .layout-2DM8Md .avatar-3uk_u9::after,
 .clickable-1JJAn8[href*="/library"]:hover .layout-2DM8Md .avatar-3uk_u9::after,
 .clickable-1JJAn8[href*="/store"]:hover .layout-2DM8Md .avatar-3uk_u9::after,
-.theme-dark .clickable-1JJAn8[href^="/channels/"]:hover .layout-2DM8Md .avatar-3uk_u9::after, .theme-dark .card-FDVird:before {
+.theme-dark .peopleListItem-2nzedh.da-peopleListItem:hover, .theme-dark .card-FDVird:before {
 	content: "";
 	background: linear-gradient(0deg, transparent 40%, rgba(97,100,106, 0.8) 100%);
 	box-shadow: inset 0 0 1px 1px rgba(0, 0, 0, 0.32), inset 0 0 1px 1px rgba(20, 20, 20);
@@ -810,6 +810,7 @@
 	color: white;
 	border-radius: 5px;
 }
+
 
 .followButton-L6L-Us.da-followButton.button-38aScr.da-button.lookFilled-1Gx00P.colorPrimary-3b3xI6.sizeMin-1mJd1x.grow-q77ONN.da-grow {
 	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAIAAABvFaqvAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsAAAA7AAWrWiQkAAACDSURBVDhPrZRLCsMwDEStOX8W3fUOLWQTejlbnwribRKB5/EMXgkZaSzH8WvXRB6R834PzP3GOvCIB2vI57vP5tbALLgMVI0ijER2xKEwtZro6hRpT5Pt9Z6bsEZGJCg+ZK0uxjCKvIWcUVkmCylFWFeKyM+UYhYKirw9ChIIbwS9/QFESIC3+pmhswAAAABJRU5ErkJggg==);
@@ -5267,6 +5268,9 @@ background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAmCAIA
 		color: #3c3c3c;
 	}
 	.theme-light .h5-18_1nd.title-3sZWYQ.da-h5.da-title {
+		color: #3c3c3c;
+	}
+	.theme-light .welcomeMessage-ULm0mo .h1-3fOAWv, .theme-light .welcomeMessage-ULm0mo p, .theme-light .content-2M3n_H.da-content, .theme-light .timestamp-1E3uAL.da-timestamp {
 		color: #3c3c3c;
 	}
   /* ---- */	
