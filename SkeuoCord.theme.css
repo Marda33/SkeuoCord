@@ -2088,13 +2088,16 @@ background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAmCAIA
 	box-shadow: none;
 }
 
+.theme-dark .modeSelected-1zApJ_ .icon-1_QxNX, .theme-dark .modeSelected-1zApJ_:hover .icon-1_QxNX, .theme-dark .modeUnread-1zpFdA .icon-1_QxNX, .theme-dark .modeUnread-1zpFdA:hover .icon-1_QxNX{
+	color: white;
+}
+
 .theme-light .modeUnread-1zpFdA .name-3_Dsmg, .theme-light .modeUnread-1zpFdA:hover .name-3_Dsmg, .theme-light .modeUnread-1zpFdA .icon-1_QxNX, .theme-light .modeUnread-1zpFdA:hover .icon-1_QxNX, .theme-light .modeSelected-1zApJ_ .icon-1_QxNX, .theme-light .modeSelected-1zApJ_:hover .icon-1_QxNX, .theme-light .modeSelected-1zApJ_ .name-3_Dsmg, .theme-light .modeSelected-1zApJ_:hover .name-3_Dsmg {
 	color: black;
 }
 
 
 .modeUnread-1zpFdA:hover .icon-1_QxNX {
-	 color: white;
 	 margin-left: 0px;
 	 /*channel unread indicator margins*/
 }
