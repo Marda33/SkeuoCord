@@ -2725,14 +2725,16 @@ background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAmCAIA
 }
 
 
-.divider-JfaTT5 {
-	border: 1px solid rgba(106,108,111);
+.chat-3bRxxu .divider-JfaTT5 {
+	border-width: 2px;
+	border-image: linear-gradient(to left, #0000 5px,#6A6C6F, #0000 calc(100% - 5px)) 1
 	/*chat message date separator*/
 }
 
 .chat-3bRxxu .divider-JfaTT5.isUnread-3Ef-o9 {
-  border-color: rgba(142,64,68);
-  margin-bottom: 4px;
+	border-width: 2px;
+	margin-bottom: 4px;
+	border-image: linear-gradient(to right, #0000 5px,#8E4044 calc(60% - 5px)) 1
   /*chat message date separator - unread*/
 }
 
