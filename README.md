@@ -3,7 +3,7 @@
 
 SkeuoCord is a theme that gives Discord's UI a skeuomorphic overhaul. Almost every part of the interface, ranging from the chat UI to the Server Boost page, has been themed for a complete look. Both Dark and Light modes are supported and the general interface for both are finalized as of Release Candidate 2. 
 
-*The Dark Sidebar option for Light Mode will become supported in build 5860.*
+*The Dark Sidebar option for Light Mode is supported as of build 5860.*
 
 You can contact me on Discord *(JustRedWeegee#3625)* about requests you have/bugs you find.
 
