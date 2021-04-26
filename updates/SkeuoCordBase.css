@@ -751,6 +751,27 @@
 	border-radius: 3px !important;
 }
 
+.theme-dark .avatar-3W3CeO.wrapper-3t9DeA {
+	border: 2px solid rgba(152,152,153) !important;
+	border-radius: 4px !important;
+	box-shadow: 0 0 2px 2px rgba(0,0,0,0.4), inset 0 0 1px 1px rgba(0,0,0,0.6) !important;
+}
+.theme-dark .avatar-EDoEQX.wrapper-3t9DeA {
+	border: 2px solid rgba(152,152,153) !important;
+	border-radius: 3px !important;
+	box-shadow: none !important;
+}
+.theme-light .avatar-3W3CeO.wrapper-3t9DeA {
+	border: 2px solid rgba(82,82,83) !important;
+	border-radius: 4px !important;
+	box-shadow: 0 0 2px 2px rgba(64,64,64,0.2), inset 0 0 1px 1px rgba(230,230,230,0.6) !important;
+}
+.theme-light .avatar-EDoEQX.wrapper-3t9DeA {
+	border: 2px solid rgba(82,82,83) !important;
+	border-radius: 3px !important;
+	box-shadow: none !important;
+}
+
 .viewer-sEl8Uz.wrapper-3t9DeA {
 	border: 3px solid rgba(152,152,153) !important;
 	border-width: 2px !important;
@@ -3161,8 +3182,15 @@ svg.mask-1l8v16.svg-2V3M55 > mask[height="32"][width="32"]:first-child circle {
 	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAmCAIAAABce7w1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsAAAA7AAWrWiQkAAACFSURBVEhL1ZVBDoAgDATbPsEf+Cf//xVdE2IELpB0Dh1Heiu6IPpxXrbG3eoq0SrARmvfNBwjdEEqkOE90lR/CrL1L5w6kp/MNFmaGijUnDLcHPJtTtkln6puCrL1cFwlCqatgaLbLWVETz4Mdhm/3ZIvBbmMrQKggYw/hzSrBoJR8anNHq/rDMjfQIfGAAAAAElFTkSuQmCC);
 }
 
-.avatarContainer-28iYmV.avatar-3tNQiO.avatarSmall-1PJoGO.avatarSpeaking-2IGMRN {
-	border-color: #2FBD7B !important;
+.theme-dark .avatarContainer-28iYmV.avatar-3tNQiO.avatarSmall-1PJoGO.avatarSpeaking-2IGMRN {
+	box-shadow: 0 0 0 2px rgba(47,189,123), 0 0 4px 4px rgba(0,0,0,0.5) !important;
+}
+.theme-light .avatarContainer-28iYmV.avatar-3tNQiO.avatarSmall-1PJoGO.avatarSpeaking-2IGMRN {
+	box-shadow: 0 0 0 2px rgba(47,189,123), 0 0 4px 4px rgba(64,64,64,0.3) !important;
+}
+
+.avatarStack-2Dr8S9 .avatarSpeaking-2c8-9i {
+	border-radius: 3px !important;
 }
 
 .wrapper-2TxpI8, .wrapperControlsHidden-35Gtol.wrapper-2TxpI8, .wrapperPlaying-1pXOW5.wrapper-2TxpI8 {
