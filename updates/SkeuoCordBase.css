@@ -662,23 +662,26 @@
 }
 
 .theme-dark .keybindShortcut-1BD6Z1 span {
-	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAIAAAC0Ujn1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsIAAA7CARUoSoAAAADASURBVEhLtdJLC4JAGIVhj5KbLmaFmNculEhhlBhCtAla9f//jtbirNrU4szDB/OuPphh8Hi+LDNsngbYfd8Zms9qU4yu/r6HbOyu7wyNwR/iJFnOt1FzosTUajTtnRdQQ329MdVwrlumGqpzw1TDobow1VAeT0w1FOWRqYZdUTLVsNnumWrI11umGtJsxVRDFKdMNYTLmKmGIAiZapgvAqYa/NmCqQZv6jPVMJ54TDUMR2OmmuMOXOYvPc//WNYbcW13bbEGO4cAAAAASUVORK5CYII=);
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAXCAIAAABMExIiAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsEAAA7BAbiRa+0AAABmSURBVChTbZBRCoBACER1YqM6QUHnCfrq/odRK/ND2R4PdgZXFpaP86IEjCwLMsrCKj9ds91cKzDVLEQ1292vY0Gt775kIZXuvbKtwuu2x1c4PM1LRIdbGyM6DAwRnadwRAdxfhDdzJDg6iP/8A4AAAAASUVORK5CYII=);
 	border: 1px solid rgba(230, 230, 230, 0.6);
+	border-radius: 4px;
     box-shadow: inset 0 0 1px 1px rgba(0, 0, 0, 0.6);
 	margin-left: 5px;
 	/*search suggestions header key shortcut*/
 }
 .theme-light .keybindShortcut-1BD6Z1 span {
-	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAIAAAC0Ujn1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsAAAA7AAWrWiQkAAAC1SURBVEhLtdbLCoJQGMTxM+f9HyaIwqIwxMKuWCKW2eVFPKcWs2tjMN+PAf8rb7gQ7/fLDQMeh/IuxoH7F56PjldRQ3dvmWpobw1TDdemZqqhriumGqpLyVTDuTwx1XA67plqOOwKphq2xZqphk2eMdWQZylTDVm6YKphtZwx1bCcT5lqmCdjphqSyYip5oMZy1P3fTDa9657o3m+cwM+xGA0H0M0muf/iAHbU/88iWhmX4hzHyGsm2xZN1vSAAAAAElFTkSuQmCC);
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAXCAIAAABMExIiAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADr8AAA6/ATgFUyQAAABiSURBVChTZZBLDoAgDERh4v3v5ELXRvfqQfrRYE2m6ctbUBhoSr+vsxHwDDTz1sJCzVioCAvLQDIlH/s/pZ+psCWfXht5Zcs8KS3aj32LrxhM6zLHcgA3Z8t86dQNce+jtQcGaCFj1xTQBgAAAABJRU5ErkJggg==);
 	border: 1px solid rgba(60, 60, 60, 0.6);
+	border-radius: 4px;
     box-shadow: inset 0 0 1px 1px rgba(230, 230, 230, 0.6);
 	margin-left: 5px;
 	color: #3c3c3c;
 	/*search suggestions header key shortcut - light mode*/
 }
-.keybindShortcut-1BD6Z1 span {
-	border-radius: 3px;
+.theme-light .bindArrow-2X3Aom g {
+	fill: #3c3c3c !important;
 }
+
 .theme-dark .keybindShortcut-1BD6Z1 span:active {
 	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAIAAAC0Ujn1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsEAAA7BAbiRa+0AAACZSURBVEhL7dXBCoJQEIXhORdLzEpKLoliYollFkTv/3C5OI9wZhN9DJd/NauBa3+/AGaBqYYQEqYaklXKVMM6zZhqyDZbphryXcFUw744MtVwKCNTDWWsmGqIVcNUw6k+M9VQtz1TDW03MNXQXW5MNfTDxFTDdZyZahinF1MN9/nNVPP6YhZ4PD9MtYAAp1keL76rvcbtQsy+xH0HAp4RA80AAAAASUVORK5CYII=);
 	border: 1px solid rgba(230, 230, 230, 0.6);
@@ -4104,6 +4107,12 @@ svg.mask-1l8v16.svg-2V3M55 > mask[height="32"][width="32"]:first-child circle {
 	border-top: none !important;
 	border-bottom: 1px solid !important;
 	border-image: linear-gradient(to left, #0000 5px,#787878, #0000 calc(100% - 5px)) 1  !important;
+}
+
+.bd-settings-title.bd-settings-group-title::before {
+	border-top: 1px solid;
+	background-color: transparent !important;
+	border-image: linear-gradient(to left, #0000 5px,#787878 calc(100% - 5px)) 1
 }
 
 .default-1mVZrv.base-19D3Qq, .emptyMessage-3ggYEG.container-3RCQyg.hasDivider-20M1le, .marketingRefreshTier2Cta-bw9Vyc, .container-3RCQyg.hasDivider-20M1le, .container-3RCQyg {
