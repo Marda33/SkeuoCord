@@ -2156,17 +2156,27 @@ background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAmCAIA
 
 .theme-dark .wrapper-2aW0bm {
 	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAA+CAIAAABssEbcAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABzSURBVDhPzZBhDoAgCIWJ+7X1q/ufJIJ8KFarOV3rG2H4iD2a5mWlAON0mmup+YcuObPlECwkxwuy9gdVa8xxvvFbuNZqNIT6rwy/zzt9j3tnuF/0OT36ps+Truvc6LZn+D958xSpv3SM9Gs06zidvnlEO3uEifM5p8iGAAAAAElFTkSuQmCC);
-	border: 1px solid rgba(255 255, 255, 0.60);
 	border-radius: 5px;
-	box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.5);
+	box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.5) !important;
     /*message options popup*/
 }
-
+.theme-dark .button-1ZiXG9:hover {
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAgCAIAAABVbCU3AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsEAAA7BAbiRa+0AAABHSURBVChTY0xMyWJAAkxQGgZI5v9HBYND/j+cZAKRSIjpP8N/MANKAtUjyQL5UHNggD7uRQBMPtChSAjofhQHEzYPWf///wD6r8OseeD37wAAAABJRU5ErkJggg==) !important;
+}
+.theme-dark .button-1ZiXG9:active {
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAgCAIAAABVbCU3AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsEAAA7BAbiRa+0AAABSSURBVChTY9TVN2FAAkwMjIzIiAkqDgNMjKiAiZGBARkR1A+lYQDDPKg4DNBAHsXFQPcD3QlkQkmg++FyIAQxD8iEkgPgXhRAUB5KwwB+PgMDAC+1AZOLn8snAAAAAElFTkSuQmCC) !important;
+}
 .theme-light .wrapper-2aW0bm {
 	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAA+CAIAAABssEbcAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsIAAA7CARUoSoAAAAB1SURBVDhPxZFREoAgCESJ+1+rj6Y7RWSLwo/Y6ExvyC1XabPtPHZyMNRgiXz2ocZ0P8wbY77UYhLxxUXbgl4/Xdl936XXmryN9f3cx2ul+/3hlPNJ9kON6byYNwb8kLj+X4yav3pPvf30FuMPeQOpDzX6z0Q3rUmLWVUUY+IAAAAASUVORK5CYII=);
 	border-radius: 5px;
-	box-shadow: 0 0 3px 3px rgba(64, 64, 64, 0.5);
-    /*message options popup*/
+	box-shadow: 0 0 3px 3px rgba(64, 64, 64, 0.5) !important;
+    /*message options popup - light mode*/
+}
+.theme-light .button-1ZiXG9:hover {
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAgCAIAAABVbCU3AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsEAAA7BAbiRa+0AAABHSURBVChTY7x/9yYDEmCC0jDA9B8VkCwPpWGAYvOg4jBAnPx/OGJi+P8fGTGBaYQCfOYBVeK17x8QU8e9CEB985A8z/D/PwCcKtMD8RxiDQAAAABJRU5ErkJggg==) !important;
+}
+.theme-light.button-1ZiXG9:active {
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAgCAIAAABVbCU3AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsEAAA7BAbiRa+0AAABHSURBVChTY1y1fBEDEmBiYGRERkxQcRhgYkQFJMtDaRig2DyoOAiA2Pjkgd7BIg/yJwMcYfc/QgU13QsCJMtDaRigzDwGBgDyhAMFnd0rAAAAAABJRU5ErkJggg==) !important;
 }
 
 .theme-light .icon-3Gkjwa {
@@ -4065,7 +4075,7 @@ svg.mask-1l8v16.svg-2V3M55 > mask[height="32"][width="32"]:first-child circle {
 .cozyMessage-3V1Y8y.groupStart-23k01U {
 	padding-top: 10px;
 	padding-bottom: 2px;
-	margin-bottom: -3px;
+	margin-bottom: 0;
 	margin-top: 3px;
 	/*chat message margins*/
 }
