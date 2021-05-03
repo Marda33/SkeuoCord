@@ -1547,7 +1547,7 @@
 .icon-27yU2q, .circleIconButton-1QV--U {
 	border-radius: 50px;
 	border: 1px solid rgba (230,230,230) !important;
-	transition: all 0.2s ease-out !important;
+	transition: background 0.2s ease-out !important;
 	/*server colum server buttons*/
 }
 
@@ -2271,11 +2271,11 @@ background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAmCAIA
 
 .circleIconButton-1QV--U:hover, .circleIconButton-1QV--U.selected-1JjBPm, .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9, .wrapper-1BJsBx.selected-bZ3Lue, .wrapper-1BJsBx.wrapper-1BJsBx.selected-bZ3Lue img {
 	border-radius: 5px !important;
-	transition: all 0.2s ease-out !important;
+	transition: background 0.2s ease-out, border-radius 0.2s ease-out !important;
 }
 
 .wrapper-1BJsBx, .wrapper-1BJsBx .childWrapper-anI2G9, .wrapper-1BJsBx img {
-	transition: all 0.2s ease-out !important;
+	transition: background 0.2s ease-out, border-radius 0.2s ease-out !important;
 }
 
 .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9, .wrapper-3NnKdC.guilds-1SWlCJ.theme-dark .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9 {
@@ -2698,12 +2698,12 @@ svg.mask-1l8v16.svg-2V3M55 > mask[height="32"][width="32"]:first-child circle {
 .theme-light .blobContainer-pmnxKB {
 	box-shadow:  0 0 2px 2px rgba(64,64,64,0.4);
 	border-radius: 50px;
-	transition: all 0.2s ease-out !important;
+	transition: background 0.2s ease-out, border-radius 0.2s ease-out !important;
 }
 
 .blobContainer-pmnxKB:hover, .wrapper-25eVIn .svg-1X37T1 foreignObject .wrapper-1BJsBx.selected-bZ3Lue>.blobContainer-pmnxKB {
 	border-radius: 5px !important;
-	transition: all 0.2s ease-out !important;
+	transition: background 0.2s ease-out, border-radius 0.2s ease-out !important;
 }
 
 .container-CpszHS.container-1nZlH6 {
@@ -6318,7 +6318,7 @@ padding-left: 0 !important;
 	border: 1px solid rgba(230, 230, 230, 0.6);
 	box-shadow: inset 0 0 1px 1px rgba(0, 0, 0, 0.5);
 	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAKCAIAAAD6sKMdAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADr8AAA6/ATgFUyQAAAAhSURBVBhXY7CwsmViY2NjYmVjZ2JjBdLsEJqBgQGBGRgAJI8BG6XXs9MAAAAASUVORK5CYII=) !important;
-	transition: background 0.2s ease-out !important;
+	transition: background 0.2s ease-out, border-radius 0.2s ease-out !important;
 	/*settings slider bar outline*/
 }
 .theme-light .bar-2Qqk5Z, .theme-light .bar-3urHkF {
@@ -7349,9 +7349,23 @@ display: none !important;
 	background-color: white;
 	/*recent mentions server icon - light mode*/
 }
+.iconMask-3b8GzQ {
+	background-color: transparent !important;
+}
 .iconMask-3b8GzQ foreignObject {
 	mask: none;
 	border-radius: 5px;
+}
+.guildIcon-3W0pfo {
+	height: 48px !important;
+}
+.theme-dark .guildIcon-3W0pfo {
+	background: linear-gradient(0deg, transparent 40%, rgba(15,15,16) 100%);
+	background-color: rgba(57,59,64);
+}
+.theme-light .guildIcon-3W0pfo {
+	background: linear-gradient(0deg, transparent 40%, rgba(198,196,191) 100%);
+	background-color: rgba(251,251,254);
 }
 
 .messages-3G3erD {
