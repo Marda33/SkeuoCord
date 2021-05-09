@@ -6,4 +6,4 @@ SkeuoCord gives Discord a skeuomorphic overhaul. Almost every part of its interf
 
 ![screenshot](https://raw.githubusercontent.com/Marda33/SkeuoCord/master/Preview%20(Light%20Mode).png)
 
-*SkeuoCord requires English to be the selected language for custom button icon changes. If custom button icons aren't displaying for you, switch your client language to English.*
+*SkeuoCord requires English to be the selected language for custom button icon theming. If custom button icons aren't displaying for you, change your client language to English.*
