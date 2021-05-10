@@ -1,5 +1,4 @@
 /*Whitney Import*/
-@import url(https://marda33.github.io/SkeuoCord/updates/WhitneyImport.css);
 :root {
     --font-display: Whitney !important;
 }
@@ -4588,13 +4587,17 @@ background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAmCAIA
 	border: 1px solid rgba(230,230,230, 0.6);
 }
 .theme-dark .drawerSizingWrapper-17Mss4{
-	border: 1px solid rgba(230,230,230,0.8) !important;
+	border: 1px solid rgba(230,230,230,0.6) !important;
+	box-shadow: 0 0 3px 3px rgba(0,0,0,0.6);
 }
-
 .theme-light .categoryWrapper-UZ5YNj, .theme-light .drawerSizingWrapper-17Mss4, .theme-light .wrapper-1-Fsb8.header-ywPcAE  {
 	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAgCAIAAACKIl8oAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsIAAA7CARUoSoAAAACMSURBVEhL7dUxCgQhFAPQjfe/kbUgIhYiDMJg4UHGbVJtnRQD+xpT/a9fQey9Px7h2BhLY63FA6gFrga475tRDXNORjVc18WohjEGoxp674xqznfdWmMXNdRaGdVQSmFUQ86ZUc15jSkldlELj43zK2ALA2NpxBg5drV3DuSlpfkIDf67/uHcNVe5c766Rmrq3pxPbgAAAABJRU5ErkJggg==);
 	border-radius: 5px 5px 0 0;
 	border: 1px solid rgba(60,60,60, 0.6);
+}
+.theme-light .drawerSizingWrapper-17Mss4{
+	border: 1px solid rgba(60,60,60) !important;
+	box-shadow: 0 0 3px 3px rgba(104,104,104,0.4);
 }
 
 .wrapper-1-Fsb8.header-ywPcAE {
@@ -8864,7 +8867,7 @@ display: none !important;
 	background: var(--element-style-background-color);
 	background-image: linear-gradient(0deg, rgba(30,30,30,0.3), rgba(255,255,255,0.3));
 }
-.repliedMessage-VokQwo .tag-wWVHyf.chatTag-Y-5TDc.badgeStyle-tFiEQ8 {
+.repliedMessage-VokQwo .tag-wWVHyf.chatTag-Y-5TDc.badgeStyle-tFiEQ8, .repliedMessage-VokQwo  .botTag-1un5a6 {
 	margin-left: 5px !important;
 	margin-right: 2px !important;
 }
