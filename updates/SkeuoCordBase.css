@@ -726,7 +726,7 @@
 }
 
 /*Avatar Code*/
-.theme-dark .wrapper-3t9DeA, .theme-dark .avatar-3uk_u9 .wrapper-3t9DeA, .sidebar-2K8pFh.theme-dark .privateChannels-1nO12o .scroller-1JbKMe .channel-2QD9_O.container-2Pjhx-.clickable-1JJAn8 .layout-2DM8Md .avatar-3uk_u9 .wrapper-3t9DeA, .sidebar-2K8pFh.theme-dark .privateChannels-1nO12o .scroller-1JbKMe .channel-2QD9_O.container-2Pjhx-.selected-aXhQR6  .layout-2DM8Md .avatar-3uk_u9 .wrapper-3t9DeA, .theme-dark .headerAvatar-2MDZJn.wrapper-3t9DeA, .wrapper-2QE8vf.avatar-3u7cAV  {
+.theme-dark .wrapper-3t9DeA, .theme-dark .avatar-3uk_u9 .wrapper-3t9DeA, .sidebar-2K8pFh.theme-dark .privateChannels-1nO12o .scroller-1JbKMe .channel-2QD9_O.container-2Pjhx-.clickable-1JJAn8 .layout-2DM8Md .avatar-3uk_u9 .wrapper-3t9DeA, .sidebar-2K8pFh.theme-dark .privateChannels-1nO12o .scroller-1JbKMe .channel-2QD9_O.container-2Pjhx-.selected-aXhQR6  .layout-2DM8Md .avatar-3uk_u9 .wrapper-3t9DeA, .theme-dark .headerAvatar-2MDZJn.wrapper-3t9DeA, .wrapper-2QE8vf.avatar-3u7cAV, .theme-light .avatarWrapper-29j3CC.wrapper-3t9DeA  {
 	/*border: 3px solid rgba(152,152,153);
 	border-radius: 5px;
 	box-shadow: 0 0 2px 2px rgba(0,0,0,0.4), inset 0 0 0 1px rgba(0,0,0,0.6);*/
@@ -3243,7 +3243,7 @@ background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAmCAIA
 	border-radius: 4px;
 }
 
-.size16-1P40sf.overlayTitle-8IcS01, .status-254fhp {
+.size16-1P40sf.overlayTitle-8IcS01, .status-254fhp, .container-1KVp62 {
 	border: 1px solid rgba(230,230,230,0.6);
 	box-shadow: 0 0 3px 3px rgba(0,0,0,0.5);
 	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAAgCAYAAABHA7voAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsIAAA7CARUoSoAAAADdSURBVFhH3ZjLCsIwEEWT9gMUFerCR9OHlmpRtFgowaLgLwiu/I1+feK471aEM+GSQFaHuTNDop+vd6/AEXjvFVmBUl44ueJn0DmnyAq8E1KwAtnQS5oMO/A1GObbwrqvXwc6EEGSweELivgWNWluh8gpCo3J2IBxklo5Ype+3h7o55K23Z0N2NoODRgulis79I6iSF+alm3Rc92wAY+nml2DUTS3MhHFrkzpfXVgW7TcVWzAoih7SSY2wsl0JnOQGzrLN2yLmiRlA65jw56D49H45zX4zyYG/xdV6gPHDky5e7CaAAAAAABJRU5ErkJggg==);
@@ -3274,6 +3274,13 @@ background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAmCAIA
 }
 .avatar-3z61ij, .mutualGuilds-3ESEpu, .divider-3yU4s2, .action-26D6fg.button-38aScr {
 	margin-top: 4px;
+}
+.container-1KVp62 {
+	border-radius: 50px;
+	width: 32px;
+	height: 32px;
+	border: none !important;
+	background: transparent !important;
 }
 
 .theme-dark .avatarContainer-28iYmV.avatar-3tNQiO.avatarSmall-1PJoGO.avatarSpeaking-2IGMRN {
@@ -4244,7 +4251,7 @@ background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAmCAIA
 	/*search results channel name BG*/
 }
 
-.row-2okwlC .card-FDVird, .game-1ipmAa, .reactorDefault-1IUqMZ, .bottomDivider-1K9Gao, .emojiRow-zIc7ZX, .channelNotice-2bJINM, .bd-setting-divider, .channelNotice-1-XFjC, .container-6sXIoE.withTimeline-824fT_, .divider-2FB3wK, .termsRow-2dS5nm {
+.row-2okwlC .card-FDVird, .game-1ipmAa, .reactorDefault-1IUqMZ, .bottomDivider-1K9Gao, .emojiRow-zIc7ZX, .channelNotice-2bJINM, .bd-setting-divider, .channelNotice-1-XFjC, .container-6sXIoE.withTimeline-824fT_, .divider-2FB3wK, .termsRow-2dS5nm, .divider-JMvf_l {
 	border-bottom: 1px solid !important;
 	border-image: linear-gradient(to left, #0000 5px,#787878, #0000 calc(100% - 5px)) 1  !important;
 }
@@ -5028,7 +5035,7 @@ background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAmCAIA
 	border-radius: 0;
 }
 
-.theme-dark .guildIconExpired-2Qcq05.guildIcon-lQ0uiM, .theme-dark .icon-3o6xvg.guildIconImage-3qTk45.guildIcon-lQ0uiM.iconSizeLarge-161qtT.iconActiveLarge-2nzn9z, .theme-dark .embedVideo-3nf0O9.embedMedia-1guQoW, .theme-dark .icon-3o6xvg.guildIcon-3raYf3.iconSizeLarge-161qtT.iconActiveLarge-2nzn9z, .theme-dark .icon-3o6xvg.listAvatar-1NlAhb.iconSizeMedium-2OqPjI.iconInactive-98JN5i, .theme-dark .icon-3o6xvg.iconSizeLarge-161qtT.iconInactive-98JN5i, .theme-dark .splashContainer-1rUZiJ, .theme-dark .icon-3o6xvg.guildIcon-lQ0uiM.iconSizeLarge-161qtT.iconActiveLarge-2nzn9z.noIcon-1a_FrS, .assetsLargeImageProfile-3YXDex, .assetsLargeImageUserPopout-3Pp8BK, .theme-dark .featureIcon-3p1TC_, .theme-dark .channelIcon-g61PDh, .theme-dark .guildIcon-1F8t_p, .theme-dark .dmIcon-2eU-bE, .gameIcon-gg34Dz, .theme-dark .gridItemContent-2mkGdJ, .theme-dark .icon-3Oovq9, .theme-dark .guildIcon-39bqCb, .theme-dark .graphicSecondary-1zo8ze, .theme-dark .guildSection-1EoFKd .flex-1xMQg5 svg, .theme-dark .wrapper-3nSjSv, .theme-dark .assetsLargeImageVoiceChannel-dGmxCi, .theme-dark .banner-3Kac2g, .theme-dark .largeImage-DLXk-f, .theme-dark .hero-EvfTTA, .theme-dark .embedSpotify-tvxDCr, .theme-dark .voiceSectionGuildImage-3HwnfL.largeImageMask-KlyeCi, .theme-dark .applicationStreamingPreviewWrapper-8QqvVY, .theme-dark .headerContentWrapper-2u32yq, .theme-dark .quickswitcher-3JagVE .scroller-zPkAnE .content-3YMskv .result-oB0z-- .content-1jxX5g .guildIconContainer-1M95yt .icon-3o6xvg.guildIcon-Ripiyt.iconSizeMini-3dKErj, .theme-dark .coverWrapper-YAplwJ, .sidebar-2K8pFh.theme-dark .coverWrapper-YAplwJ, .theme-dark .iconWrapper-lS1uig, .theme-dark .bd-addon-error-icon, .theme-dark .icon-3o6xvg.inviteIcon-DSd8cG, .voiceSectionNoGuildImageWrapper-TicZR3 {
+.theme-dark .guildIconExpired-2Qcq05.guildIcon-lQ0uiM, .theme-dark .icon-3o6xvg.guildIconImage-3qTk45.guildIcon-lQ0uiM.iconSizeLarge-161qtT.iconActiveLarge-2nzn9z, .theme-dark .embedVideo-3nf0O9.embedMedia-1guQoW, .theme-dark .icon-3o6xvg.guildIcon-3raYf3.iconSizeLarge-161qtT.iconActiveLarge-2nzn9z, .theme-dark .icon-3o6xvg.listAvatar-1NlAhb.iconSizeMedium-2OqPjI.iconInactive-98JN5i, .theme-dark .icon-3o6xvg.iconSizeLarge-161qtT.iconInactive-98JN5i, .theme-dark .splashContainer-1rUZiJ, .theme-dark .icon-3o6xvg.guildIcon-lQ0uiM.iconSizeLarge-161qtT.iconActiveLarge-2nzn9z.noIcon-1a_FrS, .assetsLargeImageProfile-3YXDex, .assetsLargeImageUserPopout-3Pp8BK, .theme-dark .featureIcon-3p1TC_, .theme-dark .channelIcon-g61PDh, .theme-dark .guildIcon-1F8t_p, .theme-dark .dmIcon-2eU-bE, .gameIcon-gg34Dz, .theme-dark .gridItemContent-2mkGdJ, .theme-dark .icon-3Oovq9, .theme-dark .guildIcon-39bqCb, .theme-dark .graphicSecondary-1zo8ze, .theme-dark .guildSection-1EoFKd .flex-1xMQg5 svg, .theme-dark .wrapper-3nSjSv, .theme-dark .assetsLargeImageVoiceChannel-dGmxCi, .theme-dark .banner-3Kac2g, .theme-dark .largeImage-DLXk-f, .theme-dark .hero-EvfTTA, .theme-dark .embedSpotify-tvxDCr, .theme-dark .voiceSectionGuildImage-3HwnfL.largeImageMask-KlyeCi, .theme-dark .applicationStreamingPreviewWrapper-8QqvVY, .theme-dark .headerContentWrapper-2u32yq, .theme-dark .quickswitcher-3JagVE .scroller-zPkAnE .content-3YMskv .result-oB0z-- .content-1jxX5g .guildIconContainer-1M95yt .icon-3o6xvg.guildIcon-Ripiyt.iconSizeMini-3dKErj, .theme-dark .coverWrapper-YAplwJ, .sidebar-2K8pFh.theme-dark .coverWrapper-YAplwJ, .theme-dark .iconWrapper-lS1uig, .theme-dark .bd-addon-error-icon, .theme-dark .icon-3o6xvg.inviteIcon-DSd8cG, .voiceSectionNoGuildImageWrapper-TicZR3, .content-2Sfaij {
 	border-radius: 5px;
 	border: 1px solid rgba(230,230,230,0.6);
 	box-shadow: 0 0 3px 3px rgba(0,0,0,0.5), inset 0 0 0 1px rgba(0,0,0,0.6);
@@ -6531,12 +6538,45 @@ padding-left: 0 !important;
 	box-shadow: inset 0 0 0 1px rgba(90,90,90);
 	background-color: rgba(195,197,200);
 }
+
+.section-2gLsgF {
+	border: 1px solid rgba(114,114,114);
+	box-shadow: none !important;
+	border-radius: 0 !important;
+	border-bottom: none !important;
+}
+.theme-light .section-2gLsgF {
+	border: 1px solid rgba(60,60,60);
+	box-shadow: none !important;
+	border-radius: 0 !important;
+	border-bottom: none !important;
+}
+.section-2gLsgF:first-of-type {
+	border-radius: 5px 5px 0 0 !important;
+	border-bottom: none !important;
+}
+.section-2gLsgF:last-of-type {
+	border: 1px solid rgba(114,114,114) !important;
+	border-radius: 0 0 5px 5px !important;
+}
+.theme-light .section-2gLsgF:last-of-type {
+	border: 1px solid rgba(60,60,60) !important;
+	border-radius: 0 0 5px 5px !important;
+}
+.section-2gLsgF:only-of-type {
+	border: 1px solid rgba(114,114,114) !important;
+	border-radius: 5px !important;
+}
+.theme-light .section-2gLsgF:only-of-type {
+	border: 1px solid rgba(60,60,60) !important;
+	border-radius: 5px !important;
+}
 .separator-XqIyoz {
-	background: rgba(39,42,46) !important;
-	padding: 3px;
+    height: 0 !important;
+	background: rgba(144,144,144) !important;
 }
 .theme-light .separator-XqIyoz {
-	background: rgba(217,215,210) !important;
+	background: rgba(60,60,60) !important;
 }
 
 .checkboxMute-14hTGS::before {
