@@ -1,4 +1,3 @@
-/*Whitney Import*/
 :root {
     --font-display: Whitney !important;
 }
@@ -25,7 +24,7 @@
 	background: rgba(60,60,60);
 	border-radius: 0 !important;
 }
-.scroller-RmtA4e, .listContent-2_qb-y {
+.scroller-RmtA4e, .listContent-2_qb-y, .container-lRFx4q {
 	background: transparent !important;
 	border: none !important;
 }
@@ -7156,7 +7155,7 @@ padding-left: 0 !important;
 	margin-right: 4px !important;
 	margin-left: 6px !important;
 }
-.theme-dark .itemCard-v9viV7.wrapper-3D2qGf.outer-1AjyKL.padded-302COx.interactive-3B9GmY, .theme-dark .emptyCard-1RJw8n, .theme-dark .consentCard-1iSxB_, .theme-dark .fieldList-21DyL8, .theme-dark .override-2YgiXd.cardPrimaryOutline-29Ujqw.card-3Qj_Yx, .theme-dark .formFieldWrapper-malor5, .theme-dark .card-2qZngs {
+.theme-dark .emptyCard-1RJw8n, .theme-dark .consentCard-1iSxB_, .theme-dark .fieldList-21DyL8, .theme-dark .override-2YgiXd.cardPrimaryOutline-29Ujqw.card-3Qj_Yx, .theme-dark .formFieldWrapper-malor5, .theme-dark .card-2qZngs {
 	background: linear-gradient(0deg, transparent 35%, rgba(22,24,27) 100%);
 	background-color: rgba(55,58,64);
 	box-shadow: inset 0 0 0 1px rgba(114,114,114,0.6), inset 0 0 5px 5px rgba(0,0,0,0.2);
@@ -7172,10 +7171,22 @@ padding-left: 0 !important;
 	margin-right: 4px !important;
 	margin-left: 6px !important;
 }
-.theme-light .itemCard-v9viV7.wrapper-3D2qGf.outer-1AjyKL.padded-302COx.interactive-3B9GmY, .theme-light .emptyCard-1RJw8n, .theme-light .consentCard-1iSxB_, .theme-light .fieldList-21DyL8, .theme-light .override-2YgiXd.cardPrimaryOutline-29Ujqw.card-3Qj_Yx, .theme-light .formFieldWrapper-malor5, .theme-light .card-2qZngs {
+.theme-light .emptyCard-1RJw8n, .theme-light .consentCard-1iSxB_, .theme-light .fieldList-21DyL8, .theme-light .override-2YgiXd.cardPrimaryOutline-29Ujqw.card-3Qj_Yx, .theme-light .formFieldWrapper-malor5, .theme-light .card-2qZngs {
 	background: linear-gradient(0deg, transparent 35%, rgba(200,197,191) 100%);
 	background-color: rgba(233,231,228);
 	box-shadow: inset 0 0 0 1px rgba(60,60,60,0.6), inset 0 0 5px 5px rgba(104,104,104,0.2);
+}
+.theme-dark .itemCard-v9viV7 {
+	background: linear-gradient(0deg, transparent 35%, rgba(22,24,27) 100%);
+	background-color: rgba(55,58,64);
+	border: 1px solid rgba(92,92,92);
+	box-shadow: inset 0 0 5px 5px rgba(0,0,0,0.2);
+}
+.theme-light .itemCard-v9viV7 {
+	background: linear-gradient(0deg, transparent 35%, rgba(200,197,191) 100%);
+	background-color: rgba(233,231,228);
+	border: 1px solid rgba(60,60,60,0.6);
+	box-shadow: inset 0 0 5px 5px rgba(104,104,104,0.2);
 }
 .fieldList-21DyL8 {
 	border-radius: 5px;
