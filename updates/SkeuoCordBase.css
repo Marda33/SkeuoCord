@@ -3878,51 +3878,6 @@ background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAmCAIA
 	border-radius: 5px 5px 0 0; 
 }
 
-.chat-3bRxxu .divider-JfaTT5, .divider-39oAwV.divider-JfaTT5.hasContent-1cNJDh {
-	border-width: 2px;
-	border-image: linear-gradient(to left, #0000 5px,#6A6C6F, #0000 calc(100% - 5px)) 1
-	/*chat message date separator*/
-}
-
-.chat-3bRxxu .divider-JfaTT5.isUnread-3Ef-o9 {
-	border-width: 2px;
-	margin-top: 8px;
-	margin-bottom: 8px;
-	border-image: linear-gradient(to right, #0000 5px,#8E4044 calc(60% - 5px)) 1
-  /*chat message date separator - unread*/
-}
-
-.message-2qnXI6 + .isUnread-3Ef-o9 {
-	margin-top: 2px !important;
-	margin-bottom: 15px !important;
-}
-.isUnread-3Ef-o9 + .mentioned-xhSam7 {
-	margin-top: 20px !important;
-}
-
-.content-1o0f9g {
-	color: white;
-	background: linear-gradient(0deg, transparent 50%, rgba(77,80,86) 100%);
-	border: 1px solid rgba(116,118,120);
-	box-shadow: inset 0 0 0 1px rgba(0,0,0,0.6);
-	background-color: rgba(52, 54, 58);
-	border-radius: 5px;
-	padding: 4px 7px;
-	/*chat message date BG*/
-}
-.theme-light .content-1o0f9g {
-	box-shadow: inset 0 0 0 1px rgba(230,230,230,0.6);
-}
-
-#app-mount .isUnread-3Ef-o9 .content-1o0f9g {
-	color: white;
-	background: rgba(142,64,68);
-	border-radius: 5px;
-	border: 1px solid rgba(142,64,68);
-	padding: 4px 7px;
-	/*chat message date BG - unread*/
-}
-
 .attachWrapper-2TRKBi {
 	border: none;
 }
@@ -4253,16 +4208,6 @@ background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAmCAIA
 	/*chat message group separator*/
 }
 
-.channelName-1JRO3C{
-	padding: 2px 7px;
-	margin-top: 5px;
-	margin-left: 8px;
-	background: transparent;
-	border-bottom: 1px solid !important;
-	border-image: linear-gradient(to left, #0000 5px,#787878, #0000 calc(100% - 5px)) 1  !important;
-	/*search results channel name BG*/
-}
-
 .row-2okwlC .card-FDVird, .game-1ipmAa, .reactorDefault-1IUqMZ, .bottomDivider-1K9Gao, .emojiRow-zIc7ZX, .channelNotice-2bJINM, .bd-setting-divider, .channelNotice-1-XFjC, .container-6sXIoE.withTimeline-824fT_, .divider-2FB3wK, .termsRow-2dS5nm, .divider-JMvf_l {
 	border-bottom: 1px solid !important;
 	border-image: linear-gradient(to left, #0000 5px,#787878, #0000 calc(100% - 5px)) 1  !important;
@@ -4315,6 +4260,64 @@ background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAmCAIA
 	margin-top: 1rem;
 	margin-bottom: 1rem;
  }
+ 
+ .chat-3bRxxu .divider-JfaTT5, .divider-39oAwV.divider-JfaTT5.hasContent-1cNJDh {
+	border-width: 2px;
+	border-image: linear-gradient(to left, #0000 5px,#6A6C6F, #0000 calc(100% - 5px)) 1
+	/*chat message date separator*/
+}
+
+.chat-3bRxxu .divider-JfaTT5.isUnread-3Ef-o9 {
+	border-width: 2px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	border-image: linear-gradient(to right, #0000 5px,#8E4044 calc(60% - 5px)) 1
+  /*chat message date separator - unread*/
+}
+
+.message-2qnXI6 + .isUnread-3Ef-o9 {
+	margin-top: 2px !important;
+	margin-bottom: 15px !important;
+}
+.isUnread-3Ef-o9 + .mentioned-xhSam7 {
+	margin-top: 20px !important;
+}
+.mentioned-xhSam7 + .message-2qnXI6 {
+	border-top: none !important;
+}
+
+.content-1o0f9g {
+	color: white;
+	background: linear-gradient(0deg, transparent 50%, rgba(77,80,86) 100%);
+	border: 1px solid rgba(116,118,120);
+	box-shadow: inset 0 0 0 1px rgba(0,0,0,0.6);
+	background-color: rgba(52, 54, 58);
+	border-radius: 5px;
+	padding: 4px 7px;
+	/*chat message date BG*/
+}
+.theme-light .content-1o0f9g {
+	box-shadow: inset 0 0 0 1px rgba(230,230,230,0.6);
+}
+
+#app-mount .isUnread-3Ef-o9 .content-1o0f9g {
+	color: white;
+	background: rgba(142,64,68);
+	border-radius: 5px;
+	border: 1px solid rgba(142,64,68);
+	padding: 4px 7px;
+	/*chat message date BG - unread*/
+}
+
+.channelName-1JRO3C{
+	padding: 2px 7px;
+	margin-top: 5px;
+	margin-left: 8px;
+	background: transparent;
+	border-bottom: 1px solid !important;
+	border-image: linear-gradient(to left, #0000 5px,#787878, #0000 calc(100% - 5px)) 1  !important;
+	/*search results channel name BG*/
+}
 
 .action-26D6fg.button-38aScr.lookFilled-1Gx00P.colorBrand-3pXr91.sizeTiny-EgeIrh.grow-q77ONN {
 	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAWCAIAAACHT8GHAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABKSURBVChTjZDRCUAhDANrNnsruJRbN09BIaF+eARKuVDB9vURAvY8gA6CoSl+zwOSqanegdezeLPrnq2XvlPfY2oe+sb8D2rckz8bEhyiqPC+lwAAAABJRU5ErkJggg==);
