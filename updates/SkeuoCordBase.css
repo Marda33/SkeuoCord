@@ -4298,6 +4298,9 @@ background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAmCAIA
 	margin-top: 8px !important;
 	margin-bottom: 8px !important;
 }
+.isUnread-3Ef-o9 + .mentioned-xhSam7.groupStart-23k01U {
+	margin-top: 24px !important;
+}
 .message-2qnXI6 + .isUnread-3Ef-o9.hasContent-1cNJDh {
 	margin-top: 20px !important;
 	margin-bottom: -5px !important;
@@ -8726,10 +8729,24 @@ display: none !important;
 	 .voiceSectionNoGuildImage-DSaGg- {
 		opacity: 1 !important;
 	 }
-	 .arrow-gKvcEx.icon-2yIBmh path {
-		fill-rule: nonzero !important;
-	}
 /* ---- */
+  
+.wrapper-PY0fhH svg path {
+  display: none;
+}
+.wrapper-PY0fhH svg {
+  -webkit-mask: url('data:image/svg+xml; utf-8,<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M7 10L12 15 17 10"></path></svg>') center no-repeat;
+  background: currentColor;
+}
+.theme-light .wrapper-PY0fhH.muted-2JBAyG svg {
+  background: #9a9a9a;
+}
+.theme-light .wrapper-PY0fhH.muted-2JBAyG:hover svg {
+  background: #2e3338;
+}
+.theme-light .wrapper-PY0fhH.muted-2JBAyG:hover .mainContent-2h-GEV .name-3l27Hl {
+  color: #2e3338;
+}
   
 /*-Channel Toolbar Buttons-*/
 .iconWrapper-2OrFZ1[aria-label="Inbox"] .icon-22AiRD path, .iconWrapper-2OrFZ1[aria-label="Help"] .icon-22AiRD path,   .iconWrapper-2OrFZ1[role="switch"] .icon-22AiRD path, .iconWrapper-2OrFZ1[aria-label="Pinned Messages"] .icon-22AiRD path, .iconWrapper-2OrFZ1[aria-label="Member List"] .icon-22AiRD path, .iconWrapper-2OrFZ1[aria-label="New Group DM"] .icon-22AiRD path, .iconWrapper-2OrFZ1[aria-label="Group DM"] .icon-22AiRD path, .iconWrapper-2OrFZ1[aria-label="Update Ready!"] .icon-22AiRD path, .container-1D34oG .container-1r6BKw .children-19S4PO .iconWrapper-2OrFZ1 path, .applicationStore-1pNvnv .homeWrapperNormal-2KSUEa.homeWrapper-3-Wh5T .headerBar-1YYOfi.container-1r6BKw .children-19S4PO .iconWrapper-2OrFZ1 path {
