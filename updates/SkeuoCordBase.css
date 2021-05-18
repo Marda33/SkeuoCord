@@ -8748,10 +8748,10 @@ display: none !important;
 	 }
 /* ---- */
   
-.wrapper-PY0fhH svg path {
+.wrapper-PY0fhH svg path:not(.addButtonIcon-2CbG1X) {
   display: none;
 }
-.wrapper-PY0fhH svg {
+.wrapper-PY0fhH svg:not(.addButtonIcon-2CbG1X) {
   -webkit-mask: url('data:image/svg+xml; utf-8,<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M7 10L12 15 17 10"></path></svg>') center no-repeat;
   background: currentColor;
 }
@@ -8764,7 +8764,12 @@ display: none !important;
 .theme-light .wrapper-PY0fhH.muted-2JBAyG:hover .mainContent-2h-GEV .name-3l27Hl {
   color: #2e3338;
 }
-  
+
+.addButtonIcon-2CbG1X svg {
+  -webkit-mask: url('data:image/svg+xml; utf-8,<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="15 10 10 10 10 15 8 15 8 10 3 10 3 8 8 8 8 3 10 3 10 8 15 8"></path></svg>') center no-repeat;
+  background: currentColor;
+}
+
 /*-Channel Toolbar Buttons-*/
 .iconWrapper-2OrFZ1[aria-label="Inbox"] .icon-22AiRD path, .iconWrapper-2OrFZ1[aria-label="Help"] .icon-22AiRD path,   .iconWrapper-2OrFZ1[role="switch"] .icon-22AiRD path, .iconWrapper-2OrFZ1[aria-label="Pinned Messages"] .icon-22AiRD path, .iconWrapper-2OrFZ1[aria-label="Member List"] .icon-22AiRD path, .iconWrapper-2OrFZ1[aria-label="New Group DM"] .icon-22AiRD path, .iconWrapper-2OrFZ1[aria-label="Group DM"] .icon-22AiRD path, .iconWrapper-2OrFZ1[aria-label="Update Ready!"] .icon-22AiRD path, .container-1D34oG .container-1r6BKw .children-19S4PO .iconWrapper-2OrFZ1 path, .applicationStore-1pNvnv .homeWrapperNormal-2KSUEa.homeWrapper-3-Wh5T .headerBar-1YYOfi.container-1r6BKw .children-19S4PO .iconWrapper-2OrFZ1 path {
 	display: none;
