@@ -742,7 +742,7 @@
 }
 
 /*Avatar Code*/
-.theme-dark .wrapper-3t9DeA, .theme-dark .avatar-3uk_u9 .wrapper-3t9DeA, .sidebar-2K8pFh.theme-dark .privateChannels-1nO12o .scroller-1JbKMe .channel-2QD9_O.container-2Pjhx-.clickable-1JJAn8 .layout-2DM8Md .avatar-3uk_u9 .wrapper-3t9DeA, .sidebar-2K8pFh.theme-dark .privateChannels-1nO12o .scroller-1JbKMe .channel-2QD9_O.container-2Pjhx-.selected-aXhQR6  .layout-2DM8Md .avatar-3uk_u9 .wrapper-3t9DeA, .theme-dark .headerAvatar-2MDZJn.wrapper-3t9DeA, .wrapper-2QE8vf.avatar-3u7cAV, .theme-light .avatarWrapper-29j3CC.wrapper-3t9DeA, .theme-dark .playerAvatar-3EAx5P {
+.theme-dark .wrapper-3t9DeA, .theme-dark .avatar-3uk_u9 .wrapper-3t9DeA, .sidebar-2K8pFh.theme-dark .privateChannels-1nO12o .scroller-1JbKMe .channel-2QD9_O.container-2Pjhx-.clickable-1JJAn8 .layout-2DM8Md .avatar-3uk_u9 .wrapper-3t9DeA, .sidebar-2K8pFh.theme-dark .privateChannels-1nO12o .scroller-1JbKMe .channel-2QD9_O.container-2Pjhx-.selected-aXhQR6  .layout-2DM8Md .avatar-3uk_u9 .wrapper-3t9DeA, .theme-dark .headerAvatar-2MDZJn.wrapper-3t9DeA, .wrapper-2QE8vf.avatar-3u7cAV, .theme-light .avatarWrapper-29j3CC.wrapper-3t9DeA, .theme-dark .playerAvatar-3EAx5P, .IAN-avatar {
 	/*border: 3px solid rgba(152,152,153);
 	border-radius: 5px;
 	box-shadow: 0 0 2px 2px rgba(0,0,0,0.4), inset 0 0 0 1px rgba(0,0,0,0.6);*/
@@ -750,7 +750,7 @@
 	box-shadow: 0 0 0 2px rgba(230,230,230,0.6), 0 0 4px 4px rgba(0,0,0,0.5) !important;
 	border-radius: 3px !important;
 }
-.theme-light .wrapper-3t9DeA, .theme-light .avatar-3uk_u9 .wrapper-3t9DeA, .theme-light .headerAvatar-2MDZJn.wrapper-3t9DeA {
+.theme-light .wrapper-3t9DeA, .theme-light .avatar-3uk_u9 .wrapper-3t9DeA, .theme-light .headerAvatar-2MDZJn.wrapper-3t9DeA, .theme-light .IAN-avatar {
 	/*border: 3px solid rgba(82,82,83);
 	border-radius: 5px;
 	box-shadow: 0 0 2px 2px rgba(64,64,64,0.2), inset 0 0 0 1px rgba(230,230,230,0.6);*/
@@ -7764,20 +7764,20 @@ display: none !important;
 	height: 48px !important;
 }
 .theme-dark .guildIcon-3W0pfo, .theme-dark .flex-1xMQg5 .iconWrapper-lS1uig, .theme-dark .featureIcon-3p1TC_, .theme-dark .icon-3_8HGa, .theme-dark .guildIcon-3h-1IH, .theme-dark .bd-addon-error-icon, .theme-dark .guildIcon-3Co6k- .acronym-1e2Mdt, .theme-dark .stage-2UKqZE, .theme-dark .avatar-22FtUu.wrapper-3t9DeA {
-	background: linear-gradient(0deg, transparent 40%, rgba(15,15,16) 100%);
+	background: linear-gradient(0deg, transparent 10%, rgba(15,15,16) 100%);
 	background-color: rgba(57,59,64);
 	/*icon gradient*/
 }
 .theme-light .guildIcon-3W0pfo, .theme-light .flex-1xMQg5 .iconWrapper-lS1uig, .theme-light .featureIcon-3p1TC_, .theme-light .icon-3_8HGa, .theme-light .guildIcon-3h-1IH, .theme-light .bd-addon-error-icon, .theme-light .guildIcon-3Co6k- .acronym-1e2Mdt, .theme-light .stage-2UKqZE, .theme-light .avatar-22FtUu.wrapper-3t9DeA {
-	background: linear-gradient(0deg, transparent 40%, rgba(198,196,191) 100%);
+	background: linear-gradient(0deg, transparent 10%, rgba(198,196,191) 100%);
 	background-color: rgba(251,251,254);
 }
 .voiceSectionNoGuildImageWrapper-TicZR3 {
-	background: linear-gradient(0deg, transparent 40%, rgba(15,15,16) 100%) !important;
+	background: linear-gradient(0deg, transparent 10%, rgba(15,15,16) 100%) !important;
 	background-color: rgba(57,59,64) !important;
 }
 .theme-light .voiceSectionNoGuildImageWrapper-TicZR3 {
-	background: linear-gradient(0deg, transparent 40%, rgba(198,196,191) 100%) !important;
+	background: linear-gradient(0deg, transparent 10%, rgba(198,196,191) 100%) !important;
 	background-color: rgba(251,251,254) !important;
 }
 
@@ -9422,5 +9422,22 @@ display: none !important;
 }
 .theme-light .container-6sXIoE.maximized-vv2Wr0 .inner-WRV6k5 .coverWrapper-YAplwJ {
 	box-shadow: 0 0 5px 5px rgba(104,104,104,0.6);
+}
+/*InAppNotifications*/
+.xenoLib-notification-content-wrapper {
+	padding-bottom: 20px !important;
+}
+.xenoLib-notification-content {
+	border-radius: 5px !important;
+	box-shadow: inset 0 0 0 1px rgba(114,114,114,0.6), 0 0 3px 3px rgba(0,0,0,0.6) !important;
+}
+.theme-light .xenoLib-notification-content {
+	box-shadow: inset 0 0 0 1px rgba(60,60,60,0.6), 0 0 3px 3px rgba(104,104,104,0.4) !important;
+}
+.IAN-message .markup-2BOw-j.messageContent-2qWWxC {
+	padding-top: 10px !important;
+}
+.theme-light .xenoLib-notification-close .contents-18-Yxp path {
+	color: black;
 }
 /* ---- */
