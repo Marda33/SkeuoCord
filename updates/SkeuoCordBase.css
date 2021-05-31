@@ -2347,12 +2347,18 @@ background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAmCAIA
 	background: linear-gradient(0deg, transparent 42%, rgba(212,210,207) 100%)  !important;
 	background-color: rgba(188,185,179) !important;
 	border-radius: 5px !important;
-	box-shadow: 0 0 3px 3px rgba(0,0,0,0.3), inset 0 0 0 1px rgba(60,60,60,0.4) !important;
+	box-shadow: 0 0 3px 3px rgba(0,0,0,0.3), inset 0 0 0 1px rgba(120,120,120) !important;
 	color: black !important;
 	text-shadow: 0 0 8px rgba(64,64,64) !important;
 	/*hover tooltip - light mode*/
 }
-.tooltipPointer-3ZfirK, .tooltipPointer-l336oV {
+.tooltipPointer-3ZfirK {
+	border-top-color: rgba(92,92,92) !important;
+}
+.theme-light .tooltipPointer-3ZfirK {
+	border-top-color: rgba(120,120,120) !important;
+}
+.tooltipPointer-l336oV {
 	border-top-color: transparent !important;
 }
 
