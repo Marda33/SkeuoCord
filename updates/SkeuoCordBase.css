@@ -4422,14 +4422,20 @@ background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAmCAIA
 	/*emoji picker BG - light mode*/
 }
 
-.theme-dark .inspector-3LQtX9 {
+.theme-dark .inspector-3LQtX9, .theme-dark .inspector-S2gM3e {
 	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAxCAIAAACd5vQJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsIAAA7CARUoSoAAAABkSURBVDhPzdJBCgAhCAVQzaITef+b5YR8o8btEPMQtH61ilWVNsVOBfsh5ejh8/U4Xc/Rw/X72A85N9ur2Bh7pRzvhPd70lojs1VSa0XkuPeOr+Bkwuh4nsfohJkxurRG/weiBz6s496PUAzkAAAAAElFTkSuQmCC);
 	border-top: 1px solid rgba(230,230,230,0.6);
 	/*emoji picker preview bar*/
 }
-.theme-light .inspector-3LQtX9 {
+.theme-light .inspector-3LQtX9, .theme-light .inspector-S2gM3e {
 	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAxCAIAAACd5vQJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsEAAA7BAbiRa+0AAABLSURBVDhPzdIxCgAhDETR6P0vmYvsbvM/rFhIEMHXDHHENLbMjJ9Oqr+jZU9qOT+j63pS5fukyjN7dPw9zlXuSW3P7NHU8w+110d8wa2E+XagO/QAAAAASUVORK5CYII=);
 	border-top: 1px solid rgba(60,60,60,0.6);
+}
+.theme-dark .inspector-S2gM3e {
+	border-left: 1px solid rgba(114,114,114);
+}
+.theme-light .inspector-S2gM3e {
+	border-left: 1px solid rgba(60,60,60,0.6);
 }
 
 .theme-dark .contentWrapper-SvZHNd {
@@ -4643,7 +4649,11 @@ background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAmCAIA
 	/*emoji picker search bar header - light mode*/
 }
 
-.theme-dark .categoryWrapper-UZ5YNj, .theme-dark .drawerSizingWrapper-17Mss4, .theme-dark .wrapper-1-Fsb8.header-ywPcAE  {
+.listWrapper-hig339#sticker-picker-grid .wrapper-OxgYJ1 .scroller-3gAZLs .listItems-1uJgMC {
+	margin-top: 5px;
+}
+
+.theme-dark .categoryWrapper-UZ5YNj, .theme-dark .drawerSizingWrapper-17Mss4, .theme-dark .wrapper-1-Fsb8.header-ywPcAE, .theme-dark .wrapper-1-Fsb8.packHeader-NLJ7S5  {
 	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAgCAIAAACKIl8oAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAC3SURBVEhL7dJdC4IwGMXxnZZYmknJfAkTy96ICLrq+38ykzhX1uXZnT8e2P9qY2x4vt7GjxlXD2xe7ozpfYzNi2FrL6wrKqaada76uYpmbOaK3vQ+xucPyVw+volocLo+eIoajuc7Uw1td2OqoTlcmGqom46phqpumWrIqz1TzUarZPQfVYPMlTxFDZvMMdWwTrdMNcRJylTDMh6e0QuEi4iphnkQMtVgbcBUw7A5Uw3fmUz+M+YDAVizqtMVE1UAAAAASUVORK5CYII=);
 	border-radius: 5px 5px 0 0;
 	border: 1px solid rgba(230,230,230, 0.6);
@@ -4652,7 +4662,7 @@ background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAmCAIA
 	border: 1px solid rgba(230,230,230,0.6) !important;
 	box-shadow: 0 0 3px 3px rgba(0,0,0,0.6);
 }
-.theme-light .categoryWrapper-UZ5YNj, .theme-light .drawerSizingWrapper-17Mss4, .theme-light .wrapper-1-Fsb8.header-ywPcAE  {
+.theme-light .categoryWrapper-UZ5YNj, .theme-light .drawerSizingWrapper-17Mss4, .theme-light .wrapper-1-Fsb8.header-ywPcAE, .theme-light .wrapper-1-Fsb8.packHeader-NLJ7S5  {
 	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAgCAIAAACKIl8oAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsIAAA7CARUoSoAAAACMSURBVEhL7dUxCgQhFAPQjfe/kbUgIhYiDMJg4UHGbVJtnRQD+xpT/a9fQey9Px7h2BhLY63FA6gFrga475tRDXNORjVc18WohjEGoxp674xqznfdWmMXNdRaGdVQSmFUQ86ZUc15jSkldlELj43zK2ALA2NpxBg5drV3DuSlpfkIDf67/uHcNVe5c766Rmrq3pxPbgAAAABJRU5ErkJggg==);
 	border-radius: 5px 5px 0 0;
 	border: 1px solid rgba(60,60,60, 0.6);
@@ -7011,11 +7021,11 @@ padding-left: 0 !important;
 	box-shadow: inset 0 0 0 1px rgba(230,230,230,0.6);
 }
 
-.bannerOverlay-1uIerX, .profileBanner-33-uE1, .profileBannerPremium-35utuo {
+.bannerOverlay-1uIerX, .profileBanner-33-uE1, .profileBannerPremium-35utuo, .bannerUploader-2jPvg2 .bannerUploaderInnerSquare-Um3vgL .avatarUploaderHint-3SN212 {
 	border-radius: 4px 4px 0 0 !important;	
 	box-shadow: inset 0 0 0 1px rgba(0,0,0,0.6), inset 0 0 8px 5px rgba(0,0,0,0.4) !important;	
 }
-.theme-light .bannerOverlay-1uIerX, .theme-light .profileBanner-33-uE1, .theme-light .profileBannerPremium-35utuo {
+.theme-light .bannerOverlay-1uIerX, .theme-light .profileBanner-33-uE1, .theme-light .profileBannerPremium-35utuo, .theme-light .bannerUploader-2jPvg2 .bannerUploaderInnerSquare-Um3vgL .avatarUploaderHint-3SN212 {
 	border-radius: 4px 4px 0 0 !important;	
 	box-shadow: inset 0 0 0 1px rgba(230,230,230,0.6), inset 0 0 8px 5px rgba(0,0,0,0.2) !important;	
 }
@@ -7180,7 +7190,7 @@ padding-left: 0 !important;
 	/*usercard quick message box underlay - light mode*/
 }
 
-.theme-dark .role-2irmRk, .theme-dark .emojiContainer-1u-_sQ, .theme-dark .guildDetails-2p1NmK, .theme-dark .role-78i2xt {
+.theme-dark .role-2irmRk, .theme-dark .emojiContainer-1u-_sQ, .theme-dark .guildDetails-2p1NmK, .theme-dark .role-78i2xt, .tierPill-1yRO48 {
 	background: linear-gradient(0deg, transparent 20%, rgba(77,80,86) 100%);
 	background-color: rgba(52,54,58);
     box-shadow: inset 0 0 0 1px rgba(0,0,0, 0.4), 0 0 0 1px rgba(0,0,0,0.4);
@@ -7191,7 +7201,7 @@ padding-left: 0 !important;
 	overflow: visible;
 	/*usercard role BG*/
 }
-.theme-light .role-2irmRk, .theme-light .emojiContainer-1u-_sQ, .theme-light .guildDetails-2p1NmK, .theme-light .role-78i2xt {
+.theme-light .role-2irmRk, .theme-light .emojiContainer-1u-_sQ, .theme-light .guildDetails-2p1NmK, .theme-light .role-78i2xt, .theme-light .tierPill-1yRO48 {
 	background: linear-gradient(0deg, transparent 20%, rgba(223,221,217) 100%);
 	background-color: rgba(198,195,189);
 	box-shadow: inset 0 0 0 1px rgba(230, 230, 230, 0.4), 0 0 0 1px rgba(104,104,104,0.2);
@@ -7348,7 +7358,7 @@ padding-left: 0 !important;
 	margin-right: 4px !important;
 	margin-left: 6px !important;
 }
-.theme-dark .emptyCard-1RJw8n, .theme-dark .consentCard-1iSxB_, .theme-dark .fieldList-21DyL8, .theme-dark .override-2YgiXd.cardPrimaryOutline-29Ujqw.card-3Qj_Yx, .theme-dark .formFieldWrapper-malor5, .theme-dark .card-2qZngs, .theme-dark .root-1bFE0x, .theme-dark .inner, .theme-dark .authedApp-mj2Hmd {
+.theme-dark .emptyCard-1RJw8n, .theme-dark .consentCard-1iSxB_, .theme-dark .fieldList-21DyL8, .theme-dark .override-2YgiXd.cardPrimaryOutline-29Ujqw.card-3Qj_Yx, .theme-dark .formFieldWrapper-malor5, .theme-dark .card-2qZngs, .theme-dark .root-1bFE0x, .theme-dark .inner, .theme-dark .authedApp-mj2Hmd, .theme-dark .subscription-3aLGnG {
 	background: linear-gradient(0deg, transparent 15%, rgba(22,24,27) 100%);
 	background-color: rgba(55,58,64);
 	box-shadow: inset 0 0 0 1px rgba(114,114,114,0.6), inset 0 0 5px 5px rgba(0,0,0,0.2);
@@ -7365,7 +7375,7 @@ padding-left: 0 !important;
 	margin-right: 4px !important;
 	margin-left: 6px !important;
 }
-.theme-light .emptyCard-1RJw8n, .theme-light .consentCard-1iSxB_, .theme-light .fieldList-21DyL8, .theme-light .override-2YgiXd.cardPrimaryOutline-29Ujqw.card-3Qj_Yx, .theme-light .formFieldWrapper-malor5, .theme-light .card-2qZngs, .theme-light .root-1bFE0x, .theme-light .inner, .theme-light .authedApp-mj2Hmd {
+.theme-light .emptyCard-1RJw8n, .theme-light .consentCard-1iSxB_, .theme-light .fieldList-21DyL8, .theme-light .override-2YgiXd.cardPrimaryOutline-29Ujqw.card-3Qj_Yx, .theme-light .formFieldWrapper-malor5, .theme-light .card-2qZngs, .theme-light .root-1bFE0x, .theme-light .inner, .theme-light .authedApp-mj2Hmd, .theme-light .subscription-3aLGnG {
 	background: linear-gradient(0deg, transparent 15%, rgba(200,197,191) 100%);
 	background-color: rgba(233,231,228);
 	box-shadow: inset 0 0 0 1px rgba(60,60,60,0.6), inset 0 0 5px 5px rgba(104,104,104,0.2);
@@ -9267,7 +9277,7 @@ display: none !important;
 .theme-dark .button-14-BFJ:only-of-type:not([aria-label="Stop Streaming"]):active, .sidebar-2K8pFh.theme-dark .button-14-BFJ:only-of-type:not([aria-label="Stop Streaming"]):active {
 	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAIAAAC0Ujn1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsEAAA7BAbiRa+0AAALtSURBVEhL7ZTfS1NhGMffc3Y2N5lzc5KihFRja1kjtMKiyyQFJSZpkBf+BWH9D3YxIdH6A4TlbtaPUQnShVdRUWagkLHw0ouMTJbFoDxb3/d9Ho9n/oxoN9FnD+c853mf93ue93nfM/GffwFNCJ1dpsj3Pwea6qbrBnmgWNxfd3g40d5+QddlQaZpJpN3R0fHaMhC06S6Zjgr6BmQ9I3rg/39Vx0OBwUtJiZSt0ZGZt/MrK1945AQVVXepaWlSkU6fW/s9h0EWdpV4VE5EpJ+/eplLpejYYt8Pt/Q0NDSevrt7Mzq6ipHhQgEAnNzcyTd2NjYeuoMgjRXR3V2sFJc8Q632+33+zGTgO709DTGMQd9sCB1Ynx8nEQIA0oYJqBIhRcKBUi3tbWhWBoCSHa5PZlMJh6Pc0iIVCqVSCTIN5wuV4UbDjfEV12j4hKlXHjx/Nny8se6uvqz585jDTy2QT7/ff3nD34QwumEGloKNW6g5egOA9XYTC0CL8DVMAwKGk6DDL63yuevqSWrDgSHbg6hlMHBa7pDSlEOmeyt3TRVpmlKafiIIMsa5UlWRNM7OzoWFt5d6euFb6VZhtfZjTZKdpxG1ZQtOWyaSvZ6fbKO7VIkv2naZkM0qCphOFtMZUrHSsbETREy2V0beEYenapKj2fjo90JTSVsJG8VwpoONoVUogTnwzTXn049WVxcDAaDOKo8sDv4fFZWVkKh0MXObuyBdTyA1nQ4wi5Lm1OTmWw2a0/aG8yKRCKdXXFZqV36UCjKrkrCx9Lb0z0wMMCh3yOZTKYfPMYOlEgfCTezq6Rx+fxp+WvuC4dszM/P4xqLxejRjq86UHugXm68XTocPcGuQqkz0sc61M8smJOPHiLYdakHe43TgZ+SsmmV9lA72nyS3W1AGg26n07xcymX+/rl4SyVs7OfdLH44b3sw3bC0ZgqenfpY8db2N0JSLO3E3voAq051sru30Y2q0yUV7pcJv+6yoIQvwAMp/1UsxGuRAAAAABJRU5ErkJggg==);
 }
-.theme-light .button-14-BFJ:only-of-type:not([aria-label="Stop Streaming"])) {
+.theme-light .button-14-BFJ:only-of-type:not([aria-label="Stop Streaming"]) {
 	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAIAAAC0Ujn1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsEAAA7BAbiRa+0AAAP0SURBVEhLrVVNbBNHFN4/r9eRrXiTEKAOoQfHuSUUHMgNwR31wrVS1SIUCSEhwhmVQyAHhCqqHKKmAgmhSBB+ImjDBcGJHzWVWoJFHEKLSOxQjO0EO/6Js+t+O2+yrG0IhvJ5PH7z5s333rw3MxafP/9HqA8i/60XklAu19k+FuLfz2a5l88NcfbpDBc/BggKvSiulyRxJvqEi5WgxTbAAo1pmqsMNrXCIElSrRtx+kmEiwy0uFQq1VIDhUIhkUikUulisYih263quu7XdY+mybLscrnIDV8SiUyRBIA3m82+epVIJpPFYsE0OTtiUlW3z+cFdVtbeygUovWGYTx8+CAajTY2NjY0NDQ3N7e2bvB6vTQrTj36ky23sLKyMjc3p7jU7u5tiIJr1zA5+fv9+/cOHTqcyWS5ShDgb35+HrxAdHp61Si1BQKqqmJKQqQ2QJ1IvAbv0tJSuhKxWCwc7km+TiIi0zTshiG3SKe/2r498yaDZBKbhE0RKMX5fB7xItGapvn9SCNHIBCYmJjAxhEOX8CAIbfQ9aGhIY/HYxtIpmE4mgkPmINPUHd0dHzhwE9nz3YEg6Ojoy0OjIyM9Pb2dnV1BYPBqUd/Nel+nBViU9CBC0CkRtkwyyajNnAA+o8e6ekJI4ki6sgOCTI2MDDY399PS4Bdu3YOnhpoaUEBW7EnHBJcXOJUjNW31OYq9mFRQ0Tv8/rcqltzayBlJoIiKyd+OG4ZscLE4vGtW7/s6t72x+Tk0mIa9oIi2IQVNUEjUu4AH+bRbnCBs6vBm+ZWVVc+nwNvJPJ4RzicSiVZAd9SVeXaKLO94Bc9hqgtvrXNmiqVCvk8zHw+q7aoP1Q0Ra06auzUipfFnsvllrM4xJlsTSPl8nLONoavKioFicMEsyjDGVGTcj4Wo6NS+wrhFcDNjC8sQCZjWLJYrfozE5TReULWZNjhCgycHKThOoAZRQNQImxq8dav10kCkK+Zmdlvvv0ez4Jt8UEgps7OzgvnfwmFgnRlCOJvN65yURBQ4oWFl/F/k319fVxVH4aHhze3Nm3atJFeD4J4c3yMiywPuVz+55Fzt+/c5SoH4vE4elxLGjqxd8/ugwe+83isp5WrQD1+9RIXGVg1rAOGuiNzOCSpdHpxcfHFi7nTZ36EwbGjR9rbt+B5adJ1XFRZxsWW0Muygp5ICOK1sVEuVgIZxKEG676v93NVJW6Mj+l+P97+91Wlwo8TWCBJskfz0NtUC0zBYJ1qi1cuX+Tiu0DJQZKwCa5a86ogATV/F05IjhfiHU0SJdXlokfKbhhCiakq46omIZwPgofhAJ9YF3VRfxpAXbOTz9Tee0L+LwThP820X6psyG24AAAAAElFTkSuQmCC);
 }
 .theme-light .button-14-BFJ:only-of-type:not([aria-label="Stop Streaming"]):hover {
