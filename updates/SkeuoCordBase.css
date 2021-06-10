@@ -828,7 +828,7 @@
 	border-radius: 3px;
 }
 
-.theme-dark .avatar-3EQepX.wrapper-3t9DeA, .theme-light .topSectionSpotify-1lI0-P .header-QKLPzZ .avatar-3EQepX.wrapper-3t9DeA, .theme-light .topSectionPlaying-1J5E4n .header-QKLPzZ .avatar-3EQepX.wrapper-3t9DeA, .theme-light .topSectionXbox-3fWLjS .header-QKLPzZ .avatar-3EQepX.wrapper-3t9DeA, .theme-light .topSectionStreaming-1Tpf5X .header-QKLPzZ .avatar-3EQepX.wrapper-3t9DeA, .theme-dark .avatarWrapper-3H_478 .wrapper-3t9DeA, .theme-light .headerPlaying-j0WQBV .headerTop-3C2Zn0 .avatarWrapper-3H_478 .wrapper-3t9DeA, .theme-light .headerSpotify-zpWxgT .headerTop-3C2Zn0 .avatarWrapper-3H_478 .wrapper-3t9DeA, .theme-light .headerXbox-3G-4PF .headerTop-3C2Zn0 .avatarWrapper-3H_478 .wrapper-3t9DeA, .theme-light .headerStreaming-2FjmGz .flex-1xMQg5 .avatarWrapperNormal-26WQIb .wrapper-3t9DeA, .qrAvatar-8_WYAf.wrapper-3t9DeA, .avatar-37jOim.wrapper-3t9DeA, .avatarHint-2A3RNb, .avatar-2PN2-j.wrapper-3t9DeA {
+.theme-dark .avatar-3EQepX.wrapper-3t9DeA, .theme-light .topSectionSpotify-1lI0-P .header-QKLPzZ .avatar-3EQepX.wrapper-3t9DeA, .theme-light .topSectionPlaying-1J5E4n .header-QKLPzZ .avatar-3EQepX.wrapper-3t9DeA, .theme-light .topSectionXbox-3fWLjS .header-QKLPzZ .avatar-3EQepX.wrapper-3t9DeA, .theme-light .topSectionStreaming-1Tpf5X .header-QKLPzZ .avatar-3EQepX.wrapper-3t9DeA, .theme-dark .avatarWrapper-3H_478 .wrapper-3t9DeA, .theme-light .headerPlaying-j0WQBV .headerTop-3C2Zn0 .avatarWrapper-3H_478 .wrapper-3t9DeA, .theme-light .headerSpotify-zpWxgT .headerTop-3C2Zn0 .avatarWrapper-3H_478 .wrapper-3t9DeA, .theme-light .headerXbox-3G-4PF .headerTop-3C2Zn0 .avatarWrapper-3H_478 .wrapper-3t9DeA, .theme-light .headerStreaming-2FjmGz .flex-1xMQg5 .avatarWrapperNormal-26WQIb .wrapper-3t9DeA, .qrAvatar-8_WYAf.wrapper-3t9DeA, .avatar-37jOim.wrapper-3t9DeA, .avatarHint-2A3RNb, .avatar-2PN2-j.wrapper-3t9DeA, .avatar-AvHqJA.wrapper-3t9DeA {
 	/*border: 3px solid rgba(152,152,153);
 	border-radius: 5px;
 	box-shadow: 0 0 2px 2px rgba(0,0,0,0.4), inset 0 0 0 1px rgba(0,0,0,0.4);*/
@@ -837,7 +837,7 @@
 	border-radius: 3px !important;
 	/*user profile popout avatar*/
 }
-.theme-light .avatar-3EQepX.wrapper-3t9DeA, .theme-light .avatarWrapper-3H_478 .wrapper-3t9DeA, .theme-light .qrAvatar-8_WYAf.wrapper-3t9DeA, .theme-light .avatar-37jOim.wrapper-3t9DeA, .theme-light .avatarHint-2A3RNb, .theme-light .avatar-2PN2-j.wrapper-3t9DeA {
+.theme-light .avatar-3EQepX.wrapper-3t9DeA, .theme-light .avatarWrapper-3H_478 .wrapper-3t9DeA, .theme-light .qrAvatar-8_WYAf.wrapper-3t9DeA, .theme-light .avatar-37jOim.wrapper-3t9DeA, .theme-light .avatarHint-2A3RNb, .theme-light .avatar-2PN2-j.wrapper-3t9DeA, .theme-light .avatar-AvHqJA.wrapper-3t9DeA {
 	/*border: 3px solid rgba(82,82,83);
 	border-radius: 5px;
 	box-shadow: 0 0 2px 2px rgba(64,64,64,0.2), inset 0 0 0 1px rgba(230,230,230,0.6);*/
@@ -7035,16 +7035,23 @@ padding-left: 0 !important;
 	box-shadow: inset 0 0 0 1px rgba(230,230,230,0.6);
 }
 
-.bannerOverlay-1uIerX, .profileBanner-33-uE1, .profileBannerPremium-35utuo, .bannerUploader-2jPvg2 .bannerUploaderInnerSquare-Um3vgL .avatarUploaderHint-3SN212 {
+.bannerOverlay-1uIerX, .profileBanner-33-uE1, .profileBannerPremium-35utuo, .bannerUploader-2jPvg2 .bannerUploaderInnerSquare-Um3vgL .avatarUploaderHint-3SN212, .popoutBanner-19WKGg, .popoutBannerPremium-1n96gg {
 	border-radius: 4px 4px 0 0 !important;	
 	box-shadow: inset 0 0 0 1px rgba(0,0,0,0.6), inset 0 0 8px 5px rgba(0,0,0,0.4) !important;	
 }
-.theme-light .bannerOverlay-1uIerX, .theme-light .profileBanner-33-uE1, .theme-light .profileBannerPremium-35utuo, .theme-light .bannerUploader-2jPvg2 .bannerUploaderInnerSquare-Um3vgL .avatarUploaderHint-3SN212 {
+.theme-light .bannerOverlay-1uIerX, .theme-light .profileBanner-33-uE1, .theme-light .profileBannerPremium-35utuo, .theme-light .bannerUploader-2jPvg2 .bannerUploaderInnerSquare-Um3vgL .avatarUploaderHint-3SN212, .theme-light .popoutBanner-19WKGg, .theme-light .popoutBannerPremium-1n96gg {
 	border-radius: 4px 4px 0 0 !important;	
 	box-shadow: inset 0 0 0 1px rgba(230,230,230,0.6), inset 0 0 8px 5px rgba(0,0,0,0.2) !important;	
 }
 .bannerOverlay-1uIerX {
 	background: rgba(0,0,0,0.3);
+}
+
+.topSection-y3p-_D .profileBanner-33-uE1, .topSection-y3p-_D .profileBannerPremium-35utuo {
+	border-bottom: 1px solid rgba(92,92,92);
+}
+.theme-light .topSection-y3p-_D .profileBanner-33-uE1, .topSection-y3p-_D .profileBannerPremium-35utuo {
+	border-bottom: 1px solid rgba(60,60,60);
 }
 
 .theme-dark .root-SR8cQa {
@@ -7326,7 +7333,7 @@ padding-left: 0 !important;
 .theme-light .infoScroller-3EYYns, .theme-light .listScroller-2_vlfo, .theme-light .infoScroller-1Qu30O, .theme-light .listScroller-3GmIYj {
 	background: linear-gradient(0deg, transparent 40%, rgba(198,196,191) 100%) !important;
 	background-color: rgba(216,216,214) !important;
-	border-top: 1px solid rgba(60,60,60,0.6) !important;
+	border-top: 1px solid rgba(60,60,60) !important;
 }
 
 .theme-dark .tabBarContainer-1s1u-z, .theme-dark .flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.container-OI6I9q.segmentControl-1bEQH5, .theme-dark .tabBarContainer-37hZsr {
@@ -7362,8 +7369,8 @@ padding-left: 0 !important;
 .tabBarContainer-1s1u-z, .tabBarContainer-37hZsr {
 	border-radius: 0 !important;
 }
-.theme-light .tabBarContainer-37hZsr {
-	border-top: 1px solid rgba(60,60,60,0.3);
+.tabBarContainer-37hZsr {
+	border-bottom: none !important;
 }
 .item-1TLUig.segmentControlOption-1vCKaY{
 	padding-top: 10px !important;
@@ -7853,12 +7860,12 @@ display: none !important;
 .guildIcon-3W0pfo {
 	height: 48px !important;
 }
-.theme-dark .guildIcon-3W0pfo, .theme-dark .flex-1xMQg5 .iconWrapper-lS1uig, .theme-dark .featureIcon-3p1TC_, .theme-dark .icon-3_8HGa, .theme-dark .guildIcon-3h-1IH, .theme-dark .bd-addon-error-icon, .theme-dark .guildIcon-3Co6k- .acronym-1e2Mdt, .theme-dark .stage-2UKqZE, .theme-dark .avatar-37jOim.wrapper-3t9DeA, .detailsTooltip-G9hSSa .icon-hSL42R {
+.theme-dark .guildIcon-3W0pfo, .theme-dark .flex-1xMQg5 .iconWrapper-lS1uig, .theme-dark .featureIcon-3p1TC_, .theme-dark .icon-3_8HGa, .theme-dark .guildIcon-3h-1IH, .theme-dark .bd-addon-error-icon, .theme-dark .guildIcon-3Co6k- .acronym-1e2Mdt, .theme-dark .stage-2UKqZE, .theme-dark .avatar-37jOim.wrapper-3t9DeA, .detailsTooltip-G9hSSa .icon-hSL42R, .avatar-AvHqJA.wrapper-3t9DeA {
 	background: linear-gradient(0deg, transparent 10%, rgba(15,15,16) 100%);
 	background-color: rgba(57,59,64);
 	/*icon gradient*/
 }
-.theme-light .guildIcon-3W0pfo, .theme-light .flex-1xMQg5 .iconWrapper-lS1uig, .theme-light .featureIcon-3p1TC_, .theme-light .icon-3_8HGa, .theme-light .guildIcon-3h-1IH, .theme-light .bd-addon-error-icon, .theme-light .guildIcon-3Co6k- .acronym-1e2Mdt, .theme-light .stage-2UKqZE, .theme-light .avatar-37jOim.wrapper-3t9DeA, .theme-light .detailsTooltip-G9hSSa .icon-hSL42R {
+.theme-light .guildIcon-3W0pfo, .theme-light .flex-1xMQg5 .iconWrapper-lS1uig, .theme-light .featureIcon-3p1TC_, .theme-light .icon-3_8HGa, .theme-light .guildIcon-3h-1IH, .theme-light .bd-addon-error-icon, .theme-light .guildIcon-3Co6k- .acronym-1e2Mdt, .theme-light .stage-2UKqZE, .theme-light .avatar-37jOim.wrapper-3t9DeA, .theme-light .detailsTooltip-G9hSSa .icon-hSL42R, .theme-light .avatar-AvHqJA.wrapper-3t9DeA {
 	background: linear-gradient(0deg, transparent 10%, rgba(198,196,191) 100%);
 	background-color: rgba(251,251,254);
 }
