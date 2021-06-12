@@ -808,7 +808,7 @@
 	box-shadow: 0 0 2px 2px rgba(64,64,64,0.2), inset 0 0 0 1px rgba(230,230,230,0.6) !important;
 }
 
-.theme-dark .avatar-1XO-mJ, .theme-dark .avatar-Nt40nT .wrapper-3t9DeA, .theme-dark .replyAvatar-1K9Wmr, .displayAvatar-1wWlVM, .theme-dark .avatarContainer-3CQrif, .theme-dark .avatar-2Gkk10.wrapper-3t9DeA, .theme-dark .autocompleteRowIcon-2VJmzt .wrapper-3t9DeA, .theme-dark .wrapper-3t9DeA.pointer-2zj-Tb, .sidebar-2K8pFh.theme-dark .avatar-SmRMf2.wrapper-3t9DeA {
+.theme-dark .avatar-1XO-mJ, .theme-dark .avatar-Nt40nT .wrapper-3t9DeA, .theme-dark .replyAvatar-1K9Wmr, .displayAvatar-1wWlVM, .theme-dark .avatarContainer-3CQrif, .theme-dark .avatar-2Gkk10.wrapper-3t9DeA, .theme-dark .autocompleteRowIcon-2VJmzt .wrapper-3t9DeA, .theme-dark .wrapper-3t9DeA.pointer-2zj-Tb, .sidebar-2K8pFh.theme-dark .avatar-SmRMf2.wrapper-3t9DeA, .executedCommandAvatar-yZ5r9z.clickable-1bVtEA {
 	margin-top: -2px;
 	/*border: 2px solid rgba(152,152,153);
 	border-radius: 5px;
@@ -818,7 +818,7 @@
 	border-radius: 3px;
 	/*Go Live avatar masking*/
 }
-.theme-light .avatar-1XO-mJ, .theme-light .avatar-Nt40nT .wrapper-3t9DeA, .theme-light .replyAvatar-1K9Wmr, .theme-light .displayAvatar-1wWlVM, .theme-light .avatarContainer-3CQrif, .theme-light .avatar-2Gkk10.wrapper-3t9DeA, .theme-light .autocompleteRowIcon-2VJmzt .wrapper-3t9DeA, .theme-light .wrapper-3t9DeA.pointer-2zj-Tb, .theme-light .partyMember-1CzxeX.wrapper-3t9DeA.spointer-2zj-Tb {
+.theme-light .avatar-1XO-mJ, .theme-light .avatar-Nt40nT .wrapper-3t9DeA, .theme-light .replyAvatar-1K9Wmr, .theme-light .displayAvatar-1wWlVM, .theme-light .avatarContainer-3CQrif, .theme-light .avatar-2Gkk10.wrapper-3t9DeA, .theme-light .autocompleteRowIcon-2VJmzt .wrapper-3t9DeA, .theme-light .wrapper-3t9DeA.pointer-2zj-Tb, .theme-light .partyMember-1CzxeX.wrapper-3t9DeA.spointer-2zj-Tb, .theme-light .executedCommandAvatar-yZ5r9z.clickable-1bVtEA {
 	margin-top: -2px;
 	/*border: 2px solid rgba(60,60,60);
 	border-radius: 5px;
@@ -1706,7 +1706,7 @@ svg.mask-1l8v16.svg-2V3M55 > mask[height="32"][width="32"]:first-child circle {
 .replyBadge-r1su3o {
 	display: none;
 }
-.repliedMessage-VokQwo .username-1A8OIy {
+.repliedMessage-VokQwo .username-1A8OIy, .repliedMessage-VokQwo .executedCommandAvatar-yZ5r9z {
 	margin-left: 4px !important;
 }
 
@@ -8303,9 +8303,9 @@ display: none !important;
 	border-radius: 5px;
 }
  .theme-light .videoControls-2kcYic{
-	background: linear-gradient(0deg, transparent 35%, rgba(110, 110, 110,0.7) 100%);
+	background: linear-gradient(0deg, transparent 35%, rgba(110, 110, 110,0.6) 100%);
     border-top: 1px solid rgba(230, 230, 230, 0.6);
-	background-color: rgba(10,10,10,0.7);
+	background-color: rgba(10,10,10,0.6);
 	box-shadow: 0 0 2px 2px rgba(64, 64, 64, 0.4);
  }
 
