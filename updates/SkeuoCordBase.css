@@ -3773,19 +3773,21 @@ background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAmCAIA
 	/*chatbox toolbar underlay - light mode*/
 }
 
-.theme-dark .wrapper-39oAo3 {
-	background: linear-gradient(0deg, transparent 35%, rgba(54, 57, 63) 100%);
-    border: 1px solid rgba(92, 92, 92);
-	background-color: rgba(28, 29, 30);
-	box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.6);
+.wrapper-39oAo3 {
+	background: linear-gradient(0deg, transparent 15%, rgba(22,24,27) 100%);
+	background-color: rgba(55,58,64);
+	border: 1px solid rgba(114,114,114,0.6);
+	box-shadow: inset 0 0 5px 5px rgba(0,0,0,0.2);
 	border-radius: 5px;
+	margin-bottom: 16px;
+	margin-top: 15px;
+	margin-left: -1px;
 }
-
 .theme-light .wrapper-39oAo3 {
-	background: linear-gradient(0deg, transparent 35%, rgba(227,226,225) 100%);
-    border: 1px solid rgba(60, 60, 60);
-	background-color: rgba(201,198,192);
-	box-shadow: 0 0 3px 3px rgba(104,104,104,0.6);
+	background: linear-gradient(0deg, transparent 15%, rgba(200,197,191) 100%);
+	background-color: rgba(233,231,228);
+	border: 1px solid rgba(60,60,60,0.8);
+	box-shadow: inset 0 0 5px 5px rgba(104,104,104,0.2);
 	border-radius: 5px;
 }
 
@@ -8318,12 +8320,11 @@ display: none !important;
 	border-radius: 5px;
 }
 .theme-dark .videoControls-2kcYic{
-	background: linear-gradient(0deg, transparent 35%, rgba(80, 80, 80,0.4) 100%);
+	background: linear-gradient(0deg, transparent 35%, rgba(110,110,110,0.6) 100%);
+	background-color: rgba(0,0,0,0.6);
     border-top: 1px solid rgba(230, 230, 230, 0.4);
-	background-color: rgba(20,20,20,0.4);
 	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.4);
  }
- 
 .theme-light .audioControls-2HsaU6 {
 	background: linear-gradient(0deg, transparent 35%, rgba(110, 110, 110,0.7) 100%);
     border: 1px solid rgba(230, 230, 230, 0.6);
