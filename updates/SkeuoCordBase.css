@@ -2360,6 +2360,9 @@ background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAmCAIA
 .theme-light .tooltipPointer-3ZfirK {
 	border-top-color: rgba(120,120,120) !important;
 }
+.tooltipGreen-WdeQwd .tooltipPointer-3ZfirK, .tooltipRed-8-9NeP .tooltipPointer-3ZfirK {
+	border-top-color: rgba(200,200,200) !important;
+}
 .tooltipPointer-l336oV {
 	border-top-color: transparent !important;
 }
@@ -2732,6 +2735,16 @@ background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAmCAIA
 }
 .button-F9qN4n, .button-F9qN4n:hover, .button-F9qN4n:active {
 	background: transparent;
+}
+.customItem-a8hq58:nth-of-type(2), .customItem-a8hq58:nth-of-type(3), .customItem-a8hq58:nth-of-type(4) {
+	border-left: none !important;
+	margin-left: -1px;
+}
+.customItem-a8hq58:nth-of-type(3) {
+	margin-left: -3px;
+}
+.customItem-a8hq58:nth-of-type(4) {
+	margin-left: -5px;
 }
 
 .theme-light .customItem-a8hq58 {
