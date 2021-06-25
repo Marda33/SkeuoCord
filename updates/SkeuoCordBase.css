@@ -5620,8 +5620,9 @@ background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAmCAIA
 	background: transparent;
 	/*reply to bar*/
  }
- .replyBar-1YLQ2F {
-	background: transparent;
+.replyBar-1YLQ2F, .channelTextArea-2VhZ6z .attachedBars-tZDmyV {
+	background: transparent !important;
+	border: none !important;
  }
 .repliedTextPreview-2NBljf.clickable-1bVtEA {
 	margin-top: -2px;
