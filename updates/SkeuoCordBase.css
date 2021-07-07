@@ -1,3 +1,12 @@
+/**
+ * @name SkeuoCord (Local)
+ * @author Marda33
+ * @version ersion 1.17.1
+ * @description A complete skeuomorphic overhaul for Discord.
+ * @website https://github.com/Marda33/SkeuoCord
+ * @source https://marda33.github.io/SkeuoCord/updates/SkeuoCordBase.css
+*/
+
 :root {
     --font-display: Whitney !important;
 }
@@ -1979,22 +1988,6 @@ svg.mask-1l8v16.svg-2V3M55 > mask[height="32"][width="32"]:first-child circle {
 
 .footerSeparator-M9dQY1 {
 	display: none;
-}
-
-.theme-dark .message-2qRu38 {
-	background: linear-gradient(0deg, transparent 35%, rgba(54, 57, 63) 100%);
-    border: 1px solid rgba(92, 92, 92);
-	background-color: rgba(28, 29, 30);
-	box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.6);
-	border-radius: 5px;
-}
-
-.theme-light .message-2qRu38 {
-	background: linear-gradient(0deg, transparent 35%, rgba(227,226,225) 100%);
-    border: 1px solid rgba(60, 60, 60);
-	background-color: rgba(201,198,192);
-	box-shadow: 0 0 3px 3px rgba(104,104,104,0.6);
-	border-radius: 5px;
 }
 
 .lookFilled-1Gx00P.colorGreen-29iAKY, .lookInverted-2D7oAl.colorGreen-29iAKY {
@@ -7484,6 +7477,20 @@ padding-left: 0 !important;
 	background-color: rgba(233,231,228);
 	border: 1px solid rgba(60,60,60);
 	box-shadow: inset 0 0 0 1px rgba(230,230,230), inset 0 0 5px 5px rgba(104,104,104,0.2);
+	border-radius: 5px;
+}
+.message-2qRu38 {
+	border: 1px solid rgba(92,92,92);
+	background: linear-gradient(0deg, transparent 15%, rgba(22,24,27) 100%);
+	background-color: rgba(55,58,64);
+	box-shadow: inset 0 0 5px 5px rgba(0,0,0,0.2) !important;
+	border-radius: 5px;
+}
+.theme-light .message-2qRu38 {
+	border: 1px solid rgba(60,60,60,0.6);
+	background: linear-gradient(0deg, transparent 15%, rgba(200,197,191) 100%);
+	background-color: rgba(233,231,228);
+	box-shadow: inset 0 0 5px 5px rgba(104,104,104,0.2) !important;
 	border-radius: 5px;
 }
 .theme-dark .itemCard-v9viV7 {
