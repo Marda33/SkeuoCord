@@ -1203,7 +1203,6 @@ svg.mask-1l8v16.svg-2V3M55 > mask[height="32"][width="32"]:first-child circle {
 	background-color: rgba(198,195,189);
 	border-radius: 5px;
 }
-
 .theme-dark .layout-2DM8Md:hover{
 	background: linear-gradient(0deg, transparent 40%, rgba(77,80,86, 0.8) 100%);
 	box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.32), inset 0 0 0 1px rgba(30, 30, 30);
@@ -1218,8 +1217,6 @@ svg.mask-1l8v16.svg-2V3M55 > mask[height="32"][width="32"]:first-child circle {
 	border-radius: 5px;
 	/*DM list selected item BG*/
 }
-
-
 .theme-light .selected-aXhQR6 .layout-2DM8Md, .theme-light .categoryItem-3zFJns.selectedCategoryItem-3X8ujp .itemInner-3gVXMG {
 	background: linear-gradient(0deg, transparent 40%, rgba(202,200,197, 0.8) 100%);
 	box-shadow: inset 0 0 0 1px rgba(64, 64, 64, 0.2), inset 0 0 0 1px rgba(60, 60, 60);
@@ -1863,7 +1860,7 @@ svg.mask-1l8v16.svg-2V3M55 > mask[height="32"][width="32"]:first-child circle {
 	/*server column button base- light mode*/
 }
 
-.guildSeparator-33mFX6, .guildCategorySeparator-_An-MP {
+.guildSeparator-33mFX6, .guildCategorySeparator-_An-MP, .guildCategorySeparator-3IdPnM {
 	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAACCAYAAAA5Ht7JAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsEAAA7BAbiRa+0AAAA9SURBVChTY6yoqGBiYGCQBGJpIJYCYhkoDeLDMIjPB8SkgE9A/AyInyJhEP8JlAbxnzP+//8fSA8UYGAAAAUrDmp/+AfrAAAAAElFTkSuQmCC);
 	/*server column separator*/
 }
@@ -2835,10 +2832,6 @@ background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAmCAIA
 	/*masked avatar image mask radius*/
 }
 
-.guildIcon-3h-1IH {
-	border-radius: 5px;
-}
-
 .theme-dark .blobContainer-pmnxKB, .wrapper-3NnKdC.guilds-1SWlCJ.theme-dark .blobContainer-pmnxKB {
 	box-shadow:  0 0 2px 2px rgba(0,0,0,0.6);
 	border-radius: 50px;
@@ -3776,9 +3769,11 @@ background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAmCAIA
 	border: 1px solid rgba(114,114,114,0.6);
 	box-shadow: inset 0 0 5px 5px rgba(0,0,0,0.2);
 	border-radius: 5px;
-	margin-bottom: 16px;
-	margin-top: 15px;
+	margin-bottom: 24px;
+	margin-top: 13px;
 	margin-left: -1px;
+	padding-top: 14px;
+	padding-bottom: 12px;
 }
 .theme-light .wrapper-39oAo3 {
 	background: linear-gradient(0deg, transparent 15%, rgba(200,197,191) 100%);
@@ -4476,7 +4471,7 @@ background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAmCAIA
 	margin-top: 10px;
 	/*emoji picker server column*/
 }
-.theme-dark .unicodeShortcut-15J8Ck {
+.theme-dark .unicodeShortcut-15J8Ck, .standardStickerShortcut-3iRT0y {
 	border-top: 1px solid rgba(230,230,230,0.4);
 	box-shadow: 0 0 10px 10px rgba(0,0,0,0.6);
 	height: 47px;
@@ -4489,7 +4484,7 @@ background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAmCAIA
 	margin-top: 10px;
 	/*emoji picker server column - light mode*/
 }
-.theme-light .unicodeShortcut-15J8Ck {
+.theme-light .unicodeShortcut-15J8Ck, .theme-light .standardStickerShortcut-3iRT0y {
 	border-top: 1px solid rgba(60,60,60);
 	box-shadow: 0 0 10px 10px rgba(64,64,64,0.4);
 	height: 47px;
@@ -4672,6 +4667,29 @@ background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAmCAIA
 .listWrapper-hig339#sticker-picker-grid .wrapper-OxgYJ1 .scroller-3gAZLs .listItems-1uJgMC {
 	margin-top: 5px;
 }
+.premiumRetentionNotice-1MsjHe {
+	padding: 8px 8px 8px 8px !important;
+	margin: 0 0 0 0 !important;
+	border-radius: 0 !important;
+	border-bottom: 1px solid rgba(114,114,114);
+	background: linear-gradient(0deg, transparent 15%, rgba(2,4,7) 100%);
+	background-color: rgba(35,38,44);
+}
+.theme-light .premiumRetentionNotice-1MsjHe {
+	border-bottom: 1px solid rgba(60,60,60,0.6);
+	background: linear-gradient(0deg, transparent 15%, rgba(200,197,191) 100%);
+	background-color: rgba(233,231,228);
+}
+
+.categoryItemGuildCategory-3MisqI .mask-2hO5M8 foreignObject[mask="url(#svg-mask-squircle)"] .guildIcon-3h-1IH, .stickerCategory-3Yz7vN .mask-2hO5M8 foreignObject[mask="url(#svg-mask-squircle)"] .guildIcon-3h-1IH {
+	border-radius: 5px;
+}
+.categoryItemGuildCategory-3MisqI .mask-2hO5M8 foreignObject[mask="url(#svg-mask-avatar-default)"] .guildIcon-3h-1IH, .stickerCategory-3Yz7vN .mask-2hO5M8 foreignObject[mask="url(#svg-mask-avatar-default)"] .guildIcon-3h-1IH {
+	border-radius: 50px;
+}
+.categoryItemGuildCategory-3MisqI foreignObject, .stickerCategory-3Yz7vN foreignObject, .stickerNode-20m2uy .assetWrapperMasked-2tj_Bb {
+	mask: none !important;
+}
 
 .theme-dark .categoryWrapper-UZ5YNj, .theme-dark .drawerSizingWrapper-17Mss4, .theme-dark .wrapper-1-Fsb8.header-ywPcAE, .theme-dark .wrapper-1-Fsb8.packHeader-NLJ7S5  {
 	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAgCAIAAACKIl8oAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAC3SURBVEhL7dJdC4IwGMXxnZZYmknJfAkTy96ICLrq+38ykzhX1uXZnT8e2P9qY2x4vt7GjxlXD2xe7ozpfYzNi2FrL6wrKqaada76uYpmbOaK3vQ+xucPyVw+volocLo+eIoajuc7Uw1td2OqoTlcmGqom46phqpumWrIqz1TzUarZPQfVYPMlTxFDZvMMdWwTrdMNcRJylTDMh6e0QuEi4iphnkQMtVgbcBUw7A5Uw3fmUz+M+YDAVizqtMVE1UAAAAASUVORK5CYII=);
@@ -4717,7 +4735,7 @@ background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAmCAIA
 	margin-top: 7px !important;
 }
 
-.theme-dark .categoryItemDefaultCategorySelected-_HCKoz, .theme-dark .categoryItemDefaultCategorySelected-_HCKoz:hover, .theme-dark .emojiItem-14v6tW.emojiItemMedium-_WAwGB.emojiItemSelected-1aLkfV, .theme-dark .emojiItem-14v6tW.emojiItemLarge-sa0X3P.emojiItemSelected-1aLkfV, .theme-dark .stickerInspected-2EM4w-, .theme-dark .viewAllInspected-FsmJHj .viewAllBackground-3Bn1vh {
+.theme-dark .categoryItemDefaultCategorySelected-_HCKoz, .theme-dark .categoryItemDefaultCategorySelected-_HCKoz:hover, .theme-dark .emojiItem-14v6tW.emojiItemMedium-_WAwGB.emojiItemSelected-1aLkfV, .theme-dark .emojiItem-14v6tW.emojiItemLarge-sa0X3P.emojiItemSelected-1aLkfV, .theme-dark .stickerInspected-2EM4w-, .theme-dark .viewAllInspected-FsmJHj .viewAllBackground-3Bn1vh, .stickerCategoryRecentSelected-2gbLs2, .stickerCategory-3Yz7vN.premiumCategorySelected-23oFPJ {
 	box-shadow: inset 0 0 0 1px rgba(230,230,230,0.6), inset 0 0 0 2px rgba(0,0,0) !important;
 	background: linear-gradient(0deg, transparent 40%, rgba(25,25,26) 100%) !important;
 	background-color: rgba(47,49,54) !important;
