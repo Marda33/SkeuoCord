@@ -5197,6 +5197,17 @@ background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAmCAIA
 .imageWrapper-2p5ogY.image-1tIMwV .embedVideo-3nf0O9.embedMedia-1guQoW, .embedImage-2W1cML img, .video-8eMOth {
 	border-radius: 0;
 }
+.embedMedia-1guQoW .imageWrapper-2p5ogY {
+	margin-bottom: 0 !important;
+}
+.embedMedia-1guQoW .imageWrapper-2p5ogY .wrapper-2TxpI8 {
+	background: linear-gradient(0deg, transparent 10%, rgba(15,15,16) 100%);
+	background-color: rgba(37,39,44);
+}
+.theme-light .embedMedia-1guQoW .imageWrapper-2p5ogY .wrapper-2TxpI8 {
+	background: linear-gradient(0deg, transparent 10%, rgba(198,196,191) 100%);
+	background-color: rgba(251,251,254);
+}
 
 .theme-dark .guildIconExpired-2Qcq05.guildIcon-lQ0uiM, .theme-dark .icon-3o6xvg.guildIconImage-3qTk45.guildIcon-lQ0uiM.iconSizeLarge-161qtT.iconActiveLarge-2nzn9z, .theme-dark .embedVideo-3nf0O9.embedMedia-1guQoW, .theme-dark .icon-3o6xvg.guildIcon-3raYf3.iconSizeLarge-161qtT.iconActiveLarge-2nzn9z, .theme-dark .icon-3o6xvg.listAvatar-1BbvHX.iconSizeMedium-2OqPjI.iconInactive-98JN5i, .theme-dark .icon-3o6xvg.iconSizeLarge-161qtT.iconInactive-98JN5i, .theme-dark .splashContainer-1rUZiJ, .theme-dark .icon-3o6xvg.guildIcon-lQ0uiM.iconSizeLarge-161qtT.iconActiveLarge-2nzn9z.noIcon-1a_FrS, .assetsLargeImageProfile-3YXDex, .assetsLargeImageUserPopout-3Pp8BK, .theme-dark .featureIcon-3p1TC_, .theme-dark .channelIcon-g61PDh, .theme-dark .guildIcon-1F8t_p, .theme-dark .dmIcon-2eU-bE, .gameIcon-gg34Dz, .theme-dark .gridItemContent-2mkGdJ, .theme-dark .icon-3Oovq9, .theme-dark .guildIcon-39bqCb, .theme-dark .graphicSecondary-1zo8ze, .theme-dark .guildSection-1EoFKd .flex-1xMQg5 svg, .theme-dark .wrapper-3nSjSv, .theme-dark .assetsLargeImageVoiceChannel-dGmxCi, .theme-dark .banner-3Kac2g, .theme-dark .largeImage-DLXk-f, .theme-dark .hero-EvfTTA, .theme-dark .embedSpotify-tvxDCr, .theme-dark .voiceSectionGuildImage-3HwnfL.largeImageMask-KlyeCi, .theme-dark .applicationStreamingPreviewWrapper-8QqvVY, .theme-dark .headerContentWrapper-2u32yq, .theme-dark .quickswitcher-3JagVE .scroller-zPkAnE .content-3YMskv .result-oB0z-- .content-1jxX5g .guildIconContainer-1M95yt .icon-3o6xvg.guildIcon-Ripiyt.iconSizeMini-3dKErj, .theme-dark .coverWrapper-YAplwJ, .sidebar-2K8pFh.theme-dark .coverWrapper-YAplwJ, .theme-dark .iconWrapper-lS1uig, .theme-dark .bd-addon-error-icon, .theme-dark .icon-3o6xvg.inviteIcon-DSd8cG, .voiceSectionNoGuildImageWrapper-TicZR3, .content-2Sfaij, .theme-dark .icon-3o6xvg.guildIcon-3du51s, .theme-dark .guildIcon-3DxHr5.iconSizeMini-3dKErj.iconInactive-98JN5i, .theme-dark .stage-2UKqZE, .theme-dark .container-2rNpDV, .appAvatar-3bgkQ9, .theme-dark .listAvatar-1BbvHX, .assetsLargeImageProfileTwitch-298r77, .theme-dark .fakeActivityIcon-30ykyj, .upsellContainer-3UlEOE {
 	border-radius: 5px;
@@ -7989,12 +8000,12 @@ display: none !important;
 .guildIcon-3W0pfo {
 	height: 48px !important;
 }
-.theme-dark .guildIcon-3W0pfo, .theme-dark .flex-1xMQg5 .iconWrapper-lS1uig, .theme-dark .featureIcon-3p1TC_, .theme-dark .icon-3_8HGa, .theme-dark .guildIcon-3h-1IH, .theme-dark .bd-addon-error-icon, .theme-dark .guildIcon-3Co6k- .acronym-1e2Mdt, .theme-dark .stage-2UKqZE, .theme-dark .avatar-37jOim.wrapper-3t9DeA, .detailsTooltip-G9hSSa .icon-hSL42R, .avatar-AvHqJA.wrapper-3t9DeA {
+.theme-dark .guildIcon-3W0pfo, .theme-dark .flex-1xMQg5 .iconWrapper-lS1uig, .theme-dark .featureIcon-3p1TC_, .theme-dark .icon-3_8HGa, .theme-dark .guildIcon-3h-1IH, .theme-dark .bd-addon-error-icon, .theme-dark .guildIcon-3Co6k- .acronym-1e2Mdt, .theme-dark .stage-2UKqZE, .theme-dark .avatar-37jOim.wrapper-3t9DeA, .detailsTooltip-G9hSSa .icon-hSL42R, .avatar-AvHqJA.wrapper-3t9DeA, .theme-dark .userSettingsVoice-iwdUCU .previewOverlay-2O7_KC {
 	background: linear-gradient(0deg, transparent 10%, rgba(15,15,16) 100%);
 	background-color: rgba(57,59,64);
 	/*icon gradient*/
 }
-.theme-light .guildIcon-3W0pfo, .theme-light .flex-1xMQg5 .iconWrapper-lS1uig, .theme-light .featureIcon-3p1TC_, .theme-light .icon-3_8HGa, .theme-light .guildIcon-3h-1IH, .theme-light .bd-addon-error-icon, .theme-light .guildIcon-3Co6k- .acronym-1e2Mdt, .theme-light .stage-2UKqZE, .theme-light .avatar-37jOim.wrapper-3t9DeA, .theme-light .detailsTooltip-G9hSSa .icon-hSL42R, .theme-light .avatar-AvHqJA.wrapper-3t9DeA {
+.theme-light .guildIcon-3W0pfo, .theme-light .flex-1xMQg5 .iconWrapper-lS1uig, .theme-light .featureIcon-3p1TC_, .theme-light .icon-3_8HGa, .theme-light .guildIcon-3h-1IH, .theme-light .bd-addon-error-icon, .theme-light .guildIcon-3Co6k- .acronym-1e2Mdt, .theme-light .stage-2UKqZE, .theme-light .avatar-37jOim.wrapper-3t9DeA, .theme-light .detailsTooltip-G9hSSa .icon-hSL42R, .theme-light .avatar-AvHqJA.wrapper-3t9DeA, .theme-light .userSettingsVoice-iwdUCU .previewOverlay-2O7_KC {
 	background: linear-gradient(0deg, transparent 10%, rgba(198,196,191) 100%);
 	background-color: rgba(251,251,254);
 }
