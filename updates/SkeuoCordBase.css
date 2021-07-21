@@ -464,26 +464,33 @@
 }
 
 /*---Titlebar---*/
-.macButtons-2MuSAC {
-	border-left: 1px solid rgba(92,92,92);
+.platform-osx .scroller-1Bvpku {
+	padding-top: 5px !important;
+}
+.macButtons-2MuSAC, .typeMacOS-3EmCyP.theme-dark .macButtons-2MuSAC {
+	border: 1px solid rgba(92,92,92);
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAgCAIAAABch4VNAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAnSURBVBhXY7CysmL69+8fVvz//3+mP3/+oPBh7L9//4L4DBQBBgYAxyQtc1524b8AAAAASUVORK5CYII=);
+	width: 74px !important;
 }
 .theme-light .macButtons-2MuSAC {
-	border-left: 1px solid rgba(60,60,60);
+	border: 1px solid rgba(60,60,60);
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAgCAIAAABch4VNAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAnSURBVBhXY7h9+zYTAwMDCv7//z9O/O/fP5w0uhgMw+RgZsNpBgYA+uVKcMdwDVMAAAAASUVORK5CYII=);
 }
 
-.theme-dark .macButtonClose-MwZ2nf.macButton-c_Adir, .theme-dark .macButtonMinimize-3EJ6wo.macButton-c_Adir, .theme-dark .macButtonMaximize-2FMHAO.macButton-c_Adir {
-	box-shadow: 0 0 2px 2px rgba(0,0,0,0.6);
+.macButtonClose-MwZ2nf.macButton-c_Adir, .macButtonMinimize-3EJ6wo.macButton-c_Adir, .macButtonMaximize-2FMHAO.macButton-c_Adir, .typeMacOS-3EmCyP.theme-dark .macButtonClose-MwZ2nf.macButton-c_Adir, .typeMacOS-3EmCyP.theme-dark .macButtonMinimize-3EJ6wo.macButton-c_Adir, .typeMacOS-3EmCyP.theme-dark .macButtonMaximize-2FMHAO.macButton-c_Adir  {
+	border-radius: 50px;
+	border: 1px solid rgba(12,12,12);
+	box-shadow: 0 1px 0 0 rgba(68,68,68);
+}
+.macButton-c_Adir svg {
+	margin-top: -1px;
+	margin-left: -1px;
 }
 .theme-light .macButtonClose-MwZ2nf.macButton-c_Adir, .theme-light .macButtonMinimize-3EJ6wo.macButton-c_Adir, .theme-light .macButtonMaximize-2FMHAO.macButton-c_Adir {
-	box-shadow: 0 0 2px 2px rgba(64,64,64,0.4);
+	border: 1px solid rgba(68,68,68,0.2);
+	box-shadow: 0 1px 0 0 rgba(237,237,237);
 }
-.theme-dark .macButtonClose-MwZ2nf.macButton-c_Adir:active, .theme-dark .macButtonMinimize-3EJ6wo.macButton-c_Adir:active, .theme-dark .macButtonMaximize-2FMHAO.macButton-c_Adir:active {
-	box-shadow: 0 0 2px 2px rgba(0,0,0,0.4);
-}
-.theme-light .macButtonClose-MwZ2nf.macButton-c_Adir:active, .theme-light .macButtonMinimize-3EJ6wo.macButton-c_Adir:active, .theme-light .macButtonMaximize-2FMHAO.macButton-c_Adir:active {
-	box-shadow: 0 0 2px 2px rgba(64,64,64,0.2);
-	
-}
+ 
 .typeMacOS-3EmCyP.titleBar-AC4pGV.focused-3B0xkw .macButtons-2MuSAC .macButtonClose-MwZ2nf.macButton-c_Adir {
 	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAIAAADZF8uwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsEAAA7BAbiRa+0AAAFXSURBVChThY/LTsJQEIbn9JxSjvRCESS0lQSiLjSYEKMLSVyo8Q3cu9BEfSW3PoVRV+pS2KgL2CmRcImltJS20HpIozvjn0nmn/lmMhl0ub0F/wnvSBR5kziK4kJF04qyBK5tmV+/fSJyOB4/OzrUD/YTtV3m/cen9t391c1tjPCeqqIwOl5fK21WkGlOn+uzRgMNTVGR82PnrdNnFF+UtCWBbIgp3hmjiccFAXLdcDCYfrzz9sj1XUZxTStXJVRIRNSb4sDn2Jzj4JFJLJMLHXbr1accFYjMU8rLiIqQTAGl80imWMmacyQQoqysWoM2yGlIK5DOIvYaQGSNwOyDObS8mVLQ8Ul52cZE1w0+k0WGgXQDqRngeZhFLodfLFvwXSJpOlutT/xqLk/VRSzKrAzDyA1m9U43psShSZaYHlrNAqAcR5jvdXufrSb8IHR9fhq7PwXwDY4Sg1g1WcqJAAAAAElFTkSuQmCC);
 	background-position: center;
@@ -508,9 +515,12 @@
 	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAIAAADZF8uwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsIAAA7CARUoSoAAAAFCSURBVChThZDLSsNAGIXnYppMmjSa2FqqJYhuLEJxUaSIuCoILly6cOED+FQufAB3gk8hgkGL0Gqo0mDFNk07uY1/Gbfiz7c453yzGrzdLqP/Dq+1lN+IUMV1ahsVCAN/OOx/yhEOrx+pMp1fnHZ2jstGE3IQ3t95t9dXN1JR0yUIicOT5n6jNUHjXvjgR48RmjjmclKc9p/fwdKtzmrRYe5mNUqjWcyTjM+T2Sj8Gnz7KYrH8RQsrbt2tbFiOjpdIoKkmUiTnPN8ynOe4BgTPH/JiKYWLMMwmG7ozNC0EtMBCIvKdFDwgNR27TwUGlXNArM1u6xVAAhQYQQFD8h8lABqruiYWYplqc4CxYIKo7TEtkrAmxcITkhGsVgAASqM0tK9dh2lAvjwg4xjkYtwEr72Bk9eV+4APrs8kD/25yH0A1UwjNZ9/y83AAAAAElFTkSuQmCC);
 	background-position: center;
 }
-.typeMacOS-3EmCyP.titleBar-AC4pGV.unfocused-1QsMU3 .macButtons-2MuSAC .macButtonClose-MwZ2nf.macButton-c_Adir, .typeMacOS-3EmCyP.titleBar-AC4pGV.unfocused-1QsMU3 .macButtons-2MuSAC .macButtonMinimize-3EJ6wo.macButton-c_Adir, .typeMacOS-3EmCyP.titleBar-AC4pGV.unfocused-1QsMU3 .macButtons-2MuSAC .macButtonMaximize-2FMHAO.macButton-c_Adir {
+.theme-dark .typeMacOS-3EmCyP.titleBar-AC4pGV.unfocused-1QsMU3 .macButtons-2MuSAC .macButtonClose-MwZ2nf.macButton-c_Adir, .theme-dark .typeMacOS-3EmCyP.titleBar-AC4pGV.unfocused-1QsMU3 .macButtons-2MuSAC .macButtonMinimize-3EJ6wo.macButton-c_Adir, .theme-dark .typeMacOS-3EmCyP.titleBar-AC4pGV.unfocused-1QsMU3 .macButtons-2MuSAC .macButtonMaximize-2FMHAO.macButton-c_Adir, .typeMacOS-3EmCyP.titleBar-AC4pGV.unfocused-1QsMU3.theme-dark .macButtons-2MuSAC .macButtonClose-MwZ2nf.macButton-c_Adir, .typeMacOS-3EmCyP.titleBar-AC4pGV.unfocused-1QsMU3.theme-dark .macButtons-2MuSAC .macButtonMinimize-3EJ6wo.macButton-c_Adir, .typeMacOS-3EmCyP.titleBar-AC4pGV.unfocused-1QsMU3.theme-dark .macButtons-2MuSAC .macButtonMaximize-2FMHAO.macButton-c_Adir  {
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAMAAABhq6zVAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAABUUExURQwMDCIiIjIyMkZGRl9fX3p6ejs7O1NTU1RUVFFRUT09PUJCQklJSTMzM0BAQERERDY2Nj8/P0NDQ0dHRycnJ0pKSkxMTE9PT01NTVZWVi4uLg8PD8+3B3YAAAAJcEhZcwAADsAAAA7AAWrWiQkAAABlSURBVBhXVcrBDoQgFEPRahWEgGIKGof//895uJhkzuZ2UfyZhnl+A5plXZdROOf8FsLmbdgtkimR0W45x53HwT3mjFJOUiLPUlAr1a6ribVCUru9v5sNJBOeJ4ziM0hv0H96/wI32wahBinb/gAAAABJRU5ErkJggg==) !important;
+	background-position: center;
+}
+.theme-light .typeMacOS-3EmCyP.titleBar-AC4pGV.unfocused-1QsMU3 .macButtons-2MuSAC .macButtonClose-MwZ2nf.macButton-c_Adir, .theme-light .typeMacOS-3EmCyP.titleBar-AC4pGV.unfocused-1QsMU3 .macButtons-2MuSAC .macButtonMinimize-3EJ6wo.macButton-c_Adir, .theme-light .typeMacOS-3EmCyP.titleBar-AC4pGV.unfocused-1QsMU3 .macButtons-2MuSAC .macButtonMaximize-2FMHAO.macButton-c_Adir {
 	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAIAAADZF8uwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsEAAA7BAbiRa+0AAADSSURBVChThY/LCYNQEEV9z2gUBCHixibM3losxlpswgaswQ5EI64i4gdDDm9CCASSs5D7mRlVFUVh/UN/kiTJ1YB4RYaT53kynmUZXRAE6Gma2rat61oq/TCkaRqG4bIsNwMCSyitnec521EUHceBZ4/nuq7zPKMJaXXf90wopaQmfU8TUjGgHcfxfd913fMXhFQMqKqqWIrjmD8gJcLu+75tG182DANW3w0ywTYC5AxCWn0xdF0nZ2wDAksoreay0DTNOI6iEVjRoMqy5K2/sKwnpsCQNMpu/w8AAAAASUVORK5CYII=);
-	opacity: 0.7;
 	background-position: center;
 }
 
