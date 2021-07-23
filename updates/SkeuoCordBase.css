@@ -1,16 +1,16 @@
 :root {
     --font-display: Whitney !important;
-	--theme-version: "1.17.6";
+	--version: "1.17.6";
 }
 
 .info-1VyQPT:before {
-  content: "SkeuoCord " var(--theme-version);
+  display: block;
+  content: "SkeuoCord " var(--version);
+  color: rgb(114,118,125);
   font-weight: bold;
   font-size: 14px;
-  display: block;
   padding-bottom: 8px;
   margin-bottom: 6px;
-  color: rgb(114,118,125);
 }
 
 .theme-dark *, .sidebar-2K8pFh.theme-dark, .sidebarRegion-VFTUkN.theme-dark .sidebarRegionScroller-3MXcoP {
