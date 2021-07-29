@@ -1,6 +1,6 @@
 :root {
     --font-display: Whitney !important;
-	--version: "1.18.1";
+	--version: "1.18.2";
 }
 
 .info-1VyQPT:before {
@@ -62,7 +62,7 @@
 .theme-light .threadSidebar-1o3BTy .container-1r6BKw {
 	border-left: none !important;
 }
-.threadSidebar-1o3BTy .container-3RCQyg {
+.container-3RCQyg {
 	padding-bottom: 0;
 }
 
@@ -5659,46 +5659,19 @@ background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAmCAIA
 	border: none;
 }
 
-.theme-dark .iconBadge-qZ4Ksk {
-  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADr8AAA6/ATgFUyQAAAEiSURBVChTjVK7TsNAEBw7kMiQVCCq5AcobDkFsmW5oqbMh4QySk8H/4F7KCks49LYZVruB3hEgG3O7J45QpALThrdzu3M7urujKZpoFcYhnPaZgRfHQApIYrj+KqlgDIEQTCmmJO8dy1B8JMkEWbLW/FJb4ALaw/X+0PcjEYqPjYHnNcFYXiex2NcTs1dLKw+n2EzZBsv1yVWqJiemzTSjMc6pV7Pda3w8gdnvQasYS0bfCaTRm6JfpsPpNQG35REGF2VN6iUhsEdUnY/fJQ/Am3WXVZVrTukbIiY3JHhiZIMLdQFbt9KbYjUO7iu+0g3MD5cv2O6Y+DIMNAniE+J+1ridWjxDYksyybK4DjOvx4uz3Ox9TVs2+78GkVRfH8N4Atjj/DPb4PZ1AAAAABJRU5ErkJggg==);
-  width: 12px;
-  height: 12px;
-  margin-right: -2px;
-  /*channel toolbar pinned messages icon - new pin*/
-}
-
-.theme-dark .badge-2qGa_k:after{
-	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsAAAA7AAWrWiQkAAAEmSURBVChTjVI7TsQwEH3JRsvy2wYJmuwJoqRAKChJSU25B4EScQAqOEgOsCVVkhYlioRo8QUWhGCTYDPjYJZFKbD0ZI/nPb+xPZZSCmYkSXJB05wQ6Q2gIKRZlt31IaAFcRy7tOYkz0NDEKI8z4XNkZSyILinzgQ3O7tI9/axmE712htNOO8yh7lWGIZcxu2Js4Wr7THvYV1kv75+a/AoVxxe2lTSnMs6I6+XrtN4/YPzkQJzmGuTVUTATMkN0m/xAeWZw1x20Oqhk9dojQPYgS+Mh1XzQzBi4/LUdsahYEHKwT0JlpRkGKI5YPHeGEGq/yEIgmd6Affoo8WxY+HQsjAmiE+JvJNY9q8nyrKcaYHv+//6uKqqxEZreJ432Bp1XX+3BvAFn1r9q6g6P40AAAAASUVORK5CYII=);
-	width: 12px;
-	height: 12px;
-	margin-left: -2px;
-	margin-top: 2px;
+.iconBadge-qZ4Ksk, .badge-2qGa_k:after {
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADr8AAA6/ATgFUyQAAAGxSURBVDhPbZI/SAJxFMdfVlDEoRKW/bkEcXDUIfyzNIQNjg2Fi0tjrQ1tLeXQ2tDS4paQU1OC0KBgDTYIBoVZRlAWad5Z4e+y9728UPLBh7t73+/33v15A9RbJmaQGe4cURrT6hy/0UB1B4eYMWacsTESg2owVeaVURnB/AURMjOuw2h0Mzg/v2SZmNSDteenRvbi4nQtHt/jyxumzggE8XgwuXNbW4lZp3OOcudEj4/c4pqeIvL56KFUuvfFYivcuWIaeA9Msx9EIttejyfwdXxM4qVKQrR+eXsjcX1NZr/f7JYk60mhkEEQ0/AhbB6vN6xkMqQ2m6QK0YuiEDR44EXG+IqS1W4ffb+7I1XT+gINHniRQVAv0W6T2mpRk039gAaPUQji/yi3fMfvmZm+0wA0eOBFBkH8l2oynX6VAgH6MJn+TUMPGjzwIoP3w3wtXy5rHlledC0skFqvk1Kr6esy4nDQVDhM+WKRdpPJHW6dMZ/dC2Bh9leCwdXlUIhkWdaFSqVCyVSKEtnsEV9uMDVG3x6jjO1ZZy4ZiADn6EGDR69+Sw4RdC+5cZPOkhP9AAkW7EeZoTW1AAAAAElFTkSuQmCC);
+	width: 14px;
+	height: 14px;
+	margin-right: -3px;
+	margin-bottom: -1px;
 	background-color: transparent;
 	border: none;
-	/*inbox unread messages indicator*/
+  /*channel toolbar pinned messages icon - new pin, inbox new messages indicator*/
 }
 
 .theme-light .icon-2Po-VO.iconSize-2tmqqhSize {
 	color: #3c3c3c;
-}
-
-.theme-light .iconBadge-qZ4Ksk {
-  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsIAAA7CARUoSoAAAAFMSURBVChTjZLNSsNAFIVPYhuJ2AYXFhfpxh9QQWmLFLpWUEi3KX2NPomvUTLbdNFVlwUNSjctoVD8iai7JqlYtaTOTR1ppQsvHGbuzfnmZpgrTadTiGg0GjW+mFyluAC0uZhhGJezFIgB27Z1vqePtC4Lj6tULpe9xCyfmcdhCO3mFoedDtZlCVdHxxjm81DTKXFgdqVQKNR4F/PdD3DCLGw93IO6fkYRNl+eken3cbe9g4SipF3XDWRO0T8j6TgYD4cIJhOEc/rgNaXVIguFKUdRVOKC7lwvGAkU8EavB/KQV6b2pL8nL+or9pAIaNNmkMv9GgQsujzt7gmgTQCjZLVYRKCq8OeMBI14be3sVAAsfgfG2CO/kD7yfbw2m0h2u1AkCW/7B8hcnCOlaXRhzzTNbAxYlvWvh6tUKt7CaNTr9aWjUa1Wf0YD+AZXKvAPKX1lUwAAAABJRU5ErkJggg==);
-  width: 12px;
-  height: 12px;
-  margin-right: -3px;
-  /*channel toolbar pinned messages icon - new pin - light mode*/
-}
-
-.theme-light .badge-2qGa_k:after{
-	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsIAAA7CARUoSoAAAAFMSURBVChTjZLNSsNAFIVPYhuJ2AYXFhfpxh9QQWmLFLpWUEi3KX2NPomvUTLbdNFVlwUNSjctoVD8iai7JqlYtaTOTR1ppQsvHGbuzfnmZpgrTadTiGg0GjW+mFyluAC0uZhhGJezFIgB27Z1vqePtC4Lj6tULpe9xCyfmcdhCO3mFoedDtZlCVdHxxjm81DTKXFgdqVQKNR4F/PdD3DCLGw93IO6fkYRNl+eken3cbe9g4SipF3XDWRO0T8j6TgYD4cIJhOEc/rgNaXVIguFKUdRVOKC7lwvGAkU8EavB/KQV6b2pL8nL+or9pAIaNNmkMv9GgQsujzt7gmgTQCjZLVYRKCq8OeMBI14be3sVAAsfgfG2CO/kD7yfbw2m0h2u1AkCW/7B8hcnCOlaXRhzzTNbAxYlvWvh6tUKt7CaNTr9aWjUa1Wf0YD+AZXKvAPKX1lUwAAAABJRU5ErkJggg==);
-	width: 12px;
-	height: 12px;
-	margin-left: -2px;
-	margin-top: 2px;
-	background-color: transparent;
-	border: none;
-	/*inbox unread messages indicator - light mode*/
 }
 
 .theme-dark .jumpButton-3DTcS_, .theme-dark .jumpButton-2dvRSC {
@@ -6768,14 +6741,18 @@ padding-left: 0 !important;
 .chatHeaderBar-4vZS1x {
 	background: linear-gradient(0deg, transparent 25%, rgba(74,74,74) 100%);
 	background-color: rgba(37,37,37);
-	box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.5) !important;
+	box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.5), 0 0 5px 5px rgba(0, 0, 0, 0.4) !important;
 	border-bottom: 1px solid rgba(92,92,92);
 }
 .theme-light .chatHeaderBar-4vZS1x {
 	background: linear-gradient(0deg, transparent 25%, rgba(213,213,213) 100%);
 	background-color: rgba(174,174,174);
-	box-shadow: inset 0 0 0 1px rgba(230,230,230,0.6) !important;
+	box-shadow: inset 0 0 0 1px rgba(230,230,230,0.6), 0 0 5px 5px rgba(64, 64, 64, 0.3) !important;
 	border-bottom: 1px solid rgba(60,60,60);
+	z-index: 1 !important;
+}
+.theme-light .members-1998pB {
+	z-index: 2 !important;
 }
 
 .theme-dark .hljs-comment {
@@ -9438,7 +9415,7 @@ display: none !important;
  /* ---- */
  
  /*User Toolbar Buttons*/
-.button-14-BFJ[aria-label="Mute"] .contents-18-Yxp, .button-14-BFJ[aria-label="Deafen"] .contents-18-Yxp, .button-14-BFJ[aria-label="User Settings"] .contents-18-Yxp, .button-14-BFJ[aria-label="User settings"] .contents-18-Yxp, .button-14-BFJ[aria-label="Noise Suppression powered by Krisp"] .contents-18-Yxp, .button-14-BFJ[aria-label="Noise suppression powered by Krisp"] .contents-18-Yxp, .button-14-BFJ[aria-label="Noise suppression powered by Krisp"] .contents-18-Yxp .button-14-BFJ[aria-label="Disconnect"] .contents-18-Yxp, .button-14-BFJ[aria-label="Stop Streaming"] .contents-18-Yxp, .button-14-BFJ[aria-label="Stop streaming"] .contents-18-Yxp, .button-14-BFJ[aria-label="Exit Quietly"] .contents-18-Yxp, .button-14-BFJ[aria-label="Exit quietly"] .contents-18-Yxp {
+.button-14-BFJ[aria-label="Mute"] .contents-18-Yxp, .button-14-BFJ[aria-label="Deafen"] .contents-18-Yxp, .button-14-BFJ[aria-label="User Settings"] .contents-18-Yxp, .button-14-BFJ[aria-label="User settings"] .contents-18-Yxp, .button-14-BFJ[aria-label="Noise Suppression powered by Krisp"] .contents-18-Yxp, .button-14-BFJ[aria-label="Noise suppression powered by Krisp"] .contents-18-Yxp, .button-14-BFJ[aria-label="Noise suppression powered by Krisp"] .contents-18-Yxp, .button-14-BFJ[aria-label="Disconnect"] .contents-18-Yxp, .button-14-BFJ[aria-label="Stop Streaming"] .contents-18-Yxp, .button-14-BFJ[aria-label="Stop streaming"] .contents-18-Yxp, .button-14-BFJ[aria-label="Exit Quietly"] .contents-18-Yxp, .button-14-BFJ[aria-label="Exit quietly"] .contents-18-Yxp {
 	display: none;
 }
 
