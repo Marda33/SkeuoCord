@@ -9196,10 +9196,10 @@ display: none !important;
 	 }
 /* ---- */
   
-.wrapper-PY0fhH svg path:not(.addButtonIcon-2CbG1X) {
+.wrapper-PY0fhH svg path:not(.addButtonIcon-2CbG1X), .transition-27fFQS.directionDown-26e7eE svg path {
   display: none;
 }
-.wrapper-PY0fhH svg:not(.addButtonIcon-2CbG1X) {
+.wrapper-PY0fhH svg:not(.addButtonIcon-2CbG1X), .transition-27fFQS.directionDown-26e7eE {
   -webkit-mask: url('data:image/svg+xml; utf-8,<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M7 10L12 15 17 10"></path></svg>') center no-repeat;
   background: currentColor;
 }
@@ -9216,6 +9216,17 @@ display: none !important;
 .addButtonIcon-2CbG1X svg {
   -webkit-mask: url('data:image/svg+xml; utf-8,<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="15 10 10 10 10 15 8 15 8 10 3 10 3 8 8 8 8 3 10 3 10 8 15 8"></path></svg>') center no-repeat;
   background: currentColor;
+}
+.channelHeader-3Gd2xq .transition-27fFQS.directionDown-26e7eE {
+	margin-left: 7px;
+}
+.channelHeader-3Gd2xq .collapseButton-2ZsEjz.collapsed-S4RKOA .transition-27fFQS.directionDown-26e7eE {
+	margin-left: 2px;
+	margin-top: 4px;
+}
+.channelHeader-3Gd2xq .icon-3o6xvg {
+	margin-left: 6px;
+	margin-right: 10px;
 }
 
 /*-Channel Toolbar Buttons-*/
