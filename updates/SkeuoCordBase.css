@@ -1676,10 +1676,6 @@ svg.mask-1l8v16.svg-2V3M55 > mask[height="32"][width="32"]:first-child circle {
 	box-shadow: inset 0 0 0 1px rgba(60,60,60,0.6);
 }
 
- .transition-27fFQS.directionDown-26e7eE{
-	margin-left: 3px;
- }
-
 .collapseButton-2ZsEjz.collapsed-S4RKOA {
 	margin-left: 3px;
 	margin-top: 2px;
@@ -9196,13 +9192,14 @@ display: none !important;
 	 }
 /* ---- */
   
-.wrapper-PY0fhH svg path:not(.addButtonIcon-2CbG1X), .transition-27fFQS.directionDown-26e7eE svg path {
+.wrapper-PY0fhH svg path:not(.addButtonIcon-2CbG1X), .transition-27fFQS svg path {
   display: none;
 }
-.wrapper-PY0fhH svg:not(.addButtonIcon-2CbG1X), .transition-27fFQS.directionDown-26e7eE {
+.wrapper-PY0fhH svg:not(.addButtonIcon-2CbG1X), .transition-27fFQS {
   -webkit-mask: url('data:image/svg+xml; utf-8,<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M7 10L12 15 17 10"></path></svg>') center no-repeat;
   background: currentColor;
 }
+/*dropdown arrow fill code*/
 .theme-light .wrapper-PY0fhH.muted-2JBAyG svg {
   color: #9a9a9a;
 }
