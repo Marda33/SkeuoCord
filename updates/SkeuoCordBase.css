@@ -6608,7 +6608,7 @@ padding-left: 0 !important;
 
 .theme-dark .wrapper-3WhCwL, .theme-dark .message-15tBk4 strong {
 	color: white;
-	background: linear-gradient(0deg, transparent 52%, rgba(190,204,246, 0.6)100%);
+	background: linear-gradient(0deg, transparent 50%, rgba(255,255,255,0.4)100%);
     box-shadow: inset 0 0 0 1px rgba(230, 230, 230, 0.6) !important;
 	background-color: rgba(22,65,132, 0.6);
 	border-radius: 3px;
@@ -6618,7 +6618,7 @@ padding-left: 0 !important;
 }
 .theme-light .wrapper-3WhCwL, .theme-light .message-15tBk4 strong {
 	color: white;
-	background: linear-gradient(0deg, transparent 52%, rgba(190,204,246, 0.6)100%);
+	background: linear-gradient(0deg, transparent 50%, rgba(255,255,255,0.4)100%);
     box-shadow: inset 0 0 0 1px rgba(60, 60, 60, 0.6) !important;
 	background-color: rgba(22,65,132, 0.6);
 	border-radius: 3px;
@@ -6627,17 +6627,12 @@ padding-left: 0 !important;
 	/*username-channel mention tag - light mode*/
 }
 .wrapper-3WhCwL:hover {
-	background: linear-gradient(0deg, transparent 45%, rgba(220,234,255, 0.6)100%);
+	background: linear-gradient(0deg, transparent 45%, rgba(255,255,255,0.5)100%);
 	background-color: rgba(42,85,152, 0.6);
 }
 .wrapper-3WhCwL:active {
-	background: linear-gradient(0deg, transparent 52%, rgba(160,174,216, 0.6)100%);
+	background: linear-gradient(0deg, transparent 52%, rgba(255,255,255,0.3)100%);
 	background-color: rgba(2,45,112, 0.6);
-}
-
-.mentioned-xhSam7 .contents-2mQqc9 .markup-2BOw-j .wrapper-3WhCwL, .mentioned-xhSam7 .repliedMessage-VokQwo .repliedTextPreview-2NBljf .repliedTextContent-1R3vnK  .wrapper-3WhCwL, .emptyStateIconContainer-3CFwua, .emptyStateSubtext-2G0UeF, .emptyStateHeader-W2ruuN {
-	background: transparent !important;
-	box-shadow: none !important;
 }
 
 .roleMention-2Bj0ju {
@@ -6652,6 +6647,11 @@ padding-left: 0 !important;
 }
 .theme-light .roleMention-2Bj0ju:hover {
     box-shadow: inset 0 0 0 1px rgba(60,60,60, 0.4);
+}
+
+.mentioned-xhSam7 .contents-2mQqc9 .markup-2BOw-j .wrapper-3WhCwL, .mentioned-xhSam7 .repliedMessage-VokQwo .repliedTextPreview-2NBljf .repliedTextContent-1R3vnK  .wrapper-3WhCwL, .emptyStateIconContainer-3CFwua, .emptyStateSubtext-2G0UeF, .emptyStateHeader-W2ruuN {
+	background: transparent !important;
+	box-shadow: none !important;
 }
 
 .theme-dark .mentioned-xhSam7 .mention {
