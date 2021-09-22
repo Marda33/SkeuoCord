@@ -5,7 +5,7 @@
 
 .info-1VyQPT:before {
   display: block;
-  content: "SkeuoCord (Local) " var(--version);
+  content: "SkeuoCord " var(--version);
   color: rgb(114,118,125);
   font-weight: bold;
   font-size: 14px;
@@ -4292,7 +4292,7 @@ background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAmCAIA
 	/*chat message group separator*/
 }
 
-.row-2okwlC .card-FDVird, .game-1ipmAa, .reactorDefault-1IUqMZ, .bottomDivider-1K9Gao, .emojiRow-zIc7ZX, .channelNotice-2bJINM, .bd-setting-divider, .channelNotice-1-XFjC, .container-6sXIoE.withTimeline-824fT_, .divider-2FB3wK, .termsRow-2dS5nm, .divider-JMvf_l, .userPopout-xaxa6l .body-3HBlXn .customStatus-oN4ZZY, .popoutInfo-pKbpvG .customStatus-oN4ZZY, .aboutMeSection-1Fw5Ia, .activityUserPopout-2yItg2, .info-1VyQPT:before, .perkRow-4H5Kvz, .breadcrumbsWrapper-1m9gjf, .planSelectDivider-3KU5-l, .containerDefault-3tr_sE, .privateChannelsHeaderContainer-3NB1K1.container-2ax-kl, .membersGroup-v9BXpm.container-2ax-kl, .separator-gCa7yv, #bd-settings-sidebar .ui-tab-bar-separator, .react-datepicker__current-month, .divider-12kAYT, .option-3Ztn6N {
+.row-2okwlC .card-FDVird, .game-1ipmAa, .reactorDefault-1IUqMZ, .bottomDivider-1K9Gao, .emojiRow-zIc7ZX, .channelNotice-2bJINM, .bd-setting-divider, .channelNotice-1-XFjC, .container-6sXIoE.withTimeline-824fT_, .divider-2FB3wK, .termsRow-2dS5nm, .divider-JMvf_l, .userPopout-xaxa6l .body-3HBlXn .customStatus-oN4ZZY, .popoutInfo-pKbpvG .customStatus-oN4ZZY, .aboutMeSection-1Fw5Ia, .activityUserPopout-2yItg2, .info-1VyQPT:before, .perkRow-4H5Kvz, .breadcrumbsWrapper-1m9gjf, .planSelectDivider-3KU5-l, .containerDefault-3tr_sE, .privateChannelsHeaderContainer-3NB1K1.container-2ax-kl, .membersGroup-v9BXpm.container-2ax-kl, .separator-gCa7yv, #bd-settings-sidebar .ui-tab-bar-separator, .react-datepicker__current-month, .divider-12kAYT, .option-3Ztn6N, .subscriptionDetails-1pYrMz, .sectionAccountCredit-2-BmhN {
 	border-bottom: 1px solid !important;
 	border-image: linear-gradient(to left, #0000 5px,#787878, #0000 calc(100% - 5px)) 1  !important;
 }
@@ -5307,6 +5307,9 @@ background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAmCAIA
 	/*server invite server icon - light mode*/
 }
 
+.gameIcon-gg34Dz g rect {
+	display: none !important;
+}
 .gridItem-HzCfl4 {
 	border-radius: 0 !important;
 }
@@ -6663,7 +6666,6 @@ padding-left: 0 !important;
 	box-shadow: none;
 	border: none;
 	font-weight: bold;
-	font-size: 14px;
 	color: rgba(229,179,52) !important;
 	text-shadow: 0 0 5px rgba(0,0,0,0.8);
 	/*mention font*/
@@ -6674,7 +6676,6 @@ padding-left: 0 !important;
 	box-shadow: none;
 	border: none;
 	font-weight: bold;
-	font-size: 14px;
 	color: rgba(109,59,0) !important;
 	text-shadow: 0 0 5px rgba(104,104,104,0.6);
 	/*mention font - light mode*/
@@ -7546,7 +7547,7 @@ padding-left: 0 !important;
 	margin-right: 4px !important;
 	margin-left: 6px !important;
 }
-.theme-dark .emptyCard-1RJw8n, .theme-dark .consentCard-1iSxB_, .theme-dark .background-1QDuV2, .theme-dark .override-2YgiXd.cardPrimaryOutline-29Ujqw.card-3Qj_Yx, .theme-dark .formFieldWrapper-malor5, .theme-dark .card-2qZngs, .theme-dark .root-1bFE0x, .theme-dark .inner, .theme-dark .authedApp-mj2Hmd, .theme-dark .subscription-3aLGnG, .previewMessage-1ZN7YG, .guildSubscriptionSlots-JPXXvN, .perks-26lTSw, .upsellFooter-3coAfO, .perksList-1vtwXn, .problemInfo-1qfNLW .root-2IyrUe {
+.theme-dark .emptyCard-1RJw8n, .theme-dark .consentCard-1iSxB_, .theme-dark .background-1QDuV2, .theme-dark .override-2YgiXd.cardPrimaryOutline-29Ujqw.card-3Qj_Yx, .theme-dark .formFieldWrapper-malor5, .theme-dark .card-2qZngs, .theme-dark .root-1bFE0x, .theme-dark .inner, .theme-dark .authedApp-mj2Hmd, .theme-dark .subscription-3aLGnG, .previewMessage-1ZN7YG, .guildSubscriptionSlots-JPXXvN, .perks-26lTSw, .upsellFooter-3coAfO, .perksList-1vtwXn, .problemInfo-1qfNLW .root-2IyrUe, [class^="noItemsCard"] {
 	background: linear-gradient(0deg, transparent 15%, rgba(22,24,27) 100%);
 	background-color: rgba(55,58,64);
 	box-shadow: inset 0 0 0 1px rgba(114,114,114,0.6), inset 0 0 5px 5px rgba(0,0,0,0.2);
@@ -7571,7 +7572,7 @@ padding-left: 0 !important;
 	margin-right: 4px !important;
 	margin-left: 6px !important;
 }
-.theme-light .emptyCard-1RJw8n, .theme-light .consentCard-1iSxB_, .theme-light .background-1QDuV2, .theme-light .override-2YgiXd.cardPrimaryOutline-29Ujqw.card-3Qj_Yx, .theme-light .formFieldWrapper-malor5, .theme-light .card-2qZngs, .theme-light .root-1bFE0x, .theme-light .inner, .theme-light .authedApp-mj2Hmd, .theme-light .subscription-3aLGnG, .theme-light .previewMessage-1ZN7YG, .theme-light .guildSubscriptionSlots-JPXXvN, .theme-light .perks-26lTSw, .theme-light .upsellFooter-3coAfO, .theme-light .perksList-1vtwXn, .theme-light .problemInfo-1qfNLW .root-2IyrUe {
+.theme-light .emptyCard-1RJw8n, .theme-light .consentCard-1iSxB_, .theme-light .background-1QDuV2, .theme-light .override-2YgiXd.cardPrimaryOutline-29Ujqw.card-3Qj_Yx, .theme-light .formFieldWrapper-malor5, .theme-light .card-2qZngs, .theme-light .root-1bFE0x, .theme-light .inner, .theme-light .authedApp-mj2Hmd, .theme-light .subscription-3aLGnG, .theme-light .previewMessage-1ZN7YG, .theme-light .guildSubscriptionSlots-JPXXvN, .theme-light .perks-26lTSw, .theme-light .upsellFooter-3coAfO, .theme-light .perksList-1vtwXn, .theme-light .problemInfo-1qfNLW .root-2IyrUe, .theme-light [class^="noItemsCard"] {
 	background: linear-gradient(0deg, transparent 15%, rgba(200,197,191) 100%);
 	background-color: rgba(233,231,228);
 	box-shadow: inset 0 0 0 1px rgba(60,60,60,0.6), inset 0 0 5px 5px rgba(104,104,104,0.2);
