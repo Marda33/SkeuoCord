@@ -1,6 +1,6 @@
 :root {
     --font-display: Whitney !important;
-	--version: "1.19.3";
+	--version: "1.19.3.1";
 }
 
 .info-1VyQPT:before {
@@ -4338,12 +4338,10 @@ background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAmCAIA
 .scrollerSpacer-avRLaA {
 	margin-top: -15px;
 }
- .divider-3_HH5L.hasContent-1_DUdQ.divider-JfaTT5.hasContent-1cNJDh + .message-2qnXI6.cozyMessage-3V1Y8y.groupStart-23k01U.wrapper-2a6GCs.cozy-3raOZG.zalgo-jN1Ica, .divider-3_HH5L.beforeGroup-1rH1F0.divider-JfaTT5.isUnread-3Ef-o9 + .message-2qnXI6.cozyMessage-3V1Y8y.groupStart-23k01U.wrapper-2a6GCs.cozy-3raOZG.zalgo-jN1Ica,  .divider-3_HH5L.hasContent-1_DUdQ.divider-JfaTT5.hasContent-1cNJDh + .groupStart-23k01U {
+
+.divider-3_HH5L + .messageListItem-1-jvGY .message-2qnXI6 {
 	border: none;
-}
- .divider-3_HH5L.hasContent-1_DUdQ.divider-JfaTT5.hasContent-1cNJDh + .message-2qnXI6.groupStart-23k01U.wrapper-2a6GCs.compact-T3H92H.zalgo-jN1Ica, .divider-3_HH5L.beforeGroup-1rH1F0.divider-JfaTT5.isUnread-3Ef-o9 + .message-2qnXI6.groupStart-23k01U.wrapper-2a6GCs.compact-T3H92H.zalgo-jN1Ica {
-	border: none;
-}
+ }
 .separator-3wQM3d  {
 	opacity: 1 !important;
 }
@@ -4370,25 +4368,19 @@ background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAmCAIA
   /*chat unread message separator*/
 }
 
-.message-2qnXI6 + .isUnread-3Ef-o9 {
+.messageListItem-1-jvGY + .isUnread-3Ef-o9 {
 	margin-top: 8px !important;
 	margin-bottom: 8px !important;
 }
-.isUnread-3Ef-o9 + .mentioned-xhSam7.groupStart-23k01U {
+.isUnread-3Ef-o9 + .messageListItem-1-jvGY {
 	margin-top: 24px !important;
 }
-.message-2qnXI6 + .isUnread-3Ef-o9.hasContent-1cNJDh {
+.messageListItem-1-jvGY + .isUnread-3Ef-o9 {
 	margin-top: 20px !important;
 	margin-bottom: -5px !important;
 }
-.isUnread-3Ef-o9 + .groupStart-23k01U {
+.isUnread-3Ef-o9 + .messageListItem-1-jvGY .groupStart-23k01U {
 	margin-top: 22px !important;
-}
-.isUnread-3Ef-o9 + .mentioned-xhSam7 {
-	margin-top: 20px !important;
-}
-.mentioned-xhSam7 + .message-2qnXI6 {
-	border-top: none !important;
 }
 
 .content-1o0f9g {
@@ -6532,6 +6524,7 @@ padding-left: 0 !important;
 	margin-left: 2px;
 	margin-right: 2px;
 	margin-bottom: 3px;
+	margin-top: 3px;
 	/*mention background*/
 }
 .theme-dark .mentioned-xhSam7:hover {
@@ -6558,6 +6551,7 @@ padding-left: 0 !important;
 	margin-left: 2px;
 	margin-right: 2px;
 	margin-bottom: 3px;
+	margin-top: 3px
 	/*mention background - light mode*/
 }
 .theme-light .mentioned-xhSam7:hover {
