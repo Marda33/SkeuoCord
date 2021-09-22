@@ -5,7 +5,7 @@
 
 .info-1VyQPT:before {
   display: block;
-  content: "SkeuoCord " var(--version);
+  content: "SkeuoCord (Local) " var(--version);
   color: rgb(114,118,125);
   font-weight: bold;
   font-size: 14px;
@@ -4375,13 +4375,14 @@ background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAmCAIA
 .isUnread-3Ef-o9 + .messageListItem-1-jvGY {
 	margin-top: 24px !important;
 }
-.messageListItem-1-jvGY + .isUnread-3Ef-o9 {
+.messageListItem-1-jvGY + .isUnread-3Ef-o9.hasContent-1cNJDh {
 	margin-top: 20px !important;
 	margin-bottom: -5px !important;
 }
 .isUnread-3Ef-o9 + .messageListItem-1-jvGY .groupStart-23k01U {
 	margin-top: 22px !important;
 }
+/*chat margins*/
 
 .content-1o0f9g {
 	color: white;
