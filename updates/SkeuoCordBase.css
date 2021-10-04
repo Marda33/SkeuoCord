@@ -3834,10 +3834,6 @@ background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAmCAIA
   background-color: transparent;
 }
 
-.activityText-yGKsKm {
-  overflow: visible;
-}
-
 .theme-dark .chat-3bRxxu, .theme-dark .preview-2nSL_2 {
 	background: linear-gradient(0deg, transparent 35%, rgba(54, 57, 63) 100%);
     border-bottom: 1px solid rgba(92,92,92);
@@ -7017,8 +7013,11 @@ padding-left: 0 !important;
 	/*emote autocomplete BG - light mode*/
 }
 
-.description-11DmNu, .name-uJV0GL, .roleColor-36x_Mz, .subText-1KtqkB, .text-zpzAjW {
+.description-11DmNu, .roleColor-36x_Mz, .subText-1KtqkB, .text-zpzAjW {
 	overflow: visible;
+}
+.activityText-yGKsKm, .nameAndDecorators-5FJ2dg {
+  overflow: hidden;
 }
 
 .tooltip-2QfLtc.tooltipTop-XDDSxx.tooltipGreen-WdeQwd.tooltipDisablePointerEvents-3eaBGN {
