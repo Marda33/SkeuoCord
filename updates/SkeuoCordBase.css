@@ -1298,6 +1298,11 @@ svg.mask-1l8v16.svg-2V3M55 > mask[height="32"][width="32"]:first-child circle {
 	background-repeat: no-repeat !important;
 	border: none !important;
 	width: 16px;
+	height: 24px !important;
+	position: absolute;
+	top: 50%;
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
 	/*channel toolbar separator - chat*/
 }
 .container-1D34oG .children-19S4PO:after {
@@ -1312,6 +1317,11 @@ svg.mask-1l8v16.svg-2V3M55 > mask[height="32"][width="32"]:first-child circle {
 	background-repeat: no-repeat !important;
 	border: none !important;
 	width: 16px;
+	height: 24px !important;
+	position: absolute;
+	top: 50%;
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
 	/*channel toolbar separator - chat, light mode*/
 }
 .theme-light .container-1D34oG .children-19S4PO:after {
