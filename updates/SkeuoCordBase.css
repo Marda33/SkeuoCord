@@ -1333,6 +1333,9 @@ svg.mask-1l8v16.svg-2V3M55 > mask[height="32"][width="32"]:first-child circle {
 	width: 16px;
 	/*channel toolbar separator - friends, light mode*/
 }
+.topic-TCb_qw {
+	overflow: visible;
+}
 
 .applicationStore-1pNvnv .headerBar-1YYOfi .children-19S4PO:after, .libraryHeader-3g95kE .children-19S4PO:after, .headerBarContainer-31FKNA .children-19S4PO:after {
 	display: none !important;
@@ -4378,19 +4381,19 @@ background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAmCAIA
   /*chat unread message separator*/
 }
 
-.messageListItem-1-jvGY + .isUnread-3Ef-o9 {
-	margin-top: 8px !important;
-	margin-bottom: 8px !important;
+.isUnread-3Ef-o9 + .messageListItem-1-jvGY .groupStart-23k01U {
+	margin-top: 22px !important;
 }
-.isUnread-3Ef-o9 + .messageListItem-1-jvGY {
-	margin-top: 24px !important;
+.isUnread-3Ef-o9 + .messageListItem-1-jvGY .mentioned-xhSam7 {
+	margin-top: 22px !important;
+}
+.messageListItem-1-jvGY + .isUnread-3Ef-o9 {
+	margin-top: 10px !important;
+	margin-bottom: 12px !important;
 }
 .messageListItem-1-jvGY + .isUnread-3Ef-o9.hasContent-1cNJDh {
 	margin-top: 20px !important;
 	margin-bottom: -5px !important;
-}
-.isUnread-3Ef-o9 + .messageListItem-1-jvGY .groupStart-23k01U {
-	margin-top: 22px !important;
 }
 /*chat margins*/
 
@@ -6659,7 +6662,6 @@ padding-left: 0 !important;
 	background-color: rgba(22,65,132, 0.6);
 	border-radius: 3px;
 	margin-right: 1px;
-	font-size: relative;
 	/*username-channel mention tag*/
 }
 .theme-light .wrapper-3WhCwL, .theme-light .message-15tBk4 strong {
@@ -6669,7 +6671,6 @@ padding-left: 0 !important;
 	background-color: rgba(22,65,132, 0.6);
 	border-radius: 3px;
 	margin-right: 1px;
-	font-size: relative;
 	/*username-channel mention tag - light mode*/
 }
 .wrapper-3WhCwL:hover {
