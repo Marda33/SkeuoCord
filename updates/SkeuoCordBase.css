@@ -318,7 +318,7 @@
 .theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-thumb, .theme-dark .auto-Ge5KZx.scrollerBase-289Jih::-webkit-scrollbar-thumb, .theme-dark .scroller-tlc3kG.thin-1ybCId.scrollerBase-289Jih::-webkit-scrollbar-thumb, .theme-dark .messagesPopout-24nkyi.thin-1ybCId.scrollerBase-289Jih::-webkit-scrollbar-thumb, .theme-dark .scroller-3GIiMh.thin-1ybCId.scrollerBase-289Jih::-webkit-scrollbar-thumb, .theme-dark .scroller-2FKFPG.customScroller-26gWhv::-webkit-scrollbar-thumb, .theme-dark .scroller-2FKFPG.scroller-2hZ97C::-webkit-scrollbar-thumb, .theme-dark .scroller-2FKFPG.scrollerStore-390omS.momentum-2CXCBH.scroller-9moviB::-webkit-scrollbar-thumb, .theme-dark .scroller-2hZ97C.thin-1ybCId.scrollerBase-289Jih::-webkit-scrollbar-thumb, .theme-dark .scrollerThemed-2oenus.themeDark-2cjlUp .scroller-2FKFPG::-webkit-scrollbar-thumb, .theme-dark .scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar-thumb, .theme-dark .scroller-2FKFPG.scroller-2hZ97C::-webkit-scrollbar-thumb, .theme-dark .css-1ye7vu0::-webkit-scrollbar-thumb {
 	background: rgba(200, 200, 200) !important;
 	border: none;
-	box-shadow: inset 0 0 3px 3px rgba(0,0,0,0.2);
+	box-shadow: inset 0 0 4px 2px rgba(0,0,0,0.4);
 	border-radius: 20px;
 }
 .theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-thumb:hover, .theme-dark .auto-Ge5KZx.scrollerBase-289Jih::-webkit-scrollbar-thumb:hover, .theme-dark .scroller-tlc3kG.thin-1ybCId.scrollerBase-289Jih::-webkit-scrollbar-thumb:hover, .theme-dark .messagesPopout-24nkyi.thin-1ybCId.scrollerBase-289Jih::-webkit-scrollbar-thumb:hover, .theme-dark .scroller-3GIiMh.thin-1ybCId.scrollerBase-289Jih::-webkit-scrollbar-thumb:hover, .theme-dark .scroller-2FKFPG.customScroller-26gWhv::-webkit-scrollbar-thumb:hover, .theme-dark .scroller-2FKFPG.scroller-2hZ97C::-webkit-scrollbar-thumb:hover, .theme-dark .scroller-2FKFPG.scrollerStore-390omS.momentum-2CXCBH.scroller-9moviB::-webkit-scrollbar-thumb:hover, .theme-dark .scroller-2hZ97C.thin-1ybCId.scrollerBase-289Jih::-webkit-scrollbar-thumb:hover, .theme-dark .scrollerThemed-2oenus.themeDark-2cjlUp .scroller-2FKFPG::-webkit-scrollbar-thumb:hover, .theme-dark .scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar-thumb:hover, .theme-dark .scroller-2FKFPG.scroller-2hZ97C::-webkit-scrollbar-thumb:hover {
@@ -7736,16 +7736,20 @@ padding-left: 0 !important;
 	display: none;
 }
 
+.members-1998pB {
+	background: transparent !important;
+	border-left: none !important;
+}
 .members-1998pB div[style="position: absolute; pointer-events: none; min-height: 0px; min-width: 1px; flex: 0 0 auto; height: 20px;"] {
 	display: none;
 }
 #MemberCount {
 	z-index: 1 !important;
+	background: transparent !important;
 }
- .theme-dark .members-1998pB, .theme-dark #MemberCount {
+.container-2wlB3z, .membersWrap-2h-GB4 {
 	background: linear-gradient(270deg, transparent 72%, rgba(29,30,32) 100%);
 	background-color: rgba(46,48,54);
-	border-left: 1px solid rgba(92,92,92);
 	/*member column BG*/
 }
 .theme-dark .nowPlayingColumn-2sl4cE, .theme-dark .nowPlayingSidebar-2OFn0o, .scroller-36cuUh, .submitContainer-g72mF- {
@@ -7754,10 +7758,9 @@ padding-left: 0 !important;
 	border-left: 1px solid rgba(92,92,92);
 	/*DM list now playing column BG*/
 }
-.theme-light .members-1998pB, .theme-light #MemberCount {
+.theme-light .container-2wlB3z, .theme-light .membersWrap-2h-GB4 {
 	background: linear-gradient(270deg, transparent 72%, rgba(174,172,169) 100%);
 	background-color: rgba(221,219,214);
-	border-left: 1px solid rgba(60,60,60);
 	/*member column BG - light mode*/
 }
 .theme-light .nowPlayingColumn-2sl4cE, .theme-light .nowPlayingSidebar-2OFn0o, .theme-light .scroller-36cuUh, .theme-light .submitContainer-g72mF- {
@@ -7765,6 +7768,12 @@ padding-left: 0 !important;
 	background-color: rgba(221,219,214);
 	border-left: 1px solid rgba(60,60,60);
 	/*DM list now playing column BG  - light mode*/
+}
+.chatContent-a9vAAp {
+	border-right: 1px solid rgba(92,92,92);
+}
+.theme-light .chatContent-a9vAAp {
+	border-right: 1px solid rgba(60,60,60);
 }
 .scroller-36cuUh, .submitContainer-g72mF- {
 	border-left: none !important;
