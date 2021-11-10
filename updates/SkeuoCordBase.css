@@ -4333,10 +4333,6 @@ background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAmCAIA
 	/*member column role separator*/
 }
 
-.container-3fNISf + .containerDefault-3tr_sE {
-	padding-top: 6px;
-}
-
 .panel-24C3ux.activityPanel-28dQGo, .ui-form-text.style-description.margin-top-4, .sectionHeader-20RGqu, .container-1giJp5, .marketingRefreshTier2Cta-bw9Vyc, .sidebar-2K8pFh.theme-dark .container-1giJp5, .resultsGroup-r_nuzN, .item-3eFBNF, .subscriptionDetails-1dUmjl {
 	border-bottom: 1px solid;
 	border-right: none !important;
@@ -6963,6 +6959,13 @@ padding-left: 0 !important;
 .bar-2Qqk5Z.sliderBar-3DezvM.speaking-2bFhO4 {
 	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAKCAIAAAD6sKMdAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADr8AAA6/ATgFUyQAAAAoSURBVBhXYwibE8/0989fpl+/fjH9+vmL6eePX0y/gWwGBgYEZmAAALE+EA+LbBkBAAAAAElFTkSuQmCC) !important;
 	transition: background 0.2s ease-out !important;
+}
+
+.progressBarContainer-DLPbha {
+	max-width: 219px !important;
+}
+.progressBarContainerComplete-1fJttf {
+	width: calc(100% - 8px) !important;
 }
 
 .theme-dark .footer-3mqk7D {
