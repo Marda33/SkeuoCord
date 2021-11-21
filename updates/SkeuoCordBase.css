@@ -2680,10 +2680,12 @@ background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAmCAIA
 }
 
 .imageWrapper-2p5ogY {
-	border-radius: 1px;
-	box-shadow: 0 0 3px 3px rgba(0,0,0,0.4);
-	margin-bottom: 5px;
+	margin-bottom: 3px;
 	/*chat image dropshadow*/
+}
+.imageWrapper-2p5ogY, .image-2-GqhD {
+	border-radius: 0 !important;
+	box-shadow: 0 0 3px 3px rgba(0,0,0,0.4);
 }
 
 .theme-dark .colorDefault-2K3EoJ.focused-3afm-j, .theme-dark .rowInner-1vvRiF:hover, .theme-dark .row-rrHHJU.selected-1pIgLL .rowInner-1vvRiF {
