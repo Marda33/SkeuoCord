@@ -7886,20 +7886,19 @@ padding-left: 0 !important;
 	margin-top: 0;
 }
 
-.button-1cRKG6.button-f2h6uQ.lookFilled-yCfaCM.colorBrand-I6CyqQ.sizeLarge-3mScP9.fullWidth-1orjjo {
+.button-1cRKG6.button-f2h6uQ.lookFilled-yCfaCM.colorBrand-I6CyqQ.sizeLarge-3mScP9 {
 	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAsCAIAAAD94J9TAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsIAAA7CARUoSoAAAACFSURBVFhH7ZUxDsQwCAQJX8sX8ql82hsXVFCcTmIKS4xGcmdivCbX/bzG4LECuDDmqxNuEuT0OnFoQ2IF8CVBTkISrrUg2YSUck2iCSnDsMuZIYm9dXr6bbK5LuWaPDTXUQJgT77SpCaPfY3lJE3OHz2xtxYkmetoDMAfvc4H/iV7jQxmH9Q5owmN5NxWAAAAAElFTkSuQmCC);
 	/*server invite popup button*/
 }
-.button-1cRKG6.button-f2h6uQ.lookFilled-yCfaCM.colorBrand-I6CyqQ.sizeLarge-3mScP9.fullWidth-1orjjo:hover {
+.button-1cRKG6.button-f2h6uQ.lookFilled-yCfaCM.colorBrand-I6CyqQ.sizeLarge-3mScP9:hover {
 	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAsCAIAAAD94J9TAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsIAAA7CARUoSoAAAACFSURBVFhH7ZUxDsQwCAQJn8wX8ql81RsXVFCcTmIKS4xGcmdivCbX/bzG4LECuDDmqxNuEuT0OnFoQ2IF8CVBTkISrrUg2YSUck2iCSnDsMuZIYm9dXr6bbK5LuWaPDTXUQJgT77SpCaPfY3lJE3OHz2xtxYkmetoDMAfvc4H/iV7jQxmH35to0UV7ZTVAAAAAElFTkSuQmCC);
 }
-.button-1cRKG6.button-f2h6uQ.lookFilled-yCfaCM.colorBrand-I6CyqQ.sizeLarge-3mScP9.fullWidth-1orjjo:active {
+.button-1cRKG6.button-f2h6uQ.lookFilled-yCfaCM.colorBrand-I6CyqQ.sizeLarge-3mScP9:active {
 	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAsCAIAAAD94J9TAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsIAAA7CARUoSoAAAACPSURBVFhH1ZRBDoAgDATbPsEf+Cf//xXtYU0EL5h0EjsucOvCUvRtP2yNU+sqoRXgH6X9o8IxIj9IGch0jjKR16hgAGLMp4lyUKDXOByiUjlRhLlDInf9CKdeFJNNpXJQkKX1dADa9jUnjJdTndAOwWA75H7zgCjI0socoGmHyAKA/KnKAqBp1rIAwHZtdgE9ZgzUpOeHfwAAAABJRU5ErkJggg==);
 }
 
 .theme-dark .inviteSplash-2Q0PLE {
-	border: 1px solid rgba(92,92,92);
-	border-left: none !important;
+	border-left: 1px solid rgba(92,92,92);
 	box-shadow: inset 0 0 0 1px rgba(0,0,0,0.6), inset 0 0 12px 4px rgba(0,0,0,0.5);
 }
 .theme-light .inviteSplash-2Q0PLE {
@@ -8034,6 +8033,12 @@ display: none !important;
 .contentWrapper-3oy4Xo {
 	border-radius: 5px 0 0 5px !important;
 	box-shadow: none !important;
+}
+.theme-dark .contentWrapper-3oy4Xo {
+	border: none !important;
+}
+.theme-light .contentWrapper-3oy4Xo {
+	height: 446px !important;
 }
 .connection-107AGH {
 	border-radius: 5px;
