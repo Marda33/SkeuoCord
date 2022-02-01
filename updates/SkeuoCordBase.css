@@ -3449,11 +3449,11 @@ background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAmCAIA
 	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAmCAIAAABce7w1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsAAAA7AAWrWiQkAAACaSURBVEhL1ZYxCoAwDEWbHMFJcHJx9TJOXsH7zxqwU7NY+A/s81HBIQlpWrTpWMo37nh68PoG6Ahtxbp0w4jQKZ1Ibz/oZBuCMZ9rnQA1bk5JHpm0sTLRCYnJZoyqKdO+Sm2SyYyFggwdNzxkVN2OukqwIbZdez3zasjhqykAIj4FGfo97IwY//jn6wVtSLpWVI7aEIwRqy7lATdLDX4r8ioJAAAAAElFTkSuQmCC) !important;
 }
 
-.actionButton-3W1xZa.button-f2h6uQ.lookInverted-2mDUMi.colorBrand-I6CyqQ.sizeSmall-wU2dO-:hover {
+.actionButton-3W1xZa.button-f2h6uQ.lookInverted-2mDUMi.colorBrand-I6CyqQ.sizeSmall-wU2dO-:hover, .container-xB0xPf .button-f2h6uQ.lookInverted-2mDUMi.colorBrand-I6CyqQ:hover {
 	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAmCAIAAABce7w1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsAAAA7AAWrWiQkAAACDSURBVEhL7ZVBCoAwDARjPukX/JRfbdpDTutBhJ1DwWGg0FNMNvU4rzsYsk+ALIy/aiGjCnLXhmCQDRlVkGTVfQKgYxwDco3xcWcSHaNExucaY0FummvtkM/UyPhM/Tf4JLexew7ArgwFGj658LnpostzZZQMX1cP8CHX+sFvYisTMQF9qis5WhQySwAAAABJRU5ErkJggg==);
 }
 
-.actionButton-3W1xZa.button-f2h6uQ.lookInverted-2mDUMi.colorBrand-I6CyqQ.sizeSmall-wU2dO-:active {
+.actionButton-3W1xZa.button-f2h6uQ.lookInverted-2mDUMi.colorBrand-I6CyqQ.sizeSmall-wU2dO-:active, .container-xB0xPf .button-f2h6uQ.lookInverted-2mDUMi.colorBrand-I6CyqQ:active {
 	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAmCAIAAABce7w1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsAAAA7AAWrWiQkAAACFSURBVEhL1ZVBDoAgDATbPsEf+Cf//xVdE2IELpB0Dh1Heiu6IPpxXrbG3eoq0SrARmvfNBwjdEEqkOE90lR/CrL1L5w6kp/MNFmaGijUnDLcHPJtTtkln6puCrL1cFwlCqatgaLbLWVETz4Mdhm/3ZIvBbmMrQKggYw/hzSrBoJR8anNHq/rDMjfQIfGAAAAAElFTkSuQmCC);
 }
 
@@ -5809,36 +5809,12 @@ background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAmCAIA
 	color: #3c3c3c;	
 }
 
-.theme-light .formNotice-2nS8ey.marginBottom40-fvAlAV0.cardPrimary-3qRT__.card-16VQ8C.Primary {
+.theme-light .formNotice-2nS8ey.cardPrimary-3qRT__.card-16VQ8C.Primary {
 	background: linear-gradient(0deg, transparent 35%, rgba(227,226,225) 100%);
     border: 1px solid rgba(60, 60, 60);
 	background-color: rgba(201,198,192);
 	box-shadow: 0 0 3px 3px rgba(104,104,104,0.6);
 	border-radius: 5px;
-}
-
-.theme-light .formNotice-2nS8ey.marginBottom20-315RVT.cardPrimary-3qRT__.card-16VQ8C.Primary {
-	background: linear-gradient(0deg, transparent 35%, rgba(227,226,225) 100%);
-    border: 1px solid rgba(60, 60, 60);
-	background-color: rgba(201,198,192);
-	box-shadow: 0 0 3px 3px rgba(104,104,104,0.6);
-	border-radius: 5px;
-}
-
-.theme-light .accountList-305sx3.cardPrimary-3qRT__.card-16VQ8C {
-	background: linear-gradient(0deg, transparent 35%, rgba(227,226,225) 100%);
-    border: 1px solid rgba(60, 60, 60);
-	background-color: rgba(201,198,192);
-	box-shadow: 0 0 3px 3px rgba(104,104,104,0.6);
-	border-radius: 5px;
-}
-
-.theme-dark .bubble-3we2di {
-	background-color: rgba(41, 41, 41, 0.77);
-}
-
-.bubble-3we2di:before {
-	border: none;
 }
 
 .iconBadge-3Mmg92, .badge-2qGa_k:after {
@@ -5935,10 +5911,10 @@ background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAmCAIA
 [class*="subscribeTooltipWrapper-"]::after {
 	border-bottom-color: rgba(230,230,230,0.6);
  }
- .content-23Vf0N .pointer-2uxyAa, .container-3-AQTb .pointer-12wKfh {
+ .content-23Vf0N .pointer-2uxyAa, .container-3-AQTb .pointer-12wKfh, .container-xB0xPf .pointer-1j6vDv {
 	border-top-color: rgba(230,230,230,0.6);
  }
- .content-3O0wBS, [class*="subscribeTooltipWrapper-"], .content-23Vf0N, .content-18CuWF, .container-3-AQTb {
+ .content-3O0wBS, [class*="subscribeTooltipWrapper-"], .content-23Vf0N, .content-18CuWF, .container-3-AQTb, .container-xB0xPf {
 	background: linear-gradient(0deg, transparent 70%, rgba(66,83,136)100%) !important;
 	background-color: rgba(38,53,104) !important;
 	box-shadow: 0 0 3px 3px rgba(0,0,0,0.5);
@@ -8487,6 +8463,9 @@ display: none !important;
 }
 /*------*/
 
+.wrapper-1xW8FI.accountBtn-1YkMgV {
+	margin-right: 6px;
+}
 .accountBtnInner-3XK70s, .connectionHeader-2rV1ze {
 	background-color: transparent !important;
 }
