@@ -103,11 +103,11 @@
 .theme-light .sidebarRegionScroller-FXiQOh {
 	border-right: 1px solid rgba(60,60,60);
 }
+.theme-light .wrapper-1_HaEi.guilds-2JjMmN, .theme-light .container-ZMc96U, .theme-light .pageWrapper-2PwDoS .scroller-3j5xK2 {
+	border-top: 1px solid rgba(60,60,60) !important;
+}
 .wrapper-1_HaEi.guilds-2JjMmN, .container-ZMc96U, .wrapper-1_HaEi.guilds-2JjMmN.theme-dark, .pageWrapper-2PwDoS .scroller-3j5xK2 {
 	border-top: 1px solid rgba(92,92,92) !important;
-}
-.theme-light .wrapper-1_HaEi.guilds-2JjMmN, .theme-light .container-ZMc96U, .theme-light .pageWrapper-2PwDoS .scroller-3j5xK2 {
-	border-top: 1px solid rgba(60,60,60);
 }
 .platform-win .layer-86YKbF {
 	padding-top: 21px;
@@ -2752,15 +2752,16 @@ background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAmCAIA
 	border: 1px solid rgba (60,60,60);	
 }
 .header-3OsQeK {
+	height: 47px !important;
 	background: transparent !important;
 }
-.container-1-ERn5.clickable-vvKY2q, .searchBar-3TnChZ, .sidebar-1tnWFu.theme-dark .container-1-ERn5.clickable-vvKY2q, .sidebar-1tnWFu.theme-dark .searchBar-3TnChZ {
+.theme-dark .container-1-ERn5.clickable-vvKY2q, .theme-dark .searchBar-3TnChZ, .sidebar-1tnWFu.theme-dark .container-1-ERn5.clickable-vvKY2q, .sidebar-1tnWFu.theme-dark .searchBar-3TnChZ {
 	background: linear-gradient(0deg, transparent 14%, rgba(58,58,58) 100%);
 	background-color: rgba(0,0,0);
-	border-top: 1px solid rgba(92,92,92);
-	border-bottom: 1px solid rgba(92,92,92);
+	border-top: 1px solid rgba(92,92,92) !important;
+	border-bottom: 1px solid rgba(92,92,92) !important;
 	height: 46px !important;
-	box-shadow: inset 0 0 0 1px rgba(0,0,0,0.4), 0 0 5px 5px rgba(0,0,0,0.4);
+	box-shadow: inset 0 0 0 1px rgba(0,0,0,0.4), 0 0 5px 5px rgba(0,0,0,0.4) !important;
 	/*channel column header*/
 }
 .container-1-ERn5.clickable-vvKY2q:hover, .sidebar-1tnWFu.theme-dark .container-1-ERn5.clickable-vvKY2q:hover,.container-1-ERn5.clickable-vvKY2q.selected-1GtAC5, .sidebar-1tnWFu.theme-dark .container-1-ERn5.clickable-vvKY2q.selected-1GtAC5 {
@@ -2776,6 +2777,7 @@ background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAmCAIA
 	background-color: rgba(174,174,174);
 	border-top: 1px solid rgba(60,60,60);
 	border-bottom: 1px solid rgba(60,60,60);
+	height: 46px !important;
 	box-shadow: inset 0 0 0 1px rgba(230,230,230,0.6), 0 0 5px 5px rgba(64,64,64,0.2);
 	/*channel column header - light mode*/
 }
