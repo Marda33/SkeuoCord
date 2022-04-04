@@ -3,7 +3,7 @@
 	--version: "1.22";
 }
 
-.info-3pQQBb:before {
+.info-3pQQBb::before {
   display: block;
   content: "SkeuoCord " var(--version);
   color: rgb(114,118,125);
@@ -2298,7 +2298,7 @@ background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAmCAIA
 	display: none;
 }
 
-/*Chat Area - Folder Resources*/
+/*Folder Code*/
 [class*="folderIconWrapper-"] {
     border-radius: 5px;
     overflow: visible;
@@ -2317,13 +2317,15 @@ background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAmCAIA
 	/*minimized folder server icons - light mode*/
 }
 
+[class*="expandedFolderBackground-"].collapsed-uGXEbi {
+	height: 100% !important;
+}
 [class*="expandedFolderBackground-"], [class*="expandedFolderBackground-"].hover-2ji_A7, .wrapper-1_HaEi.guilds-2JjMmN.theme-dark [class*="expandedFolderBackground-"], .wrapper-1_HaEi.guilds-2JjMmN.theme-dark [class*="expandedFolderBackground-"][class*="hover-"] {
 	border-radius: 5px;
 	box-shadow: inset 0 0 0 1px rgba(230,230, 230, 0.60), 0 0 2px 2px rgba(0, 0, 0, 0.4), inset 0 0 1px 2px rgba(0,0,0,0.8) !important;
 	background: linear-gradient(0deg, transparent 40%, rgba(25,25,26) 100%);
 	background-color: rgba(47,49,54);
-	height: 99%;
-   /*expanded folder resources*/
+	height: calc(100% - .45rem);
 }
 
 [class*="folder-"], .wrapper-1_HaEi.guilds-2JjMmN.theme-dark [class*="folder-"] {
@@ -2331,7 +2333,7 @@ background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAmCAIA
 	box-shadow: inset 0 0 0 1px rgba(230,230, 230, 0.6) !important;
 	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsIAAA7CARUoSoAAAAGpSURBVFhHzZjbTsJAEIb3AEtCBKJQEtRL0PfwcKHvf2eiN8QmIhdSDrV20X92kBgfoDN/JtN/uk32y85uabDT6ZXRpAPQfr8vimK7Xdd15IHG1Gr5bvek1+s551Da2ewaNIvFm/e+3x+EEPi5xlRV1Wr1EWPMsjGYnLG2WBe+5UfZOHQ6KBsOTIqpAQAMlM5au9msB4NTGEEBABgw1LZY18136p8AAAwYAlIlfUCWDhtaR0Y2GIM2taHNLi/GSEDEJi/GcIQFR1k8CINXKBFKizEUtkwb0DeuxiCLB2MoPfbphrQYg4BUEdF7CM2j1ZIOxtB4ymiDI4sHYyg9ZZpaliwleSUMjStEX7FsZIMx4A67SVx/N3W6IS3GICBVRLxCKoCOm1ohUKrFxRgqVwiWsrgYCBloKYsHYbhfoyAShs4vxtRBcTGGwpYBDUaBGIN+9FVJ398xgGqHUO52DCglAAADhoDOhlmez9N9MQEAGDAENJlclGX58vyEnEYb1XFqYKC0N3cPuMQY89f5cvn+VX2mx5pTO3SGw9Hk/NJ7j9Le3j/ygAoZ8wMsDvR+6q8QSgAAAABJRU5ErkJggg==);
 	transition: none !important;
-	/*folder icon resources*/
+	/*folder icon*/
 }
 [class*="folder-"][class*="hover-"], .wrapper-1_HaEi.guilds-2JjMmN.theme-dark [class*="folder-"][class*="hover-"] {
 	box-shadow: inset 0 0 0 1px rgba(230,230, 230, 0.8) !important;
@@ -2367,7 +2369,9 @@ background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAmCAIA
 	box-shadow: inset 0 0 0 1px rgba(60,60, 60, 0.60), 0 0 2px 2px rgba(64, 64, 64, 0.4), inset 0 0 1px 2px rgba(230,230,230,0.8) !important;
 	background: linear-gradient(0deg, transparent 40%, rgba(188,186,181) 100%);
 	background-color: rgba(219,219,217);
+	height: calc(100% - .45rem);
 }
+/*------*/
 
 .item-2LIpTv, .wrapper-1_HaEi.guilds-2JjMmN.theme-dark .item-2LIpTv {
 	background: linear-gradient(0deg, transparent 10%, rgba(234,234,234) 100%);
