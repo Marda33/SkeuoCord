@@ -7914,7 +7914,16 @@ padding-left: 0 !important;
 }
 #MemberCount {
 	z-index: 1 !important;
-	background: transparent !important;
+	position: absolute;
+	height: 41px;
+    margin-top: 0;
+	background: linear-gradient(270deg, transparent 72%, rgba(29,30,32) 100%) !important;
+	background-color: rgba(46,48,54) !important;
+	border: none !important;
+}
+.theme-light #MemberCount {
+	background: linear-gradient(270deg, transparent 72%, rgba(174,172,169) 100%) !important;
+	background-color: rgba(221,219,214) !important;
 }
 .container-2o3qEW, [class*="membersWrap-"], [class*="membersWrap-"].hiddenMembers-8kpYM0.members-3WRCEx.emptyState-2DwxJe {
 	background: linear-gradient(270deg, transparent 72%, rgba(29,30,32) 100%);
