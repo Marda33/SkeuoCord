@@ -1700,7 +1700,7 @@ svg.mask-1FEkla.svg-2azL_l > mask[height="32"][width="32"]:first-child circle {
 }
 
 /*Button Code*/
-.lookFilled-yCfaCM.button-f2h6uQ, .lookInverted-2mDUMi.button-f2h6uQ, .lookOutlined-3yKVGo.button-f2h6uQ, .compactButton-3hG-bs, .contents-3ca1mk.button-3WOKuZ, .contents-3ca1mk.button-3Vyz67, .button-ZJ9ZzX.lookGhost-2Fn_0-, .countryButton-1cNDvB, .viewAsRoleButton-1ZpPlO, .fieldButton-14lHvK, .button-WnI_Ye, .card-2EUiNF .flex-2S1XBF .button-f2h6uQ, .button-OEo0Ie, .button-DAkLIy .buttonInner-3aRbcx, .reactionBtn-fVdJIx.addReactButton-3bSQb6, .pageButton-1GMGeJ:hover, .pageButton-1GMGeJ:active {
+.lookFilled-yCfaCM.button-f2h6uQ, .lookInverted-2mDUMi.button-f2h6uQ, .lookOutlined-3yKVGo.button-f2h6uQ, .compactButton-3hG-bs, .contents-3ca1mk.button-3WOKuZ, .contents-3ca1mk.button-3Vyz67, .button-ZJ9ZzX.lookGhost-2Fn_0-, .countryButton-1cNDvB, .viewAsRoleButton-1ZpPlO, .fieldButton-14lHvK, .button-WnI_Ye, .card-2EUiNF .flex-2S1XBF .button-f2h6uQ, .button-OEo0Ie, .button-DAkLIy .buttonInner-3aRbcx, .reactionBtn-fVdJIx.addReactButton-3bSQb6, .pageButton-1GMGeJ:hover, .pageButton-1GMGeJ:active, .theme-dark .perksModalContentWrapper-3RHugb .shinyButton-2Q9MDB, .theme-dark .profileCustomizationSection-2OOT4p .shinyButton-2Q9MDB {
    border-radius: 5px;
    border: 1px solid rgba(230,230,230,0.6);
    box-shadow: inset 0 0 0 1px rgba(0,0,0,0.6);
@@ -4093,6 +4093,9 @@ svg.mask-1FEkla.svg-2azL_l > mask[height="32"][width="32"]:first-child circle {
 	margin-top: -1px;
 	margin-bottom: 1px;
 	/*server column separator*/
+}
+[class*="separator-"] {
+	background-color: transparent !important;
 }
 
 .tutorialContainer-2jwoiB {
@@ -6664,14 +6667,14 @@ padding-left: 0 !important;
     background-color: transparent !important;
 }
 
-.bar-1Bhnl9, .bar-1GpknY, .bar-g2ZMIm, .sidebar-1tnWFu.theme-dark .bar-g2ZMIm, .content-2a4AW9 [class*="progressBarContainer-"][class*="bar-"] {
+.bar-1Bhnl9, .bar-1GpknY, .bar-g2ZMIm, .sidebar-1tnWFu.theme-dark .bar-g2ZMIm, .content-2a4AW9 [class*="progressBarContainer-"][class*="bar-"], .progressBar-20NUv9 .barBackground-unEPDT {
 	border: 1px solid rgba(230, 230, 230, 0.6);
 	box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.5);
 	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAKCAIAAAD6sKMdAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADr8AAA6/ATgFUyQAAAAhSURBVBhXY7CwsmViY2NjYmVjZ2JjBdLsEJqBgQGBGRgAJI8BG6XXs9MAAAAASUVORK5CYII=) !important;
 	transition: background 0.2s ease-out, border-radius 0.2s ease-out !important;
 	/*settings slider bar outline*/
 }
-.theme-light .bar-1Bhnl9, .theme-light .bar-1GpknY, .theme-light .bar-g2ZMIm, .theme-light .content-2a4AW9 [class*="progressBarContainer-"][class*="bar-"] {
+.theme-light .bar-1Bhnl9, .theme-light .bar-1GpknY, .theme-light .bar-g2ZMIm, .theme-light .content-2a4AW9 [class*="progressBarContainer-"][class*="bar-"], .theme-light .progressBar-20NUv9 .bar-1g-wqp {
 	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAKCAIAAAD6sKMdAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsAAAA7AAWrWiQkAAAAlSURBVBhXY1i7agkTCwsrEzs7OxMbGzsTKxCzAdkMDAwIzMAAAFXoAmmNTkzmAAAAAElFTkSuQmCC) !important;
 	transition: background 0.2s ease-out !important;
 }
@@ -8042,6 +8045,7 @@ display: none !important;
 
 .wrapper-1xW8FI.accountBtn-3pgcgr {
 	margin-right: 6px;
+	margin-bottom: 6px;
 }
 .accountBtnInner-3ttD-i, .connectionHeader-Ixbb1s {
 	background-color: transparent !important;
@@ -8237,15 +8241,14 @@ display: none !important;
 	margin-top: 3px !important;
 	/*attachment BG*/
 }
-.theme-dark .attachment-1PZZB2, [class*="upload-"]:not(.perkIcon-Gk7aLS .upload-2ZF-qH) {
+.attachment-1PZZB2, [class*="upload-"]:not([class*="perkIcon-"]) {
 	background: linear-gradient(0deg, transparent 15%, rgba(22,24,27) 100%) !important;
 	background-color: rgba(55,58,64) !important;
     border: 2px dashed rgba(114,114,114) !important;
 	box-shadow: inset 0 0 0 1px rgba(0,0,0,0.6) !important;
 	border-radius: 5px;
 }
-
-.theme-light .attachment-1PZZB2, .theme-light [class*="upload-"]:not(.perkIcon-Gk7aLS .upload-2ZF-qH) {
+.theme-light .attachment-1PZZB2, .theme-light [class*="upload-"]:not([class*="perkIcon-"]) {
 	background: linear-gradient(0deg, transparent 15%, rgba(200,197,191) 100%) !important;
 	background-color: rgba(233,231,228) !important;
     border: 2px dashed rgba(60, 60, 60) !important;
