@@ -1700,7 +1700,7 @@ svg.mask-1FEkla.svg-2azL_l > mask[height="32"][width="32"]:first-child circle {
 }
 
 /*Button Code*/
-.lookFilled-yCfaCM.button-f2h6uQ, .lookInverted-2mDUMi.button-f2h6uQ, .lookOutlined-3yKVGo.button-f2h6uQ, .compactButton-3hG-bs, .contents-3ca1mk.button-3WOKuZ, .contents-3ca1mk.button-3Vyz67, .button-ZJ9ZzX.lookGhost-2Fn_0-, .countryButton-1cNDvB, .viewAsRoleButton-1ZpPlO, .fieldButton-14lHvK, .button-WnI_Ye, .card-2EUiNF .flex-2S1XBF .button-f2h6uQ, .button-OEo0Ie, .button-DAkLIy .buttonInner-3aRbcx, .reactionBtn-fVdJIx.addReactButton-3bSQb6, .pageButton-1GMGeJ:hover, .pageButton-1GMGeJ:active, .theme-dark .perksModalContentWrapper-3RHugb .shinyButton-2Q9MDB, .theme-dark .profileCustomizationSection-2OOT4p .shinyButton-2Q9MDB {
+.lookFilled-yCfaCM.button-f2h6uQ, .lookInverted-2mDUMi.button-f2h6uQ, .lookOutlined-3yKVGo.button-f2h6uQ, .compactButton-3hG-bs, .contents-3ca1mk.button-3WOKuZ, .contents-3ca1mk.button-3Vyz67, .button-ZJ9ZzX.lookGhost-2Fn_0-, .countryButton-1cNDvB, .viewAsRoleButton-1ZpPlO, .fieldButton-14lHvK, .button-WnI_Ye, .card-2EUiNF .flex-2S1XBF .button-f2h6uQ, .button-OEo0Ie, .button-DAkLIy .buttonInner-3aRbcx, .reactionBtn-fVdJIx.addReactButton-3bSQb6, .pageButton-1GMGeJ:hover, .pageButton-1GMGeJ:active, .theme-dark .perksModalContentWrapper-3RHugb .shinyButton-2Q9MDB, .theme-dark .profileCustomizationSection-2OOT4p .shinyButton-2Q9MDB, .theme-dark .emojiSection-3QtaWO .shinyButton-2Q9MDB {
    border-radius: 5px;
    border: 1px solid rgba(230,230,230,0.6);
    box-shadow: inset 0 0 0 1px rgba(0,0,0,0.6);
@@ -4783,9 +4783,11 @@ svg.mask-1FEkla.svg-2azL_l > mask[height="32"][width="32"]:first-child circle {
    box-shadow: inset 0 0 0 1px rgba(60,60,60,0.8) !important;
 }
 
-.reactionCount-1zkLcN, .reactionCount-SWXh9W {
+[class*=reactionCount-] {
+	color: rgba(230,230,230) !important;
+}
+[class*=reactionMe-][class*=reactionCount-] {
 	color: white !important;
-	font-size: 12px;
 }
 
 .theme-dark .reaction-3vwAF2.reactionMe-1PwQAc, .reaction-102jx9.reactionMe-2zhiyZ {
