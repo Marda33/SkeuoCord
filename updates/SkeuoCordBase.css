@@ -603,18 +603,18 @@
 }
 
 .theme-dark .keybindShortcut-3zF1P9 span {
-	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAXCAIAAABMExIiAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsEAAA7BAbiRa+0AAABmSURBVChTbZBRCoBACER1YqM6QUHnCfrq/odRK/ND2R4PdgZXFpaP86IEjCwLMsrCKj9ds91cKzDVLEQ1292vY0Gt775kIZXuvbKtwuu2x1c4PM1LRIdbGyM6DAwRnadwRAdxfhDdzJDg6iP/8A4AAAAASUVORK5CYII=);
-	border: 1px solid rgba(230, 230, 230, 0.6);
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAXCAIAAABF+LJYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADr8AAA6/ATgFUyQAAABFSURBVBhXLYnJDYBADAOd7AdoBQlRBRIv+i/G9iYrHqPxgef90nDCSNs/WpbKBYvOElPsziS5vt7u68S2HyMiBoAiEsAE2rYuYTsScb8AAAAASUVORK5CYII=);
+	border: 1px solid rgba(114,114,114);
 	border-radius: 4px;
-    box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.6);
+    box-shadow: inset 0 0 0 1px rgba(0, 0,0,0.6), 0 1px 2px 1px rgba(0,0,0,0.6) !important;
 	margin-left: 5px;
 	/*search suggestions header key shortcut*/
 }
 .theme-light .keybindShortcut-3zF1P9 span {
-	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAXCAIAAABMExIiAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADr8AAA6/ATgFUyQAAABiSURBVChTZZBLDoAgDERh4v3v5ELXRvfqQfrRYE2m6ctbUBhoSr+vsxHwDDTz1sJCzVioCAvLQDIlH/s/pZ+psCWfXht5Zcs8KS3aj32LrxhM6zLHcgA3Z8t86dQNce+jtQcGaCFj1xTQBgAAAABJRU5ErkJggg==);
-	border: 1px solid rgba(60, 60, 60, 0.6);
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAXCAIAAABF+LJYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADr8AAA6/ATgFUyQAAABFSURBVBhXHYvRDYBQDAIbHMUY48+L+w+jDlKKtB/krinE9z6QBJJOglVgJspMs33oXzntOd59+ib249zudUGl2UmFiPgBwNw8HJQHIo8AAAAASUVORK5CYII=);
+	border: 1px solid rgba(60,60,60,0.6);
 	border-radius: 4px;
-    box-shadow: inset 0 0 0 1px rgba(230, 230, 230, 0.6);
+    box-shadow: inset 0 0 0 1px rgba(230,230,230,0.6), 0 1px 2px 1px rgba(104,104,104,0.4) !important;
 	margin-left: 5px;
 	color: #3c3c3c;
 	/*search suggestions header key shortcut - light mode*/
@@ -625,15 +625,15 @@
 
 .theme-dark .keybindShortcut-3zF1P9 span:active {
 	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAIAAAC0Ujn1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsEAAA7BAbiRa+0AAACZSURBVEhL7dXBCoJQEIXhORdLzEpKLoliYollFkTv/3C5OI9wZhN9DJd/NauBa3+/AGaBqYYQEqYaklXKVMM6zZhqyDZbphryXcFUw744MtVwKCNTDWWsmGqIVcNUw6k+M9VQtz1TDW03MNXQXW5MNfTDxFTDdZyZahinF1MN9/nNVPP6YhZ4PD9MtYAAp1keL76rvcbtQsy+xH0HAp4RA80AAAAASUVORK5CYII=);
-	border: 1px solid rgba(230, 230, 230, 0.6);
-    box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.6);
+	border: 1px solid rgba(114,114,114) !important;
+    box-shadow: inset 0 0 0 1px rgba(0,0,0,0.6) !important;
 	margin-left: 5px;
 	/*search header key shortcut pressed*/
 }
 .theme-light .keybindShortcut-3zF1P9 span:active {
 	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAIAAAC0Ujn1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsAAAA7AAWrWiQkAAAClSURBVEhL7dXBCoJAFIXhOb7/47QKipDEFJPEGCwsSywZfIlmcSDan7vr4w7+q4EZF4PNeuVsJPwaSACricuK6dbfE4gn3ojZ8HcaQJZumWo4ZDumGso8ZaqhKvZMNdRVzlRDU5dMNZybI1MNvj0x1dD5lqmGa+eZarj1F6YaHveeqYbxOTDV8JpGphrm98RUQwgzUw3LEphq8ZWxmris/Lf+4dwH4BEvauY6OxUAAAAASUVORK5CYII=);
-	border: 1px solid rgba(60, 60, 60, 0.6);
-    box-shadow: inset 0 0 0 1px rgba(230,230,230,0.6);
+	border: 1px solid rgba(60, 60, 60, 0.6) !important;
+    box-shadow: inset 0 0 0 1px rgba(230,230,230,0.6) !important;
 	margin-left: 5px;
 	color: #3c3c3c;
 	/*search header key shortcut pressed - light mode*/
