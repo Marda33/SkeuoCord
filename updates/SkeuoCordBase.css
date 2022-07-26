@@ -1,11 +1,26 @@
+/**
+ * @name SkeuoCord (Local)
+ * @author Marda33
+ * @version ersion 1.25
+ * @description A complete skeuomorphic overhaul for Discord.
+ * @website https://github.com/Marda33/SkeuoCord
+ * @source https://marda33.github.io/SkeuoCord/updates/SkeuoCordBase.css
+*/
+
 :root {
     --font-display: Whitney !important;
 	--version: "1.25";
+	--maskradius: 2px; /*default: 2px*/
+	--avatarradius: 3px; /*default: 3px*/
+	--smallavatarradius: 2px; /*default: 2px*/
+	--medavatarradius: 4px; /*default: 4px*/
+	--largeavatarradius: 5px; /*default: 5px*/
+	/*------*/
 }
 
 .info-3pQQBb::before {
   display: block;
-  content: "SkeuoCord " var(--version);
+  content: "SkeuoCord (Local) " var(--version);
   color: rgb(114,118,125);
   font-weight: bold;
   font-size: 14px;
@@ -678,7 +693,7 @@
 	box-shadow: 0 0 2px 2px rgba(0,0,0,0.4), inset 0 0 0 1px rgba(0,0,0,0.6);*/
 	border: 1px solid rgba(0,0,0,0.4) !important;
 	box-shadow: 0 0 0 2px rgba(230,230,230,0.6), 0 0 4px 4px rgba(0,0,0,0.5) !important;
-	border-radius: 3px !important;
+	border-radius: var(--avatarradius) !important;
 }
 .theme-light .wrapper-1VLyxH, .theme-light .avatar-6qzftW .wrapper-1VLyxH, .theme-light .headerAvatar-GgCKcl.wrapper-1VLyxH, .theme-light .IAN-avatar, .theme-light .channelHeader-DFRX8q [class*="dmIcon-"] {
 	/*border: 3px solid rgba(82,82,83);
@@ -686,7 +701,7 @@
 	box-shadow: 0 0 2px 2px rgba(64,64,64,0.2), inset 0 0 0 1px rgba(230,230,230,0.6);*/
 	border: 1px solid rgba(180,180,180,0.4) !important;
 	box-shadow: 0 0 0 2px rgba(60,60,60,0.8), 0 0 4px 4px rgba(64,64,64,0.3) !important;
-	border-radius: 3px !important;
+	border-radius: var(--avatarradius) !important;
 }
 .avatar-2e8lTP, .theme-light .previewContainer-1xQAsw .theme-dark .messageContainer-3a6gLR .message-2CShn3 .contents-2MsGLg .avatar-2e8lTP {
 	width: 35px;
@@ -697,7 +712,7 @@
 	margin-top: -3px;*/
 	border: 1px solid rgba(0,0,0,0.4);
 	box-shadow: 0 0 0 2px rgba(230,230,230,0.6), 0 0 4px 4px rgba(0,0,0,0.5);
-	border-radius: 3px;
+	border-radius:var(--avatarradius);
 	margin-top: 1px;
 	/*chat avatar placement margins & mask*/
 }
@@ -716,7 +731,7 @@
 	box-shadow: 0 0 2px 2px rgba(0,0,0,0.4), inset 0 0 0 1px rgba(0,0,0,0.4);*/
 	border: 1px solid rgba(0,0,0,0.4);
 	box-shadow: 0 0 0 2px rgba(230,230,230,0.6), 0 0 4px 4px rgba(0,0,0,0.5);
-	border-radius: 3px;
+	border-radius: var(--avatarradius);
 }
 .theme-light .userAvatar-3Hwf1F.avatar-3FKimL.avatarSmall-3qwAkA, .theme-light .avatarContainerMasked-13fYnN, .theme-light .avatar-1EWyVD.wrapper-1VLyxH {
 	/*border: 2px solid rgba(60,60,60);
@@ -724,15 +739,15 @@
 	box-shadow: 0 0 2px 2px rgba(64,64,64,0.4), inset 0 0 0 1px rgba(230,230,230,0.6);*/
 	border: 1px solid rgba(180,180,180,0.4);
 	box-shadow: 0 0 0 2px rgba(60,60,60,0.8), 0 0 4px 4px rgba(64,64,64,0.3);
-	border-radius: 3px;
+	border-radius: var(--avatarradius);
 }
 
 .wrapper-1VLyxH.pointer-5RhfHK {
-	border-width: 2px !important;
+	border-width: var(--smallavatarradius) !important;
 	box-shadow: 0 0 2px 2px rgba(0,0,0,0.4), inset 0 0 0 1px rgba(0,0,0,0.4) !important;
 }
 .theme-light .wrapper-1VLyxH.pointer-5RhfHK {
-	border-width: 2px !important;
+	border-width: var(--smallavatarradius) !important;
 	box-shadow: 0 0 2px 2px rgba(64,64,64,0.2), inset 0 0 0 1px rgba(230,230,230,0.6) !important;
 }
 
@@ -743,7 +758,7 @@
 	box-shadow: 0 0 2px 2px rgba(0,0,0,0.4), inset 0 0 0 1px rgba(0,0,0,0.4);*/
 	border: 1px solid rgba(0,0,0,0.4) !important;
 	box-shadow: 0 0 0 2px rgba(230,230,230,0.6), 0 0 4px 4px rgba(0,0,0,0.5) !important;
-	border-radius: 3px;
+	border-radius: var(--avatarradius);
 	/*Go Live avatar masking*/
 }
 .theme-light .avatar-1XO-mJ, .theme-light .avatar-1odLck .wrapper-1VLyxH, .theme-light .replyAvatar-sHd2sU, .theme-light .displayAvatar-3jNvaK, .theme-light .avatarContainer-gPrCzX, .theme-light .avatar-15QyCc.wrapper-1VLyxH, .theme-light .autocompleteRowIcon-Br97vl .wrapper-1VLyxH, .theme-light .wrapper-1VLyxH.pointer-5RhfHK, .theme-light .partyMember-YLjOa7.wrapper-1VLyxH.spointer-5RhfHK, .theme-light .executedCommandAvatar-3oOnb1.clickable-31pE3P, .theme-light .threadMessageAccessoryAvatar-17qE_g, .theme-light .embedAuthorIcon-3pnkS4, .theme-light .AvatarsEverywhere-style-align-wrapper-icon.wrapper-1VLyxH {
@@ -753,7 +768,7 @@
 	box-shadow: 0 0 2px 2px rgba(64,64,64,0.4), inset 0 0 0 1px rgba(230,230,230,0.6);*/
 	border: 1px solid rgba(180,180,180,0.4) !important;
 	box-shadow: 0 0 0 2px rgba(60,60,60,0.8), 0 0 4px 4px rgba(64,64,64,0.3) !important;
-	border-radius: 3px;
+	border-radius: var(--avatarradius);
 }
 
 .theme-dark .avatar-3EQepX.wrapper-1VLyxH, .qrAvatar-3AAugH.wrapper-1VLyxH, .avatar-2Vndt_.wrapper-1VLyxH, .avatarHint-k7pYop, .avatar-2PN2-j.wrapper-1VLyxH, .avatar-3QF_VA.wrapper-1VLyxH, .avatar-3mTjvZ.wrapper-1VLyxH, .avatarCardBackground-1hS1hc .wrapper-1VLyxH {
@@ -762,7 +777,7 @@
 	box-shadow: 0 0 2px 2px rgba(0,0,0,0.4), inset 0 0 0 1px rgba(0,0,0,0.4);*/
 	border: 1px solid rgba(0,0,0,0.4) !important;
 	box-shadow: 0 0 0 3px rgba(230,230,230,0.6), 0 0 4px 4px rgba(0,0,0,0.6) !important;
-	border-radius: 3px !important;
+	border-radius: var(--avatarradius) !important;
 	/*user profile popout avatar*/
 }
 .theme-light .avatar-3EQepX.wrapper-1VLyxH, .theme-light .avatarWrapper-3H_478 .wrapper-1VLyxH, .theme-light .qrAvatar-3AAugH.wrapper-1VLyxH, .theme-light .avatar-2Vndt_.wrapper-1VLyxH, .theme-light .avatarHint-k7pYop, .theme-light .avatar-2PN2-j.wrapper-1VLyxH, .theme-light .avatar-3QF_VA.wrapper-1VLyxH, .theme-light .avatar-3mTjvZ.wrapper-1VLyxH, .theme-light .avatarCardBackground-1hS1hc .wrapper-1VLyxH {
@@ -771,7 +786,7 @@
 	box-shadow: 0 0 2px 2px rgba(64,64,64,0.2), inset 0 0 0 1px rgba(230,230,230,0.6);*/
 	border: 1px solid rgba(180,180,180,0.4) !important;
 	box-shadow: 0 0 0 3px rgba(60,60,60,0.8), 0 0 4px 4px rgba(64,64,64,0.4) !important;
-	border-radius: 3px !important;
+	border-radius: var(--avatarradius) !important;
 	/*user profile popout avatar - light mode*/
 }
 
@@ -787,7 +802,7 @@
 	width: 100px !important;
 	height: 100px !important;
 	border: 3px solid rgba(152,152,153);
-	border-radius: 5px;
+	border-radius: var(--largeavatarradius);
 	box-shadow: 0 0 2px 2px rgba(0,0,0,0.4), inset 0 0 0 1px rgba(0,0,0,0.4);
 	/*usercard avatar mask & sizing*/
 }
@@ -795,7 +810,7 @@
 	width: 100px !important;
 	height: 100px !important;
 	border: 3px solid rgba(82,82,83);
-	border-radius: 5px;
+	border-radius: var(--largeavatarradius);
 	box-shadow: 0 0 2px 2px rgba(104,104,104,0.6), inset 0 0 0 1px rgba(230,230,230,0.6);
 	/*usercard avatar mask & sizing - light mode*/
 }
@@ -807,7 +822,7 @@
 	border-radius: 5px;*/
 	border: 1px solid rgba(0,0,0,0.4);
 	box-shadow: 0 0 0 3px rgba(230,230,230,0.6), 0 0 4px 4px rgba(0,0,0,0.5);
-	border-radius: 3px;
+	border-radius: var(--avatarradius);
 	filter: hue-rotate(350deg);
 	/*usercard avatar hover margins*/
 }
@@ -819,44 +834,44 @@
 	border-radius: 5px;*/
 	border: 1px solid rgba(180,180,180,0.4);
 	box-shadow: 0 0 0 3px rgba(60,60,60,0.8), 0 0 4px 4px rgba(64,64,64,0.3);
-	border-radius: 3px;
+	border-radius: var(--avatarradius);
 	filter: hue-rotate(350deg);
 	/*usercard avatar hover margins - light mode*/
 }
 /*Legacy Avatar Code*/
 .theme-dark .avatar-2MSPKk.wrapper-1VLyxH, .mutualGuilds-s7F2aa .icon-1zKOXL, .theme-dark .avatar-1-pIh6 {
 	border: 2px solid rgba(152,152,153);
-	border-radius: 5px;
+	border-radius: var(--largeavatarradius);
 	box-shadow: 0 0 2px 2px rgba(0,0,0,0.2), inset 0 0 0 1px rgba(0,0,0,0.4);
 }
 .theme-light .avatar-2MSPKk.wrapper-1VLyxH, .theme-light .mutualGuilds-s7F2aa .icon-1zKOXL, .theme-light .avatar-1-pIh6 {
 	border: 2px solid rgba(82,82,83);
-	border-radius: 5px;
+	border-radius: var(--largeavatarradius);
 	box-shadow: 0 0 2px 2px rgba(64,64,64,0.2), inset 0 0 0 1px rgba(230,230,230,0.6);
 }
 .theme-dark .avatar-2MSPKk.wrapper-1VLyxH, .theme-dark .inviteRowAvatar-3ETE3i.wrapper-1VLyxH {
 	border: 2px solid rgba(152,152,153) !important;
-	border-radius: 4px !important;
+	border-radius: var(--medavatarradius) !important;
 	box-shadow: 0 0 2px 2px rgba(0,0,0,0.4), inset 0 0 0 1px rgba(0,0,0,0.6) !important;
 }
 .theme-dark .avatar-b2yTGD.wrapper-1VLyxH, .avatar-135A-D.wrapper-1VLyxH, .theme-dark .xsmallAvatar-gDlGNo.wrapper-1VLyxH, .xsmallAvatar-3_wDVZ.wrapper-1VLyxH, .baseAvatar-1IkcZI.wrapper-1VLyxH, .repliedTextPreview-1bvxun .AvatarsEverywhere-style-align-wrapper .AvatarsEverywhere-style-align-wrapper-icon.wrapper-1VLyxH, .userMenuItem-2pMhk- .wrapper-1VLyxH, .guildAvatar-28MI9x.wrapper-1VLyxH {
 	border: 2px solid rgba(152,152,153) !important;
-	border-radius: 3px !important;
+	border-radius: var(--avatarradius) !important;
 	box-shadow: none !important;
 }
 .theme-light .avatar-2MSPKk.wrapper-1VLyxH, .theme-light .inviteRowAvatar-3ETE3i.wrapper-1VLyxH, .theme-light .avatar-135A-D.wrapper-1VLyxH, .theme-light .baseAvatar-1IkcZI.wrapper-1VLyxH {
 	border: 2px solid rgba(82,82,83) !important;
-	border-radius: 4px !important;
+	border-radius: var(--medavatarradius) !important;
 	box-shadow: 0 0 2px 2px rgba(64,64,64,0.2), inset 0 0 0 1px rgba(230,230,230,0.6) !important;
 }
 .theme-light .avatar-b2yTGD.wrapper-1VLyxH, .theme-light .xsmallAvatar-gDlGNo.wrapper-1VLyxH, .theme-light .xsmallAvatar-3_wDVZ.wrapper-1VLyxH, .theme-light .baseAvatar-17MNr4.wrapper-1VLyxH, .theme-light .avatar-2jnSDw.wrapper-1VLyxH, .theme-light .repliedTextPreview-1bvxun .AvatarsEverywhere-style-align-wrapper .AvatarsEverywhere-style-align-wrapper-icon.wrapper-1VLyxH, .theme-light .userMenuItem-2pMhk- .wrapper-1VLyxH, .theme-light .guildAvatar-28MI9x.wrapper-1VLyxH {
 	border: 2px solid rgba(82,82,83) !important;
-	border-radius: 3px !important;
+	border-radius: var(--avatarradius) !important;
 	box-shadow: none !important;
 }
 .viewer-1av623.wrapper-1VLyxH, .theme-dark .avatar-2jnSDw.wrapper-1VLyxH {
 	border: 3px solid rgba(152,152,153) !important;
-	border-width: 2px !important;
+	border-width: var(--smallavatarradius) !important;
 	box-shadow: 0 0 3px 3px rgba(0,0,0,0.4), inset 0 0 0 1px rgba(0,0,0,0.6) !important;
 }
 
@@ -882,7 +897,7 @@ svg.mask-1FEkla.svg-2azL_l > mask[height="32"][width="32"]:first-child circle {
 .avatarSizeOverride-sfatEO.wrapper-1VLyxH, .headerAvatar-GgCKcl.wrapper-1VLyxH, .partyMember-YLjOa7.wrapper-1VLyxH.pointer-5RhfHK, .partyAvatar-3ce6W_, .avatar-2Hubm8.wrapper-1VLyxH, .applicationStreamingAvatar-3RXs7A.wrapper-1VLyxH, .partyAvatar-1X95NO.wrapper-1VLyxH, .viewer-1av623.wrapper-1VLyxH, .avatar-3a2ws7.wrapper-1VLyxH {
     /*border-width: 2px !important;*/
 	border-width: 1px !important;
-	border-radius: 2px !important;
+	border-radius: var(--smallavatarradius) !important;
 }
 .theme-dark .avatar-6qzftW .wrapper-1VLyxH, .theme-dark .avatar-1HDIsL .wrapper-1VLyxH, .sidebar-1tnWFu.theme-dark .privateChannels-oVe7HL .scroller-WSmht3 .channel-1Shao0.container-32HW5s .layout-1LjVue .avatar-1HDIsL .wrapper-1VLyxH, .sidebar-1tnWFu.theme-dark .privateChannels-oVe7HL .scroller-WSmht3 .channel-1Shao0.container-32HW5s .selected-3veCBZ .layout-1LjVue .avatar-1HDIsL .wrapper-1VLyxH, .theme-dark .headerAvatar-GgCKcl.wrapper-1VLyxH {
 	margin-right: -5px;
@@ -896,17 +911,17 @@ svg.mask-1FEkla.svg-2azL_l > mask[height="32"][width="32"]:first-child circle {
 	border-color: rgba(60,60,60);
 }
 .wrapper-1VLyxH img, .avatar-3TrM7c, .wrapper-1VLyxH.pointer-5RhfHK, .wrapper-3mYmFS.avatar-rC0Atp .callAvatarMask-fiNMWy .voiceAvatar-lRbblo, .avatar-3XmvJx {
-	border-radius: 2px !important;
+	border-radius: var(--maskradius) !important;
 	/*user avatar image radius*/
 }
 .avatar-135A-D.wrapper-1VLyxH, .avatar-b2yTGD.wrapper-1VLyxH, .inviteRowAvatar-3ETE3i.wrapper-1VLyxH, .marginReset-28ZZyF .wrapper-1VLyxH {
 	box-shadow: none !important;
-	border-width: 2px !important;
+	border-width: var(--maskradius) !important;
 }
 .replyAvatar-sHd2sU, .displayAvatar-3jNvaK, .avatar-15QyCc.wrapper-1VLyxH, .autocompleteRowIcon-Br97vl .wrapper-1VLyxH {
 	margin-top: 0 !important;
 	margin-left: 2px !important;
-	border-radius: 2px !important;
+	border-radius: var(--maskradius) !important;
 }
 .base-2v-uc0.selectable-1MM9tu .flex-2S1XBF .wrapper-1VLyxH, .avatar-2OcaMf.wrapper-1VLyxH, .avatar-2tTaT6.wrapper-1VLyxH, .avatar-_VZUJy.wrapper-1VLyxH, .autocompleteRowIcon-Br97vl .wrapper-1VLyxH {
 	/*border-width: 2px !important;*/
