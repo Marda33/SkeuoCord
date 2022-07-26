@@ -1,0 +1,70 @@
+/**
+ * @name SkeuoCord (No Brand Color Replacement)
+ * @author Marda33
+ * @version 1 (Auto Update)
+ * @description A complete skeuomorphic overhaul for Discord.
+ * @website https://github.com/Marda33/SkeuoCord
+ * @source https://marda33.github.io/SkeuoCord/updates/SkeuoCordBase.css
+*/
+
+@import url("https://marda33.github.io/SkeuoCord/updates/SkeuoCordBase.css");
+
+:root {
+	/*User Avatar Border Radius Values - change all below to 999px for circle avatars, set back to default values for square avatars*/
+	--maskradius: 2px !important; /*default: 2px*/
+	--avatarradius: 3px !important; /*default: 3px*/
+	--smallavatarradius: 2px !important; /*default: 2px*/
+	--medavatarradius: 4px !important; /*default: 4px*/
+	--largeavatarradius: 5px !important; /*default: 5px*/
+	/*------*/
+}
+
+* {
+    --brand-experiment-100: #f7f7fe !important;
+    --brand-experiment-130: #f0f1fe !important;
+    --brand-experiment-160: #e7e9fd !important;
+    --brand-experiment-200: #dee0fc !important;
+    --brand-experiment-230: #d4d7fc !important;
+    --brand-experiment-260: #c9cdfb !important;
+    --brand-experiment-300: #bcc1fa !important;
+    --brand-experiment-330: #a8aff8 !important;
+    --brand-experiment-360: #949cf7 !important;
+    --brand-experiment-400: #7984f5 !important;
+    --brand-experiment-430: #707bf4 !important;
+    --brand-experiment-460: #6571f3 !important;
+    --brand-experiment: #5865f2 !important;
+    --brand-experiment-500: #5865f2 !important;
+    --brand-experiment-530: #505cdc !important;
+    --brand-experiment-560: #4752c4 !important;
+    --brand-experiment-600: #3c45a5 !important;
+    --brand-experiment-630: #343b8f !important;
+    --brand-experiment-660: #2d347d !important;
+    --brand-experiment-700: #232861 !important;
+    --brand-experiment-730: #21265b !important;
+    --brand-experiment-760: #1e2353 !important;
+    --brand-experiment-800: #1a1e49 !important;
+    --brand-experiment-830: #141738 !important;
+    --brand-experiment-860: #0d0f24 !important;
+    --brand-experiment-900: #04050c !important;
+    --brand-experiment-05a: rgba(88,101,242,0.05) !important;
+    --brand-experiment-10a: rgba(88,101,242,0.1) !important;
+    --brand-experiment-15a: rgba(88,101,242,0.15) !important;
+    --brand-experiment-20a: rgba(88,101,242,0.2) !important;
+    --brand-experiment-25a: rgba(88,101,242,0.25) !important;
+    --brand-experiment-30a: rgba(88,101,242,0.3) !important;
+    --brand-experiment-35a: rgba(88,101,242,0.35) !important;
+    --brand-experiment-40a: rgba(88,101,242,0.4) !important;
+    --brand-experiment-45a: rgba(88,101,242,0.45) !important;
+    --brand-experiment-50a: rgba(88,101,242,0.5) !important;
+    --brand-experiment-55a: rgba(88,101,242,0.55) !important;
+    --brand-experiment-60a: rgba(88,101,242,0.6) !important;
+    --brand-experiment-65a: rgba(88,101,242,0.65) !important;
+    --brand-experiment-70a: rgba(88,101,242,0.7) !important;
+    --brand-experiment-75a: rgba(88,101,242,0.75) !important;
+    --brand-experiment-80a: rgba(88,101,242,0.8) !important;
+    --brand-experiment-85a: rgba(88,101,242,0.85) !important;
+    --brand-experiment-90a: rgba(88,101,242,0.9) !important;
+    --brand-experiment-95a: rgba(88,101,242,0.95) !important;
+	--control-brand-foreground: #949cf7 !important;
+}
+/* ---- */
