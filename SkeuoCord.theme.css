@@ -8,4 +8,13 @@
 */
 
 @import url("https://marda33.github.io/SkeuoCord/updates/SkeuoCordBase.css");
-/*Theme CSS import*/
+
+:root {
+	/*User Avatar Border Radius Values - change all below to 999px for circle avatars, set back to default values for square avatars*/
+	--maskradius: 2px !important; /*default: 2px*/
+	--avatarradius: 3px !important; /*default: 3px*/
+	--smallavatarradius: 2px !important; /*default: 2px*/
+	--medavatarradius: 4px !important; /*default: 4px*/
+	--largeavatarradius: 5px !important; /*default: 5px*/
+	/*------*/
+}
