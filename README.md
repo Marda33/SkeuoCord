@@ -4,9 +4,9 @@ SkeuoCord gives Discord a skeuomorphic overhaul. Almost every part of its interf
 
 *To customize user avatar border radiuses, change the related variables in the theme import file. You can set all to 999px for circle avatars.*
 
-![screenshot](https://raw.githubusercontent.com/Marda33/SkeuoCord/master/Preview%20(Dark%20Mode).png)
+![screenshot](https://raw.githubusercontent.com/Marda33/SkeuoCord/master/Preview%20(Dark%20Theme).png)
 
-![screenshot](https://raw.githubusercontent.com/Marda33/SkeuoCord/master/Preview%20(Light%20Mode).png)
+![screenshot](https://raw.githubusercontent.com/Marda33/SkeuoCord/master/Preview%20(Light%20Theme).png)
 
 *SkeuoCord requires English to be the selected language for button icon theming. If button icons aren't themed for you, change your client language to English.*
 
