@@ -6236,21 +6236,13 @@ padding-left: 0 !important;
 	background-color: transparent;
 }
 
-.uploadModal-2ie9O_ .icon-HW4tZ-.image-2ssF8k {
-	background: white !important;
-	border-radius: 5px !important;
-	box-shadow: inset 0 0 0 1px rgba(0,0,0,0.6), 0 0 3px 3px rgba(0,0,0,0.6) !important;
-	border: 3px solid;
-	border-image: linear-gradient(to bottom, #e5e5e5 5px,#9c9c9c calc(100% - 5px)) 1
+.uploadModal-2ie9O_ .icon-HW4tZ- {
+	filter: drop-shadow(0 0 5px rgba(0,0,0,0.7));
+	/*upload modal image preview*/
 }
-.theme-light .uploadModal-2ie9O_ .icon-HW4tZ-.image-2ssF8k {
-	background: rgba(40,40,40) !important;
-	border-radius: 5px !important;
-	box-shadow: inset 0 0 0 1px rgba(230,230,230,0.6), 0 0 3px 3px rgba(0,0,0,0.3) !important;
-	border: 3px solid;
-	border-image: linear-gradient(to bottom, #636363 5px,#323232 calc(100% - 5px)) 1
+.theme-light .uploadModal-2ie9O_ .icon-HW4tZ- {
+	filter: drop-shadow(0 0 5px rgba(0,0,0,0.4));
 }
-/*upload modal image preview*/
 
 .innerAutocomplete-1PN280 {
 	border-radius: 0 0 5px 5px;
