@@ -8,6 +8,7 @@ SkeuoCord gives Discord a skeuomorphic overhaul. Almost every part of its interf
 
 ![screenshot](https://raw.githubusercontent.com/Marda33/SkeuoCord/master/Preview%20(Light%20Theme).png)
 
-*SkeuoCord requires English to be the selected language for button icon theming. If button icons aren't themed for you, change your client language to English.*
+*SkeuoCord requires English (US/UK) to be the selected language for button icon theming, due to the way they're specified in Discord.* 
+*If your client is set to another language, the color of the regular icons will be changed and dropshadow filters will be applied to them instead.*
 
 *If you don't want to use SkeuoCord's brand color replacement, use SkeuoCord_NoBrandReplace.theme.css from SkeuoCord's GitHub repo.*
