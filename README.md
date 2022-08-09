@@ -2,7 +2,7 @@
 #
 SkeuoCord gives Discord a skeuomorphic overhaul. Almost every part of its interface, from channels to the Server Boost page, is themed for a complete look. Both dark and light themes *(including the Dark Sidebar option for the light theme)* are supported. 
 
-*To customize user avatar border radiuses, change the related variables in the theme import file. You can set all to 999px for circle avatars.*
+*To customize user avatar border radiuses, change the related variables in the theme import file. You can set all to 999px for circle avatars. (You will have to download the theme import again to use this feature if you downloaded the theme before this update.)*
 
 ![screenshot](https://raw.githubusercontent.com/Marda33/SkeuoCord/master/Preview%20(Dark%20Theme).png)
 
