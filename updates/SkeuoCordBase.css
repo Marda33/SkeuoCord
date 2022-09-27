@@ -1429,7 +1429,6 @@ svg.mask-1FEkla.svg-2azL_l > mask[height="32"][width="32"]:first-child rect[x="1
 	height: 20px;
 	width: 33px;
 }
-
 .repliedMessage-3Z6XBG .username-h_Y3Us, .repliedMessage-3Z6XBG .executedCommandAvatar-3oOnb1 {
 	margin-left: 4px !important;
 }
@@ -1437,6 +1436,16 @@ svg.mask-1FEkla.svg-2azL_l > mask[height="32"][width="32"]:first-child rect[x="1
 	margin-left: 3px;
 	margin-right: 0;
 }
+.repliedTextPreview-1bvxun {
+	margin-top: -2px;
+	max-height: 22px;
+}
+.repliedMessage-3Z6XBG .repliedTextPreview-1bvxun .repliedTextContent-2hOYMB {
+	margin-bottom: 0 !important;	
+	margin-top: 2px !important;	
+	opacity: 0.6;
+}
+
 .applicationCommandEducationArrow-2xKDmq {
     margin-left: 50px;
 }
@@ -4879,14 +4888,6 @@ svg.mask-1FEkla.svg-2azL_l > mask[height="32"][width="32"]:first-child rect[x="1
 	background: transparent;
 	/*reply to bar*/
  }
-.repliedTextPreview-1bvxun.clickable-31pE3P {
-	margin-top: -2px;
-}
-.repliedMessage-3Z6XBG .repliedTextPreview-1bvxun .repliedTextContent-2hOYMB {
-	margin-bottom: 0 !important;	
-	margin-top: 2px !important;	
-	opacity: 0.6;
-}
  
  .clipContainer-31nYlH {
 	overflow: visible !important;
