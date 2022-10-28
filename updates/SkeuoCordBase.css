@@ -1,6 +1,6 @@
 :root {
     --font-display: Whitney !important;
-	--version: "1.29.4";
+	--version: "1.29.5";
 	--maskradius: 2px; /*default: 2px*/
 	--avatarradius: 3px; /*default: 3px*/
 	--smallavatarradius: 2px; /*default: 2px*/
@@ -660,20 +660,23 @@
 }
 
 /*Avatar Code*/
-.theme-light .avatar-3EQepX.wrapper-1VLyxH, .theme-light .avatarWrapper-3H_478 .wrapper-1VLyxH, .theme-light .qrAvatar-3AAugH.wrapper-1VLyxH, .theme-light .avatar-2Vndt_.wrapper-1VLyxH, .theme-light .avatarHint-k7pYop, .theme-light .avatar-2PN2-j.wrapper-1VLyxH, .theme-light .avatar-3QF_VA.wrapper-1VLyxH, .theme-light .avatar-3mTjvZ.wrapper-1VLyxH, .theme-light .avatarCardBackground-1hS1hc .wrapper-1VLyxH, .theme-light .avatar-2OC07D.wrapper-1VLyxH, .theme-light .avatarWrapperNormal-ahVUaC .wrapper-1VLyx, .theme-light .avatarWrapperNormal-1tQ3Je .wrapper-1VLyxHH, .userPopoutOuter-3AVBmJ.theme-light .avatarWrapperNormal-1tQ3Je .wrapper-1VLyxH, .userProfileOuter-1K_BYU.theme-light .wrapper-1VLyxH, .theme-light .headerWrapper-3iTlIT .avatarWrapperNormal-ahVUaC .wrapper-1VLyxH, .theme-light .topSection-13QKHs .header-S26rhB .wrapper-1VLyxH.avatar-3QF_VA {
+.theme-light .avatar-3EQepX.wrapper-1VLyxH, .theme-light .avatarWrapper-3H_478 .wrapper-1VLyxH, .theme-light .qrAvatar-3AAugH.wrapper-1VLyxH, .theme-light .avatar-2Vndt_.wrapper-1VLyxH, .theme-light .avatarHint-k7pYop, .theme-light .avatar-2PN2-j.wrapper-1VLyxH, .theme-light .avatar-3QF_VA.wrapper-1VLyxH, .theme-light .avatarCardBackground-1hS1hc .wrapper-1VLyxH, .theme-light .avatar-2OC07D.wrapper-1VLyxH, .theme-light .avatarWrapperNormal-ahVUaC .wrapper-1VLyx, .theme-light .avatarWrapperNormal-1tQ3Je .wrapper-1VLyxHH, .userPopoutOuter-3AVBmJ.theme-light .avatarWrapperNormal-1tQ3Je .wrapper-1VLyxH, .userProfileOuter-1K_BYU.theme-light .wrapper-1VLyxH, .theme-light .headerWrapper-3iTlIT .avatarWrapperNormal-ahVUaC .wrapper-1VLyxH, .theme-light .topSection-13QKHs .header-S26rhB .wrapper-1VLyxH.avatar-3QF_VA {
 	border: 1px solid rgba(180,180,180,0.4) !important;
 	box-shadow: 0 0 0 3px rgba(60,60,60,0.8), 0 0 4px 4px rgba(64,64,64,0.4) !important;
 	border-radius: var(--avatarradius) !important;
 	/*user profile popout avatar - light mode*/
 }
-.theme-dark .avatar-3EQepX.wrapper-1VLyxH, .qrAvatar-3AAugH.wrapper-1VLyxH, .avatar-2Vndt_.wrapper-1VLyxH, .avatarHint-k7pYop, .avatar-2PN2-j.wrapper-1VLyxH, .avatar-3QF_VA.wrapper-1VLyxH, .avatar-3mTjvZ.wrapper-1VLyxH, .avatarCardBackground-1hS1hc .wrapper-1VLyxH, .avatar-2OC07D.wrapper-1VLyxH, .userProfileOuterThemed-3EfHmv.theme-dark .avatar-2OC07D.wrapper-1VLyxH, .avatarWrapperNormal-ahVUaC .wrapper-1VLyxH, .avatarWrapperNormal-1tQ3Je .wrapper-1VLyxH, .userPopoutOuter-3AVBmJ.theme-dark .avatarWrapperNormal-1tQ3Je .wrapper-1VLyxH, .userProfileOuter-1K_BYU.theme-dark .wrapper-1VLyxH, .headerWrapper-3iTlIT .avatarWrapperNormal-ahVUaC .wrapper-1VLyxH, .topSection-13QKHs .header-S26rhB .wrapper-1VLyxH.avatar-3QF_VA {
+.theme-dark .avatar-3EQepX.wrapper-1VLyxH, .qrAvatar-3AAugH.wrapper-1VLyxH, .avatar-2Vndt_.wrapper-1VLyxH, .avatarHint-k7pYop, .avatar-2PN2-j.wrapper-1VLyxH, .avatar-3QF_VA.wrapper-1VLyxH, .avatarCardBackground-1hS1hc .wrapper-1VLyxH, .avatar-2OC07D.wrapper-1VLyxH, .userProfileOuterThemed-3EfHmv.theme-dark .avatar-2OC07D.wrapper-1VLyxH, .avatarWrapperNormal-ahVUaC .wrapper-1VLyxH, .avatarWrapperNormal-1tQ3Je .wrapper-1VLyxH, .userPopoutOuter-3AVBmJ.theme-dark .avatarWrapperNormal-1tQ3Je .wrapper-1VLyxH, .headerWrapper-3iTlIT .avatarWrapperNormal-ahVUaC .wrapper-1VLyxH, .topSection-13QKHs .header-S26rhB .wrapper-1VLyxH.avatar-3QF_VA {
 	border: 1px solid rgba(0,0,0,0.4) !important;
 	box-shadow: 0 0 0 3px rgba(230,230,230,0.6), 0 0 4px 4px rgba(0,0,0,0.6) !important;
 	border-radius: var(--avatarradius) !important;
 	/*user profile popout avatar*/
 }
-.wrapper-1VLyxH svg circle {
+.wrapper-1VLyxH svg circle[style="opacity: 0.45;"], .wrapper-1VLyxH svg rect[style="opacity: 0.45;"] {
 	opacity: 0 !important;
+}
+.userProfileModalOuter-1FYL8T.userProfileOuterThemed-3EfHmv .wrapper-1VLyxH {
+	margin-left: -3px;
 }
 
 .theme-dark .wrapper-1VLyxH, .theme-dark .avatar-6qzftW .wrapper-1VLyxH, .sidebar-1tnWFu.theme-dark .privateChannels-oVe7HL .scroller-WSmht3 .channel-1Shao0.container-32HW5s .layout-1LjVue .avatar-1HDIsL .wrapper-1VLyxH, .sidebar-1tnWFu.theme-dark .privateChannels-oVe7HL .scroller-WSmht3 .channel-1Shao0.container-1oeRFJ.selected-1-Z6gm  .layout-1qmrhw .avatar-6qzftW .wrapper-1VLyxH, .theme-dark .headerAvatar-GgCKcl.wrapper-1VLyxH, .wrapper-3mYmFS.avatar-rC0Atp, .theme-light .avatarWrapper-24Rbpj.wrapper-1VLyxH, .theme-dark .playerAvatar-3-sV7L, .IAN-avatar, .avatar-rC0Atp, .channelHeader-DFRX8q [class*="dmIcon-"] {
@@ -752,22 +755,6 @@
 	margin-top: 0 !important;
 }
 
-.theme-dark .avatarWrapper-3H_478 .wrapper-1VLyxH, .theme-light .headerSpotify-zpWxgT .flex-2S1XBF .avatarWrapperNormal-ahVUaC .wrapper-1VLyxH, .theme-light .headerPlaying-j0WQBV .flex-2S1XBF .avatarWrapperNormal-ahVUaC .wrapper-1VLyxH, .theme-light .headerXbox-3G-4PF .flex-2S1XBF .avatarWrapperNormal-ahVUaC .wrapper-1VLyxH, .theme-light .headerStreaming-2FjmGz .flex-2S1XBF .avatarWrapperNormal-ahVUaC .wrapper-1VLyxH {
-	width: 100px !important;
-	height: 100px !important;
-	border: 3px solid rgba(152,152,153);
-	border-radius: var(--largeavatarradius);
-	box-shadow: 0 0 2px 2px rgba(0,0,0,0.4), inset 0 0 0 1px rgba(0,0,0,0.4);
-	/*usercard avatar mask & sizing*/
-}
-.theme-light .avatarWrapper-3H_478 .wrapper-1VLyxH {
-	width: 100px !important;
-	height: 100px !important;
-	border: 3px solid rgba(82,82,83);
-	border-radius: var(--largeavatarradius);
-	box-shadow: 0 0 2px 2px rgba(0,0,0,0.3), inset 0 0 0 1px rgba(230,230,230,0.6);
-	/*usercard avatar mask & sizing - light mode*/
-}
 .theme-dark .avatarHint-1qgaV3, .avatarHint-2g3Mcd, .theme-light .userProfileOuterThemed-3EfHmv.theme-dark .avatarHint-2g3Mcd {
 	width: 80px;
 	height: 80px;
@@ -775,7 +762,7 @@
 	box-shadow: 0 0 0 3px rgba(230,230,230,0.6), 0 0 4px 4px rgba(0,0,0,0.5);
 	border-radius: var(--avatarradius);
 	filter: hue-rotate(350deg);
-	/*usercard avatar hover margins*/
+	/*user profile avatar hint*/
 }
 .theme-light .avatarHint-1qgaV3, .theme-light .avatarHint-2g3Mcd {
 	width: 80px;
@@ -784,7 +771,19 @@
 	box-shadow: 0 0 0 3px rgba(60,60,60,0.8), 0 0 4px 4px rgba(64,64,64,0.3);
 	border-radius: var(--avatarradius);
 	filter: hue-rotate(350deg);
-	/*usercard avatar hover margins - light mode*/
+	/*user profile avatar hint - light mode*/
+}
+.userProfileModalOuter-1FYL8T.theme-dark .wrapper-1VLyxH, .accountProfileCard-lbN7n- .wrapper-1VLyxH.avatar-3mTjvZ {
+	border: 1px solid rgba(0,0,0,0.4) !important;
+	box-shadow: 0 0 0 4px rgba(230,230,230,0.6), 0 0 5px 5px rgba(0,0,0,0.6) !important;
+	border-radius: var(--avatarradius) !important;
+	/*user profile modal avatar*/
+}
+.userProfileModalOuter-1FYL8T.theme-light .wrapper-1VLyxH, .theme-light .accountProfileCard-lbN7n- .wrapper-1VLyxH.avatar-3mTjvZ {
+	border: 1px solid rgba(180,180,180,0.4) !important;
+	box-shadow: 0 0 0 4px rgba(60,60,60,0.8), 0 0 5px 5px rgba(64,64,64,0.4) !important;
+	border-radius: var(--avatarradius) !important;
+	/*user profile modal avatar - light mode*/
 }
 /*Legacy Avatar Code*/
 .theme-dark .avatar-2MSPKk.wrapper-1VLyxH, .mutualGuilds-s7F2aa .icon-1zKOXL, .theme-dark .avatar-1-pIh6 {
@@ -802,7 +801,7 @@
 	border-radius: var(--medavatarradius) !important;
 	box-shadow: none !important;
 }
-.theme-dark .avatar-b2yTGD.wrapper-1VLyxH, .avatar-135A-D.wrapper-1VLyxH, .theme-dark .xsmallAvatar-gDlGNo.wrapper-1VLyxH, .xsmallAvatar-3_wDVZ.wrapper-1VLyxH, .baseAvatar-1IkcZI.wrapper-1VLyxH, .repliedTextPreview-1bvxun .AvatarsEverywhere-style-align-wrapper .AvatarsEverywhere-style-align-wrapper-icon.wrapper-1VLyxH, .userMenuItem-2pMhk- .wrapper-1VLyxH, .guildAvatar-28MI9x.wrapper-1VLyxH, .row-1qtctT .avatar-2LpRdK {
+.theme-dark .avatar-b2yTGD.wrapper-1VLyxH, .avatar-135A-D.wrapper-1VLyxH, .theme-dark .xsmallAvatar-gDlGNo.wrapper-1VLyxH, .xsmallAvatar-3_wDVZ.wrapper-1VLyxH, .baseAvatar-1IkcZI.wrapper-1VLyxH, .repliedTextPreview-1bvxun .AvatarsEverywhere-style-align-wrapper .AvatarsEverywhere-style-align-wrapper-icon.wrapper-1VLyxH, .guildAvatar-28MI9x.wrapper-1VLyxH, .row-1qtctT .avatar-2LpRdK, .userMenuItem-2pMhk- .wrapper-1VLyxH {
 	border: 2px solid rgba(152,152,153) !important;
 	border-radius: var(--avatarradius) !important;
 	box-shadow: none !important;
@@ -812,7 +811,7 @@
 	border-radius: var(--medavatarradius) !important;
 	box-shadow: none !important;
 }
-.theme-light .avatar-b2yTGD.wrapper-1VLyxH, .theme-light .xsmallAvatar-gDlGNo.wrapper-1VLyxH, .theme-light .xsmallAvatar-3_wDVZ.wrapper-1VLyxH, .theme-light .baseAvatar-17MNr4.wrapper-1VLyxH, .theme-light .avatar-2jnSDw.wrapper-1VLyxH, .theme-light .repliedTextPreview-1bvxun .AvatarsEverywhere-style-align-wrapper .AvatarsEverywhere-style-align-wrapper-icon.wrapper-1VLyxH, .theme-light .userMenuItem-2pMhk- .wrapper-1VLyxH, .theme-light .guildAvatar-28MI9x.wrapper-1VLyxH, .theme-light .row-1qtctT .avatar-2LpRdK {
+.theme-light .avatar-b2yTGD.wrapper-1VLyxH, .theme-light .xsmallAvatar-gDlGNo.wrapper-1VLyxH, .theme-light .xsmallAvatar-3_wDVZ.wrapper-1VLyxH, .theme-light .baseAvatar-17MNr4.wrapper-1VLyxH, .theme-light .avatar-2jnSDw.wrapper-1VLyxH, .theme-light .repliedTextPreview-1bvxun .AvatarsEverywhere-style-align-wrapper .AvatarsEverywhere-style-align-wrapper-icon.wrapper-1VLyxH, .theme-light .guildAvatar-28MI9x.wrapper-1VLyxH, .theme-light .row-1qtctT .avatar-2LpRdK, .theme-light .userMenuItem-2pMhk- .wrapper-1VLyxH {
 	border: 2px solid rgba(82,82,83) !important;
 	border-radius: var(--avatarradius) !important;
 	box-shadow: none !important;
@@ -3645,7 +3644,7 @@ svg.mask-1FEkla.svg-2azL_l > mask[height="32"][width="32"]:first-child rect[x="1
 	border-image: linear-gradient(to left, #0000 5px,#787878, #0000 calc(100% - 5px)) 1
 	/*chat message group separator*/
 }
-.row-1Tg75B .card-2ART2V, .game-2f2vPC, .reactorDefault-3GSyaV, .bottomDivider-ZmTm-j, .emojiRow-1aPaM-, [class*="channelNotice-"], .bd-setting-divider, .container-6sXIoE.withTimeline-824fT_, .divider-1zHRlg, .termsRow-dZXIM3, .divider-vv_iHh, .userPopout-2j1gM4 .body-2wLx-E .customStatus-3XAoF9, [class*="popoutInfo-"] .customStatus-3XAoF9, .aboutMeSection-PUghFQ, .activityUserPopout-2MzGCj:not(.scroller-1bVxF5 .activityUserPopout-2MzGCj), .info-3pQQBb:before, .perkRow-10K6XE, .breadcrumbsWrapper-1m9gjf, .planSelectDivider-3KU5-l, .containerDefault-3TQ5YN, .privateChannelsHeaderContainer-1UWASm.container-q97qHp, .membersGroup-2eiWxl.container-q97qHp, .separator-2wx7h6, #bd-settings-sidebar .ui-tab-bar-separator, .react-datepicker__current-month, .divider-2zyEHJ, .option-1O-Hwt, .subscriptionDetails-ZcKNHC, .sectionAccountCredit-1IqaxB, .peopleColumn-1wMU14 .header-30YxSJ, .sidebar-1tnWFu .container-3XgAHv, .divider-3LgWDL, .customizationSection-IGy2fS:nth-child(1), .customizationSection-IGy2fS:nth-child(3), .guildInfo-1yK_iS, .divider-ogkn3u, .separator-1So4YB, .topSection-13QKHs .nameTagWithCustomStatus-5c-v3- + .UserDetails-dates-container, .customizationSection-IGy2fS.section-2ZF4mt, .otherSessions-3BQszU .session-9khLqt, .tabBarContainer-2UG0vy {
+.row-1Tg75B .card-2ART2V, .game-2f2vPC, .reactorDefault-3GSyaV, .bottomDivider-ZmTm-j, .emojiRow-1aPaM-, [class*="channelNotice-"], .bd-setting-divider, .container-6sXIoE.withTimeline-824fT_, .divider-1zHRlg, .termsRow-dZXIM3, .divider-vv_iHh, .userPopout-2j1gM4 .body-2wLx-E .customStatus-3XAoF9, [class*="popoutInfo-"] .customStatus-3XAoF9, .aboutMeSection-PUghFQ, .activityUserPopout-2MzGCj:not(.scroller-1bVxF5 .activityUserPopout-2MzGCj), .info-3pQQBb:before, .perkRow-10K6XE, .breadcrumbsWrapper-1m9gjf, .planSelectDivider-3KU5-l, .containerDefault-3TQ5YN, .privateChannelsHeaderContainer-1UWASm.container-q97qHp, .membersGroup-2eiWxl.container-q97qHp, .separator-2wx7h6, #bd-settings-sidebar .ui-tab-bar-separator, .react-datepicker__current-month, .divider-2zyEHJ, .option-1O-Hwt, .subscriptionDetails-ZcKNHC, .sectionAccountCredit-1IqaxB, .peopleColumn-1wMU14 .header-30YxSJ, .sidebar-1tnWFu .container-3XgAHv, .divider-3LgWDL, .customizationSection-IGy2fS:not(.previewProfileThemes-ViDDkq), .guildInfo-1yK_iS, .divider-ogkn3u, .separator-1So4YB, .topSection-13QKHs .nameTagWithCustomStatus-5c-v3- + .UserDetails-dates-container, .customizationSection-IGy2fS.section-2ZF4mt, .otherSessions-3BQszU .session-9khLqt, .tabBarContainer-2UG0vy, .tabBar-11FwuO {
 	border-bottom: 1px solid !important;
 	border-image: linear-gradient(to left, #0000 5px,#787878, #0000 calc(100% - 5px)) 1  !important;
 }
@@ -4884,7 +4883,7 @@ svg.mask-1FEkla.svg-2azL_l > mask[height="32"][width="32"]:first-child rect[x="1
 	border-bottom-color: rgba(230,230,230,0.6) !important;
  }
  .content-23Vf0N .pointer-2uxyAa, .container-3-AQTb .pointer-12wKfh, .container-xB0xPf .pointer-1j6vDv, .container-5N5x2A .pointer-1bsD64, .pointer-1iS5lL, .upsellTooltipWrapper-1wqikQ.caretBottomCenter-4XccL3:after {
-	border-top-color: rgba(230,230,230,0.6);
+	border-top-color: rgba(230,230,230,0.6) !important;
  }
  .content-3O0wBS, [class*="subscribeTooltipWrapper-"], .content-23Vf0N, .content-18CuWF, .container-3-AQTb, .container-xB0xPf, .upsellTooltipWrapper-1wqikQ, .container-5N5x2A, .content-1rmYE- {
 	background: linear-gradient(0deg, transparent 70%, rgba(66,83,136)100%) !important;
@@ -6053,20 +6052,36 @@ padding-left: 0 !important;
 	height: calc(100% - 20px);
     width: calc(100% - 20px);
 }
+.theme-dark .userProfileModalOuter-1FYL8T.userProfileOuterThemed-3EfHmv.theme-dark {
+	box-shadow: inset 0 0 0 1px rgba(0,0,0,0.6), inset 0 0 4px 4px rgba(0,0,0,0.3), 0 0 3px 3px rgba(0,0,0,0.6);
+}
+.theme-dark .userProfileModalOuter-1FYL8T.userProfileOuterThemed-3EfHmv.theme-light {
+	box-shadow: inset 0 0 0 1px rgba(230,230,230,0.6), inset 0 0 4px 4px rgba(0,0,0,0.3), 0 0 3px 3px rgba(0,0,0,0.3);
+}
 
 .bannerSVGWrapper-qc0szY {
 	min-width: 336px !important;
 }
 .userProfileOuterThemed-3EfHmv .bannerSVGWrapper-qc0szY {
-	min-height: 211px !important;
+	min-height: 210px !important;
 }
-.userPopoutOuter-3AVBmJ.userProfileOuterThemed-3EfHmv .bannerSVGWrapper-qc0szY {
+.userPopoutOuter-3AVBmJ.userProfileOuterThemed-3EfHmv .bannerSVGWrapper-qc0szY, .bannerUploader-1sbyBg {
 	min-width: 300px !important;
 	width: 334px !important;
-	min-height: 119px !important;
+	min-height: 118px !important;
 }
 .userPopout-2j1gM4 .bannerSVGWrapper-qc0szY {
 	min-width: 300px !important;
+}
+
+.userPopoutOuter-3AVBmJ.userProfileOuterThemed-3EfHmv .bannerSVGWrapper-qc0szY[style="min-width: 340px; min-height: 90px;"] {
+	min-height: 89px !important;
+}
+.userProfileModalOuter-1FYL8T.userProfileOuterThemed-3EfHmv .bannerSVGWrapper-qc0szY[style="min-width: 600px; min-height: 106px;"] {
+	min-height: 105px !important;
+}
+.userPopoutOuter-3AVBmJ.userProfileOuterThemed-3EfHmv .overlayBackground-1KgwVi{
+	margin-bottom: 22px;
 }
 
 .guildHeader-3nh5RK {
@@ -6945,12 +6960,12 @@ padding-left: 0 !important;
 	height: 36px;
 }
 
-.theme-dark .guildIcon-1nnIAv, .theme-dark .flex-2S1XBF .iconWrapper-lS1uig, .theme-dark .featureIcon-2sTnDK, .theme-dark .icon-2DGsye, .theme-dark .guildIcon-2SUGiq, .theme-dark .bd-addon-error-icon, .theme-dark .guildIcon-IklRcj .acronym-vuwTO7, .theme-dark .stage-2UKqZE, .theme-dark .avatar-2Vndt_.wrapper-1VLyxH, .detailsTooltip-G9hSSa .icon-hSL42R, .avatar-3QF_VA.wrapper-1VLyxH, .theme-dark .cameraWrapper-3a7Ngv, .icon-1HfuQI, .bannerImg-2PzH6z, .sidebar-1tnWFu.theme-dark .bannerImg-2PzH6z, .cardHeader-1kPMOm, .coverWrapper-J-mDGJ, .bd-server-splash-container, .previewContainer-35LFgt, .iconContainer-2k2ykS, .theme-dark .avatar-2OC07D.wrapper-1VLyxH, .userProfileOuterThemed-3EfHmv.theme-dark .avatar-2OC07D.wrapper-1VLyxH, .avatarWrapperNormal-ahVUaC .wrapper-1VLyxH, .avatarWrapperNormal-1tQ3Je .wrapper-1VLyxH, .userProfileOuterThemed-3EfHmv.theme-dark .wrapper-1VLyxH, .theme-dark .icon-1zKOXL.guildIcon-IklRcj, .theme-dark .guildIcon-1nnIAv, .theme-dark .icon-2DGsye, .iconWrapper-1sOtkE, .iconWrapper-eK7GO6, .bd-server-icon, .bd-server-card:hover .bd-server-icon {
+.theme-dark .guildIcon-1nnIAv, .theme-dark .flex-2S1XBF .iconWrapper-lS1uig, .theme-dark .featureIcon-2sTnDK, .theme-dark .icon-2DGsye, .theme-dark .guildIcon-2SUGiq, .theme-dark .bd-addon-error-icon, .theme-dark .guildIcon-IklRcj .acronym-vuwTO7, .theme-dark .stage-2UKqZE, .theme-dark .avatar-2Vndt_.wrapper-1VLyxH, .detailsTooltip-G9hSSa .icon-hSL42R, .avatar-3QF_VA.wrapper-1VLyxH, .theme-dark .cameraWrapper-3a7Ngv, .icon-1HfuQI, .bannerImg-2PzH6z, .sidebar-1tnWFu.theme-dark .bannerImg-2PzH6z, .cardHeader-1kPMOm, .coverWrapper-J-mDGJ, .bd-server-splash-container, .previewContainer-35LFgt, .iconContainer-2k2ykS, .theme-dark .avatar-2OC07D.wrapper-1VLyxH, .userProfileOuterThemed-3EfHmv.theme-dark .avatar-2OC07D.wrapper-1VLyxH, .avatarWrapperNormal-ahVUaC .wrapper-1VLyxH, .avatarWrapperNormal-1tQ3Je .wrapper-1VLyxH, .userProfileOuterThemed-3EfHmv.theme-dark .wrapper-1VLyxH, .wrapper-1VLyxH.avatar-1YsFQ1, .theme-dark .icon-1zKOXL.guildIcon-IklRcj, .theme-dark .guildIcon-1nnIAv, .theme-dark .icon-2DGsye, .iconWrapper-1sOtkE, .iconWrapper-eK7GO6, .bd-server-icon, .bd-server-card:hover .bd-server-icon {
 	background: linear-gradient(0deg, transparent 10%, rgba(15,15,16) 100%);
 	background-color: rgba(57,59,64);
 	/*icon gradient*/
 }
-.theme-light .guildIcon-1nnIAv, .theme-light .flex-2S1XBF .iconWrapper-lS1uig, .theme-light .featureIcon-2sTnDK, .theme-light .icon-2DGsye, .theme-light .guildIcon-2SUGiq, .theme-light .bd-addon-error-icon, .theme-light .guildIcon-IklRcj .acronym-vuwTO7, .theme-light .stage-2UKqZE, .theme-light .avatar-2Vndt_.wrapper-1VLyxH, .theme-light .detailsTooltip-G9hSSa .icon-hSL42R, .theme-light .avatar-3QF_VA.wrapper-1VLyxH, .theme-light .cameraWrapper-3a7Ngv, .theme-light .icon-1HfuQI, .theme-light .bannerImg-2PzH6z, .theme-light .cardHeader-1kPMOm, .theme-light .coverWrapper-J-mDGJ, .theme-light .bd-server-splash-container, .theme-light .previewContainer-35LFgt, .theme-light .iconContainer-2k2ykS, .theme-light .avatar-2OC07D.wrapper-1VLyxH, .userProfileOuterThemed-3EfHmv.theme-light .avatar-2OC07D.wrapper-1VLyxH, .theme-light .avatarWrapperNormal-ahVUaC .wrapper-1VLyxH, .theme-light .avatarWrapperNormal-1tQ3Je .wrapper-1VLyxH, .userProfileOuterThemed-3EfHmv.theme-light .wrapper-1VLyxH, .theme-light .icon-1zKOXL.guildIcon-IklRcj, .theme-light .guildIcon-1nnIAv, .theme-light .icon-2DGsye, .theme-light .iconWrapper-1sOtkE, .theme-light .iconWrapper-eK7GO6, .theme-light .bd-server-icon, .theme-light .bd-server-card:hover .bd-server-icon {
+.theme-light .guildIcon-1nnIAv, .theme-light .flex-2S1XBF .iconWrapper-lS1uig, .theme-light .featureIcon-2sTnDK, .theme-light .icon-2DGsye, .theme-light .guildIcon-2SUGiq, .theme-light .bd-addon-error-icon, .theme-light .guildIcon-IklRcj .acronym-vuwTO7, .theme-light .stage-2UKqZE, .theme-light .avatar-2Vndt_.wrapper-1VLyxH, .theme-light .detailsTooltip-G9hSSa .icon-hSL42R, .theme-light .avatar-3QF_VA.wrapper-1VLyxH, .theme-light .cameraWrapper-3a7Ngv, .theme-light .icon-1HfuQI, .theme-light .bannerImg-2PzH6z, .theme-light .cardHeader-1kPMOm, .theme-light .coverWrapper-J-mDGJ, .theme-light .bd-server-splash-container, .theme-light .previewContainer-35LFgt, .theme-light .iconContainer-2k2ykS, .theme-light .avatar-2OC07D.wrapper-1VLyxH, .userProfileOuterThemed-3EfHmv.theme-light .avatar-2OC07D.wrapper-1VLyxH, .theme-light .avatarWrapperNormal-ahVUaC .wrapper-1VLyxH, .theme-light .avatarWrapperNormal-1tQ3Je .wrapper-1VLyxH, .userProfileOuterThemed-3EfHmv.theme-light .wrapper-1VLyxH, .theme-light .wrapper-1VLyxH.avatar-1YsFQ1, .theme-light .icon-1zKOXL.guildIcon-IklRcj, .theme-light .guildIcon-1nnIAv, .theme-light .icon-2DGsye, .theme-light .iconWrapper-1sOtkE, .theme-light .iconWrapper-eK7GO6, .theme-light .bd-server-icon, .theme-light .bd-server-card:hover .bd-server-icon {
 	background: linear-gradient(0deg, transparent 10%, rgba(198,196,191) 100%);
 	background-color: rgba(231,231,234);
 }
@@ -7673,7 +7688,7 @@ padding-left: 0 !important;
 	.contents-3ca1mk.giftActionContent-2dKrVJ, .theme-light .header-2yFuEx .close-1mLglB:hover .contents-3ca1mk path, .avatarHint-k7pYop .avatarHintInner-2kMTo4, .activityUserPopout-2MzGCj.activity-3v9l4T .headerText-3g1XK9, .activityUserPopout-2MzGCj.activity-3v9l4T .textRow-1sENuL, .activityUserPopout-2MzGCj.activity-3v9l4T .activityName-3YXl6e, .listenAlongIcon-aXq1MH path, .activity-1ythUs .body-u1Y8uL .gameIcon-1mDo1J, .activityUserPopout-2MzGCj.activity-3v9l4T .body-u1Y8uL .gameIcon-1mDo1J, .activityUserPopout-2MzGCj.activity-3v9l4T .buttonsWrapper-2ARRp1 .button-TGAkj4 .contents-3ca1mk, .activityProfile-1712BN.activity-2M3PRB .headerText-3g1XK9, .activityProfile-1712BN.activity-2M3PRB .textRow-1sENuL, .activityProfile-1712BN.activity-2M3PRB .activityName-3YXl6e, .listenAlongIcon-aXq1MH path, .activity-1ythUs .body-u1Y8uL .gameIcon-1mDo1J, .activityProfile-1712BN.activity-2M3PRB .body-u1Y8uL .gameIcon-1mDo1J, .activityProfile-1712BN.activity-2M3PRB .buttonsWrapper-2ARRp1 .button-TGAkj4 .contents-3ca1mk, .theme-dark .tab-TRrPC8.active-1grPyy.item-3XjbnG.selected-g-kMVV.themed-2-lozF, .theme-dark .tab-2Jo-cu.active-346HgG.item-3XjbnG.selected-g-kMVV.themed-2-lozF, .theme-dark .tab-1tp4jL.active-3WMEyE.item-3XjbnG.selected-g-kMVV.themed-2-lozF, .compactButton-3hG-bs .text-2guAFQ, .topPill-3DJJNV .item-3XjbnG.selected-g-kMVV.themed-2-lozF, .theme-dark .input-2g-os5:focus, .theme-dark .container-3muw00, .inputMini-Un2tP4:focus, .theme-dark .resultFocused-3aIoYe, .theme-dark .colorDefault-CDqZdO.focused-3qFvc8, .theme-dark .rowInner-3uonq8:hover, .theme-dark .row-1Ib2uD.selected-1IWCoj .rowInner-3uonq8, .wrapper-3Rixsz.enabled-1t_Gxm:hover, .memberListContainer-13tNU9:hover, .theme-dark .markup-eYLPri.slateTextArea-27tjG0.fontSize14Padding-1nmT2C, .theme-light .marginTop8-24uXGp.button-f2h6uQ.lookOutlined-3yKVGo.colorPrimary-2AuQVo.sizeMedium-2bFIHr .contents-3ca1mk, .headerBar-2wGwms.container-ZMc96U.transparent-1lUmft, .theme-dark .input-2m5SfJ, .theme-dark .highlighted-Q8Nll- .nameAndDecorators-2A8Bbk .name-2m3Cms, .theme-dark .member-2gU6Ar.container-1oeRFJ.selected-1-Z6gm  .layout-1qmrhw .content-1U25dZ .nameAndDecorators-3ERwy2, .theme-dark .markup-eYLPri.messageContent-2t3eCI, .inviteRowButton-3hcOhY .contents-3ca1mk, .bd-notice-button:hover, .headerTitle-1Y0ywV.title-17SveM.base-21yXnu.size16-rrJ6ag {
 		color: white;
 	}
-	.theme-light .button-1Pkqso.button-f2h6uQ.lookOutlined-3yKVGo.watchButton-2v6cPT.buttonSize-2Pmk-w.fullWidth-1orjjo .contents-3ca1mk, .contentColumn-1C7as6 .children-1xdcWE .flex-2S1XBF .button-f2h6uQ.lookOutlined-3yKVGo.colorBrand-I6CyqQ, .theme-dark .selectedCategoryItem-FHKU_o .itemInner-gPkiWb .nameAndDecorators-3ERwy2, .theme-dark .selectedCategoryItem-FHKU_o .itemInner-gPkiWb .avatar-6qzftW path, .item-3mHhwr.item-3XjbnG.themed-2-lozF[aria-selected=true], .theme-dark .tabBarItem-30Te4-.item-3XjbnG.selected-g-kMVV.themed-2-lozF, .theme-dark .tabBarItem-30Te4-.item-3XjbnG.selected-g-kMVV.themed-2-lozF:hover, .mentionsBadge-2ckrKL.iconBase-2G48Fc .badgeBackground-3WsOPj.numberBadge-37OJ3S, .searchHeaderTabList-3CZMQB.side-2ur1Qk .item-3XjbnG.selected-g-kMVV.themed-2-lozF, .segmentControlOption-3MnJdT.selected-2xa993, .segmentControlOption-3MnJdT.selected-2xa993:hover, .item-2idW98[aria-checked="true"] [class*=channelIcon-], .theme-dark .actionHeader-2CT5c7, .theme-dark .header-3ZP1MY, .fieldButton-14lHvK.removeButton-v6eolJ .contents-3ca1mk, .reactionBtn-fVdJIx.addReactButton-3bSQb6 .icon-fX2J7U, .cancelButton-30e0cf.colorPrimary-2AuQVo .contents-3ca1mk {
+	.theme-light .button-1Pkqso.button-f2h6uQ.lookOutlined-3yKVGo.watchButton-2v6cPT.buttonSize-2Pmk-w.fullWidth-1orjjo .contents-3ca1mk, .contentColumn-1C7as6 .children-1xdcWE .flex-2S1XBF .button-f2h6uQ.lookOutlined-3yKVGo.colorBrand-I6CyqQ, .theme-dark .selectedCategoryItem-FHKU_o .itemInner-gPkiWb .nameAndDecorators-3ERwy2, .theme-dark .selectedCategoryItem-FHKU_o .itemInner-gPkiWb .avatar-6qzftW path, .item-3mHhwr.item-3XjbnG.themed-2-lozF[aria-selected=true], .theme-dark .tabBarItem-30Te4-.item-3XjbnG.selected-g-kMVV.themed-2-lozF, .theme-dark .tabBarItem-30Te4-.item-3XjbnG.selected-g-kMVV.themed-2-lozF:hover, .mentionsBadge-2ckrKL.iconBase-2G48Fc .badgeBackground-3WsOPj.numberBadge-37OJ3S, .searchHeaderTabList-3CZMQB.side-2ur1Qk .item-3XjbnG.selected-g-kMVV.themed-2-lozF, .segmentControlOption-3MnJdT.selected-2xa993, .segmentControlOption-3MnJdT.selected-2xa993:hover, .item-2idW98[aria-checked="true"] [class*=channelIcon-], .theme-dark .actionHeader-2CT5c7, .theme-dark .header-3ZP1MY, .fieldButton-14lHvK.removeButton-v6eolJ .contents-3ca1mk, .reactionBtn-fVdJIx.addReactButton-3bSQb6 .icon-fX2J7U, .cancelButton-30e0cf.colorPrimary-2AuQVo .contents-3ca1mk, .contentPremium-_Y0-cX, .button-22XUTG.lookLink-15mFoz .contents-3ca1mk {
 		color: white !important;
 	}
 	.segmentControlOption-3MnJdT:hover {
@@ -8251,7 +8266,7 @@ padding-left: 0 !important;
 .titleBar-1it3bQ .wordmarkWindows-2dq6rw svg, .winButtonClose-3Q8ZH5 svg, .typeWindows-2-g3UY>div:nth-child(4) svg, .typeWindows-2-g3UY>div:nth-child(3) svg, .replyBadge-LMm_Ic, .radioBar-3w9XY- path:not([class*=channelIcon-] path), .svg-2zuE5p>mask, .footerSeparator-b6VH1V, .searchResult-O9NDji::before,.searchResult-O9NDji::after, .theme-light .form-3gdLxP::before, .theme-dark .form-3gdLxP::before, [class*="homeIcon-"], [class*="circleIconButton-"] svg, .listItem-3SmSlK.frame-oXWS21 .wrapper-3kah-n::before, .attachButton-_ACFSu path, .button-f2h6uQ[aria-label*="Send a gift"] path, .button-f2h6uQ[aria-label*="Open GIF picker"] path, .button-f2h6uQ[aria-label*="Open sticker picker"] path, .button-2BMPJJ path, .button-2BMPJJ.open-3fGK6o path, .tutorialIcon-25VF3Q svg, .divider-1wtgZ3, .closeButton-PCZcma svg, .resultsGroup-cfY57t::before, .mentioned-Tre-dv:before, .ephemeral-2nDdnn::before, .members-3WRCEx div[style="position: absolute; pointer-events: none; min-height: 0px; min-width: 1px; flex: 0 0 auto; height: 20px;"], .option-ayUoaq::after, .checkmark-bW9BK8 svg, .iconContainer-GFfNaA svg, .bar-2eAyLE.unreadBar-elBRZx[style="transform: translateY(180%);"], .wrapper-1S43wv svg path:not(.addButtonIcon-3rJeaD), .transition-30IQBn svg path, .wrapper-1b33hy .icons-2dXYop svg path {
   display: none;
 }
-.artwork-L5TAwQ g, .artwork-L5TAwQ path, .logo-2Rw1Ex.logo-3ac3fP path, .icon-2fP4ae path, .warningCircleIcon-1YXIHu path, .warningCircleIcon-mFju_m path, .message-2CShn3.replying-eZ7p5z::before, .react-datepicker__day--selected::after, .calendarPicker-sDhzdi .react-datepicker__day.react-datepicker__day--selected.react-datepicker__day--today::after, .gameIcon-1mDo1J g rect, .slider-32CRPX path, .slider-32CRPX rect, .bd-switch .bd-switch-body .bd-switch-slider svg, .bd-switch .bd-switch-body .bd-switch-slider .bd-switch-handle, .warningIcon-3Mtahk path, .icon-2IcVOj, .icon-382itv, .applicationStore-2nk7Lo .headerBar-1dSpQr .children-3xh0VB:after, .libraryHeader-2loraV .children-3xh0VB:after, .headerBarContainer-31FKNA .children-3xh0VB:after, .checkbox-f1HnKB path, .footer-1hTRRZ .checkbox-1ycfTw .checkboxInner-1aRh1d .checkboxElement-uwAa9F:checked+span::after, .closeIcon-3eoP1e path, .radioIconForeground-2BMavi, .footer-1iSViG .checkbox-1ycfTw .checkboxInner-1aRh1d .checkboxElement-uwAa9F:checked+span:after {
+.artwork-L5TAwQ g, .artwork-L5TAwQ path, .logo-2Rw1Ex.logo-3ac3fP path, .icon-2fP4ae path, .warningCircleIcon-1YXIHu path, .warningCircleIcon-mFju_m path, .message-2CShn3.replying-eZ7p5z::before, .react-datepicker__day--selected::after, .calendarPicker-sDhzdi .react-datepicker__day.react-datepicker__day--selected.react-datepicker__day--today::after, .gameIcon-1mDo1J g rect, .slider-32CRPX path, .slider-32CRPX rect, .bd-switch .bd-switch-body .bd-switch-slider svg, .bd-switch .bd-switch-body .bd-switch-slider .bd-switch-handle, .warningIcon-3Mtahk path, .icon-2IcVOj, .icon-382itv, .applicationStore-2nk7Lo .headerBar-1dSpQr .children-3xh0VB:after, .libraryHeader-2loraV .children-3xh0VB:after, .headerBarContainer-31FKNA .children-3xh0VB:after, .checkbox-f1HnKB path, .footer-1hTRRZ .checkbox-1ycfTw .checkboxInner-1aRh1d .checkboxElement-uwAa9F:checked+span::after, .closeIcon-3eoP1e path, .radioIconForeground-2BMavi, .footer-1iSViG .checkbox-1ycfTw .checkboxInner-1aRh1d .checkboxElement-uwAa9F:checked+span:after, .upsell-27kXsw {
 	display: none !important;
 }
 
@@ -8291,7 +8306,7 @@ padding-left: 0 !important;
 .headerBar-2wGwms.container-ZMc96U.transparent-1lUmft {
 	border-color: transparent;
 }
-.listWrapper-2nHLP8, .theme-light .flex-2S1XBF.flex-3BkGQD.horizontalReverse-60Katr.horizontalReverse-2QssvL.flex-3BkGQD.directionRowReverse-HZatnx.justifyStart-2Mwniq.alignStretch-Uwowzr.noWrap-hBpHBz.footer-1hTRRZ.slideFooter-2dXJ9s, .theme-dark .contentWrapper-3oy4Xo, .theme-light #account.menu-1QACrS.styleFixed-2_NfVL .scroller-1bVxF5, .modal-2TOYtq .content-2hZxGK, .guildSidebar-UHnQqs, .container-qBnZJg, .button-lA2rvH.button-f2h6uQ, .anchor-1MIwyf.anchorUnderlineOnHover-2qPutX.imageWrapper-oMkQl4.imageZoom-3yLCXY.clickable-LksVCf.embedVideo-2ixt5A.embedMedia-1mdWSP .embedVideo-2ixt5A.embedMedia-1mdWSP, .imageWrapper-oMkQl4.image-36HiZc .embedVideo-2ixt5A.embedMedia-1mdWSP, .imageWrapper-oMkQl4 .clickableWrapper-2WTAkL .embedVideo-2ixt5A.embedMedia-1mdWSP, .embedFull-1HGV2S .imageWrapper-oMkQl4, .inputWrapper-1YNMmM.messageInputContainer-2rGDH8, .theme-dark .userProfileModalOuter-1FYL8T {
+.listWrapper-2nHLP8, .theme-light .flex-2S1XBF.flex-3BkGQD.horizontalReverse-60Katr.horizontalReverse-2QssvL.flex-3BkGQD.directionRowReverse-HZatnx.justifyStart-2Mwniq.alignStretch-Uwowzr.noWrap-hBpHBz.footer-1hTRRZ.slideFooter-2dXJ9s, .theme-dark .contentWrapper-3oy4Xo, .theme-light #account.menu-1QACrS.styleFixed-2_NfVL .scroller-1bVxF5, .modal-2TOYtq .content-2hZxGK, .guildSidebar-UHnQqs, .container-qBnZJg, .button-lA2rvH.button-f2h6uQ, .anchor-1MIwyf.anchorUnderlineOnHover-2qPutX.imageWrapper-oMkQl4.imageZoom-3yLCXY.clickable-LksVCf.embedVideo-2ixt5A.embedMedia-1mdWSP .embedVideo-2ixt5A.embedMedia-1mdWSP, .imageWrapper-oMkQl4.image-36HiZc .embedVideo-2ixt5A.embedMedia-1mdWSP, .imageWrapper-oMkQl4 .clickableWrapper-2WTAkL .embedVideo-2ixt5A.embedMedia-1mdWSP, .embedFull-1HGV2S .imageWrapper-oMkQl4, .inputWrapper-1YNMmM.messageInputContainer-2rGDH8 {
 	border: none !important;
 }
 .members-3WRCEx, .members-3WRCEx>div, .repoHeader-2KfNvH, .quickswitcher-pKcM9U .scroller-2qwVWY.auto-2K3UW5.scrollerBase-_bVAAt, .wrapper-1NNaWG.header-1ULbqO, .connectionOptionsWrapper-3aVWcp, .container-2o3qEW [class*="membersWrap-"], .container-3XgAHv .chat-25x62K, .theme-light .container-3XgAHv .scrollerInner-2PPAp2, .theme-light .footer-5ji8u1, .modal-2TOYtq .footer-1hTRRZ.footer-11k_3m {
@@ -8443,15 +8458,6 @@ padding-left: 0 !important;
 }
 .theme-light .xenoLib-notification-close .contents-3ca1mk path {
 	color: black;
-}
-/*CreationDate*/
-.topSection-13QKHs .nameTagWithCustomStatus-5c-v3- + .textScroller-dc9_kz.creationDate-CJwdKT.date-YN6TCS.textRow-1sENuL {
-	padding-bottom: 5px;
-	margin-top: -5px;
-}
-.topSection-13QKHs .nameTagNoCustomStatus-3ocqoK + .textScroller-dc9_kz.creationDate-CJwdKT.date-YN6TCS.textRow-1sENuL {
-	padding-bottom: 13px;
-	margin-top: -10px;
 }
 /*UnreadCountBadges*/
 .UnreadCountBadges-badge-unread .numberBadge-37OJ3S {
