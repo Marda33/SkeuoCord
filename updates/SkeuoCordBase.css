@@ -4140,8 +4140,6 @@ svg.mask-1FEkla.svg-2azL_l > mask[height="32"][width="32"]:first-child rect[x="1
 /* ---- */
 
 .botTagRegular-kpctgU, .botTagInvert-1nKcq_, .textBadge-1fdDPJ[style="background-color: hsl(235, calc(var(--saturation-factor, 1) * 85.6%), 64.7%);"], .colorHeaderPrimary-jN_yGr.size14-3fJ-ot.option-Tt7anD.option-c0n68t, .coverBadge-I41ZIY, .pill-1HLSrc, .liveQualityIndicator-8fb_DX, .pinIcon-zVODC5, .newBadge-1LcB6t {
-	background: linear-gradient(0deg, transparent 10%, hsl(225, calc(var(--saturation-factor, 1) * 32.7%), 42.0%) 100%);
-	background-color: hsl(226, calc(var(--saturation-factor, 1) * 47.5%), 27.6%) !important;
     box-shadow: 0 0 0 1px rgba(230,230,230,0.6), inset 0 0 0 1px rgba(0,0,0,0.6);
 	color: white;
 	/*bot tag*/
@@ -4151,7 +4149,7 @@ svg.mask-1FEkla.svg-2azL_l > mask[height="32"][width="32"]:first-child rect[x="1
 	color: white;
 	/*bot tag - light mode*/
 }
-.newBadge-1LcB6t, .betaTag-3QG2yr {
+.newBadge-1LcB6t, .betaTag-3QG2yr, .botTagRegular-kpctgU:not(.chatTag-Y-5TDc):not(.memberTag-QVWzGc):not(.voiceTag-0F4Ss0), .botTagInvert-1nKcq_, .textBadge-1fdDPJ[style="background-color: hsl(235, calc(var(--saturation-factor, 1) * 85.6%), 64.7%);"], .colorHeaderPrimary-jN_yGr.size14-3fJ-ot.option-Tt7anD.option-c0n68t, .coverBadge-I41ZIY, .pill-1HLSrc, .liveQualityIndicator-8fb_DX, .pinIcon-zVODC5, .newBadge-1LcB6t {
 	background: linear-gradient(0deg, transparent 10%, hsl(225, calc(var(--saturation-factor, 1) * 32.7%), 42.0%) 100%) !important;
 	background-color: hsl(226, calc(var(--saturation-factor, 1) * 47.5%), 27.6%) !important;
 }
