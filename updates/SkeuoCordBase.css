@@ -1,5 +1,59 @@
+@font-face {
+    font-family: Whitney;
+    font-style: normal;
+    font-weight: 300;
+    src: url(https://discord.com/assets/46933da896ba96126074286056614542.woff2) format("woff2")
+}@font-face {
+    font-family: Whitney;
+    font-style: italic;
+    font-weight: 300;
+    src: url(https://discord.com/assets/1651ce6325c0da043476ace0bec3971b.woff2) format("woff2")
+}@font-face {
+    font-family: Whitney;
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://discord.com/assets/24bda95d153a319704c33329f3ab84bb.woff2) format("woff2")
+}@font-face {
+    font-family: Whitney;
+    font-style: italic;
+    font-weight: 400;
+    src: url(https://discord.com/assets/7f18f1d5ab6ded7cf71bbc1f907ee3d4.woff2) format("woff2")
+}@font-face {
+    font-family: Whitney;
+    font-style: normal;
+    font-weight: 500;
+    src: url(https://discord.com/assets/cf4a8a10bbdf9b775fad41e0b9921c84.woff2) format("woff2")
+}@font-face {
+    font-family: Whitney;
+    font-style: italic;
+    font-weight: 500;
+    src: url(https://discord.com/assets/9cfa747e897c772d25efd8e4a42a005e.woff2) format("woff2")
+}@font-face {
+    font-family: Whitney;
+    font-style: normal;
+    font-weight: 600;
+    src: url(https://discord.com/assets/f9e7047f6447547781512ec4b977b2ab.woff2) format("woff2")
+}@font-face {
+    font-family: Whitney;
+    font-style: italic;
+    font-weight: 600;
+    src: url(https://discord.com/assets/21070f52a8a6a61edef9785eaf303fb8.woff2) format("woff2")
+}@font-face {
+    font-family: Whitney;
+    font-style: normal;
+    font-weight: 700;
+    src: url(https://discord.com/assets/f9c8fcfa7dcc5d6a291a6ebbe3bb847e.woff2) format("woff2")
+}@font-face {
+    font-family: Whitney;
+    font-style: italic;
+    font-weight: 700;
+    src: url(https://discord.com/assets/5e1649183589023fb24667a369af585d.woff2) format("woff2")
+}
+
 :root {
-    --font-display: Whitney !important;
+    --font-primary: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --font-display: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --font-headline: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	--version: "1.29.7";
 	--maskradius: 2px; /*default: 2px*/
 	--avatarradius: 3px; /*default: 3px*/
@@ -6316,7 +6370,7 @@ padding-left: 0 !important;
 	padding-top: 14px !important;
 }
 
-.theme-dark .emptyCard-KDifrB, .theme-dark .consentCard-1MV_A4, .theme-dark .background-3d_SjE, .theme-dark .override-1sK4r0.cardPrimaryOutline-1ofwVz.card-16VQ8C, .theme-dark .formFieldWrapper-2LV3S6, .theme-dark .card-YtRIQ2, .theme-dark .root-3mkK8X, .theme-dark .inner, .theme-dark .authedApp-1tw-eT, .theme-dark .subscription-3aLGnG, .previewMessage-2g_aBv, .guildSubscriptionSlots-JPXXvN, [class*="perks-"], .upsellFooter-1H_OCF, .perksList-1vtwXn, .problemInfo-1QppuA .root-cw9rWQ, [class^="noItemsCard"], [class^="tips-"], .spamBanner-1auiob, .accountCard-2lki2x, .userProfileOuterUnthemed-2b2rsv .overlayBackground-1KgwVi, .profileCustomizationPreview-2-Y173.theme-dark .previewInnerWithoutTheme-2fdHI8 .overlayBackground-H1K9ZY, .status-b9jLr4, .container-2nXUah, .descriptionContainer-2ylKGk, .container-SidGiM, .commandList-35zQ3p, .checkboxWrapper-2fDzaA.row-31nALW, .developerPortalCtaWrapper-2PniQs, .box-2iMsQm, .wrapper-2O6Aho, .container-27tlK1, .channelRow-4X_3fi {
+.theme-dark .emptyCard-KDifrB, .theme-dark .consentCard-1MV_A4, .theme-dark .background-3d_SjE, .theme-dark .override-1sK4r0.cardPrimaryOutline-1ofwVz.card-16VQ8C, .theme-dark .formFieldWrapper-2LV3S6, .theme-dark .card-YtRIQ2, .theme-dark .root-3mkK8X, .theme-dark .inner, .theme-dark .authedApp-1tw-eT, .theme-dark .subscription-3aLGnG, .previewMessage-2g_aBv, .guildSubscriptionSlots-JPXXvN, [class*="perks-"], .upsellFooter-1H_OCF, .perksList-1vtwXn, .problemInfo-1QppuA .root-cw9rWQ, [class^="noItemsCard"], [class^="tips-"], .spamBanner-1auiob, .accountCard-2lki2x, .userProfileOuterUnthemed-2b2rsv .overlayBackground-1KgwVi, .profileCustomizationPreview-2-Y173.theme-dark .previewInnerWithoutTheme-2fdHI8 .overlayBackground-H1K9ZY, .status-b9jLr4, .container-2nXUah, .descriptionContainer-2ylKGk, .container-SidGiM, .commandList-35zQ3p, .checkboxWrapper-2fDzaA.row-31nALW, .developerPortalCtaWrapper-2PniQs, .box-2iMsQm, .wrapper-2O6Aho, .container-27tlK1, .channelRow-4X_3fi, .contentPreview-3fWiuC {
 	background: linear-gradient(0deg, transparent 15%, hsl(216, calc(var(--saturation-factor, 1) * 10.2%), 9.6%) 100%);
 	background-color: hsl(220, calc(var(--saturation-factor, 1) * 7.6%), 23.3%);
 	box-shadow: inset 0 0 0 1px rgba(114,114,114,0.6), inset 0 0 5px 5px rgba(0,0,0,0.2);
@@ -6330,7 +6384,7 @@ padding-left: 0 !important;
 	box-shadow: inset 0 0 0 1px rgba(0,0,0,0.6), inset 0 0 5px 5px rgba(0,0,0,0.4);
 	border-radius: 5px;
 }
-.theme-light .emptyCard-KDifrB, .theme-light .consentCard-1MV_A4, .theme-light .background-3d_SjE, .theme-light .override-1sK4r0.cardPrimaryOutline-1ofwVz.card-16VQ8C, .theme-light .formFieldWrapper-2LV3S6, .theme-light .card-YtRIQ2, .theme-light .root-3mkK8X, .theme-light .inner, .theme-light .authedApp-1tw-eT, .theme-light .subscription-3aLGnG, .theme-light .previewMessage-2g_aBv, .theme-light .guildSubscriptionSlots-JPXXvN, .theme-light [class*="perks-"], .theme-light .upsellFooter-1H_OCF, .theme-light .perksList-1vtwXn, .theme-light .problemInfo-1QppuA .root-cw9rWQ, .theme-light [class^="noItemsCard"], .theme-light [class^="tips-"], .theme-light .spamBanner-1auiob, .theme-light .accountCard-2lki2x, .theme-light .userProfileOuterUnthemed-2b2rsv .overlayBackground-1KgwVi, .profileCustomizationPreview-2-Y173.theme-light .previewInnerWithoutTheme-2fdHI8 .overlayBackground-H1K9ZY, .theme-light .status-b9jLr4, .theme-light .container-2nXUah, .theme-light .descriptionContainer-2ylKGk, .theme-light .container-SidGiM, .theme-light .commandList-35zQ3p, .theme-light .checkboxWrapper-2fDzaA.row-31nALW, .theme-light .developerPortalCtaWrapper-2PniQs, .theme-light .box-2iMsQm,.theme-light .wrapper-2O6Aho, .theme-light .container-27tlK1, .theme-light .channelRow-4X_3fi {
+.theme-light .emptyCard-KDifrB, .theme-light .consentCard-1MV_A4, .theme-light .background-3d_SjE, .theme-light .override-1sK4r0.cardPrimaryOutline-1ofwVz.card-16VQ8C, .theme-light .formFieldWrapper-2LV3S6, .theme-light .card-YtRIQ2, .theme-light .root-3mkK8X, .theme-light .inner, .theme-light .authedApp-1tw-eT, .theme-light .subscription-3aLGnG, .theme-light .previewMessage-2g_aBv, .theme-light .guildSubscriptionSlots-JPXXvN, .theme-light [class*="perks-"], .theme-light .upsellFooter-1H_OCF, .theme-light .perksList-1vtwXn, .theme-light .problemInfo-1QppuA .root-cw9rWQ, .theme-light [class^="noItemsCard"], .theme-light [class^="tips-"], .theme-light .spamBanner-1auiob, .theme-light .accountCard-2lki2x, .theme-light .userProfileOuterUnthemed-2b2rsv .overlayBackground-1KgwVi, .profileCustomizationPreview-2-Y173.theme-light .previewInnerWithoutTheme-2fdHI8 .overlayBackground-H1K9ZY, .theme-light .status-b9jLr4, .theme-light .container-2nXUah, .theme-light .descriptionContainer-2ylKGk, .theme-light .container-SidGiM, .theme-light .commandList-35zQ3p, .theme-light .checkboxWrapper-2fDzaA.row-31nALW, .theme-light .developerPortalCtaWrapper-2PniQs, .theme-light .box-2iMsQm,.theme-light .wrapper-2O6Aho, .theme-light .container-27tlK1, .theme-light .channelRow-4X_3fi, .theme-light .contentPreview-3fWiuC {
 	background: linear-gradient(0deg, transparent 15%, hsl(40, calc(var(--saturation-factor, 1) * 7.6%), 76.7%) 100%);
 	background-color: hsl(36, calc(var(--saturation-factor, 1) * 10.2%), 90.4%);
 	box-shadow: inset 0 0 0 1px rgba(60,60,60,0.6), inset 0 0 5px 5px rgba(104,104,104,0.2);
@@ -8245,7 +8299,7 @@ padding-left: 0 !important;
 	border: none;
 	box-shadow: none;
 }
-.input-2g-os5.flexCenter-1Mwsxg.flex-3BkGQD.justifyCenter-rrurWZ.alignCenter-14kD11 .inputWrapper-1YNMmM.copyInput-1dXbXE .inputDefault-3FGxgL.input-2g-os5.noBorder-2p63tM, .footer-C9oLp9 .inputWrapper-1YNMmM .input-2g-os5, .repoHeader-2KfNvH .tabBarContainer-sCZC4w.bottom-b8sdfs, .noChat-2UYgeE.video-3n15R6 .media-engine-video, .carouselModal-1eUFoq.root-g14mjS, .inputDefault-3FGxgL.input-2g-os5.multiInputField-1x_Zdx, .textarea-_59yqs, .permissionsWrapper-34gbP6 .clearButton-BpcAtJ, .addFriendInputWrapper-kkoSV9 .inputDefault-3FGxgL, .searchBar-20o6Cf.small-1uriao .inner-2pOSmK, .container-JhuCwn .form-25Aujy .inputDefault-3FGxgL.input-2g-os5, .repoHeader-2KfNvH .tabBarContainer-1s1u-z, .measurement-RBq28W .authBox-1HR6Ha, .inputWrapper-1YNMmM.multiInputFirst-3-OxIz .multiInputField-1zyopx, .inputWrapper-1YNMmM.multiInputLast-35zVz0 .multiInputField-1zyopx, #activity-popout .scroller-1bVxF5 .wrapper--nA0oy .customItem-2CxBSo, .perksModal-CLcR1c .perks-BtAudq, .perks-36lD43, #account.menu-1QACrS.styleFixed-2_NfVL .submenu-1apzyU.menu-1QACrS .scroller-1bVxF5, .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-track-piece, .scrollerThemed-2oenus.themeDark-2cjlUp.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track, .scrollerThemed-2oenus.themeDark-2cjlUp.scrollerTrack-1ZIpsv>.scrollerStore-390omS::-webkit-scrollbar-track, .theme-dark .scrollerWrap-2lJEkd.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track, .theme-light .scrollerWrap-2lJEkd.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track, .inlineMediaEmbed-1m3ApS .embedMedia-1mdWSP, .inlineMediaEmbed-1m3ApS .embedMedia-1mdWSP, .userPopoutOuter-3AVBmJ #account.menu-1QACrS, .betaTagContainer-1ZAPyL.dependentSetting-2ewJ4W, .searchBox-pyIJJj.search-2RHhW6 .inputDefault-3FGxgL, .radioBar-3w9XY- .icon-NDLBMG {
+.input-2g-os5 .inputWrapper-1YNMmM.copyInput-1dXbXE .inputDefault-3FGxgL.input-2g-os5.noBorder-2p63tM, .footer-C9oLp9 .inputWrapper-1YNMmM .input-2g-os5, .repoHeader-2KfNvH .tabBarContainer-sCZC4w.bottom-b8sdfs, .noChat-2UYgeE.video-3n15R6 .media-engine-video, .carouselModal-1eUFoq.root-g14mjS, .inputDefault-3FGxgL.input-2g-os5.multiInputField-1x_Zdx, .textarea-_59yqs, .permissionsWrapper-34gbP6 .clearButton-BpcAtJ, .addFriendInputWrapper-kkoSV9 .inputDefault-3FGxgL, .searchBar-20o6Cf.small-1uriao .inner-2pOSmK, .container-JhuCwn .form-25Aujy .inputDefault-3FGxgL.input-2g-os5, .repoHeader-2KfNvH .tabBarContainer-1s1u-z, .measurement-RBq28W .authBox-1HR6Ha, .inputWrapper-1YNMmM.multiInputFirst-3-OxIz .multiInputField-1zyopx, .inputWrapper-1YNMmM.multiInputLast-35zVz0 .multiInputField-1zyopx, #activity-popout .scroller-1bVxF5 .wrapper--nA0oy .customItem-2CxBSo, .perksModal-CLcR1c .perks-BtAudq, .perks-36lD43, #account.menu-1QACrS.styleFixed-2_NfVL .submenu-1apzyU.menu-1QACrS .scroller-1bVxF5, .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-track-piece, .scrollerThemed-2oenus.themeDark-2cjlUp.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track, .scrollerThemed-2oenus.themeDark-2cjlUp.scrollerTrack-1ZIpsv>.scrollerStore-390omS::-webkit-scrollbar-track, .theme-dark .scrollerWrap-2lJEkd.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track, .theme-light .scrollerWrap-2lJEkd.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track, .inlineMediaEmbed-1m3ApS .embedMedia-1mdWSP, .inlineMediaEmbed-1m3ApS .embedMedia-1mdWSP, .userPopoutOuter-3AVBmJ #account.menu-1QACrS, .betaTagContainer-1ZAPyL.dependentSetting-2ewJ4W, .searchBox-pyIJJj.search-2RHhW6 .inputDefault-3FGxgL, .radioBar-3w9XY- .icon-NDLBMG, .container-2d0jMv .menu-1QACrS {
 	background: transparent !important;
 	box-shadow: none !important;
 	border: none !important;
