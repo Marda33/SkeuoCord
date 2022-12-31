@@ -65,7 +65,7 @@
 
 .info-3pQQBb::before {
   display: block;
-  content: "SkeuoCord " var(--version);
+  content: "SkeuoCord (Local) " var(--version);
   color: rgb(114,118,125);
   font-weight: bold;
   font-size: 14px;
@@ -826,7 +826,7 @@
 	margin-top: 0 !important;
 }
 
-.theme-dark .avatarHint-1qgaV3, .avatarHint-2g3Mcd, .theme-light .userProfileOuterThemed-3EfHmv.theme-dark .avatarHint-2g3Mcd {
+.theme-dark .avatarHint-1qgaV3, .avatarHint-2g3Mcd, .theme-light .userProfileOuterThemed-3EfHmv.theme-dark .avatarHint-2g3Mcd, .avatarWrapperNormal-1tQ3Je .avatarDecorationHint-GIo7Yh, .theme-light .userProfileOuterThemed-3EfHmv.theme-dark .avatarDecorationHint-GIo7Yh {
 	width: 80px;
 	height: 80px;
 	border: 1px solid rgba(0,0,0,0.4);
@@ -835,7 +835,7 @@
 	filter: hue-rotate(350deg);
 	/*user profile avatar hint*/
 }
-.theme-light .avatarHint-1qgaV3, .theme-light .avatarHint-2g3Mcd {
+.theme-light .avatarHint-1qgaV3, .theme-light .avatarHint-2g3Mcd, .theme-light .avatarWrapperNormal-1tQ3Je .avatarDecorationHint-GIo7Yh {
 	width: 80px;
 	height: 80px;
 	border: 1px solid rgba(180,180,180,0.4);
@@ -843,6 +843,11 @@
 	border-radius: var(--avatarradius);
 	filter: hue-rotate(350deg);
 	/*user profile avatar hint - light mode*/
+}
+.avatarWrapperNormal-1tQ3Je .avatarDecorationHint-GIo7Yh {
+	border-radius: var(--avatarradius) !important;
+	margin-left: 11px;
+	margin-top: 7px;
 }
 .userProfileModalOuter-1FYL8T.theme-dark .wrapper-1VLyxH:not(.listAvatar-2GhWlb):not(.guildAvatar-1UOAAy), .accountProfileCard-lbN7n- .wrapper-1VLyxH.avatar-3mTjvZ, .headerIcon-4CEo5y, .container-1yy5xN .wrapper-1VLyxH {
 	border: 1px solid rgba(0,0,0,0.4) !important;
