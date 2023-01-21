@@ -1983,13 +1983,13 @@ svg.mask-1FEkla.svg-2azL_l > mask[height="32"][width="32"]:first-child rect[x="1
 	transition: none !important;
 	/*folder icon*/
 }
-[class^="folder-"][class^="hover-"], .wrapper-1_HaEi.guilds-2JjMmN.theme-dark [class^="folder-"][class^="hover-"] {
+[class^="folder-"]:hover, .wrapper-1_HaEi.guilds-2JjMmN.theme-dark [class^="folder-"]:hover {
 	box-shadow: inset 0 0 0 1px rgba(230,230,230,0.8), inset 0 0 0 2px rgba(0,0,0,0.8) !important;
 	background: linear-gradient(to top, transparent 5%, rgba(56,56,58) 100%);
 	background-color: rgba(87,89,94);
 	transition: none !important;
 }
-[class^="folder-"][class^="hover-"]:active, .wrapper-1_HaEi.guilds-2JjMmN.theme-dark [class^="folder-"][class^="hover-"]:active {
+[class^="folder-"]:active, .wrapper-1_HaEi.guilds-2JjMmN.theme-dark [class^="folder-"]:active {
 	box-shadow: inset 0 0 0 1px rgba(230,230,230,0.6), inset 0 0 0 2px rgba(0,0,0,0.6) !important;
 	background: linear-gradient(to top, transparent 5%, rgba(16,16,18) 100%);
 	background-color: rgba(47,49,54);
@@ -2002,19 +2002,19 @@ svg.mask-1FEkla.svg-2azL_l > mask[height="32"][width="32"]:first-child rect[x="1
 	background-color: rgba(219,219,217);
 	transition: none !important;
 }
- .theme-light [class^="folder-"][class^="hover-"] {
+ .theme-light [class^="folder-"]:hover {
 	box-shadow: inset 0 0 0 1px rgba(60,60,60,0.8), inset 0 0 0 2px rgba(230,230,230) !important;
 	background: linear-gradient(to top, transparent 5%, rgba(203,201,196) 100%);
 	background-color: rgba(239,239,237);
 	transition: none !important;
 }
-  .theme-light [class^="folder-"][class^="hover-"]:active {
+  .theme-light [class^="folder-"]:active {
 	box-shadow: inset 0 0 0 1px rgba(60,60,60,0.6), inset 0 0 0 2px rgba(230,230,230,0.8) !important;
 	background: linear-gradient(to top, transparent 5%, rgba(163,161,156) 100%);
 	background-color: rgba(199,199,197);
 	transition: none !important;
 }
-.theme-light [class^="expandedFolderBackground-"], .theme-light [class^="expandedFolderBackground-"][class^="hover-"] {
+.theme-light .expandedFolderBackground-1kSAf6 {
 	border-radius: 5px;
 	box-shadow: inset 0 0 0 1px rgba(60,60, 60, 0.60), 0 0 2px 2px rgba(0,0,0,0.27), inset 0 0 1px 2px rgba(230,230,230,0.8) !important;
 	background: linear-gradient(to top, transparent 40%, rgba(188,186,181) 100%);
