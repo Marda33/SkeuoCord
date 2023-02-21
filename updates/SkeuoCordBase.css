@@ -8261,6 +8261,20 @@ padding-left: 0 !important;
 	right: -6px;
 }
 
+.emojiButton-3FRTuj > div > div {
+        transition: filter 0.07s ease-in, transform 0.07s ease-in !important;
+}
+
+.emojiButtonNormal-35P0_i > div > div {
+        filter: grayscale(100%) drop-shadow(1px 0 0 white) drop-shadow(-1px 0 0 white)  drop-shadow(0 1px 0 white) drop-shadow(0 1px 0 black) drop-shadow(0 0 1px rgba(0,0,0,0.6)) !important;
+        transform: unset !important;
+}
+
+.emojiButtonHovered-s44uQ8 > div > div {
+        filter: grayscale(0%) drop-shadow(0 0 1px rgba(0,0,0,0.6)) !important;
+        transform: scale(1.14) !important;
+}
+
 /*---Plugin Support Code---*/
 /*Plugin Settings*/
 .bd-addon-modal-settings {
