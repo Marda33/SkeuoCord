@@ -1,13 +1,14 @@
 /**
  * @name SkeuoCord
  * @author Marda33
- * @version 1 (Auto Update)
+ * @version Auto Update
  * @description A complete skeuomorphic overhaul for Discord.
  * @website https://github.com/Marda33/SkeuoCord
  * @source https://marda33.github.io/SkeuoCord/updates/SkeuoCordBase.css
 */
 
 @import url("https://marda33.github.io/SkeuoCord/updates/SkeuoCordBase.css");
+/*replace SkeuoCordBase with SkeuoCord_BGImport to use custom BG image*/
 
 :root {
 	/*User Avatar Border Radius Values - change all below to 999px for circle avatars, set back to default values for square avatars*/
@@ -16,5 +17,7 @@
 	--smallavatarradius: 2px !important; /*default: 2px*/
 	--medavatarradius: 4px !important; /*default: 4px*/
 	--largeavatarradius: 5px !important; /*default: 5px*/
+	/*Custom BG - enter the link to the image you want to use as the app background, keep quotes*/
+	--bg-image: url('here') center/cover no-repeat !important;
 	/*------*/
 }
