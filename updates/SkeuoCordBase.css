@@ -6524,7 +6524,7 @@ padding-left: 0 !important;
 	background: linear-gradient(270deg, transparent 72%, hsl(36, calc(var(--saturation-factor, 1) * 3.0%), 67.3%) 100%) !important;
 	background-color: hsl(43, calc(var(--saturation-factor, 1) * 9.3%), 85.3%) !important;
 }
-.container-2o3qEW, [class*="membersWrap-"], [class*="membersWrap-"].hiddenMembers-8kpYM0.members-3WRCEx.emptyState-2DwxJe, .themeEditor-1Ebyfp {
+.container-2o3qEW, .themeEditor-1Ebyfp {
 	background: linear-gradient(270deg, transparent 72%, hsl(220, calc(var(--saturation-factor, 1) * 4.9%), 12.0%) 100%);
 	background-color: hsl(225, calc(var(--saturation-factor, 1) * 8.0%), 19.6%);
 	border-left: 1px solid rgb(92,92,92);
@@ -6536,7 +6536,7 @@ padding-left: 0 !important;
 	border-left: 1px solid rgb(92,92,92);
 	/*DM list now playing column BG*/
 }
-.theme-light .container-2o3qEW, .theme-light [class*="membersWrap-"], .theme-light .themeEditor-1Ebyfp {
+.theme-light .container-2o3qEW, .theme-light .themeEditor-1Ebyfp {
 	background: linear-gradient(270deg, transparent 72%, hsl(36, calc(var(--saturation-factor, 1) * 3.0%), 67.3%) 100%);
 	background-color: hsl(43, calc(var(--saturation-factor, 1) * 9.3%), 85.3%);
 	border-left: 1px solid rgb(60,60,60);
@@ -6548,22 +6548,22 @@ padding-left: 0 !important;
 	border-left: 1px solid rgb(60,60,60);
 	/*DM list now playing column BG  - light mode*/
 }
-.custom-theme-background.theme-dark .container-2o3qEW, .custom-theme-background.theme-dark [class*="membersWrap-"] {
-	background: linear-gradient(270deg, transparent 72%, hsla(220, calc(var(--saturation-factor, 1) * 4.9%), 12.0%, 0.7) 100%);
-	background-color: hsla(225, calc(var(--saturation-factor, 1) * 8.0%), 19.6%, 0.7);
+.custom-theme-background.theme-dark .container-2o3qEW {
+	background: linear-gradient(270deg, transparent 72%, hsla(220, calc(var(--saturation-factor, 1) * 4.9%), 12.0%, 0.8) 100%);
+	background-color: hsla(225, calc(var(--saturation-factor, 1) * 8.0%), 19.6%, 0.83);
 }
 .custom-theme-background.theme-dark .nowPlayingColumn-1eCBCN, .custom-theme-background.theme-dark .nowPlayingSidebar-2OFn0o, .custom-theme-background.theme-dark .scroller-36cuUh, .custom-theme-background.theme-dark .submitContainer-g72mF-, .custom-theme-background.theme-dark .container-3XgAHv .chat-1rZYgu, .custom-theme-background.theme-dark .container-3XgAHv .chat-1-OBC7, .custom-theme-background.theme-dark .container-3XgAHv .chat-3t9F_n {
-	background: linear-gradient(270deg, transparent 80%, hsla(220, calc(var(--saturation-factor, 1) * 4.9%), 12.0%, 0.7) 100%);
-	background-color: hsla(225, calc(var(--saturation-factor, 1) * 8.0%), 19.6%, 0.7);
+	background: linear-gradient(270deg, transparent 80%, hsla(220, calc(var(--saturation-factor, 1) * 4.9%), 12.0%, 0.8) 100%);
+	background-color: hsla(225, calc(var(--saturation-factor, 1) * 8.0%), 19.6%, 0.83);
 	border-left: 1px solid rgb(92,92,92);
 }
-.custom-theme-background.theme-light .container-2o3qEW, .custom-theme-background.theme-light [class*="membersWrap-"] {
+.custom-theme-background.theme-light .container-2o3qEW {
 	background: linear-gradient(270deg, transparent 72%, hsla(36, calc(var(--saturation-factor, 1) * 3.0%), 67.3%, 0.7) 100%);
-	background-color: hsla(43, calc(var(--saturation-factor, 1) * 9.3%), 85.3%, 0.7);
+	background-color: hsla(43, calc(var(--saturation-factor, 1) * 9.3%), 85.3%, 0.74);
 }
 .custom-theme-background.theme-light .nowPlayingColumn-1eCBCN, .custom-theme-background.theme-light .nowPlayingSidebar-2OFn0o, .custom-theme-background.theme-light .scroller-36cuUh, .custom-theme-background.theme-light .submitContainer-g72mF-, .custom-theme-background.theme-light .container-3XgAHv .chat-1rZYgu, .custom-theme-background.theme-light .container-3XgAHv .chat-1-OBC7, .custom-theme-background.theme-light .container-3XgAHv .chat-3t9F_n {
-	background: linear-gradient(270deg, transparent 80%, hsla(36, calc(var(--saturation-factor, 1) * 3.0%), 67.3%) 100%, 0.7);
-	background-color: hsla(43, calc(var(--saturation-factor, 1) * 9.3%), 85.3%, 0.7);
+	background: linear-gradient(270deg, transparent 80%, hsla(36, calc(var(--saturation-factor, 1) * 3.0%), 67.3%, 0.7) 100%);
+	background-color: hsla(43, calc(var(--saturation-factor, 1) * 9.3%), 85.3%, 0.74);
 }
 
 .scroller-36cuUh, .submitContainer-g72mF-, .chat-1rZYgu, .chat-1-OBC7, .chat-3t9F_n {
