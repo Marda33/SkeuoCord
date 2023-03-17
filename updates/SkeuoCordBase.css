@@ -122,10 +122,10 @@
 	background-color: hsl(216, calc(var(--saturation-factor, 1) * 5.7%), 17.1%) !important;
 	/*main background*/
 }
-.custom-theme-background .layer-86YKbF, .custom-theme-background .wrapper-1_HaEi, .custom-theme-background .sidebar-1tnWFu, .custom-theme-background .chat-2ZfjoI, .custom-theme-background .container-2cd8Mz, .custom-theme-background .standardSidebarView-E9Pc3j {
+.custom-theme-background .layer-86YKbF {
 	background: var(--custom-theme-background) !important;
 }
-.custom-theme-background .container-1eFtFS, .custom-theme-background .privateChannels-oVe7HL, .custom-theme-background .contentRegion-3HkfJJ {
+.custom-theme-background .container-1eFtFS, .custom-theme-background .privateChannels-oVe7HL, .custom-theme-background .contentRegion-3HkfJJ, .custom-theme-background .wrapper-1_HaEi, .custom-theme-background .sidebar-1tnWFu, .custom-theme-background .chat-2ZfjoI, .custom-theme-background .container-2cd8Mz, .custom-theme-background .standardSidebarView-E9Pc3j {
 	background: transparent !important;
 }
 .custom-theme-background.theme-light .scroller-3X7KbA, .custom-theme-background.theme-light .contentRegionScroller-2_GT_N {
@@ -164,7 +164,7 @@
 	background: linear-gradient(to top, transparent 13%, hsla(45, calc(var(--saturation-factor, 1) * 4.8%), 83.5%, 0.8) 100%);
 	background-color: hsla(60, calc(var(--saturation-factor, 1) * 2.0%), 90.0%, 0.8);
 }
-.custom-theme-background.theme-dark .peopleColumn-1wMU14, .custom-theme-background.theme-dark .scroller-29cQFV, .custom-theme-background.theme-dark .scroller-29cQFV, .custom-theme-background.theme-dark .scroller-2XLwLg, .custom-theme-background.theme-dark.scrollerWrapper-i8p1JZ, .custom-theme-background.theme-dark .body-2khErn {
+.custom-theme-background.theme-dark .peopleColumn-1wMU14, .custom-theme-background.theme-dark .scroller-29cQFV, .custom-theme-background.theme-dark .scroller-29cQFV, .custom-theme-background.theme-dark .scroller-2XLwLg, .custom-theme-background.theme-dark .scrollerWrapper-i8p1JZ, .custom-theme-background.theme-dark .body-2khErn {
 	background: linear-gradient(to top, transparent 35%, hsla(210, calc(var(--saturation-factor, 1) * 7.7%), 5.1%, 0.9) 100%);
 	background-color: hsla(216, calc(var(--saturation-factor, 1) * 5.7%), 17.1%, 0.9);
 }
@@ -4380,6 +4380,12 @@ svg.mask-1y0tyc.svg-1G_H_8 > mask[height="32"][width="32"]:first-child rect[x="1
 }
 .inlineMediaEmbed-1m3ApS .embedVideo-2ixt5A.embedMedia-1mdWSP:not(.imageContent-3Av-9c.embedVideo-2ixt5A.embedMedia-1mdWSP) {
 	margin-bottom: 4px;
+}
+.themeSelection-2u4ce0 {
+	box-shadow: inset 0 0 0 1px rgba(0,0,0,0.6);
+}
+.theme-light .themeSelection-2u4ce0 {
+	box-shadow: inset 0 0 0 1px rgba(230,230,230,0.6);
 }
 
 .assetsSmallImage-2JNB1y, .smallImage-m2dwC4, .badge-370Op6, .voiceSectionIconWrapper-4yoj76, .featureIcon-34uFg2, .pictureInPictureWindow-3ms5Zy {
