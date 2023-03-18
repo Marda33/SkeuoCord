@@ -63,7 +63,7 @@
 	/*settings sidebar BG - light mode*/
 }
 
-.container-2o3qEW {
+.container-2o3qEW, .membersWrap-3NUR2t:not(.container-2o3qEW .membersWrap-3NUR2t) {
 	background: linear-gradient(270deg, transparent 72%, hsla(220, calc(var(--saturation-factor, 1) * 4.9%), 12.0%, 0.8) 100%) !important;
 	background-color: hsla(225, calc(var(--saturation-factor, 1) * 8.0%), 19.6%, 0.83) !important;
 	border-left: 1px solid rgb(92,92,92);
@@ -75,7 +75,7 @@
 	border-left: 1px solid rgb(92,92,92);
 	/*DM list now playing column BG*/
 }
-.theme-light .container-2o3qEW {
+.theme-light .container-2o3qEW, .theme-light .membersWrap-3NUR2t:not(.container-2o3qEW .membersWrap-3NUR2t) {
 	background: linear-gradient(270deg, transparent 72%, hsla(36, calc(var(--saturation-factor, 1) * 3.0%), 67.3%, 0.7) 100%) !important;
 	background-color: hsla(43, calc(var(--saturation-factor, 1) * 9.3%), 85.3%, 0.74) !important;
 	border-left: 1px solid rgb(60,60,60);
