@@ -3762,18 +3762,19 @@ svg.mask-1y0tyc.svg-1G_H_8 > mask[height="32"][width="32"]:first-child rect[x="1
 	border-image: linear-gradient(to left, #0000 5px,#787878, #0000 calc(100% - 5px)) 1
 	/*chat message group separator*/
 }
-.row-1Tg75B .card-2ART2V, .game-2f2vPC, .reactorDefault-3GSyaV, .bottomDivider-ZmTm-j, .emojiRow-1aPaM-, [class*="channelNotice-"], .bd-setting-divider, .container-6sXIoE.withTimeline-824fT_, .divider-1zHRlg, .termsRow-dZXIM3, .divider-vv_iHh, .info-3pQQBb:before, .perkRow-10K6XE, .breadcrumbsWrapper-1m9gjf, .planSelectDivider-3KU5-l, .containerDefault-3TQ5YN, .privateChannelsHeaderContainer-1UWASm.container-q97qHp, .membersGroup-2eiWxl.container-q97qHp, .separator-2N511j, #bd-settings-sidebar .ui-tab-bar-separator, .react-datepicker__current-month, .divider-2zyEHJ, .option-1O-Hwt, .subscriptionDetails-ZcKNHC, .sectionAccountCredit-1IqaxB, .peopleColumn-1wMU14 .header-30YxSJ, .sidebar-1tnWFu .container-3XgAHv, .divider-3LgWDL, .customizationSection-IGy2fS:not(.previewProfileThemes-ViDDkq), .guildInfo-1yK_iS, .divider-ogkn3u, /*.topSection-13QKHs .nameTagWithCustomStatus-5c-v3- + .UserDetails-dates-container,*/ .customizationSection-IGy2fS.section-2ZF4mt, .otherSessions-3BQszU .session-9khLqt, .headerContent-1ruWaB, .separator-3iCpOF, .headerSidebar-q66Sut, .listingDetails-1tUwVY, .separator-12G2Op, .channelNameContainer-4pFmC-, .soundTable-2ti1yU .row-1lgfJq, .uploader-24C2NJ, .listItem-2_Y_Te {
+.row-1Tg75B .card-2ART2V, .game-2f2vPC, .reactorDefault-3GSyaV, .bottomDivider-ZmTm-j, .emojiRow-1aPaM-, [class*="channelNotice-"], .bd-setting-divider, .container-6sXIoE.withTimeline-824fT_, .divider-1zHRlg, .termsRow-dZXIM3, .divider-vv_iHh, .info-3pQQBb:before, .perkRow-10K6XE, .breadcrumbsWrapper-1m9gjf, .planSelectDivider-3KU5-l, .containerDefault-3TQ5YN, .privateChannelsHeaderContainer-1UWASm.container-q97qHp, .membersGroup-2eiWxl.container-q97qHp, .separator-2N511j, #bd-settings-sidebar .ui-tab-bar-separator, .react-datepicker__current-month, .divider-2zyEHJ, .option-1O-Hwt, .subscriptionDetails-ZcKNHC, .sectionAccountCredit-1IqaxB, .peopleColumn-1wMU14 .header-30YxSJ, .sidebar-1tnWFu .container-3XgAHv, .divider-3LgWDL, .customizationSection-IGy2fS:not(.previewProfileThemes-ViDDkq), .guildInfo-1yK_iS, .divider-ogkn3u,.customizationSection-IGy2fS.section-2ZF4mt, .otherSessions-3BQszU .session-9khLqt, .headerContent-1ruWaB, .separator-3iCpOF, .headerSidebar-q66Sut, .listingDetails-1tUwVY, .separator-12G2Op, .channelNameContainer-4pFmC-, .soundTable-2ti1yU .row-1lgfJq, .uploader-24C2NJ, .listItem-2_Y_Te, .container-2giAcK::after, .rowBottomBorder-3HkIZv {
 	border-bottom: 1px solid !important;
 	border-image: linear-gradient(to left, #0000 5px,#787878, #0000 calc(100% - 5px)) 1  !important;
-}
-.tabBarContainer-2UG0vy, .overlayBackground-2aa7wt .tabBarContainer-sCZC4w, .tabBar-3DfKkN, .tabBar-11FwuO, .tableCell-NVV0Cc:nth-of-type(4), .columnHeading-1mydnJ:nth-of-type(5) {
-	border-bottom: 1px solid !important;
-	border-image: linear-gradient(to left, #0000 5px,#787878 calc(100% - 5px)) 1  !important;
 }
 .tableCellWrapper-3_gCF1, .columnHeading-1mydnJ:first-of-type {
 	border-bottom: 1px solid !important;
 	border-image: linear-gradient(to right, #0000 5px,#787878 calc(100% - 5px)) 1  !important;
 }
+.tabBarContainer-2UG0vy, .overlayBackground-2aa7wt .tabBarContainer-sCZC4w, .tabBar-3DfKkN, .tabBar-11FwuO, .tableCell-NVV0Cc:last-of-type:not(.tableCellWrapper-3_gCF1):not(.tableCell-NVV0Cc .tableCell-NVV0Cc), .columnHeading-1mydnJ:last-of-type {
+	border-bottom: 1px solid !important;
+	border-image: linear-gradient(to left, #0000 5px,#787878 calc(100% - 5px)) 1  !important;
+}
+
 .columnHeading-1mydnJ, .tableCell-NVV0Cc {
 	border-bottom-color: #787878 !important;
 }
@@ -7927,7 +7928,7 @@ padding-left: 0 !important;
 		color: black;
 		border-color: black;
 	}
-	.theme-light .status-3TYC5W, .theme-light .customText-36Uwzc, .theme-light .clearStatusIcon-9SeHGZ, .theme-light .title-2IIJok, .theme-light .item-5ApiZt.focused-3LIdPu .switchAccountsIcon-36imMT path, .theme-light .bd-button.bd-view-button.selected svg {
+	.theme-light .status-3TYC5W, .theme-light .customText-36Uwzc, .theme-light .clearStatusIcon-9SeHGZ, .theme-light .title-2IIJok, .theme-light .item-5ApiZt.focused-3LIdPu .switchAccountsIcon-36imMT path, .theme-light .bd-button.bd-view-button.selected svg, .colorWhite-Eshn2o.lookOutlined-3RTC7c .contents-3NembX  * {
 		color: black;
 		fill: black;
 	}
