@@ -3083,6 +3083,9 @@ svg.mask-1y0tyc.svg-1G_H_8 > mask[height="32"][width="32"]:first-child rect[x="1
 .content-3at_AU {
 	border-radius: 5px;
 }
+.wrapper-NhbLHG:hover .content-1gYQeQ, .wrapper-NhbLHG:active .content-1gYQeQ, .wrapper-NhbLHG.modeSelected-3DmyhH .content-1gYQeQ {
+	box-sizing: content-box;
+}
 
 /*Selection Code*/
 .theme-dark .wrapper-1ucjTd:hover .content-3at_AU, .theme-dark .peopleListItem-u6dGxF:hover, .theme-dark .autocompleteRow-14iwvH[aria-selected="true"] .base-2v-uc0, .theme-dark .autocompleteRow-14iwvH:hover .base-2v-uc0, .theme-dark .option-ayUoaq:hover, .theme-dark .option-ayUoaq[aria-selected="true"], .theme-dark .wrapper-1ucjTd.modeLocked-SZJhTy:hover .content-3at_AU, .theme-dark .listRow-hutiT_:hover, .theme-dark .content-3xS9Lh:hover, .theme-dark .memberListItem-31QoHj:hover, .theme-dark .inviteRow-3vmB7i:hover, .sidebar-1tnWFu.theme-dark .wrapper-1ucjTd:hover .content-3at_AU, .sidebar-1tnWFu.theme-dark .wrapper-1ucjTd.modeLocked-SZJhTy:hover .content-3at_AU, .sidebar-1tnWFu.theme-dark .listRow-hutiT_:hover, .sidebar-1tnWFu.theme-dark .content-3xS9Lh:hover, .sidebar-1tnWFu.theme-dark .memberListItem-31QoHj:hover, .sidebar-1tnWFu.theme-dark .inviteRow-3vmB7i:hover, .theme-dark .friendSelected-3cwmD7, .theme-dark .reactionDefault-1Sjj1f:hover, .theme-dark .categoryPill-1zjNrr:hover, .theme-dark .wrapper-NhbLHG:hover .content-1gYQeQ, .sidebar-1tnWFu.theme-dark .wrapper-NhbLHG:hover .content-1gYQeQ, .theme-dark .voiceUser-3nRK-K .content-1Tgc42:hover, .option-Uc12mm:hover, .theme-dark .popoutList-2oR8Im.guildSettingsAuditLogsUserFilterPopout-3Jg5NE .scroller-2CvAgC .selectableItem-3-fmiM.search-result:hover, .theme-dark .members-3WRCEx .clickable-28SzVr:hover .layout-1qmrhw, .theme-dark .listRow-2nO1T6:hover, .item-1Mjtru:hover, .addMemberRow-KVhQFf.selectedRow-1SAgVL, .row-1qtctT:hover, .scroller-nxCRu_ .wrapper--nA0oy .customItem-1KYL7t:hover .activityItem-3_4A5-, .result-u66Ywh[aria-selected="true"], .channel-1Shao0.container-32HW5s .interactive-iyXY_x:hover, .sidebar-1tnWFu.theme-dark .channel-1Shao0.container-32HW5s .interactive-iyXY_x:hover, .avatarWrapper-1B9FTW.withTagAsButton-OsgQ9L:hover, .sidebar-1tnWFu.theme-dark .avatarWrapper-1B9FTW.withTagAsButton-OsgQ9L:hover, .memberRow-1FhJgR:hover, .theme-dark .resultFocused-3aIoYe, .wrapper-3Rixsz.enabled-1t_Gxm:hover, .memberListContainer-13tNU9:hover, .theme-dark .side-1lrxIh .themed-qqoYp3.item-2GWPIy:hover, .theme-dark #bd-settings-sidebar .ui-tab-bar-item:hover, .sidebarRegion-1VBisG.theme-dark .side-1lrxIh .themed-qqoYp3.item-2GWPIy:hover, .sidebarRegion-1VBisG.theme-dark #bd-settings-sidebar .ui-tab-bar-item:hover, .category-qFAw-K:hover, .userProfileOuter-2tQwNf.theme-dark .listRow-2nO1T6:hover, .optionRow-1wYi0s:hover, .quickSelectPopoutOption-2E2UmS:hover, .row-7jGzPR:hover, .theme-dark .connectionList-3wSnMU .listRow-2nO1T6:hover, .categoryItem-Kc_HK_:hover .layout-1qmrhw {
@@ -3090,7 +3093,6 @@ svg.mask-1y0tyc.svg-1G_H_8 > mask[height="32"][width="32"]:first-child rect[x="1
 	background-color: hsl(216, calc(var(--saturation-factor, 1) * 4.5%), 21.8%);
 	box-shadow: inset 0 0 0 1px rgba(20,20,20);
 	border-radius: 5px;
-	box-sizing: content-box;
 	/*selection hover*/
 }
 .theme-dark .colorDefault-2_rLdz.focused-3LIdPu, .theme-dark .rowInner-3uonq8:hover, .theme-dark .row-1Ib2uD.selected-1IWCoj .rowInner-3uonq8, .bd-select-option:hover {
@@ -3103,7 +3105,6 @@ svg.mask-1y0tyc.svg-1G_H_8 > mask[height="32"][width="32"]:first-child rect[x="1
 	background: linear-gradient(to top, transparent 40%, hsl(216, calc(var(--saturation-factor, 1) * 9.8%), 10.0%) 100%) !important;
 	background-color: hsl(220, calc(var(--saturation-factor, 1) * 8.7%), 20.2%) !important;
 	box-shadow: inset 0 0 0 1px rgba(14,14,14) !important;
-	box-sizing: content-box;
   /*selection pressed*/
 }
 .searchHeaderTabList-3CZMQB.side-1lrxIh .item-2GWPIy.themed-qqoYp3:active, .searchHeaderTabList-3CZMQB.side-1lrxIh .item-2GWPIy.selected-1sf9UK.themed-qqoYp3:active {
@@ -3114,7 +3115,6 @@ svg.mask-1y0tyc.svg-1G_H_8 > mask[height="32"][width="32"]:first-child rect[x="1
 	background-color: hsl(216, calc(var(--saturation-factor, 1) * 3.3%), 29.6%);
 	box-shadow: inset 0 0 0 1px rgba(14,14,14);
 	border-radius: 5px;
-	box-sizing: content-box;
   /*selection selected*/
 }
 .bd-select-option.selected {
