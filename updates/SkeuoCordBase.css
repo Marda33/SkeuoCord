@@ -762,19 +762,22 @@
 .mentioned-Tre-dv .avatar-2e8lTP {
 	margin-top: 3px !important;
 }
-.theme-dark .wrapper-3Un6-K:not(.miniAvatar-2DD1As):not(.usernameSection-2d814A .largeAvatar-1RhImd):not(.profileCard-2gVmvm .wrapper-3Un6-K), .theme-dark .userAvatar-3Hwf1F.avatar-3FKimL.avatarSmall-3qwAkA, .sidebar-1tnWFu.theme-dark .avatarContainer-2inGBK.avatar-3elDyV.avatarSmall-2CW6I1, .sidebar-1tnWFu.theme-dark .userAvatar-3Hwf1F.avatar-3FKimL.avatarSmall-3qwAkA, .sidebar-1tnWFu.theme-dark .avatarContainer-gPrCzX, .theme-dark .avatarContainerMasked-13fYnN, .sidebar-1tnWFu.theme-dark .avatarContainerMasked-13fYnN, .sidebar-1tnWFu.theme-dark .avatarContainer-gPrCzX .clickableAvatar-igrb2Y .avatar-3TrM7c, .theme-dark .avatar-1EWyVD.wrapper-3Un6-K, .bar-wDIGjg .wrapper-3Un6-K {
-	border: 1px solid rgba(0,0,0,0.4);
+.theme-dark .wrapper-3Un6-K:not(.miniAvatar-2DD1As):not(.usernameSection-2d814A .largeAvatar-1RhImd):not(.profileCard-2gVmvm .wrapper-3Un6-K), .theme-dark .userAvatar-3Hwf1F, .sidebar-1tnWFu.theme-dark .avatarContainer-2inGBK.avatar-3elDyV.avatarSmall-2CW6I1, .sidebar-1tnWFu.theme-dark .userAvatar-3Hwf1F.avatar-3FKimL.avatarSmall-3qwAkA, .sidebar-1tnWFu.theme-dark .avatarContainer-gPrCzX, .theme-dark .avatarContainerMasked-13fYnN, .sidebar-1tnWFu.theme-dark .avatarContainerMasked-13fYnN, .sidebar-1tnWFu.theme-dark .avatarContainer-gPrCzX .clickableAvatar-igrb2Y .avatar-3TrM7c, .theme-dark .avatar-1EWyVD.wrapper-3Un6-K, .bar-wDIGjg .wrapper-3Un6-K {
+	border: 1px solid rgba(0,0,0);
 	box-shadow: 0 0 0 2px rgba(230,230,230,0.6), 0 0 4px 4px rgba(0,0,0,0.5);
 	border-radius: var(--avatarradius);
 	background: linear-gradient(to top, transparent 10%, rgba(15,15,16) 100%);
 	background-color: rgba(57,59,64);
 }
 .theme-light .wrapper-3Un6-K:not(.miniAvatar-2DD1As):not(.bar-wDIGjg .wrapper-3Un6-K), .theme-light .userAvatar-3Hwf1F.avatar-3FKimL.avatarSmall-3qwAkA, .theme-light .avatarContainerMasked-13fYnN, .theme-light .avatar-1EWyVD.wrapper-3Un6-K {
-	border: 1px solid rgba(180,180,180,0.4);
+	border: 1px solid rgba(180,180,180);
 	box-shadow: 0 0 0 2px rgba(60,60,60,0.8), 0 0 4px 4px rgba(64,64,64,0.3);
 	border-radius: var(--avatarradius);
 	background: linear-gradient(to top, transparent 10%, rgba(198,196,191) 100%);
 	background-color: rgba(231,231,234);
+}
+.avatarSmall-3qwAkA {
+    background-size: contain !important;
 }
 
 .wrapper-3Un6-K.pointer-5RhfHK {
