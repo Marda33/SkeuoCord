@@ -21,7 +21,7 @@
 
 .info__755e1::before {
   display: block;
-  content: "SkeuoCord " var(--version);
+  content: "SkeuoCord (Local) " var(--version);
   color: hsl(218, calc(var(--saturation-factor, 1) * 5%), 47%);
   font-weight: bold;
   font-size: 14px;
@@ -5805,7 +5805,7 @@ padding-left: 0 !important;
 	box-shadow: inset 0 0 0 1px rgba(28,29,30), inset 0 0 0 2px rgba(114,114,114,0.8);
 	/*message hover*/
 }
-.theme-dark .message__80c10.selected_fd9051 {
+.theme-dark .message__80c10.selected_fd9051, .theme-dark .message__80c10.selected_fd9051:hover {
 	background: linear-gradient(to top, transparent 40%, hsla(204, calc(var(--saturation-factor, 1) * 20.0%), 4.9%,0.8) 100%) !important;
 	background-color: hsla(204, calc(var(--saturation-factor, 1) * 5.9%), 16.7%,0.8) !important;
 	border-radius: 5px !important;
@@ -5819,7 +5819,7 @@ padding-left: 0 !important;
 	box-shadow: inset 0 0 0 1px rgba(227,226,225), inset 0 0 0 2px rgba(129,129,129) !important;
 	/*message hover - light mode*/
 }
-.theme-light .message__80c10.selected_fd9051 {
+.theme-light .message__80c10.selected_fd9051, .theme-light .message__80c10.selected_fd9051:hover {
 	background: linear-gradient(to top, transparent 40%, hsl(43, calc(var(--saturation-factor, 1) * 3.4%), 60.2%) 100%) !important;
 	background-color: hsl(43, calc(var(--saturation-factor, 1) * 6.8%), 79.8%) !important;
 	border-radius: 5px;
