@@ -4,8 +4,7 @@ SkeuoCord gives Discord a skeuomorphic overhaul. Almost every part of its interf
 
 *To customize user avatar border radiuses, change the related variables in the theme import file. You can set all to 999px for circle avatars.*
 
-*SkeuoCord now supports setting an image as the app background. Edit the theme import file to add the link to the image you want to use.*
-*(You will have to download the theme import again to use this feature if you downloaded the theme before this update.)*
+*SkeuoCord supports setting an image as the app background. Add the link you want to use to the theme import file.*
 
 ![screenshot](https://raw.githubusercontent.com/Marda33/SkeuoCord/master/Preview%20(Dark%20Theme).png)
 
