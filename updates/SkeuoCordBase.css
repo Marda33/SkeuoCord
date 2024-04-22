@@ -1960,12 +1960,12 @@ svg.mask_d5067d.svg_a6bf1c > mask[height="32"][width="32"]:first-child rect[x="1
 	background-color: hsl(0, calc(var(--saturation-factor, 1) * 67.9%), 42.7%) !important;
 	transition: none !important;
 }
-.button_d4bf9b.dangerous__8fbad:hover, .removeAttachmentHoverButton__161a2:hover {
+.button_d4bf9b.dangerous__8fbad:hover, .removeMosaicItemHoverButton__56c64:hover {
 	background: linear-gradient(to top, transparent 10%, hsl(0, calc(var(--saturation-factor, 1) * 73.3%), 60.4%) 100%) !important;
 	background-color: hsl(0, calc(var(--saturation-factor, 1) * 59.8%), 45.9%) !important;
 	box-shadow: inset 0 0 0 1px rgba(230,230,230,0.3);
 }
-.button_d4bf9b.dangerous__8fbad:active, .removeAttachmentHoverButton__161a2:active {
+.button_d4bf9b.dangerous__8fbad:active, .removeMosaicItemHoverButton__56c64:active {
 	background: linear-gradient(to top, transparent 10%, hsl(0, calc(var(--saturation-factor, 1) * 90.9%), 30.2%) 100%) !important;
 	background-color: hsl(0, calc(var(--saturation-factor, 1) * 67.9%), 42.7%) !important;
 	box-shadow: inset 0 0 0 1px rgba(230,230,230,0.3);
@@ -1973,10 +1973,10 @@ svg.mask_d5067d.svg_a6bf1c > mask[height="32"][width="32"]:first-child rect[x="1
 .theme-light .button_d4bf9b.dangerous__8fbad:hover, .theme-light .button_d4bf9b.dangerous__8fbad:active {
 	box-shadow: inset 0 0 0 1px rgba(60,60,60,0.3);
 }
-.removeAttachmentHoverButton__161a2:hover, .removeAttachmentHoverButton__161a2:active {
+.removeMosaicItemHoverButton__56c64:hover, .removeMosaicItemHoverButton__56c64:active {
 	box-shadow: 0 0 3px 3px rgba(0,0,0,0.27), inset 0 0 0 1px rgba(230,230,230,0.3) !important;
 }
-.theme-light .removeAttachmentHoverButton__161a2:hover, .theme-light .removeAttachmentHoverButton__161a2:active {
+.theme-light .removeMosaicItemHoverButton__56c64:hover, .theme-light .removeMosaicItemHoverButton__56c64:active {
 	box-shadow: 0 0 3px 3px rgba(0,0,0,0.27), inset 0 0 0 1px rgba(60,60,60,0.3) !important;
 }
 .container__861ca .button__581d0.colorRed__5a617.sizeTiny_c03db5 {
@@ -2470,23 +2470,23 @@ svg.mask_d5067d.svg_a6bf1c > mask[height="32"][width="32"]:first-child rect[x="1
 .button_d4bf9b:last-of-type {
 	border-radius: 0 5px 5px 0;
 }
-.theme-dark .wrapper__4e6b6, .hoverButtonGroup__304b2 {
+.theme-dark .wrapper__4e6b6, .hoverButtonGroup__745e4 {
 	background: linear-gradient(to top, transparent 42%, rgba(77,80,86) 100%) !important;
 	background-color: rgba(65,67,72) !important;
 	border-radius: 5px;
 	box-shadow: 0 0 3px 3px rgba(0,0,0,0.5), inset 0 0 0 1px rgb(92,92,92) !important;
     /*message options popup*/
 }
-.theme-dark .button_d4bf9b:hover:not(.button_d4bf9b.dangerous__8fbad:hover), .hoverButtonGroup__304b2:hover {
+.theme-dark .button_d4bf9b:hover:not(.button_d4bf9b.dangerous__8fbad:hover), .hoverButtonGroup__745e4 .hoverButton__78b6a:hover:not(.removeMosaicItemHoverButton__56c64:hover) {
 	background: linear-gradient(to top, transparent 42%, rgba(97,100,106) 100%) !important;
 	background-color: rgba(85,87,92) !important;
 }
-.theme-dark .button_d4bf9b:active:not(.button_d4bf9b.dangerous__8fbad:active), .hoverButtonGroup__304b2:active {
+.theme-dark .button_d4bf9b:active:not(.button_d4bf9b.dangerous__8fbad:active), .hoverButtonGroup__745e4 .hoverButton__78b6a:active:not(.removeMosaicItemHoverButton__56c64:active) {
 	background: linear-gradient(to top, transparent 42%, rgba(45,47,52) 100%) !important;
 	background-color: rgba(57,60,66) !important;
 	box-shadow: inset 0 0 0 1px rgb(92,92,92) !important;
 }
-.theme-light .wrapper__4e6b6, .theme-light .hoverButtonGroup__304b2 {
+.theme-light .wrapper__4e6b6, .theme-light .hoverButtonGroup__745e4 {
 	background: linear-gradient(to top, transparent 42%, rgba(212,210,207) 100%)  !important;
 	background-color: rgba(188,185,179) !important;
 	border-radius: 5px;
@@ -2498,12 +2498,12 @@ svg.mask_d5067d.svg_a6bf1c > mask[height="32"][width="32"]:first-child rect[x="1
 	background-color: rgba(208,205,199) !important;
 	box-shadow: inset 0 0 0 1px rgba(60,60,60,0.4) !important;
 }
-.theme-light .hoverButtonGroup__304b2:hover {
+.theme-light .hoverButtonGroup__745e4 .hoverButton__78b6a:hover:not(.removeMosaicItemHoverButton__56c64:hover) {
 	background: linear-gradient(to top, transparent 42%, rgba(242,240,237) 100%) !important;
 	background-color: rgba(218,215,209) !important;
 	box-shadow: 	box-shadow: 0 0 3px 3px rgba(0,0,0,0.27), inset 0 0 0 1px rgba(60,60,60,0.4) !important;
 }
-.theme-light .button_d4bf9b:active:not(.button_d4bf9b.dangerous__8fbad:active), .theme-light .hoverButtonGroup__304b2:active {
+.theme-light .button_d4bf9b:active:not(.button_d4bf9b.dangerous__8fbad:active), .theme-light .hoverButtonGroup__745e4 .hoverButton__78b6a:active:not(.removeMosaicItemHoverButton__56c64:active) {
 	background: linear-gradient(to top, transparent 42%, rgba(168,165,159) 100%)  !important;
 	background-color: rgba(192,190,187) !important;
 	box-shadow: inset 0 0 0 1px rgba(60,60,60,0.4) !important;
@@ -2511,7 +2511,7 @@ svg.mask_d5067d.svg_a6bf1c > mask[height="32"][width="32"]:first-child rect[x="1
 .button_d4bf9b.dangerous__8fbad .icon_e3aee9 {
     color: #f04747;
 }
-.hoverButtonGroup__304b2:active, .removeAttachmentHoverButton__161a2:active {
+.hoverButtonGroup__745e4:active, .removeMosaicItemHoverButton__56c64:active {
 	margin-top: 1px;
 }
 .nonMediaAttachment_ef83c1 {
@@ -7719,10 +7719,10 @@ padding-left: 0 !important;
 	margin-top: 2px;
 	margin-bottom: 2px;
 }
-.theme-dark .oneByOneGrid__36e03,  .messageAttachmentMediaMosaic__67262:not(.nonMediaAttachmentsContainer__912df .messageAttachmentMediaMosaic__67262) {
+.theme-dark .oneByOneGrid__36e03,  .messageAttachmentMediaMosaic__67262:not(.nonVisualMediaItemContainer__81ce5.messageAttachmentMediaMosaic__67262) {
 	box-shadow: 0 0 3px 3px rgba(0,0,0,0.6) !important;
 }
-.theme-light .oneByOneGrid__36e03, .theme-light .messageAttachmentMediaMosaic__67262:not(.nonMediaAttachmentsContainer__912df .messageAttachmentMediaMosaic__67262) {
+.theme-light .oneByOneGrid__36e03, .theme-light .messageAttachmentMediaMosaic__67262:not(.nonVisualMediaItemContainer__81ce5.messageAttachmentMediaMosaic__67262) {
 	box-shadow: 0 0 3px 3px rgba(0,0,0,0.27) !important;
 }
 
@@ -7736,7 +7736,7 @@ padding-left: 0 !important;
 	margin-top: -2px;
 	margin-bottom: 3px;
 }
-.attachment__06ca3.embedWrapper__47b23, .nonMediaAttachmentsContainer__912df {
+.attachment__06ca3.embedWrapper__47b23, .nonVisualMediaItemContainer__81ce5{
 	margin-top: -1px;
 	margin-bottom: 3px;
 }
@@ -7763,14 +7763,14 @@ padding-left: 0 !important;
 	/*file upload progress bar*/
 }
 
-.attachment__06ca3:not(.nonMediaAttachmentItem__80bd4 .attachment__06ca3), [class*="upload_"]:not([class*="perkIcon_"]) {
+.attachment__06ca3:not(.nonVisualMediaItem__6faf4 .attachment__06ca3), [class*="upload_"]:not([class*="perkIcon_"]) {
 	background: linear-gradient(to top, transparent 15%, rgba(22,24,27) 100%) !important;
 	background-color: rgba(55,58,64) !important;
     border: 2px dashed rgb(114,114,114) !important;
 	box-shadow: inset 0 0 0 1px rgba(0,0,0,0.6) !important;
 	border-radius: 5px;
 }
-.theme-light .attachment__06ca3:not(.nonMediaAttachmentItem__80bd4 .attachment__06ca3), .theme-light [class*="upload_"]:not([class*="perkIcon_"]) {
+.theme-light .attachment__06ca3:not(.nonVisualMediaItem__6faf4 .attachment__06ca3), .theme-light [class*="upload_"]:not([class*="perkIcon_"]) {
 	background: linear-gradient(to top, transparent 15%, rgba(200,197,191) 100%) !important;
 	background-color: rgba(233,231,228) !important;
     border: 2px dashed rgb(60,60,60) !important;
