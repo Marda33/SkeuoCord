@@ -4595,7 +4595,7 @@ svg.mask_d5067d.svg_a6bf1c > mask[height="32"][width="32"]:first-child rect[x="1
 
 [class*="featuredTag"] {
 	box-shadow: inset 0 0 0 1px rgba(230,230,230,0.6), inset 0 0 0 2px rgba(0,0,0,0.6);
-	background: var(--brand-experiment);
+	background: var(--brand);
 	background-image: linear-gradient(to top, rgba(30,30,30,0.3), rgba(255,255,255,0.3));
 }
 .theme-light [class*="featuredTag"] {
@@ -8176,31 +8176,31 @@ padding-left: 0 !important;
 
 /*Brand Color Replacement*/
 * {
-    --brand-experiment-360: hsl(213, calc(var(--saturation-factor, 1) * 100.0%), 78.0%);
-    --brand-experiment: hsl(214, calc(var(--saturation-factor, 1) * 100.0%), 65.0%);
-    --brand-experiment-500: hsl(215, calc(var(--saturation-factor, 1) * 58.0%), 50.0%);
-    --brand-experiment-600: hsl(215, calc(var(--saturation-factor, 1) * 58.0%), 50.0%);
-    --brand-experiment-05a: hsla(214, calc(var(--saturation-factor, 1) * 100.0%), 65.0%,0.05);
-    --brand-experiment-10a: hsla(214, calc(var(--saturation-factor, 1) * 100.0%), 65.0%,0.1);
-    --brand-experiment-15a: hsla(214, calc(var(--saturation-factor, 1) * 100.0%), 65.0%,0.15);
-    --brand-experiment-20a: hsla(214, calc(var(--saturation-factor, 1) * 100.0%), 65.0%,0.2);
-    --brand-experiment-25a: hsla(214, calc(var(--saturation-factor, 1) * 100.0%), 65.0%,0.25);
-    --brand-experiment-30a: hsla(214, calc(var(--saturation-factor, 1) * 100.0%), 65.0%,0.3);
-    --brand-experiment-35a: hsla(214, calc(var(--saturation-factor, 1) * 100.0%), 65.0%,0.35);
-    --brand-experiment-40a: hsla(214, calc(var(--saturation-factor, 1) * 100.0%), 65.0%,0.4);
-    --brand-experiment-45a: hsla(214, calc(var(--saturation-factor, 1) * 100.0%), 65.0%,0.45);
-    --brand-experiment-50a: hsla(214, calc(var(--saturation-factor, 1) * 100.0%), 65.0%,0.5);
-    --brand-experiment-55a: hsla(214, calc(var(--saturation-factor, 1) * 100.0%), 65.0%,0.55);
-    --brand-experiment-60a: hsla(214, calc(var(--saturation-factor, 1) * 100.0%), 65.0%,0.6);
-    --brand-experiment-65a: hsla(214, calc(var(--saturation-factor, 1) * 100.0%), 65.0%,0.65);
-    --brand-experiment-70a: hsla(214, calc(var(--saturation-factor, 1) * 100.0%), 65.0%,0.7);
-    --brand-experiment-75a: hsla(214, calc(var(--saturation-factor, 1) * 100.0%), 65.0%,0.75);
-    --brand-experiment-80a: hsla(214, calc(var(--saturation-factor, 1) * 100.0%), 65.0%,0.8);
-    --brand-experiment-85a: hsla(214, calc(var(--saturation-factor, 1) * 100.0%), 65.0%,0.85);
-    --brand-experiment-90a: hsla(214, calc(var(--saturation-factor, 1) * 100.0%), 65.0%,0.9);
-    --brand-experiment-95a: hsla(214, calc(var(--saturation-factor, 1) * 100.0%), 65.0%,0.95);
+    --brand-360: hsl(213, calc(var(--saturation-factor, 1) * 100.0%), 78.0%);
+    --brand: hsl(214, calc(var(--saturation-factor, 1) * 100.0%), 65.0%);
+    --brand-500: hsl(215, calc(var(--saturation-factor, 1) * 58.0%), 50.0%);
+    --brand-600: hsl(215, calc(var(--saturation-factor, 1) * 58.0%), 50.0%);
+    --brand-05a: hsla(214, calc(var(--saturation-factor, 1) * 100.0%), 65.0%,0.05);
+    --brand-10a: hsla(214, calc(var(--saturation-factor, 1) * 100.0%), 65.0%,0.1);
+    --brand-15a: hsla(214, calc(var(--saturation-factor, 1) * 100.0%), 65.0%,0.15);
+    --brand-20a: hsla(214, calc(var(--saturation-factor, 1) * 100.0%), 65.0%,0.2);
+    --brand-25a: hsla(214, calc(var(--saturation-factor, 1) * 100.0%), 65.0%,0.25);
+    --brand-30a: hsla(214, calc(var(--saturation-factor, 1) * 100.0%), 65.0%,0.3);
+    --brand-35a: hsla(214, calc(var(--saturation-factor, 1) * 100.0%), 65.0%,0.35);
+    --brand-40a: hsla(214, calc(var(--saturation-factor, 1) * 100.0%), 65.0%,0.4);
+    --brand-45a: hsla(214, calc(var(--saturation-factor, 1) * 100.0%), 65.0%,0.45);
+    --brand-50a: hsla(214, calc(var(--saturation-factor, 1) * 100.0%), 65.0%,0.5);
+    --brand-55a: hsla(214, calc(var(--saturation-factor, 1) * 100.0%), 65.0%,0.55);
+    --brand-60a: hsla(214, calc(var(--saturation-factor, 1) * 100.0%), 65.0%,0.6);
+    --brand-65a: hsla(214, calc(var(--saturation-factor, 1) * 100.0%), 65.0%,0.65);
+    --brand-70a: hsla(214, calc(var(--saturation-factor, 1) * 100.0%), 65.0%,0.7);
+    --brand-75a: hsla(214, calc(var(--saturation-factor, 1) * 100.0%), 65.0%,0.75);
+    --brand-80a: hsla(214, calc(var(--saturation-factor, 1) * 100.0%), 65.0%,0.8);
+    --brand-85a: hsla(214, calc(var(--saturation-factor, 1) * 100.0%), 65.0%,0.85);
+    --brand-90a: hsla(214, calc(var(--saturation-factor, 1) * 100.0%), 65.0%,0.9);
+    --brand-95a: hsla(214, calc(var(--saturation-factor, 1) * 100.0%), 65.0%,0.95);
 	--control-brand-foreground: #4695FF;
-	 --text-brand: var(--brand-experiment);
+	 --text-brand: var(--brand);
 }
 /* ---- */
 
@@ -9003,7 +9003,7 @@ padding-left: 0 !important;
 .inputDefault__22335.input_f27786.multiInputField-1x_Zdx, .textarea__0461c, .permissionsWrapper__7b073 .clearButton__8ff39, .addFriendInputWrapper__2b30b .inputDefault__22335, .searchBar-20o6Cf.small_e3a503 .inner__999f6, .viewAllBackground-3Bn1vh, .navButton_b588d0.colorBrand__27d57 {
 	transition: none !important;
 }
-.modal_b38209 .content_b28aab, .visualMediaItemContainer__582ad .imageWrapper__178ee, .imageContainer__1b5e9, .inlineMediaEmbed_b25e49 .imageContent__0fe2a, .imageContent__0fe2a.embedWrapper__47b23.embedMedia__4e169.embedImage_eb54e3, .wrapper_f09ac7, .wrapperControlsHidden_ce304d.wrapper_f09ac7, .wrapperPlaying__33095.wrapper_f09ac7, .container_d4d35b, .userPanelOuter_eb00b1, .option_eb83e4, .bd-select-option, .quickSelectPopoutOption_b852b1, .liveIndicator-2HaEDu, .liveIndicator__2469a, .unread_ade69e, .row_e9c6f6, .mediaAttachmentsContainer__242e2, .oneByOneGrid__36e03, .messageAttachmentMediaMosaic__67262, .content_b28aab {
+.modal_b38209 .content_b28aab, .visualMediaItemContainer__582ad .imageWrapper__178ee, .imageContainer__1b5e9, .inlineMediaEmbed_b25e49 .imageContent__0fe2a, .imageContent__0fe2a.embedWrapper__47b23.embedMedia__4e169.embedImage_eb54e3, .wrapper_f09ac7, .wrapperControlsHidden_ce304d.wrapper_f09ac7, .wrapperPlaying__33095.wrapper_f09ac7, .container_d4d35b, .userPanelOuter_eb00b1, .option_eb83e4, .bd-select-option, .quickSelectPopoutOption_b852b1, .liveIndicator-2HaEDu, .liveIndicator__2469a, .unread_ade69e, .row_e9c6f6, .mediaAttachmentsContainer__242e2, .oneByOneGrid__36e03, .messageAttachmentMediaMosaic__67262, .content_b28aab, .imageWrapper__152ac, .imageDetailsAdded_sda9Fa .imageWrapper__152ac {
 	border-radius: 0 !important;
 }
 .card__834d4, .container__26dff, .search__4a09e, .avatar__991e2, .voiceSectionIconWrapper_b3ec85, .voiceSectionGuildImage__80942, .voiceSectionNoGuildImageWrapper__40391, .iconMask__4092e foreignObject, [class*="folderIconWrapper_"], .quickswitcher_b5bb0a, .wrapper__8a5dd, .tutorial__5bb77, .popout_c6d10c, .modal__060da, .root_a28985, .noiseCancellationPopout__023ec, .uploadModal__6eb75, .root-SR8cQa, .guildHeader-3nh5RK, [class*="profileBannerPreview_"], .theme-light .slideBody-35BNbg, .theme-light .slideBody-MG_LIJ, .container__353bc.elevationHigh__08882, .headerClickable__334f7.header__8cacc, .bd-addon-error.collapsed, .bd-addon-error, .card__86773, .cardPlaceholder__6e28f, .card_x5zW6z, .styleFlexible-x0_sIC, .container-3cGP6G, .incomingCallInner-2VmFiR, .regionSelectPopout_a270cb, .phoneFieldPopout-h7c9mt, .container__13b2a, .combobox-3_6kOi.languageSelector__4840c, .root__46d4f.elevationHigh__31684, .diversitySelectorOptions_daea2d, .popoutList__292da.guildSettingsAuditLogsUserFilterPopout-3Jg5NE, .container_cff83e, .purchaseUnit-2lxci3, .contentWarningPopout__84e38, .loadingPopout__5e2fa, .colorPickerCustom-1swUKF, .container-3ssFyj, .popout__24e32, .ColorTooltips-popout, .menu__088f7, .betterMessageLinks.Popout, .streamPreview__965fa, .input__2a648, .input__2a648:focus, .phoneField__47dd1, .container-3AL15u, .inner__999f6, .addFriendInputWrapper__2b30b, .searchBar-20o6Cf.small_e3a503, .searchBar__5a20a, .searchBar__310d8, .searchBar_ca009d, .bd-search-wrapper, .quickMessage-1yeL4E, .note-3kmerW textarea:focus, .input_f27786:focus, .container-3muw00, .inputMini-Un2tP4:focus, .inputper-31_8H8 .input_f27786 .multiInputLast-1aQ3YA input, .inputper-31_8H8 .input_f27786, .searchBar__621ec .searchBarComponent__8f95f, .searchBox__56feb, .scrollableContainer_ff917f, .wrapper-1cBijl, .card-1SdQ2-, .input__723c9[style="position: absolute; left: 0px; width: 100%; opacity: 1;"], .inputWrapper_ecb776 .inputDefault__22335.input_f27786, .layout-1XOMLV, .input_f27786, .searchBox__56feb.searchBox-31Zv9h, .emojiInput-1aLNse, .input_f27786.multiInput-1VARjC, .copyInputDefault_e19ebf.copyInput_aaa791, .footer__062a1 .input_f27786, .card__7756d, .inner__178b2, .searchBar-gJe8lY.container__33507.medium__5b9a9, .emojiPicker__5e2e2 .header_e5d8b2 .searchBar-2pWH0_, .header-PfVfAO, .messageGroupWrapper__1fce2, .connectContainer_e331e3 {
