@@ -6416,20 +6416,23 @@ padding-left: 0 !important;
 	box-shadow: inset 0 0 0 1px rgba(230,230,230,0.6), inset 0 0 8px 5px rgba(0,0,0,0.2) !important;	
 }
 
-.profilePanel_e2cafe .userProfileOuterThemed_a425f3 {
-	width: 309px !important;
-	height: calc(100% - 14px) !important;
-	padding-left: 9px;
-}
-.profilePanel_e2cafe .userProfileOuterThemed_a425f3 .userProfileInner__8ff35 {
-	width: calc(100% - 4px) !important;
-}
 .profilePanel_e2cafe {
 	width: 320px !important;
 }
 .profilePanel_e2cafe .userProfileOuterUnthemed__9741c {
 	border-radius: 0 !important;
+	border-right: none !important;
 	box-shadow: none !important;
+}
+.profilePanel_e2cafe .userProfileOuterThemed_a425f3 {
+	width: 309px !important;
+	height: calc(100% - 10px) !important;
+	padding-left: 9px;
+	border-radius: 0 !important;
+}
+.profilePanel_e2cafe .userProfileOuterThemed_a425f3 .userProfileInner__8ff35 {
+	width: calc(100% - 8px) !important;
+	height: calc(100% - 10px) !important;
 }
 .wrapper-C1y4Sz {
 	width: 332px !important;
