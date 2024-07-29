@@ -64,6 +64,9 @@
 .sidebar_a4d4d9.hidden_a4d4d9 + .chat_a7d72e {
 	border: none !important;
 }
+.sidebar_a4d4d9.hidden_a4d4d9, .wrapper_fea3ef.hidden_fea3ef {
+	display: none !important;
+}
 .resizeHandle_d1c246 {
 	width: 1px;
 	box-shadow: inset 0 0 0 1px rgb(92,92,92);
@@ -8806,7 +8809,7 @@ padding-left: 0 !important;
 .toolbar_fc4f04 .iconWrapper_fc4f04:active .icon_fc4f04 path, .buttons_d0696b .button_dd4f85:active svg, .buttons_d0696b .buttonContainer_d0696b:active svg, .button_f67531:active svg {
 	color: rgb(185,185,185);
 }
- .children_fc4f04 .iconWrapper_fc4f04 svg, .toolbar_fc4f04 .iconWrapper_fc4f04 svg path:not(.strikethrough_fde376), .toolbar_fc4f04 .button_ae6b8e svg, .buttons_d0696b svg, .rocket__4ebd3 svg, .chatIcon_f420ee.controlIcon_f72aac svg, .button_f67531 path {
+ .children_fc4f04 .iconWrapper_fc4f04 svg, .toolbar_fc4f04 .iconWrapper_fc4f04 svg path:not(.strikethrough_fde376), .toolbar_fc4f04 .button_ae6b8e svg, .buttons_d0696b svg, .rocket__4ebd3 svg, .chatIcon_f420ee.controlIcon_ef18ee svg, .button_f67531 path {
 	filter: drop-shadow(0 1px 0 black) drop-shadow(0 0 1px rgba(0,0,0,0.6));
  }
  .theme-light .rocket__4ebd3 svg {
