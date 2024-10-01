@@ -7,18 +7,29 @@
  * @source https://marda33.github.io/SkeuoCord/updates/SkeuoCordBase.css
 */
 
-@import url("https://marda33.github.io/SkeuoCord/updates/SkeuoCordBase.css");
+@import url("https://marda33.github.io/SkeuoCord/updates/SkeuoCord_BGImport.css");
 /*replace SkeuoCordBase with SkeuoCord_BGImport to use custom BG image*/
+/*replace SkeuoCordBase with SkeuoCord_BGImport_ExpTransp to use custom BG image with more transparent UI*/
+/*replace SkeuoCordBase with SkeuoCord_Recolor to change default blue color with your own, SkeuoCord_Recolor_CustomBG for recolor+custom BG*/
 
 :root {
 	/*User Avatar Border Radius Values - change all below to 999px for circle avatars, set back to default values for square avatars*/
-	--maskradius: 2px !important; /*default: 2px*/
-	--avatarradius: 3px !important; /*default: 3px*/
-	--smallavatarradius: 2px !important; /*default: 2px*/
-	--medavatarradius: 4px !important; /*default: 4px*/
-	--largeavatarradius: 5px !important; /*default: 5px*/
+	--maskradius: 2px; /*default: 2px*/
+	--avatarradius: 3px; /*default: 3px*/
+	--smallavatarradius: 2px; /*default: 2px*/
+	--medavatarradius: 4px; /*default: 4px*/
+	--largeavatarradius: 5px ; /*default: 5px*/
+	/*User Avatar Border Values - change all to none to remove avatar borders*/
+	--smallborder_dark: 2px solid rgba(152,152,153); /*default: 2px solid rgba(152,152,153)*/
+	--smallborder_light: 2px solid rgba(82,82,83); /*default: 2px solid rgba(82,82,83)*/
+	--chatborder_dark: 0 0 0 2px rgba(230,230,230,0.6), 0 0 4px 4px rgba(0,0,0,0.5); /*default: 0 0 0 2px rgba(230,230,230,0.6), 0 0 4px 4px rgba(0,0,0,0.5)*/
+	--chatborder_light: 0 0 0 2px rgba(60,60,60,0.8), 0 0 4px 4px rgba(0,0,0,0.27); /*default: 0 0 0 2px rgba(60,60,60,0.8), 0 0 4px 4px rgba(0,0,0,0.27)*/
+	--medborder_dark: 0 0 0 3px rgba(230,230,230,0.6), 0 0 4px 4px rgba(0,0,0,0.6); /*default: 0 0 0 3px rgba(230,230,230,0.6), 0 0 4px 4px rgba(0,0,0,0.6)*/
+	--medborder_light: 0 0 0 3px rgba(60,60,60,0.8), 0 0 4px 4px rgba(0,0,0,0.27); /*default: 0 0 0 3px rgba(60,60,60,0.8), 0 0 4px 4px rgba(0,0,0,0.27)*/
+	--largeborder_dark: 0 0 0 4px rgba(230,230,230,0.6), 0 0 5px 5px rgba(0,0,0,0.6); /*default: 0 0 0 4px rgba(230,230,230,0.6), 0 0 5px 5px rgba(0,0,0,0.6)*/
+	--largeborder_light: 0 0 0 4px rgba(60,60,60,0.8), 0 0 5px 5px rgba(0,0,0,0.27); /*default: 0 0 0 4px rgba(60,60,60,0.8), 0 0 5px 5px rgba(0,0,0,0.27)*/
 	/*Custom BG - enter the link to the image you want to use as the app background, keep quotes*/
-	--bg-image: url('here') center/cover no-repeat !important;
+	--bg-image: url('https://512pixels.net/downloads/macos-wallpapers/10-6.png') center/cover no-repeat;
 	/*------*/
 }
 
