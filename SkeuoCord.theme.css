@@ -7,12 +7,15 @@
  * @source https://marda33.github.io/SkeuoCord/updates/SkeuoCordBase.css
 */
 
-@import url("https://marda33.github.io/SkeuoCord/updates/SkeuoCord_BGImport.css");
+@import url("https://marda33.github.io/SkeuoCord/updates/SkeuoCordBase.css");
 /*replace SkeuoCordBase with SkeuoCord_BGImport to use custom BG image*/
-/*replace SkeuoCordBase with SkeuoCord_BGImport_ExtTransp to use custom BG image with more transparent UI*/
+/*replace SkeuoCordBase with SkeuoCord_BGImport_ExtTransp to use custom BG image with more transparency*/
 /*replace SkeuoCordBase with SkeuoCord_Recolor to change default blue accent color with your own, SkeuoCord_Recolor_CustomBG for recolor+custom BG*/
 
 :root {
+	/*---Theme Settings---*/
+	/*Custom BG - enter the link to the image you want to use as the app background, keep quotes*/
+	--bg-image: url('here') center/cover no-repeat;
 	/*User Avatar Border Radius Values - change all below to 999px for circle avatars, set back to default values for square avatars*/
 	--maskradius: 2px; /*default: 2px*/
 	--avatarradius: 3px; /*default: 3px*/
@@ -28,7 +31,52 @@
 	--medborder_light: 0 0 0 3px rgba(60,60,60,0.8), 0 0 4px 4px rgba(0,0,0,0.27); /*default: 0 0 0 3px rgba(60,60,60,0.8), 0 0 4px 4px rgba(0,0,0,0.27)*/
 	--largeborder_dark: 0 0 0 4px rgba(230,230,230,0.6), 0 0 5px 5px rgba(0,0,0,0.6); /*default: 0 0 0 4px rgba(230,230,230,0.6), 0 0 5px 5px rgba(0,0,0,0.6)*/
 	--largeborder_light: 0 0 0 4px rgba(60,60,60,0.8), 0 0 5px 5px rgba(0,0,0,0.27); /*default: 0 0 0 4px rgba(60,60,60,0.8), 0 0 5px 5px rgba(0,0,0,0.27)*/
-	/*Custom BG - enter the link to the image you want to use as the app background, keep quotes*/
-	--bg-image: url('https://512pixels.net/downloads/macos-wallpapers/10-6.png') center/cover no-repeat;
+	/*UI Gradients - change main UI element gradient colors*/
+	/*---Headers-Footers (Server name header-user menu footer-chat textbox), Toolbars (Channel toolbar)---*/
+	--header_dark_top: rgb(58,58,58); /*default: rgb(58,58,58)*/
+	--header_dark_bottom: rgb(0,0,0); /*default: rgb(0,0,0)*/
+	--header_light_top: rgb(228,228,228); /*default: rgb(228,228,228)*/
+	--header_light_bottom: rgb(174,174,174); /*default: rgb(174,174,174)*/
+	--toolbar_dark_top: rgb(88,88,88); /*default: rgb(88,88,88)*/
+	--toolbar_dark_bottom: rgb(29,29,29); /*default: rgb(29,29,29)*/
+	--toolbar_light_top: rgb(211,211,211); /*default: rgb(211,211,211)*/
+	--toolbar_light_bottom: rgb(154,154,154); /*default: rgb(154,154,154)*/
+	/*---Cells---*/ 
+	/*---(Unthemed profiles, file embeds etc.)---*/
+	--cell_dark_top: hsl(220, calc(var(--saturation-factor, 1) * 7.7%), 22.9%); /*default: hsl(220, calc(var(--saturation-factor, 1) * 7.7%), 22.9%)*/
+	--cell_dark_bottom: hsl(210, calc(var(--saturation-factor, 1) * 3.4%), 11.4%); /*default: hsl(210, calc(var(--saturation-factor, 1) * 3.4%), 11.4%)*/
+	--cell_light_top: hsl(30, calc(var(--saturation-factor, 1) * 3.4%), 88.6%); /*default: hsl(30, calc(var(--saturation-factor, 1) * 3.4%), 88.6%)*/
+	--cell_light_bottom: hsl(40, calc(var(--saturation-factor, 1) * 7.7%), 77.1%); /*default: hsl(40, calc(var(--saturation-factor, 1) * 7.7%), 77.1%)*/
+	/*---Backgrounds---*/ 
+	/*---(Main for server column-page BGs, list for channel-DMs-members list BGs, sidebar for settings sidebar BG)---*/
+	--mainbg_dark_top: hsl(210, calc(var(--saturation-factor, 1) * 7.7%), 5.1%) 100%); /*default: hsl(210, calc(var(--saturation-factor, 1) * 7.7%), 5.1%) 100%)*/
+	--mainbg_dark_bottom: hsl(216, calc(var(--saturation-factor, 1) * 5.7%), 17.1%); /*default: hsl(216, calc(var(--saturation-factor, 1) * 5.7%), 17.1%)*/
+	--mainbg_light_top: hsl(45, calc(var(--saturation-factor, 1) * 4.8%), 83.5%); /*default: hsl(45, calc(var(--saturation-factor, 1) * 4.8%), 83.5%)*/
+	--mainbg_light_bottom: hsl(40, calc(var(--saturation-factor, 1) * 5.7%), 89.6%); /*default: hsl(40, calc(var(--saturation-factor, 1) * 5.7%), 89.6%)*/
+	--listbg_dark_top: hsl(240, calc(var(--saturation-factor, 1) * 3.7%), 10.6%); /*default: hsl(240, calc(var(--saturation-factor, 1) * 3.7%), 10.6%)*/
+	--listbg_dark_bottom: hsl(225, calc(var(--saturation-factor, 1) * 8.0%), 19.6%); /*default: hsl(225, calc(var(--saturation-factor, 1) * 8.0%), 19.6%)*/
+	--listbg_light_top: hsl(48, calc(var(--saturation-factor, 1) * 3.4%), 70.8%); /*default: hsl(48, calc(var(--saturation-factor, 1) * 3.4%), 70.8%)*/
+	--listbg_light_bottom: hsl(43, calc(var(--saturation-factor, 1) * 8.6%), 84.1%); /*default: hsl(43, calc(var(--saturation-factor, 1) * 8.6%), 84.1%)*/
+	--sidebar_dark_top: hsl(223, calc(var(--saturation-factor, 1) * 7.5%), 18.2%); /*default: hsl(223, calc(var(--saturation-factor, 1) * 7.5%), 18.2%)*/
+	--sidebar_dark_bottom: hsl(210, calc(var(--saturation-factor, 1) * 4.0%), 9.8%); /*default: hsl(210, calc(var(--saturation-factor, 1) * 4.0%), 9.8%)*/
+	--sidebar_light_top: hsl(43, calc(var(--saturation-factor, 1) * 11.5%), 88.0%); /*default: hsl(43, calc(var(--saturation-factor, 1) * 11.5%), 88.0%)*/
+	--sidebar_light_bottom: hsl(60, calc(var(--saturation-factor, 1) * 4.3%), 77.1%); /*default: hsl(60, calc(var(--saturation-factor, 1) * 4.3%), 77.1%)*/
+	/*---Backgrounds (For Custom BG - RGB values only, leave no spaces)---*/
+	--maintransp_dark_top: 12,13,14; /*default: 12,13,14*/
+	--maintransp_dark_bottom: 41,43,46; /*default: 41,43,46*/
+	--maintransp_light_top: 215,214,211; /*default: */
+	--maintransp_light_bottom: 230,229,227; /*default: 230,229,227*/
+	--chattransp_dark_top: 54,57,63; /*default: 54,57,63*/
+	--chattransp_dark_bottom: 41,43,46; /*default: 41,43,46*/
+	--chattransp_light_top: 227,226,225; /*default:  227,226,225*/
+	--chattransp_light_bottom: 201,198,192; /*default: 201,198,192*/
+	--listtransp_dark_top: 26,26,28; /*default: 26,26,28*/
+	--listtransp_dark_bottom: 46,48,54; /*default: 46,48,54*/
+	--listtransp_light_top: 183,182,178; /*default: 183,182,178*/
+	--listtransp_light_bottom: 218,216,211; /*default: 218,216,211*/
+	--sidebartransp_dark_top: 43,45,50; /*default: 43,45,50*/
+	--sidebartransp_dark_bottom: 24,25,26; /*default: 24,25,26*/
+	--sidebartransp_light_top: 228,226,221; /*default: 228,226,221*/
+	--sidebartransp_light_bottom: 199,199,194; /*default: 199,199,194*/
 	/*------*/
 }
