@@ -29,6 +29,7 @@
 	--largeborder_dark: 0 0 0 4px rgba(230,230,230,0.6), 0 0 5px 5px rgba(0,0,0,0.6); /*default: 0 0 0 4px rgba(230,230,230,0.6), 0 0 5px 5px rgba(0,0,0,0.6)*/
 	--largeborder_light: 0 0 0 4px rgba(60,60,60,0.8), 0 0 5px 5px rgba(0,0,0,0.27); /*default: 0 0 0 4px rgba(60,60,60,0.8), 0 0 5px 5px rgba(0,0,0,0.27)*/
 	/*UI Gradients*/
+	/*---Headers-Footers (Server name header-user menu footer-chat textbox), Toolbars (Channel toolbar)---*/
 	--header_dark_top: rgb(58,58,58); /*default: rgb(58,58,58)*/
 	--header_dark_bottom: rgb(0,0,0); /*default: rgb(0,0,0)*/
 	--header_light_top: rgb(228,228,228); /*default: rgb(228,228,228)*/
@@ -37,13 +38,15 @@
 	--toolbar_dark_bottom: rgb(29,29,29); /*default: rgb(29,29,29)*/
 	--toolbar_light_top: rgb(211,211,211); /*default: rgb(211,211,211)*/
 	--toolbar_light_bottom: rgb(154,154,154); /*default: rgb(154,154,154)*/
-	/*------*/
+	/*---Cells---*/ 
+	/*---(Unthemed profiles, file embeds etc.)---*/
 	--cell_dark_top: hsl(220, calc(var(--saturation-factor, 1) * 7.7%), 22.9%); /*default: hsl(220, calc(var(--saturation-factor, 1) * 7.7%), 22.9%)*/
 	--cell_dark_bottom: hsl(210, calc(var(--saturation-factor, 1) * 3.4%), 11.4%); /*default: hsl(210, calc(var(--saturation-factor, 1) * 3.4%), 11.4%)*/
 	--cell_light_top: hsl(30, calc(var(--saturation-factor, 1) * 3.4%), 88.6%); /*default: hsl(30, calc(var(--saturation-factor, 1) * 3.4%), 88.6%)*/
 	--cell_light_bottom: hsl(40, calc(var(--saturation-factor, 1) * 7.7%), 77.1%); /*default: hsl(40, calc(var(--saturation-factor, 1) * 7.7%), 77.1%)*/
-	/*------*/
-	--mainbg_dark_top: hsl(210, calc(var(--saturation-factor, 1) * 7.7%), 5.1%); /*default: hsl(210, calc(var(--saturation-factor, 1) * 7.7%), 5.1%) 100%)*/
+	/*---Backgrounds---*/ 
+	/*---(Main for server column-page BGs, list for channel-DMs-members list BGs, sidebar for settings sidebar BG)---*/
+	--mainbg_dark_top: hsl(210, calc(var(--saturation-factor, 1) * 7.7%), 5.1%) 100%); /*default: hsl(210, calc(var(--saturation-factor, 1) * 7.7%), 5.1%) 100%)*/
 	--mainbg_dark_bottom: hsl(216, calc(var(--saturation-factor, 1) * 5.7%), 17.1%); /*default: hsl(216, calc(var(--saturation-factor, 1) * 5.7%), 17.1%)*/
 	--mainbg_light_top: hsl(45, calc(var(--saturation-factor, 1) * 4.8%), 83.5%); /*default: hsl(45, calc(var(--saturation-factor, 1) * 4.8%), 83.5%)*/
 	--mainbg_light_bottom: hsl(40, calc(var(--saturation-factor, 1) * 5.7%), 89.6%); /*default: hsl(40, calc(var(--saturation-factor, 1) * 5.7%), 89.6%)*/
@@ -55,7 +58,6 @@
 	--sidebar_dark_bottom: hsl(210, calc(var(--saturation-factor, 1) * 4.0%), 9.8%); /*default: hsl(210, calc(var(--saturation-factor, 1) * 4.0%), 9.8%)*/
 	--sidebar_light_top: hsl(43, calc(var(--saturation-factor, 1) * 11.5%), 88.0%); /*default: hsl(43, calc(var(--saturation-factor, 1) * 11.5%), 88.0%)*/
 	--sidebar_light_bottom: hsl(60, calc(var(--saturation-factor, 1) * 4.3%), 77.1%); /*default: hsl(60, calc(var(--saturation-factor, 1) * 4.3%), 77.1%)*/
-	/*------*/
 }
 /*------*/
 
@@ -2002,21 +2004,21 @@ svg.mask__44b0c.svg__44b0c > mask[height="32"][width="32"]:first-child rect[x="1
 	border-radius: 0 !important;
 	width: 33px !important;
 }
-.button__67645:not(.button__67645:last-of-type), .sidebar_c48ade.theme-dark .button__67645:not(.button__67645:last-of-type) {
+.button__67645:not(.button__67645:last-of-type), .sidebar_c48ade.theme-dark .button__67645:not(.button__67645:last-of-type), .micButtonParent__37e49 .button__67645 {
 	border-right: 1px solid rgba(230,230,230,0.4); 
 }
-.theme-dark .button__67645:only-of-type, .theme-dark .bd-pfbtn, .theme-dark .bda-slist .bda-footer button, .theme-dark .standardSidebarView__23e6b #editor-detached button, .sidebar_c48ade.theme-dark .button__67645:only-of-type, .bd-button.bd-button-title, .bd-button.bd-view-button.selected, .datePicker__56fec .datePickerHint__56fec .hintValue__56fec {
+.theme-dark .button__67645:only-of-type:not(.micButtonParent__37e49 .button__67645), .theme-dark .bd-pfbtn, .theme-dark .bda-slist .bda-footer button, .theme-dark .standardSidebarView__23e6b #editor-detached button, .sidebar_c48ade.theme-dark .button__67645:only-of-type, .bd-button.bd-button-title, .bd-button.bd-view-button.selected, .datePicker__56fec .datePickerHint__56fec .hintValue__56fec {
 	border-radius: 2px !important;
 	color: white;
 	border: 1px solid rgba(230,230,230,0.4);
 	box-shadow: inset 0 0 0 1px rgba(0,0,0,0.6);
 }
-.theme-dark .button__67645:only-of-type:hover, .theme-dark .bd-pfbtn:hover, .theme-dark .bda-slist .bda-footer button:hover, .theme-dark .standardSidebarView__23e6b #editor-detached button:hover, .sidebar_c48ade.theme-dark .button__67645:only-of-type:hover, .bd-button.bd-button-title:hover, .datePicker__56fec .datePickerHint__56fec .hintValue__56fec:hover {
+.theme-dark .button__67645:only-of-type:hover:not(.micButtonParent__37e49 .button__67645), .theme-dark .bd-pfbtn:hover, .theme-dark .bda-slist .bda-footer button:hover, .theme-dark .standardSidebarView__23e6b #editor-detached button:hover, .sidebar_c48ade.theme-dark .button__67645:only-of-type:hover, .bd-button.bd-button-title:hover, .datePicker__56fec .datePickerHint__56fec .hintValue__56fec:hover {
 	border-radius: 2px;
 	color: white !important;
 	border: 1px solid rgba(230,230,230,0.6);
 }
-.theme-dark .button__67645:only-of-type:active, .theme-dark .bd-pfbtn:active, .theme-dark .bda-slist .bda-footer button:active, .theme-dark .standardSidebarView__23e6b #editor-detached button:active, .sidebar_c48ade.theme-dark .button__67645:only-of-type:active, .bd-button.bd-button-title:active, .datePicker__56fec .datePickerHint__56fec .hintValue__56fec:active {
+.theme-dark .button__67645:only-of-type:active:not(.micButtonParent__37e49 .button__67645), .theme-dark .bd-pfbtn:active, .theme-dark .bda-slist .bda-footer button:active, .theme-dark .standardSidebarView__23e6b #editor-detached button:active, .sidebar_c48ade.theme-dark .button__67645:only-of-type:active, .bd-button.bd-button-title:active, .datePicker__56fec .datePickerHint__56fec .hintValue__56fec:active {
 	border-radius: 2px;
 	color: white;
 	border: 1px solid rgba(230,230,230,0.4);
@@ -2050,25 +2052,25 @@ svg.mask__44b0c.svg__44b0c > mask[height="32"][width="32"]:first-child rect[x="1
 	background: linear-gradient(to top, transparent 15%, hsl(40, calc(var(--saturation-factor, 1) * 4.1%), 56.7%) 100%) !important;
 	background-color: hsl(30, calc(var(--saturation-factor, 1) * 1.9%), 79.6%) !important;
 }
-.theme-light .button__67645:not(.button__67645:last-of-type) {
+.theme-light .button__67645:not(.button__67645:last-of-type), .theme-light .micButtonParent__37e49 .button__67645 {
 	border-right: 1px solid rgba(60,60,60,0.8);
 }
 .theme-light .button__67645 {
 	box-shadow: inset 0 0 0 1px rgba(230,230,230,0.6);
 }
-.theme-light  .button__67645:active {
+.theme-light .button__67645:active {
 	box-shadow: inset 0 0 0 1px rgba(230,230,230,0.4);
 }
-.theme-light .button__67645:only-of-type, .theme-light .bd-pfbtn, .theme-light .bda-slist .bda-footer button, .theme-light .standardSidebarView__23e6b #editor-detached button, .theme-light .datePicker__56fec .datePickerHint__56fec .hintValue__56fec {
+.theme-light .button__67645:only-of-type:not(.micButtonParent__37e49 .button__67645), .theme-light .bd-pfbtn, .theme-light .bda-slist .bda-footer button, .theme-light .standardSidebarView__23e6b #editor-detached button, .theme-light .datePicker__56fec .datePickerHint__56fec .hintValue__56fec {
 	border-radius: 2px !important;
 	border: 1px solid rgba(60,60,60,0.8);
 	box-shadow: inset 0 0 0 1px rgba(230,230,230,0.6);
 }
-.theme-light .button__67645:only-of-type:hover, .theme-light .bd-pfbtn:hover, .theme-light .bda-slist .bda-footer button:hover, .theme-light .standardSidebarView__23e6b #editor-detached button:hover, .theme-light .datePicker__56fec .datePickerHint__56fec .hintValue__56fec:hover {
+.theme-light .button__67645:only-of-type:hover:not(.micButtonParent__37e49 .button__67645), .theme-light .bd-pfbtn:hover, .theme-light .bda-slist .bda-footer button:hover, .theme-light .standardSidebarView__23e6b #editor-detached button:hover, .theme-light .datePicker__56fec .datePickerHint__56fec .hintValue__56fec:hover {
 	border-radius: 2px;
 	border: 1px solid rgb(60,60,60);
 }
-.theme-light .button__67645:only-of-type:active, .theme-light .bd-pfbtn:active, .theme-light .bda-slist .bda-footer button:active, .theme-light .standardSidebarView__23e6b #editor-detached button:active, .theme-light .datePicker__56fec .datePickerHint__56fec .hintValue__56fec:active {
+.theme-light .button__67645:only-of-type:active:not(.micButtonParent__37e49 .button__67645), .theme-light .bd-pfbtn:active, .theme-light .bda-slist .bda-footer button:active, .theme-light .standardSidebarView__23e6b #editor-detached button:active, .theme-light .datePicker__56fec .datePickerHint__56fec .hintValue__56fec:active {
 	border-radius: 2px;
 	border: 1px solid rgba(60,60,60,0.8);
 	box-shadow: inset 0 0 0 1px rgba(230, 230, 230, 0.4);
@@ -2357,11 +2359,11 @@ svg.mask__44b0c.svg__44b0c > mask[height="32"][width="32"]:first-child rect[x="1
 	box-shadow: inset 0 0 0 1px rgba(0,0,0,0.5);
 	/*user toolbar BG*/
 }
-.theme-dark .panel__5dec7.activityPanel_c48ade, .theme-dark .container__37e49 {
+.theme-dark .panel__5dec7.activityPanel_c48ade, .theme-dark .container__37e49, .theme-dark .wrapper_e131a9 {
 	background: linear-gradient(to top, transparent 14%, var(--header_dark_top) 100%);
     background-color: var(--header_dark_bottom);
 }
-.theme-dark .activityPanel_c48ade + .wrapper_e131a9 + .container__37e49 {
+.theme-dark .activityPanel_c48ade + .wrapper_e131a9 + .container__37e49, .theme-dark .activityPanel_c48ade + .wrapper_e131a9 {
     background: var(--header_dark_bottom) !important;
 }
 .theme-light .panels_c48ade {
@@ -2370,11 +2372,11 @@ svg.mask__44b0c.svg__44b0c > mask[height="32"][width="32"]:first-child rect[x="1
 	box-shadow: inset 0 0 0 1px rgba(230,230,230,0.6);
 	/*user toolbar BG - light mode*/
 }
-.theme-light .panel__5dec7.activityPanel_c48ade, .theme-light .container__37e49 {
+.theme-light .panel__5dec7.activityPanel_c48ade, .theme-light .container__37e49, .theme-light .wrapper_e131a9 {
 	background: linear-gradient(to top, transparent 14%, var(--header_light_top) 100%);
     background-color: var(--header_light_bottom);
 }
-.theme-light .activityPanel_c48ade + .wrapper_e131a9 + .container__37e49 {
+.theme-light .activityPanel_c48ade + .wrapper_e131a9 + .container__37e49, .theme-light .activityPanel_c48ade + .wrapper_e131a9 {
     background: var(--header_light_bottom) !important;
 }
 
@@ -3400,29 +3402,29 @@ svg.mask__44b0c.svg__44b0c > mask[height="32"][width="32"]:first-child rect[x="1
 	color: #9a9a9a;
 }
 .theme-light .wrapper-CU3qI5.muted-1NRuDm:hover .name-IbjUBS, .theme-light .wrapper-CU3qI5.muted-1NRuDm:hover .arrow_d64d50.icon-WnO6o2 {
-	color: #4B4F52;
+	color: #4f4f4f;
 }
 .theme-light .content-3at_AU:hover .icon-1_QxNX, .theme-light .modeMuted-3osy7j .content-3at_AU:hover .name-3_Dsmg, .theme-light .modeMuted-3osy7j  .content-3at_AU:hover .icon-1_QxNX, .theme-light .wrapper__2ea32:hover .link__2ea32 .icon__2ea32, .theme-light .wrapper__2ea32.modeMuted__2ea32:hover .link__2ea32 .name__2ea32 {
-	color: #2E333E;
+	color: #3343434;
 }
 .sidebar_c48ade.theme-dark  .modeMuted-3osy7j .name-3_Dsmg, .sidebar_c48ade.theme-dark  .modeMuted-3osy7j .icon-1_QxNX, .sidebar_c48ade.theme-dark .wrapper__2ea32.modeMuted__2ea32 .link__2ea32 .icon__2ea32, .sidebar_c48ade.theme-dark .wrapper__29444.muted__29444 .mainContent__29444 .name__29444, .sidebar_c48ade.theme-dark .wrapper__29444.muted__29444 .mainContent__29444 .arrow_d64d50 path, .sidebar_c48ade.theme-dark .wrapper__2ea32.modeMuted__2ea32 .link__2ea32 .name__2ea32, .sidebar_c48ade.theme-dark .wrapper__29444.muted__29444 svg {
-	color: #4F545C !important;
+	color: #545454 !important;
 }
 .sidebar_c48ade.theme-dark .modeMuted-3osy7j:hover .name-3_Dsmg, .sidebar_c48ade.theme-dark .name__20a53, .sidebar_c48ade.theme-dark .nameAndDecorators__91a9d, .sidebar_c48ade.theme-dark .avatar__91a9d path, .theme-dark .nameAndDecorators__91a9d, .theme-dark .avatar__91a9d path, .sidebar_c48ade.theme-dark .activityText__972a0, .sidebar_c48ade.theme-dark .icon_c9d15c path, .sidebar_c48ade.theme-dark .subtext__972a0, .sidebar_c48ade.theme-dark .channel__972a0 .nameAndDecorators__20a53, .theme-dark .channel__972a0 .nameAndDecorators__20a53 {
-	color: #72767D;
+	color: #727272;
 }
 .sidebar_c48ade.theme-dark .name-IbjUBS.container-36u7Lw:hover, .sidebar_c48ade.theme-dark .layout__91a9d:hover .subtext__972a0, .sidebar_c48ade.theme-dark .wrapper-CU3qI5.muted-1NRuDm:hover .name-IbjUBS, .sidebar_c48ade.theme-dark .wrapper-CU3qI5.muted-1NRuDm:hover .arrow_d64d50.icon-WnO6o2, .theme-dark .wrapper__2ea32:hover .link__2ea32 .icon__2ea32, .sidebar_c48ade.theme-dark .wrapper__2ea32.modeMuted__2ea32:hover .link__2ea32 .icon__2ea32, .sidebar_c48ade.theme-dark .wrapper__29444.muted__29444-:hover .mainContent__29444 .name__29444, .sidebar_c48ade.theme-dark .wrapper__29444.muted__29444-:hover .mainContent__29444 .arrow_d64d50 path, .sidebar_c48ade.theme-dark .wrapper__2ea32.modeMuted__2ea32:hover .link__2ea32 .name__2ea32, .sidebar_c48ade.theme-dark .wrapper__29444.muted__29444:hover svg, .sidebar_c48ade.theme-dark .wrapper__29444.muted__29444:hover .mainContent__29444 .name__29444, .sidebar_c48ade.theme-dark .modeMuted-3osy7j:hover .link__2ea32 .name__2ea32 .channelName-3KPsGw, .sidebar_c48ade.theme-dark .channel__972a0:hover .nameAndDecorators__20a53 *, .sidebar_c48ade.theme-dark .channel__972a0:hover .subText__20a53 * {
-	color: #BABBBD !important;
+	color: #bcbcbc !important;
 }
 .sidebar_c48ade.theme-dark .channel__972a0 .selected_bf202d .nameAndDecorators__20a53 *, .sidebar_c48ade.theme-dark .channel__972a0 .selected_bf202d .subText__20a53 *, .sidebar_c48ade.theme-dark .channel__972a0 .selected_bf202d:hover .nameAndDecorators__20a53 *, .sidebar_c48ade.theme-dark .channel__972a0 .selected_bf202d:hover .subText__20a53 *, .sidebar_c48ade.theme-dark .channel__972a0 .selected_bf202d:active .nameAndDecorators__20a53 *, .sidebar_c48ade.theme-dark .channel__972a0 .selected_bf202d:active .subText__20a53 *, .theme-dark .channel__972a0 .selected_bf202d .nameAndDecorators__20a53, .sidebar_c48ade.theme-dark .channel__972a0.container__91a9d.selected__91a9d .avatar__91a9d path, .theme-dark .channel__972a0.container__91a9d.selected__91a9d .avatar__91a9d path, .sidebar_c48ade.theme-dark .channel__972a0.container__91a9d.selected__91a9d .avatar__91a9d path, .theme-dark .channel__972a0.container__91a9d.selected__91a9d .avatar__91a9d path, .sidebarRegion__23e6b.theme-dark .topPill-3DJJNV .themed_b3f026.item_b3f026, .sidebarRegion__23e6b.theme-dark #bd-settings-sidebar .ui-tab-bar-item:hover, .sidebarRegion__23e6b.theme-dark #bd-settings-sidebar .ui-tab-bar-item.selected, .sidebar_c48ade.theme-dark .channel__972a0.container__91a9d.selected__91a9d .subtext__972a0y, .sidebar_c48ade.theme-dark .wrapper__2ea32.modeSelected__2ea32 .link__2ea32 .icon__2ea32, .sidebar_c48ade.theme-dark .wrapper__2ea32.modeUnreadImportant__2ea32 .link__2ea32 .icon__2ea32, .sidebar_c48ade.theme-dark .channel__972a0:active .name__20a53, .theme-dark .channel__972a0:active .name__20a53, .sidebar_c48ade.theme-dark .channel__972a0 .selected_bf202d:hover .name__20a53, .theme-dark .channel__972a0 .selected_bf202d:hover .name__20a53, .sidebar_c48ade.theme-dark .channel__972a0 .selected_bf202d:hover .subtext__972a0, .theme-dark .channel__972a0 .selected_bf202d:hover .subtext__972a0, .theme-dark .member__5d473.container__91a9d:active .nameAndDecorators__91a9d,  .theme-dark .member__5d473.container__91a9d:active .activityText__5d473, .button__6e2b9.lookOutlined-3yKVGo.colorWhite-1H92hK .contents__201d5 {
 	color: white !important;
 }
 
 .theme-dark .channel__972a0:hover .nameAndDecorators__20a53, .sidebar_c48ade.theme-dark .channel__972a0:hover .nameAndDecorators__20a53, .theme-dark .layout__91a9d:hover .avatar__91a9d path, .sidebar_c48ade.theme-dark .layout__91a9d:hover .avatar__91a9d path, .theme-dark .content-3at_AU:hover .name-3_Dsmg, .theme-dark .content-3at_AU:hover .icon-1_QxNX path, .theme-dark .categoryItem-3zFJns.container__91a9d.selected__91a9d.selectedCategoryItem-3X8ujp .avatar__91a9d path, .theme-dark .content-3at_AU:hover .icon-1_QxNX path, .theme-dark .categoryItem-3zFJns.container__91a9d.selected__91a9d.selectedCategoryItem-3X8ujp .content__91a9d .nameAndDecorators__91a9d, .sidebar_c48ade.theme-dark  .content-3at_AU:hover .icon-1_QxNX path, .sidebar_c48ade.theme-dark  .categoryItem-3zFJns.container__91a9d.selected__91a9d.selectedCategoryItem-3X8ujp .content__91a9d .nameAndDecorators__91a9d, .theme-dark .member__5d473.container__91a9d:hover .nameAndDecorators__91a9d, .theme-dark .member__5d473.container__91a9d:hover .activityText__5d473 {
-	color: #DCDDDE !important;
+	color: #dddddd !important;
 }
 .sidebar_c48ade.theme-dark .total__260e1, .sidebar_c48ade.theme-dark .users__260e1 {
-	color: #8E9297 !important;
+	color: #929292 !important;
 }
 /* ---- */
 .voiceUser__07f91, .iconWrapper__6eb54 {
