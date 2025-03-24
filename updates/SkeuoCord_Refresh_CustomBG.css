@@ -1,4 +1,4 @@
-@import url("https://marda33.github.io/SkeuoCord/updates/SkeuoCordBase.css");
+@import url("https://marda33.github.io/SkeuoCord/updates/SkeuoCord_BGImport.css");
 
 .title_c38106 {
 	background: linear-gradient(to top, transparent 30%, rgb(41,43,46) 100%);
@@ -116,12 +116,12 @@
 }
 
 .visual-refresh.theme-dark .chatContent_f75fb0 {
-	background: linear-gradient(to top, transparent 35%, var(--cell_dark_top) 100%) !important;
-    background-color: var(--cell_dark_bottom) !important;
+	background: linear-gradient(to top, transparent 35%, rgba(var(--chattransp_dark_top), 0.9) 100%) !important;
+	background-color: rgba(var(--chattransp_dark_bottom), 0.9) !important;
 }
 .visual-refresh.theme-light .chatContent_f75fb0 {
-	background: linear-gradient(to top, transparent 35%, var(--cell_light_top) 100%) !important;
-	background-color: var(--cell_light_bottom) !important;
+	background: linear-gradient(to top, transparent 35%, rgba(var(--chattransp_light_top), 0.84) 100%) !important;
+	background-color: rgba(var(--chattransp_light_bottom), 0.84) !important;
 }
 .visual-refresh.custom-theme-background.theme-dark .chatContent_f75fb0 {
 	background: linear-gradient(to top, transparent 35%, hsla(220, calc(var(--saturation-factor, 1) * 7.7%), 22.9%, 0.9) 100%);
