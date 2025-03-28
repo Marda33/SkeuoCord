@@ -1,0 +1,108 @@
+@import url("https://marda33.github.io/SkeuoCord/updates/SkeuoCordBase_Old.css");
+
+:root {
+	--maintransp_dark_top: 12,13,14; /*default: 12,13,14*/
+	--maintransp_dark_bottom: 41,43,46; /*default: 41,43,46*/
+	--maintransp_light_top: 215,214,211; /*default: */
+	--maintransp_light_bottom: 230,229,227; /*default: 230,229,227*/
+	--chattransp_dark_top: 54,57,63; /*default: 54,57,63*/
+	--chattransp_dark_bottom: 41,43,46; /*default: 41,43,46*/
+	--chattransp_light_top: 227,226,225; /*default:  227,226,225*/
+	--chattransp_light_bottom: 201,198,192; /*default: 201,198,192*/
+	--listtransp_dark_top: 26,26,28; /*default: 26,26,28*/
+	--listtransp_dark_bottom: 46,48,54; /*default: 46,48,54*/
+	--listtransp_light_top: 183,182,178; /*default: 183,182,178*/
+	--listtransp_light_bottom: 218,216,211; /*default: 218,216,211*/
+	--sidebartransp_dark_top: 43,45,50; /*default: 43,45,50*/
+	--sidebartransp_dark_bottom: 24,25,26; /*default: 24,25,26*/
+	--sidebartransp_light_top: 228,226,221; /*default: 228,226,221*/
+	--sidebartransp_light_bottom: 199,199,194; /*default: 199,199,194*/
+}
+
+.theme-dark .layer__960e4, .theme-light .layer__960e4 {
+	background: var(--bg-image) !important;
+}
+.theme-light .container_c48ade, .theme-light .wrapper_ef3116, .theme-light .scroller_ff90b2, .theme-light .contentRegionScroller__23e6b, .theme-light .perksModal-CLcR1c, .theme-light .scroller-3j5xK2, .theme-light .customScroller__23e6b, .theme-light .scroller_a39aa3, .theme-light .container-3wLKDe, .theme-light .content_f75fb0 [data-list-id="message-requests-list"], .theme-light .directoryModal-YJsOMv, .theme-light .scroller_ef3116, .container_c48ade, .theme-dark .wrapper_ef3116, .scroller_ff90b2, .contentRegionScroller__23e6b, .theme-dark .perksModal-CLcR1c, .theme-dark .scroller-3j5xK2, .theme-dark .customScroller__23e6b, .theme-dark .scroller_a39aa3, .container-3wLKDe, .content_f75fb0 [data-list-id="message-requests-list"], .directoryModal-YJsOMv, .scroller_ef3116, .wrapper_ef3116.guilds_c48ade.theme-dark .scroller_ef3116, .bg__960e4.theme-dark .layers__960e4.layers__160d8 .layer__960e4.baseLayer__960e4 .container_c48ade .base_c48ade .content_c48ade, .container_c48ade, .privateChannels__35e86, .contentRegion__23e6b, .wrapper_ef3116, .sidebar_c48ade, .chat_f75fb0:not(.scrollerContainer_c6b11b):not(.container_c2efea):not(.chat_f75fb0.background__7449f), .theme-light .chat_f75fb0:not(.scrollerContainer_c6b11b):not(.container_c2efea):not(.chat_f75fb0.background__7449f), .container__133bf, .standardSidebarView__23e6b, .membersWrap_c8ffbb, .container__0b563, .chat_f75fb0 {
+	background: transparent !important;
+}
+
+.theme-light .tree_ef3116, .theme-light .contentRegionScroller__23e6b, .theme-light .homeContainer__7449f, .theme-light .repoScroller_9JnAPs, .theme-light .container-3wLKDe, .theme-light .scrollerContainer_c6b11b, .theme-light .container_c2efea, .theme-light .chat_f75fb0.background__7449f, .theme-light .container_f369db, .theme-light .content__49668 {
+	background: linear-gradient(to top, transparent 30%, rgba(var(--maintransp_light_top), 0.54) 100%) !important;
+	background-color: rgba(var(--maintransp_light_bottom), 0.54) !important;
+	/*main background - light mode*/
+}
+.tree_ef3116, .theme-light .wrapper_ef3116.guilds_c48ade.theme-dark .tree_ef3116, .contentRegionScroller__23e6b, .homeContainer__7449f, .repoScroller_9JnAPs, .container-3wLKDe, .scrollerContainer_c6b11b, .container_c2efea, .chat_f75fb0.background__7449fI, .container_f369db, .content__49668 {
+	background: linear-gradient(to top, transparent 30%, rgba(var(--maintransp_dark_top), 0.63) 100%) !important;
+	background-color: rgba(var(--maintransp_dark_bottom), 0.63) !important;
+	/*main background*/
+}
+
+.theme-light .peopleColumn__133bf, .theme-light .scroller__244e5, .theme-light .scroller__244e5, .theme-light .scroller__5d7c9, .theme-light .scrollerWrapper-i8p1JZ, .theme-light .pageBody__41ed7 {
+	background: linear-gradient(to top, transparent 13%, rgba(var(--listtransp_light_top), 0.8) 100%) !important;
+	background-color: rgba(var(--listtransp_light_bottom), 90.0%, 0.8) !important;
+	/*DM list background - light mode*/
+}
+.theme-dark .peopleColumn__133bf, .theme-dark .scroller__244e5, .theme-dark .scroller__244e5, .theme-dark .scroller__5d7c9, .scrollerWrapper-i8p1JZ, .theme-dark .pageBody__41ed7 {
+	background: linear-gradient(to top, transparent 35%, rgba(var(--listtransp_dark_top), 0.9) 100%) !important;
+	background-color: rgba(var(--listtransp_dark_bottom), 0.9) !important;
+	/*DM list background*/
+}
+
+.theme-light .chatContent_f75fb0 {
+	background: linear-gradient(to top, transparent 35%, rgba(var(--chattransp_light_top), 0.84) 100%) !important;
+	background-color: rgba(var(--chattransp_light_bottom), 0.84) !important;
+	/*chat background - light mode*/
+}
+.theme-dark .chatContent_f75fb0 {
+	background: linear-gradient(to top, transparent 35%, rgba(var(--chattransp_dark_top), 0.9) 100%) !important;
+	background-color: rgba(var(--chattransp_dark_bottom), 0.9) !important;
+}
+
+.theme-dark .container__2637a, .sidebar_c48ade.theme-dark .container__2637a, .theme-dark .container__33507, .scroller__99e7c, .sidebar_c48ade.theme-dark .scroller__99e7c, .theme-dark .scroller-1JpcIc {
+	background: linear-gradient(to top, transparent 40%, rgba(var(--listtransp_dark_top), 0.9) 100%) !important;
+	background-color: rgba(var(--listtransp_dark_bottom), 0.9) !important;
+	/*channel column BG - friends tab DM list BG*/	
+}
+.theme-light .container__2637a, .theme-light .scroller__99e7c, .theme-light .scroller-1JpcIc {
+	background: linear-gradient(to top, transparent 40%, rgba(var(--listtransp_light_top), 0.8) 100%) !important;
+	background-color: rgba(var(--listtransp_light_bottom), 0.8) !important;
+	/*channel column BG - friends tab DM list BG, light mode*/
+}
+
+.theme-dark .sidebarRegionScroller__23e6b, .sidebarRegion__23e6b.theme-dark .sidebarRegionScroller__23e6b, .theme-dark .repoHeader_2KfNvH, .header_c6bf1b, .titleContainer_e29cd7 {
+	background: linear-gradient(to top, transparent 0%, rgba(var(--sidebartransp_dark_top), 0.8) 100%) !important;
+	background-color: rgba(var(--sidebartransp_dark_bottom), 0.8) !important;
+	box-shadow: inset 0 15px 5px -12px rgba(0,0,0,0.6);
+	/*settings sidebar BG*/
+}
+.theme-light .sidebarRegionScroller__23e6b, .theme-light .repoHeader_2KfNvH, .theme-light .header_c6bf1b, .theme-light .titleContainer_e29cd7 {
+	background: linear-gradient(to top, transparent 0%, rgba(var(--sidebartransp_light_top), 0.75) 100%) !important;
+	background-color: rgba(var(--sidebartransp_light_bottom), 0.75) !important;
+	box-shadow: inset 0 15px 5px -14px rgba(64,64,64,0.7);
+	/*settings sidebar BG - light mode*/
+}
+
+.container_c8ffbb, .membersWrap_c8ffbb:not(.container_c8ffbb .membersWrap_c8ffbb) {
+	background: linear-gradient(270deg, transparent 72%, rgba(var(--listtransp_dark_top), 0.8) 100%) !important;
+	background-color: rgba(var(--listtransp_dark_bottom), 0.83) !important;
+	border-left: 1px solid rgb(92,92,92);
+	/*member column BG*/
+}
+.theme-dark .nowPlayingColumn__133bf, .theme-dark .nowPlayingSidebar-2OFn0o, .scroller-36cuUh, .submitContainer-g72mF-, .container__01ae2 .chat_fb64c9, .container__01ae2 .chat_f02135, .container__01ae2 .chat_ee72fa {
+	background: linear-gradient(270deg, transparent 80%, rgba(var(--listtransp_dark_top), 0.8) 100%) !important;
+	background-color: rgba(var(--listtransp_dark_bottom), 0.83) !important;
+	border-left: 1px solid rgb(92,92,92);
+	/*DM list now playing column BG*/
+}
+.theme-light .container_c8ffbb, .theme-light .membersWrap_c8ffbb:not(.container_c8ffbb .membersWrap_c8ffbb) {
+	background: linear-gradient(270deg, transparent 72%, rgba(var(--listtransp_light_top), 0.7) 100%) !important;
+	background-color: rgba(var(--listtransp_light_bottom), 0.74) !important;
+	border-left: 1px solid rgb(60,60,60);
+	/*member column BG - light mode*/
+}
+.theme-light .nowPlayingColumn__133bf, .theme-light .nowPlayingSidebar-2OFn0o, .theme-light .scroller-36cuUh, .theme-light .submitContainer-g72mF-, .theme-light .container__01ae2 .chat_fb64c9, .theme-light .container__01ae2 .chat_f02135, .theme-light .container__01ae2 .chat_ee72fa {
+	background: linear-gradient(270deg, transparent 80%, rgba(var(--listtransp_light_top), 0.7) 100%) !important;
+	background-color: rgba(var(--listtransp_light_bottom), 0.74) !important;
+	border-left: 1px solid rgb(60,60,60);
+	/*DM list now playing column BG  - light mode*/
+}
