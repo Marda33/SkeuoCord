@@ -1,27 +1,8 @@
 /**
  * @name SkeuoCord Horizontal Server Fix
  * @author Marda33
- * @version 1 
+ * @version ersion Auto Update
  * @description Fixes support for Horizontal Server List with the refresh UI
 */
 
-.tree_ef3116 {
-	padding-top: 4px !important;
-}
-.stack_dbd263:not(.wrapper__48112 .stack_dbd263):not(.stack_dbd263 .stack_dbd263) {
-	margin-bottom: 12px !important;
-}
-.listItem__650eb .blobContainer_e5445c {
-	margin-left: 18px !important;
-}
-.tutorialContainer__1f388 .listItem__650eb, .tutorialContainer__650eb .listItem__650eb, .tutorialContainer__650eb + .listItem__650eb {
-	margin-left: 8px !important;
-}
-.itemsContainer_ef3116 div[style="opacity: 1; height: 40px; transform: scale(1);"] .listItem__650eb .wrapper_cc5dd2 {
-	margin-left: 8px !important;
-}
-/*Revert to Old Titlebar*/
-.visual-refresh.platform-win .bar_c38106:not(.systemBar_c38106) {
-    top: 72px;
-}
-/*----*/
+@import url("https://marda33.github.io/SkeuoCord/updates/SkeuoCord_HorizFix.css");
