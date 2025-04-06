@@ -180,12 +180,12 @@
 	filter: drop-shadow(0 5px 10px rgba(0,0,0,0.27));
 }
 
-.theme-light .container_c48ade, .theme-light .layer__960e4, .theme-light .wrapper_ef3116, .theme-light .scroller_ff90b2, .theme-light .contentRegionScroller__23e6b, .theme-light .customScroller__23e6b:not(.customContainer__23e6b .customScroller__23e6b), .theme-light .scroller_a39aa3, .theme-light .content_f75fb0 [data-list-id="message-requests-list"], .theme-light .tree_ef3116, .theme-light .homeContainer__7449f, .theme-light .repoScroller_9JnAPs, .theme-light .scroller__6fd0e, .theme-light .scrollerContainer_c6b11b, .theme-light .container_c2efea, .theme-light .chat_f75fb0.background__7449f, .theme-light .container_dc2e0e:not(.contentColumn__23e6b[id="family-center-tab"] .container_dc2e0e), .theme-light .page_c791b2, .theme-light .directoryContainer_da3f59, .theme-light .shop__6db1d, .theme-light .container_f369db, .theme-light .content__49668, .theme-light .container_d08938, .theme-light .container__955a3, .themeSelection__36dee.lightIcon__36dee, .theme-light .container_fed6d3, .theme-light .customContainer__23e6b, .lightCardBackground_c3d04b {
+.theme-light .container_c48ade, .theme-light .layer__960e4, .theme-light .wrapper_ef3116, .theme-light .scroller_ff90b2, .theme-light .contentRegionScroller__23e6b, .theme-light .customScroller__23e6b:not(.customContainer__23e6b .customScroller__23e6b), .theme-light .scroller_a39aa3, .theme-light .content_f75fb0 [data-list-id="message-requests-list"], .theme-light .tree_ef3116, .theme-light .homeContainer__7449f, .theme-light .repoScroller_9JnAPs, .theme-light .scroller__6fd0e, .theme-light .scrollerContainer_c6b11b, .theme-light .container_c2efea, .theme-light .chat_f75fb0.background__7449f, .theme-light .container_dc2e0e:not(.contentColumn__23e6b[id="family-center-tab"] .container_dc2e0e), .theme-light .page_c791b2, .theme-light .directoryContainer_da3f59, .theme-light .shop__6db1d, .theme-light .container_f369db, .theme-light .content__49668, .theme-light .container_d08938, .theme-light .container__955a3, .themeSelection__36dee.lightIcon__36dee, .theme-light .container_fed6d3, .theme-light .customContainer__23e6b, .lightCardBackground_c3d04b, .theme-light .homeWrapper__0920e {
 	background: linear-gradient(to top, transparent 30%, var(--mainbg_light_top) 100%) !important;
 	background-color: var(--mainbg_light_bottom) !important;
 	/*main background - light mode*/
 }
-.container_c48ade, .theme-dark .layer__960e4, .theme-dark .wrapper_ef3116, .scroller_ff90b2, .contentRegionScroller__23e6b, .theme-dark .customScroller__23e6b:not(.customContainer__23e6b .customScroller__23e6b), .theme-dark .scroller_a39aa3, .content_f75fb0 [data-list-id="message-requests-list"], .tree_ef3116, .wrapper_ef3116.guilds_c48ade.theme-dark .tree_ef3116, .bg__960e4.theme-dark .layers__960e4.layers__160d8 .layer__960e4.baseLayer__960e4 .container_c48ade .base_c48ade .content_c48ade, .homeContainer__7449f, .repoScroller_9JnAPs, .scroller__6fd0e, .scrollerContainer_c6b11b, .container_c2efea, .chat_f75fb0.background__7449f, .theme-dark .container_dc2e0e:not(.contentColumn__23e6b[id="family-center-tab"] .container_dc2e0e), .page_c791b2, .directoryContainer_da3f59, .shop__6db1d, .container_f369db, .content__49668, .theme-dark .container_d08938, .theme-light .container__955a3, .themeSelection__36dee.darkerIcon__36dee:not(.themeSelectionContainer__36dee:last-of-type .themeSelection__36dee), .container_fed6d3, .customContainer__23e6b, .darkCardBackground_c3d04b {
+.container_c48ade, .theme-dark .layer__960e4, .theme-dark .wrapper_ef3116, .scroller_ff90b2, .contentRegionScroller__23e6b, .theme-dark .customScroller__23e6b:not(.customContainer__23e6b .customScroller__23e6b), .theme-dark .scroller_a39aa3, .content_f75fb0 [data-list-id="message-requests-list"], .tree_ef3116, .wrapper_ef3116.guilds_c48ade.theme-dark .tree_ef3116, .bg__960e4.theme-dark .layers__960e4.layers__160d8 .layer__960e4.baseLayer__960e4 .container_c48ade .base_c48ade .content_c48ade, .homeContainer__7449f, .repoScroller_9JnAPs, .scroller__6fd0e, .scrollerContainer_c6b11b, .container_c2efea, .chat_f75fb0.background__7449f, .theme-dark .container_dc2e0e:not(.contentColumn__23e6b[id="family-center-tab"] .container_dc2e0e), .page_c791b2, .directoryContainer_da3f59, .shop__6db1d, .container_f369db, .content__49668, .theme-dark .container_d08938, .theme-light .container__955a3, .themeSelection__36dee.darkerIcon__36dee:not(.themeSelectionContainer__36dee:last-of-type .themeSelection__36dee), .container_fed6d3, .customContainer__23e6b, .darkCardBackground_c3d04b, .homeWrapper__0920e {
 	background: linear-gradient(to top, transparent 30%, var(--mainbg_dark_top) 100%) !important;
 	background-color: var(--mainbg_dark_bottom) !important;
 	/*main background*/
@@ -1704,7 +1704,7 @@ svg.mask__44b0c.svg__44b0c > mask[height="32"][width="32"]:first-child rect[x="1
 	width: 16px;
 	/*channel toolbar separator - friends*/
 }
-.container__133bf .children__9293f:after {
+.container__133bf .children__9293f:after, .container_dc2e0e .children__9293f:after  {
 	margin-top: 10px;
 }
 .theme-light .chat_f75fb0 .children__9293f:after, .theme-light .container__01ae2 .children__9293f:after, .theme-light .shop__6db1d .children__9293f:after {
@@ -9653,7 +9653,7 @@ padding-left: 0 !important;
 	background: transparent !important;
 	border: none !important;
  }
-.mentioned__5126c .mention.wrapper_f61d60, .mentioned__5126c .repliedMessage_c19a55 .repliedTextPreview_c19a55 .repliedTextContent_c19a55 .mention.wrapper_f61d60, .emptyStateIconContainer__7641b, .emptyStateSubtext__7641b, .emptyStateHeader__7641b, .overlay_c0bea0 .tabBarContainer_b9fccc, .reactorDefault_cc2dff, .chat_f75fb0.container_f391e3 {
+.mentioned__5126c .mention.wrapper_f61d60, .mentioned__5126c .repliedMessage_c19a55 .repliedTextPreview_c19a55 .repliedTextContent_c19a55 .mention.wrapper_f61d60, .emptyStateIconContainer__7641b, .emptyStateSubtext__7641b, .emptyStateHeader__7641b, .overlay_c0bea0 .tabBarContainer_b9fccc, .reactorDefault_cc2dff, .chat_f75fb0.container_f391e3, .applicationStore_f07d62, .scroller_c880e8 {
 	background: transparent !important;
 	box-shadow: none !important;
 }
