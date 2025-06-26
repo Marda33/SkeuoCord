@@ -467,6 +467,9 @@
 .theme-light .systemBar_c38106 {
 	border: 1px solid rgb(60,60,60);
 }
+.trailing_c38106 {
+	gap: 4px;
+}
 
 .winButtonsWithDivider_c38106::before {
 	height: 32px !important;
@@ -3877,10 +3880,6 @@ svg.mask__44b0c.svg__44b0c > mask[height="32"][width="32"]:first-child rect[x="1
 .visual-refresh .spriteContainer__04eed:hover {
 	transform: scale(1.6) !important;
 	transition: all .2s ease-out !important;
-}
-.channelAppLauncher_e6e74f {
-	margin-left: 5px;
-	margin-bottom: 24px;
 }
 .channelAppLauncher_e6e74f .button_e6e74f {
 	height: 46px;
@@ -9653,7 +9652,9 @@ padding-left: 0 !important;
 }
 .header_f37cb1 {
 	height: 47px !important;
+	border-radius: 0 !important;
 }
+
 .calendarPicker_d27f17 .react-datepicker__header {
 	margin-top: -6px;
 }
