@@ -31,8 +31,12 @@
 	--medborder_light: 0 0 0 3px rgba(60,60,60,0.8), 0 0 4px 4px rgba(0,0,0,0.27); /*default: 0 0 0 3px rgba(60,60,60,0.8), 0 0 4px 4px rgba(0,0,0,0.27)*/
 	--largeborder_dark: 0 0 0 4px rgba(230,230,230,0.6), 0 0 5px 5px rgba(0,0,0,0.6); /*default: 0 0 0 4px rgba(230,230,230,0.6), 0 0 5px 5px rgba(0,0,0,0.6)*/
 	--largeborder_light: 0 0 0 4px rgba(60,60,60,0.8), 0 0 5px 5px rgba(0,0,0,0.27); /*default: 0 0 0 4px rgba(60,60,60,0.8), 0 0 5px 5px rgba(0,0,0,0.27)*/
+	/*Text Shadows - change to edit text shadows for dark theme, light theme and buttons*/
+	--dark_shadows: 0px 0px 5px rgba(0,0,0,0.6); /*default: 0px 0px 5px rgba(0,0,0,0.6);*/
+	--light_shadows: 0px 0px 5px rgba(114,114,114,0.5); /*default: 0px 0px 5px rgba(114,114,114,0.5);*/
+	--button_shadows: 0px 0px 5px rgba(0,0,0,0.5); /*default: 0px 0px 5px rgba(0,0,0,0.5);*/
 	/*UI Gradients - change main UI element gradient colors*/
-	/*---Headers-Footers (Server name header-user menu footer-chat textbox), Toolbars (Channel toolbar)---*/
+	/*---Headers-Footers - for server name header-user menu footer-chat textbox, Toolbars - for channel toolbar---*/
 	--header_dark_top: rgb(58,58,58); /*default: rgb(58,58,58)*/
 	--header_dark_bottom: rgb(0,0,0); /*default: rgb(0,0,0)*/
 	--header_light_top: rgb(228,228,228); /*default: rgb(228,228,228)*/
@@ -41,15 +45,13 @@
 	--toolbar_dark_bottom: rgb(29,29,29); /*default: rgb(29,29,29)*/
 	--toolbar_light_top: rgb(211,211,211); /*default: rgb(211,211,211)*/
 	--toolbar_light_bottom: rgb(154,154,154); /*default: rgb(154,154,154)*/
-	/*---Cells---*/ 
-	/*---(Unthemed profiles, file embeds etc.)---*/
+	/*---Cells - for unthemed profiles, file embeds etc.---*/ 
 	--cell_dark_top: hsl(220, calc(var(--saturation-factor, 1) * 7.7%), 22.9%); /*default: hsl(220, calc(var(--saturation-factor, 1) * 7.7%), 22.9%)*/
 	--cell_dark_bottom: hsl(210, calc(var(--saturation-factor, 1) * 3.4%), 11.4%); /*default: hsl(210, calc(var(--saturation-factor, 1) * 3.4%), 11.4%)*/
 	--cell_light_top: hsl(30, calc(var(--saturation-factor, 1) * 3.4%), 88.6%); /*default: hsl(30, calc(var(--saturation-factor, 1) * 3.4%), 88.6%)*/
 	--cell_light_bottom: hsl(40, calc(var(--saturation-factor, 1) * 7.7%), 77.1%); /*default: hsl(40, calc(var(--saturation-factor, 1) * 7.7%), 77.1%)*/
-	/*---Backgrounds---*/ 
-	/*---(Main for server column-page BGs, list for channel-DMs-members list BGs, sidebar for settings sidebar BG)---*/
-	--mainbg_dark_top: hsl(210, calc(var(--saturation-factor, 1) * 7.7%), 5.1%); /*default: hsl(210, calc(var(--saturation-factor, 1) * 7.7%), 5.1%) 100%)*/
+	/*---Backgrounds - Main for server column-page BGs, list for channel-DMs-members list BGs, sidebar for settings sidebar BG---*/ 
+	--mainbg_dark_top: hsl(210, calc(var(--saturation-factor, 1) * 7.7%), 5.1%); /*default: hsl(210, calc(var(--saturation-factor, 1) * 7.7%), 5.1%)*/
 	--mainbg_dark_bottom: hsl(216, calc(var(--saturation-factor, 1) * 5.7%), 17.1%); /*default: hsl(216, calc(var(--saturation-factor, 1) * 5.7%), 17.1%)*/
 	--mainbg_light_top: hsl(45, calc(var(--saturation-factor, 1) * 4.8%), 83.5%); /*default: hsl(45, calc(var(--saturation-factor, 1) * 4.8%), 83.5%)*/
 	--mainbg_light_bottom: hsl(40, calc(var(--saturation-factor, 1) * 5.7%), 89.6%); /*default: hsl(40, calc(var(--saturation-factor, 1) * 5.7%), 89.6%)*/
@@ -61,10 +63,10 @@
 	--sidebar_dark_bottom: hsl(210, calc(var(--saturation-factor, 1) * 4.0%), 9.8%); /*default: hsl(210, calc(var(--saturation-factor, 1) * 4.0%), 9.8%)*/
 	--sidebar_light_top: hsl(43, calc(var(--saturation-factor, 1) * 11.5%), 88.0%); /*default: hsl(43, calc(var(--saturation-factor, 1) * 11.5%), 88.0%)*/
 	--sidebar_light_bottom: hsl(60, calc(var(--saturation-factor, 1) * 4.3%), 77.1%); /*default: hsl(60, calc(var(--saturation-factor, 1) * 4.3%), 77.1%)*/
-	/*---Backgrounds (For Custom BG - RGB values only, leave no spaces)---*/
+	/*---Backgrounds For Custom BG (RGB values only, leave no spaces)---*/
 	--maintransp_dark_top: 12,13,14; /*default: 12,13,14*/
 	--maintransp_dark_bottom: 41,43,46; /*default: 41,43,46*/
-	--maintransp_light_top: 215,214,211; /*default: */
+	--maintransp_light_top: 215,214,211; /*default: 215,214,211*/
 	--maintransp_light_bottom: 230,229,227; /*default: 230,229,227*/
 	--chattransp_dark_top: 54,57,63; /*default: 54,57,63*/
 	--chattransp_dark_bottom: 41,43,46; /*default: 41,43,46*/
