@@ -8,21 +8,21 @@
 .carouselModal_d3a6f0 {
 	margin-top: 36px !important;
 }
-.visual-refresh.platform-win .base_c48ade:not(.visual-refresh .vc-betterFolders-sidebar-grid.base_c48ade), .visual-refresh.platform-web .base_c48ade {
+.visual-refresh.platform-win .base__5e434:not(.visual-refresh .vc-betterFolders-sidebar-grid.base__5e434), .visual-refresh.platform-web .base__5e434 {
     grid-template-areas:
         "titleBar titleBar titleBar"
         "notice notice notice"
         "guildsList channelsList page";
     grid-template-rows: [top] min-content [titlebarEnd] min-content [page] max-content [end];
 }
-.visual-refresh .vc-betterFolders-sidebar-grid.base_c48ade {
+.visual-refresh .vc-betterFolders-sidebar-grid.base__5e434 {
     grid-template-areas:
         "titleBar titleBar titleBar"
         "guildsList betterFoldersSidebar notice notice notice"
         "guildsList betterFoldersSidebar channelsList page";
     grid-template-rows: [top] min-content [titlebarEnd] min-content [page] max-content [end];
 }
-.visual-refresh.platform-win .base_c48ade {
+.visual-refresh.platform-win .base__5e434 {
     margin-top: 22px;
 }
 .visual-refresh.platform-win .contentRegionScroller__23e6b {
