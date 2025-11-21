@@ -60,7 +60,7 @@
 }
 /*----*/
 
-.info__2debe::before {
+.info__2debe::before, .sidebar__409aa .clickable__2debe::before {
   display: block;
   content: "SkeuoCord " var(--version);
   color: hsl(218, calc(var(--saturation-factor, 1) * 5%), 47%);
@@ -4301,7 +4301,7 @@ svg.mask__44b0c.svg__44b0c > mask[height="32"][width="32"]:first-child rect[x="1
 	border-image: linear-gradient(to left, #0000 5px,#787878, #0000 calc(100% - 5px)) 1
 	/*chat message group separator*/
 }
-.game_cc46f0, .reactorDefault_cc2dff, .bottomDivider__01014, .emojiRow_e7d73e, [class*="channelNotice_"], .bd-setting-divider, .divider_b962dc, .divider__93173, .info__2debe:before, .perkRow_c609c8, .containerDefault__29444, .privateChannelsHeaderContainer__99e7c, .membersGroup_c8ffbb.container__13cf1, .section__409aa, #bd-settings-sidebar .ui-tab-bar-separator, .react-datepicker__current-month, .option__66e7e, .subscriptionDetails_e70817, .sectionAccountCredit_e70817, .peopleColumn__133bf .header__94b08, .sidebar__5e434 .container__01ae2, .divider_c87e85, .customizationSection_ace4f5:not(.previewProfileThemes-ViDDkq),.customizationSection_ace4f5.section__999b5, .session__803f2, .headerContent_a1eac2, .separator_a1eac2, .headerSidebar_a1eac2, .listingDetails_c0b10b, .separator_c1e9c4, .channelNameContainer_c68065, .soundTable__15634 .row__15634, .uploader_e7d73e, .listItem__5b98e, .container_eff079::after, .container__0d0f9, .benefitsSection__3efc4, .member_counter_wrapper, .container_eff079, .sectionDivider_e6b769, .row__5cea9, .selectItemRow_b2fe93, .appDetailsSection__50a54, .bodySpacerTopBorder__8a031 {
+.game_cc46f0, .reactorDefault_cc2dff, .bottomDivider__01014, .emojiRow_e7d73e, [class*="channelNotice_"], .bd-setting-divider, .divider_b962dc, .divider__93173, .info__2debe:before, .perkRow_c609c8, .containerDefault__29444, .privateChannelsHeaderContainer__99e7c, .membersGroup_c8ffbb.container__13cf1, .section__409aa, #bd-settings-sidebar .ui-tab-bar-separator, .react-datepicker__current-month, .option__66e7e, .subscriptionDetails_e70817, .sectionAccountCredit_e70817, .peopleColumn__133bf .header__94b08, .sidebar__5e434 .container__01ae2, .divider_c87e85, .customizationSection_ace4f5:not(.previewProfileThemes-ViDDkq),.customizationSection_ace4f5.section__999b5, .session__803f2, .headerContent_a1eac2, .separator_a1eac2, .headerSidebar_a1eac2, .listingDetails_c0b10b, .separator_c1e9c4, .channelNameContainer_c68065, .soundTable__15634 .row__15634, .uploader_e7d73e, .listItem__5b98e, .container_eff079::after, .container__0d0f9, .benefitsSection__3efc4, .member_counter_wrapper, .container_eff079, .sectionDivider_e6b769, .row__5cea9, .selectItemRow_b2fe93, .appDetailsSection__50a54, .bodySpacerTopBorder__8a031, .sidebar__409aa .clickable__2debe::before {
 	border-bottom: 1px solid !important;
 	background-color: transparent !important;
 	border-image: linear-gradient(to left, #0000 5px,#787878, #0000 calc(100% - 5px)) 1  !important;
