@@ -3351,8 +3351,11 @@ svg._44b0c28be7879b7b-mask._44b0c28be7879b7b-svg > mask[height="32"][width="32"]
 	border-radius: 5px;
 }
 
-._2f4f7eb58b61c328-tile, ._2f4f7eb58b61c328-border._2f4f7eb58b61c328-speaking {
+._2f4f7eb58b61c328-tile {
 	border-radius: 4px;
+}
+._44b0c28be7879b7b-avatarBorder {
+	border-radius: var(--avatarradius);
 }
 .fb62e279d3f0a88a-background {
 	box-shadow: inset 0 0 0 1px rgba(0,0,0,0.6);
