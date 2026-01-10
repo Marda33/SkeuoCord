@@ -184,12 +184,12 @@
 }
 
 /*App Backgrounds*/
-.ef3116c2da186559-tree, ._5e434347c823b592-sidebar.theme-dark .ef3116c2da186559-tree, ._23e6b439306f125a-contentRegionScroller, ._133bf5eea8e33a34-peopleColumn, .scroller__244e5, ._41ed70e52483df6d-pageBody, ._6fd0e42f91edfda6-scroller, ._084152b107f71237-shopScroll, ._36dee59b8fa89219-themeSelection._36dee59b8fa89219-darkIcon, ._6131ab3dbe0affed-scroller, .d125d22cdfd32cfe-scrollerBase {
+.ef3116c2da186559-tree, ._5e434347c823b592-sidebar.theme-dark .ef3116c2da186559-tree, ._23e6b439306f125a-contentRegionScroller, ._133bf5eea8e33a34-peopleColumn, .scroller__244e5, ._41ed70e52483df6d-pageBody, ._6fd0e42f91edfda6-scroller, ._084152b107f71237-shopScroll, ._36dee59b8fa89219-themeSelection._36dee59b8fa89219-darkIcon, ._6131ab3dbe0affed-scroller {
 	background: linear-gradient(to top, transparent 30%, var(--mainbg_dark_top) 100%);
 	background-color: var(--mainbg_dark_bottom);
 	/*main background*/
 }
-.theme-light .ef3116c2da186559-tree, .theme-light ._23e6b439306f125a-contentRegionScroller, .theme-light ._133bf5eea8e33a34-peopleColumn, .theme-light .scroller__244e5, .theme-light ._41ed70e52483df6d-pageBody, .theme-light ._6fd0e42f91edfda6-scroller, .theme-light ._084152b107f71237-shopScroll, ._36dee59b8fa89219-themeSelection._36dee59b8fa89219-lightIcon, .theme-light ._6131ab3dbe0affed-scroller, .theme-light .d125d22cdfd32cfe-scrollerBase {
+.theme-light .ef3116c2da186559-tree, .theme-light ._23e6b439306f125a-contentRegionScroller, .theme-light ._133bf5eea8e33a34-peopleColumn, .theme-light .scroller__244e5, .theme-light ._41ed70e52483df6d-pageBody, .theme-light ._6fd0e42f91edfda6-scroller, .theme-light ._084152b107f71237-shopScroll, ._36dee59b8fa89219-themeSelection._36dee59b8fa89219-lightIcon, .theme-light ._6131ab3dbe0affed-scroller {
 	background: linear-gradient(to top, transparent 30%, var(--mainbg_light_top) 100%);
 	background-color: var(--mainbg_light_bottom);
 	/*main background - light mode*/
@@ -589,7 +589,7 @@
 	background: linear-gradient(to top, transparent 35%, hsl(210, calc(var(--saturation-factor, 1) * 8.0%), 9.8%) 100%) !important;
 	background-color: hsl(220, calc(var(--saturation-factor, 1) * 7.6%), 23.3%) !important;
 }
-.theme-dark .inner__999f6, ._72ba79a5dfa2ce86-addFriendInputWrapper {
+.theme-dark .inner__999f6, .theme-dark ._72ba79a5dfa2ce86-addFriendInputWrapper {
 	box-shadow: inset 0 0 0 1px rgba(0,0,0,0.6);
 	background: linear-gradient(to top, transparent 35%, hsl(210, calc(var(--saturation-factor, 1) * 8.0%), 9.8%) 100%);
 	background-color: hsl(220, calc(var(--saturation-factor, 1) * 7.6%), 23.3%);
@@ -614,7 +614,7 @@
 	background: linear-gradient(to top, transparent 35%, hsl(38, calc(var(--saturation-factor, 1) * 5.5%), 71.4%) 100%) !important;
 	background-color: hsl(30, calc(var(--saturation-factor, 1) * 2.0%), 80.8%) !important;
 }
-.theme-light .inner__999f6, .theme-light ._72ba79a5dfa2ce86-addFriendInputWrapper,, .theme-light ._740174f3d6a2c8fe-scrollableContainer {
+.theme-light .inner__999f6, .theme-light ._72ba79a5dfa2ce86-addFriendInputWrapper, .theme-light ._740174f3d6a2c8fe-scrollableContainer {
 	box-shadow: inset 0 0 0 1px rgba(230,230,230,0.6);
 	background: linear-gradient(to top, transparent 35%, hsl(38, calc(var(--saturation-factor, 1) * 5.5%), 71.4%) 100%);
 	background-color: hsl(30, calc(var(--saturation-factor, 1) * 2.0%), 80.8%);
