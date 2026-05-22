@@ -7,7 +7,7 @@
  
  /*Variables*/
 :root {
-	--version: "1.39.1";
+	--version: "1.39.2";
 	/*Avatar Border Radiuses*/
 	--maskradius: 2px; /*default: 2px*/
 	--avatarradius: 3px; /*default: 3px*/
@@ -956,7 +956,7 @@
 }
 .viewer_d6b206.wrapper__44b0c, .theme-dark .avatar__6764b.wrapper__44b0c {
 	border: 3px solid rgba(152,152,153) !important;
-	border-width: var(--smallavatarradius) !important;
+	border-radius: var(--smallavatarradius) !important;
 	box-shadow: 0 0 3px 3px rgba(0,0,0,0.4), inset 0 0 0 1px rgba(0,0,0,0.6) !important;
 }
 
@@ -1024,7 +1024,7 @@ svg.mask__44b0c.svg__44b0c > mask[height="32"][width="32"]:first-child rect[x="1
 }
 .avatar_bbd192.wrapper__44b0c, .avatar__49508.wrapper__44b0c, .inviteRowAvatar__67dba.wrapper__44b0c, .marginReset_fd297e .wrapper__44b0c {
 	box-shadow: none !important;
-	border-width: var(--maskradius) !important;
+	border-radius: var(--maskradius) !important;
 }
 .replyAvatar_c19a55, .displayAvatar__16eb0, .avatar__5017b.wrapper__44b0c, .autocompleteRowIcon__13533 .wrapper__44b0c {
 	margin-top: 0 !important;
@@ -5035,7 +5035,7 @@ border-radius: 0 0 5px 5px;
 	margin-top: -1px !important;
 }
 .botTagCozy_c19a55 {
-	margin-top: 1px !important;
+	margin-top: 4px !important;
 }
 
 .option_a19535.option__920ab, .pill_1HLSrc {
