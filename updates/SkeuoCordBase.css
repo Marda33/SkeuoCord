@@ -1741,19 +1741,20 @@ svg.mask__44b0c.svg__44b0c > mask[height="32"][width="32"]:first-child rect[x="1
 .theme-light .dot__9293f {
     border-image: linear-gradient(to bottom, #0000 5px, rgb(60,60,60), #0000 calc(100% - 5px)) 1;
 }
+
 .search__49676 {
-	padding-right: 4px;
-	min-width: 144px;
-	max-width: 244px;
-}
-.search_c322aa, .searchBar_c322aa {
-	height: 28px;
-	width: 144px;
-	/*channel toolbar searchbar*/
+	margin-right: 6px;
+	width: auto;
 }
 .search_c322aa.open_c322aa .searchBar_c322aa {
 	width: 244px;
 }
+.searchBar_c322aa {
+	height: 28px;
+	width: 144px;
+	/*channel toolbar searchbar*/
+}
+
 .container__9293f .children__9293f .iconDisabled__9293f {
 	opacity: 1 !important;
 }
