@@ -2880,8 +2880,12 @@ border-radius: 0 0 5px 5px;
 .tutorialContainer__1f388+.stack_dbd263 {
 	gap: 8px !important;
 }
-.tutorialContainer__1f388+.stack_dbd263>div {
+.tutorialContainer__1f388+.stack_dbd263>div, .tutorialContainer__1f388+.listItem__650eb, .listItem__650eb+#guild-list-unread-dms.stack_dbd263>div {
 	margin-bottom: 8px !important;
+}
+
+.tutorialContainer__1f388+.listItem__650eb .wrapper_cc5dd2, .listItem__650eb+#guild-list-unread-dms.stack_dbd263 .wrapper_cc5dd2 {
+	margin-left: -7px;
 }
 
 .ringActive_c9fddf {
@@ -2890,7 +2894,7 @@ border-radius: 0 0 5px 5px;
 	border-width: 2px;
 	box-shadow: 0 0 3px 1px var(--status-positive-background);
 }
-.listItem__650eb:not(.tutorialContainer__1f388 .listItem__650eb):not(.tutorialContainer__650eb .listItem__650eb) {
+.listItem__650eb:not(.tutorialContainer__1f388 .listItem__650eb):not(.tutorialContainer__650eb .listItem__650eb):not(.tutorialContainer__1f388+.listItem__650eb) {
 	margin-bottom: 0 !important;
 }
 
