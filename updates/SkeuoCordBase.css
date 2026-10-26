@@ -2871,7 +2871,7 @@ border-radius: 0 0 5px 5px;
 	width: 48px !important;
 }
 
-.tutorialContainer__1f388+.stack_dbd263 .listItem__650eb .shiftSVG_cc5dd2 .svg__2338f {
+.listItem__650eb+#guild-list-unread-dms .shiftSVG_cc5dd2 .svg__2338f {
 	height: 32px !important;
 	width: 32px !important;
 	/*DM groupchat small PFPs size*/
@@ -2881,7 +2881,11 @@ border-radius: 0 0 5px 5px;
 	gap: 8px !important;
 }
 .tutorialContainer__1f388+.stack_dbd263>div, .tutorialContainer__1f388+.listItem__650eb, .listItem__650eb+#guild-list-unread-dms.stack_dbd263>div {
-	margin-bottom: 8px !important;
+	margin-bottom: 8px;
+}
+
+.tutorialContainer__1f388+.listItem__650eb .wrapper__58105, .listItem__650eb+#guild-list-unread-dms .wrapper__58105 {
+	margin-top: 4px;
 }
 
 .tutorialContainer__1f388+.listItem__650eb .wrapper_cc5dd2, .listItem__650eb+#guild-list-unread-dms.stack_dbd263 .wrapper_cc5dd2 {
